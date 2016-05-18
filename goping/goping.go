@@ -1,6 +1,8 @@
 /*
  * http://my.oschina.net/ybusad/blog/300155
  * http://blog.csdn.net/gophers/article/details/21481447
+ *
+ * https://github.com/paulstuart/ping/blob/master/ping.go
  */
 package main
 
