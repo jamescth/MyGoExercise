@@ -1,24 +1,22 @@
-chroot example:
-	http://www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-syntax/
+##### chroot example
+- [* Linux / Unix: chroot Command Examples *]	(http://www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-syntax/)
 
-Network namespace:
-	https://speakerdeck.com/gyre007/exploring-networking-in-linux-containers
-	Exploring LXC Networking
-		http://containerops.org/2013/11/19/lxc-networking/
-	Tenus - Golang Powered Linux Networking
-		http://containerops.org/2014/07/30/tenus-golang-powered-linux-networking/
+##### Network namespace
+- [* Exploring networking in Linux containers *] (https://speakerdeck.com/gyre007/exploring-networking-in-linux-containers)
+- [* Exploring LXC Networking *] (http://containerops.org/2013/11/19/lxc-networking/)
+- [* Tenus - Golang Powered Linux Networking *] (http://containerops.org/2014/07/30/tenus-golang-powered-linux-networking/)
 
-	Kernel Korner - Why and How to Use Netlink Socket
-		http://www.linuxjournal.com/article/7356
-	Linux Netlink as an IP Services Protocol
-		http://www.ietf.org/rfc/rfc3549.txt
+<br>
 
-	How to configure a Linux bridge interface
-		http://xmodulo.com/how-to-configure-linux-bridge-interface.html
+- [* Kernel Korner - Why and How to Use Netlink Socket *] (http://www.linuxjournal.com/article/7356)
+- [* Linux Netlink as an IP Services Protocol *] (http://www.ietf.org/rfc/rfc3549.txt)
 
-	Network bridge
-		https://wiki.archlinux.org/index.php/Network_bridge
+<br>
 
+- [* How to configure a Linux bridge interface *] (http://xmodulo.com/how-to-configure-linux-bridge-interface.html)
+- [* Network bridge *] (https://wiki.archlinux.org/index.php/Network_bridge)
+
+```
 	bridge using iproute2
 		create:
 			ip link add name bridge_james type bridge
@@ -43,20 +41,17 @@ Network namespace:
 			ip addr add 192.168.0.200/24 dev if_one_peer
 			if link set if_one_peer up
 			ping 192.168.0.100
+```
 
+<br>
+- [* Introduction to IPC namespace *] (https://blog.yadutaf.fr/2013/12/28/introduction-to-linux-namespaces-part-2-ipc/)
+- [* Calling setns from Go *] (http://stackoverflow.com/questions/25704661/calling-setns-from-go-returns-einval-for-mnt-namespace)
 
-Introduction to IPC namespace:
-	https://blog.yadutaf.fr/2013/12/28/introduction-to-linux-namespaces-part-2-ipc/
+##### cgroups
+- [* Linux Control Groups *] (https://sysadmincasts.com/episodes/14-introduction-to-linux-control-groups-cgroups)
+- [* cgroups *] (http://lxr.free-electrons.com/source/Documentation/cgroups/cgroups.txt)
 
-Calling setns from Go
-	http://stackoverflow.com/questions/25704661/calling-setns-from-go-returns-einval-for-mnt-namespace
-
-
-
-cgroups
-	https://sysadmincasts.com/episodes/14-introduction-to-linux-control-groups-cgroups
-	http://lxr.free-electrons.com/source/Documentation/cgroups/cgroups.txt
-
+```
 	cpu
 		ps -o pid,psr,comm
 		ps -o pid,cpuid,comm
@@ -104,7 +99,8 @@ cgroups
 			echo "8:0 5242880" > blkio.throttle.read_bps_device 
 			echo $$ > tasks 
 			dd if=/tmp/test-iotop of=/dev/null
+```
 
-	net:
-		http://stackoverflow.com/questions/9904016/how-to-priotize-packets-using-tc-and-cgroups
+##### net:
+- [* Using tc to priotize packets in cgroups *] (http://stackoverflow.com/questions/9904016/how-to-priotize-packets-using-tc-and-cgroups)
 
