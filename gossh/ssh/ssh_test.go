@@ -17,7 +17,7 @@ var (
 */
 var (
 	usr    = "james"
-	passwd = "jamescth"
+	passwd = "james"
 	host   = "192.168.180.224"
 	cmds   = []string{"ls", "whoami"}
 	neg    = []string{"/home/james/golang/src/gossh/ssh/while.py",
