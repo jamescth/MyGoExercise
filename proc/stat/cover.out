@@ -1,0 +1,13 @@
+mode: set
+proc/stat/proc_stat.go:5.35,7.2 1 1
+proc/stat/stat.go:12.63,15.16 2 1
+proc/stat/stat.go:19.2,20.24 2 1
+proc/stat/stat.go:15.16,17.3 1 0
+proc/stat/stat.go:23.46,26.16 2 0
+proc/stat/stat.go:30.2,30.18 1 0
+proc/stat/stat.go:26.16,28.3 1 0
+proc/stat/stat.go:33.52,37.39 3 1
+proc/stat/stat.go:49.2,49.29 1 1
+proc/stat/stat.go:37.39,43.56 3 1
+proc/stat/stat.go:46.3,47.43 2 1
+proc/stat/stat.go:43.56,45.4 1 0

@@ -1,0 +1,11 @@
+#include <openssl/sha.h>
+#include <string.h>
+#include <stdio.h>
+// gcc csha.c -lcrypto
+
+int main() {
+		unsigned char digest[SHA_DIGEST_LENGTH];
+		char string[] = "hello world\n";
+		SHA1((unsigned char*)&string, strlen(string), (unsigned char*) &digest);
+		printf("out: %s\n", digest);
+}

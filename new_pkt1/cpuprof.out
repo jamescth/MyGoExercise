@@ -1,0 +1,81 @@
+Total: 2.15mins
+ROUTINE ======================== main.func·001 in /gopath/src/new_pkt/pkt_anlzer.go
+  1.88mins   1.88mins (flat, cum) 87.51% of Total
+         .          .    269:
+         .          .    270:		if pktf[i].pkt_idx == 0 {
+         .          .    271:			continue
+         .          .    272:		}
+         .          .    273:
+      30ms       30ms    274:		ret := func() bool {
+         .       30ms    275:			for pidx, c := range ptList {
+         .          .    276:				var p *pkt_fields
+         .          .    277:
+         .          .    278:				if c.sPort == pktf[i].sPort && c.dPort == pktf[i].dPort {
+         .          .    279:					// list 1??
+         .          .    280:					p = ptList[pidx].pktList1
+         .          .    281:					if p != nil {
+    57.22s     57.22s    282:						for p.next != nil {
+     550ms      550ms    283:							p = p.next
+         .          .    284:						}
+      30ms       30ms    285:						p.next = &pktf[i]
+      20ms       20ms    286:						ptList[pidx].numPkt1++
+         .          .    287:
+         .          .    288:						return false
+         .          .    289:					}
+         .          .    290:					panic("list1 is nil")
+         .          .    291:
+         .          .    292:				} else if c.dPort == pktf[i].sPort &&
+         .          .    293:					c.sPort == pktf[i].dPort {
+         .          .    294:					// list 2??
+         .          .    295:					p = ptList[pidx].pktList2
+         .          .    296:					if p != nil {
+    54.78s     54.78s    297:						for p.next != nil {
+     380ms      380ms    298:							p = p.next
+         .          .    299:						}
+      20ms       20ms    300:						p.next = &pktf[i]
+         .          .    301:						ptList[pidx].numPkt2++
+         .          .    302:
+         .          .    303:						return false
+         .          .    304:					}
+         .          .    305:
+ROUTINE ======================== main.func·003 in /gopath/src/new_pkt/pkt_anlzer.go
+      20ms      2.08s (flat, cum)  1.61% of Total
+         .          .    629:	for _, typ := range decodedLayers {
+         .          .    630:		switch typ {
+         .          .    631:		case layers.LayerTypeTCP:
+         .          .    632:			tcp_count++
+         .          .    633:			// REVISIT: cant use goroutine here due to race condition
+      10ms       10ms    634:			func() {
+         .          .    635:				idx := pkt_idx - 1
+         .          .    636:				pktf[idx].pkt_idx = pkt_idx
+      10ms       10ms    637:				pktf[idx].sMac = eth.SrcMAC
+         .          .    638:				pktf[idx].dMac = eth.DstMAC
+         .          .    639:				pktf[idx].sIP = ip4.SrcIP
+         .          .    640:				pktf[idx].dIP = ip4.DstIP
+         .          .    641:				pktf[idx].sPort = tcp.SrcPort
+         .          .    642:				pktf[idx].dPort = tcp.DstPort
+         .          .    643:				pktf[idx].Seq = tcp.Seq
+         .          .    644:				pktf[idx].Ack = tcp.Ack
+         .          .    645:				pktf[idx].len = len(tcp.Payload)
+         .          .    646:				if tcp.ACK {
+         .          .    647:					pktf[idx].f_ack = true
+         .          .    648:				}
+         .          .    649:				if tcp.FIN {
+         .          .    650:					pktf[idx].f_fin = true
+         .          .    651:				}
+         .          .    652:				if tcp.SYN {
+         .          .    653:					pktf[idx].f_syn = true
+         .          .    654:				}
+         .          .    655:				if tcp.RST {
+         .          .    656:					pktf[idx].f_rst = true
+         .          .    657:				}
+         .          .    658:				if tcp.Window == 0 {
+         .          .    659:					pktf[idx].f_0win = true
+         .          .    660:				}
+         .          .    661:				pktf[idx].ts = ts
+         .      2.06s    662:				Trace.Println(pktf[idx])
+         .          .    663:			}()
+         .          .    664:		} // switch typ
+         .          .    665:	} // for decodedLayers
+         .          .    666:
+         .          .    667:	return nil

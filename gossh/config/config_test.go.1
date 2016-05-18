@@ -1,0 +1,47 @@
+package config
+
+import (
+	"errors"
+	"fmt"
+	"io/ioutil"
+	"strings"
+	"testing"
+
+	_ "gopkg.in/yaml.v2"
+)
+
+func TestConfig(t *testing.T) {
+	dat, err := ioutil.ReadFile("./test.yml")
+	if err != nil {
+		t.Fatal(err.Error())
+	}
+
+	var config Config
+	if err := config.Parse(dat); err != nil {
+		// if err := yaml.Unmarshal(dat, &config); err != nil {
+		t.Fatal(err.Error())
+	}
+
+	fmt.Printf("User:%s Passwd:%s Host:%s\n",
+		config.Get_User(), config.Get_Passwd(), config.Get_Host())
+
+	tests := config.Get_Tests()
+	for _, test := range tests {
+		for idx, cmd := range test {
+			if idx == 0 {
+				fmt.Println("TEST:", cmd)
+				continue
+			}
+
+			if strings.Contains(cmd, "CMD ") {
+				fmt.Println(" ", cmd[len("CMD "):])
+			}
+
+		}
+	}
+
+	//fmt.Print(tests)
+	if config.Description != "test YAML" {
+		t.Fatal(errors.New("Description != 'test YAML'"))
+	}
+}

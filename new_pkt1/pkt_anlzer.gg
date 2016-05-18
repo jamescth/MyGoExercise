@@ -1,0 +1,586 @@
+/*
+ * This tool is to analyze pcap files.
+ *
+ * func:
+ * 1. show the date of the connection
+ * 2. Based on L4, show it's ave. RTT & the outliers (>300ms?)
+ * 3. Show Re-transmission or double ack'ed
+ * 4. 0 window
+ * 5. list sync, fin, and rst
+ *
+ * gdb
+ * gdb pkt_anlzer
+ *	// do it after setup breakpointers
+ * 	run -pcap=./ddmc.fw.pcap
+ * b main.main
+ * b main.(*PcapFile).parse_pkt
+ * p *parser
+ * b main.(*L4List).CheckPkt
+ * b /auto/home12/hoj9/golang/src/pkt_anlzer/pkts.go:474
+ *
+ * bug 139439: big pcap
+ *
+ * Profiling
+ *	./pkt_anlzer -pcap=ddmc.fw.pcap -cprof=prof_out.prof -mprof=mprof_out.prof
+ *	go tool pprof pkt_anlzer prof_out.prof
+ *	(pprof) top10
+ *  go tool pprof --text pkt_anlzer prof_out.prof
+ *
+ * go tool pprof --inuse_objects pkt_anlzer mprof_out.prof
+ * go tool pprof --inuse_space pkt_anlzer mprof_out.prof
+ * go tool pprof --text pkt_anlzer mprof_out.prof
+ */
+package main
+
+import (
+	"fmt"
+	"runtime"
+	"time"
+
+	// log
+	"io"
+	"io/ioutil"
+	"log"
+	// parse
+	"flag"
+	"net"
+	"os"
+
+	// typeof
+	"reflect"
+
+	"runtime/pprof"
+
+	// pcap
+	"github.com/google/gopacket/pcap"
+
+	//
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
+)
+
+// variables for logging
+var (
+	Trace   *log.Logger
+	Info    *log.Logger
+	Warning *log.Logger
+	Error   *log.Logger
+)
+
+type ethUnit struct {
+	ipList []ipUnit
+	sMac net.HardwareAddr
+	dMac net.HardwareAddr
+}
+
+type ipUnit struct {
+	pList []portUnit
+	sIP net.IP
+	dIP net.IP
+}
+/*
+func ScanIP() {
+	for idx:=0; idx<len(ptList); idx++ {
+		var p *pkt_fields
+		p = ptList[idx].pktList1
+
+		ret := func() bool {
+
+			for ipidx, ipU := range ipList {
+				if p.sIP == ipList[ipidx].sIP && p.dIP == ipList[ipidx].dIP {
+					return false
+				}
+				if p.sIP == ipList[ipidx].dIP && p.dIP == ipList[ipidx].sIP {
+					return false
+				}
+			} // for ipList
+
+			// cant find any match IP, need to append
+			return true
+		}()
+
+		if !ret {
+			continue
+		}
+
+		ipU := new(ipUnit)
+		ipU.sIP = p.sIP
+		ipU.dIP = p.dIP
+		ipU.pList = append(ipU.pList, port)
+		ipList = append(ipList, *ipU)
+	}
+}
+*/
+type portUnit struct {
+	numPkt1  uint
+	numPkt2  uint
+	sPort    layers.TCPPort
+	dPort    layers.TCPPort
+	pktList1 *pkt_fields
+	pktList2 *pkt_fields
+	ackList  *pkt_fields
+	rstList  *pkt_fields
+	finList  *pkt_fields
+	synList  *pkt_fields
+	zeroList *pkt_fields
+}
+
+func ShowPortList() {
+	for pidx, pu := range ptList {
+		p := ptList[pidx].pktList1
+
+		fmt.Printf("Mac %s %s IP %s %s\n",p.sMac, p.dMac, p.sIP, p.dIP)
+		fmt.Printf("port %s %s list1 pkts %d\n",
+			pu.sPort, pu.dPort, pu.numPkt1)
+
+		Info.Printf("Mac %s %s IP %s %s port %s %s pkts %d %d\n",
+			p.sMac, p.dMac, p.sIP, p.dIP, pu.sPort,
+			pu.dPort, pu.numPkt1, pu.numPkt2) 
+		Info.Println("  ", p)
+
+		fmt.Printf(" %d ", p.pkt_idx)
+		for p.next != nil {
+			p = p.next
+			Info.Println("  ", p)
+			fmt.Printf("%d ", p.pkt_idx)
+		}
+		fmt.Println("")
+		Info.Println("")
+
+		fmt.Println("")
+		fmt.Printf("port %s %s list2 pkts %d\n",
+			pu.dPort, pu.sPort, pu.numPkt2)
+		p = ptList[pidx].pktList2
+		Info.Println("  ", p)
+		fmt.Printf(" %d ", p.pkt_idx)
+		for p.next != nil {
+			p = p.next
+			Info.Println("  ", p)
+			fmt.Printf("%d ", p.pkt_idx)
+		}
+		fmt.Println("")
+
+		fmt.Println("")
+		if ptList[pidx].zeroList != nil {
+            fmt.Printf(" zeroWin %d ", ptList[pidx].zeroList.pkt_idx)
+
+            pz := ptList[pidx].zeroList.next_0win
+            for pz != nil {
+                fmt.Printf("%d ", pz.pkt_idx)
+                pz = pz.next_0win
+            }   
+            fmt.Println("")
+        }   
+
+        fmt.Println("")
+        if ptList[pidx].ackList != nil {
+            fmt.Printf(" ACK %d ", ptList[pidx].ackList.pkt_idx)
+
+            pz := ptList[pidx].ackList.next_ack
+            for pz != nil {
+                fmt.Printf("%d ", pz.pkt_idx)
+                pz = pz.next_ack
+            }
+            fmt.Println("")
+        }  
+
+		fmt.Println("\n**************************\n")
+
+	}
+}
+
+func ScanPort() {
+	var i int64
+	for i = 0; i < pkt_count; i++ {
+		if i%50000==0 {
+			fmt.Printf("%d pkts scaned\n", i)
+		}
+
+		if pktf[i].pkt_idx == 0 {
+			continue
+		}
+
+		ret := func() bool {
+			for pidx, c := range ptList {
+				var p *pkt_fields
+
+				if c.sPort == pktf[i].sPort && c.dPort == pktf[i].dPort {
+					// list 1??
+					p = ptList[pidx].pktList1
+					if p != nil {
+						for p.next != nil {
+							p = p.next
+						}
+						p.next = &pktf[i]
+						ptList[pidx].numPkt1++
+
+						return false
+					}
+					panic("list1 is nil")
+
+				} else if c.dPort == pktf[i].sPort &&
+					c.sPort == pktf[i].dPort {
+					// list 2??
+					p = ptList[pidx].pktList2
+					if p != nil {
+						for p.next != nil {
+							p = p.next
+						}
+						p.next = &pktf[i]
+						ptList[pidx].numPkt2++
+
+						return false
+					}
+
+					// p is nil, this only occurs list2
+					// bcoz list1 will at least have 1 element from append()
+					ptList[pidx].pktList2 = &pktf[i]
+					return false
+				} // else if
+			} // for ptList
+			return true
+		}()
+
+		if !ret {
+			continue
+		}
+
+		// need to append
+		pu := new(portUnit)
+		pu.sPort = pktf[i].sPort
+		pu.dPort = pktf[i].dPort
+		// insert pkt as well
+		pu.pktList1 = &pktf[i]
+		pu.numPkt1++
+
+		// REVISIT: replace append() w/ something else to reduce GC
+		ptList = append(ptList, *pu)
+	} // for pkt_count
+}
+
+type pkt_fields struct {
+	next    *pkt_fields
+	next_0win	*pkt_fields
+	next_ack *pkt_fields
+	next_rst *pkt_fields
+	next_syn *pkt_fields
+	pkt_idx int64
+	sMac    net.HardwareAddr
+	dMac    net.HardwareAddr
+	sIP     net.IP
+	dIP     net.IP
+	sPort   layers.TCPPort
+	dPort   layers.TCPPort
+	Seq     uint32
+	Ack     uint32
+	ack_pkt int64 // this pkt has been ack'ed by #
+	//rtt			time.Duration
+	len    int
+	f_ack  bool
+	f_fin  bool
+	f_syn  bool
+	f_rst  bool
+	f_0win bool
+	ts     time.Time
+}
+
+// input arguments
+var pcapfile = flag.String("pcap", "", "The input file")
+var cprof = flag.String("cprof", "", "profile output")
+var mprof = flag.String("mprof", "", "write memory profile")
+var info = flag.String("info", "", "info file")
+//var trace = flag.String("trace", "", "trace file")
+var preview = flag.Bool("preview", false, "scan pkts only")
+
+// global variables
+var tcp_count int64 = 0
+var pkt_count int64 = 0
+var pktf []pkt_fields
+var ptList []portUnit
+var ipList []ipUnit
+var ethList []ethUnit
+
+func main() {
+	// parsing the cmdline inputs
+	flag.Parse()
+
+	var err error
+	//var tracef *os.File = ioutil.Discard
+	var infof *os.File
+
+	/*
+	if *trace != "" {
+		tracef, err = os.Create(*trace)
+		check(err)
+		defer tracef.Close()
+	}
+	*/
+
+	if *info != "" {
+		infof, err = os.Create(*info)
+		check(err)
+		defer infof.Close()
+		Init(infof, infof, os.Stdout, os.Stderr)
+	} else {
+		Init(ioutil.Discard, ioutil.Discard, os.Stdout, os.Stderr)
+	}
+
+	if *pcapfile == "" {
+		usage()
+		os.Exit(1)
+	}
+
+	if *cprof != "" {
+		f, err := os.Create(*cprof)
+		if err != nil {
+			log.Fatal("Profile create failed, ", err)
+		}
+
+		pprof.StartCPUProfile(f)
+		defer pprof.StopCPUProfile()
+	}
+
+	if *mprof != "" {
+		f, err := os.Create(*mprof)
+		if err != nil {
+			log.Fatal("memory profile creation failed, ", err)
+		}
+		pprof.WriteHeapProfile(f)
+		defer f.Close()
+	}
+
+	runtime.GOMAXPROCS(runtime.NumCPU())
+	PreScanPkts()
+
+	if *preview {
+		return
+	}
+
+	ScanPkts()
+	ScanPort()
+	ProcessPkts()
+	ShowPortList()
+}
+
+// func (pu *portUnit) ProcessList() {
+func ProcessList(pu *portUnit, lst *pkt_fields) {
+	var p *pkt_fields = lst
+	// we need to walktrhough all pkts in lst (pktList.next)
+	for {
+		if p == nil {
+			// if nil, we done for the list
+			return
+		}
+
+		// fmt.Printf(" %d %v %x\n", p.pkt_idx, p.f_0win, pu.zeroList)
+		Trace.Printf(" %d %v\n", p.pkt_idx, p.f_0win)
+		if p.f_0win {
+			if pu.zeroList == nil {
+				pu.zeroList = p
+			} else {
+				// loop on next_0win
+				// var p_next *pkt_fields = p.next_0win
+				var p_next *pkt_fields = pu.zeroList
+
+				for p_next.next_0win != nil {
+					p_next = p_next.next_0win
+				}
+
+				p_next.next_0win = p
+			}
+		} // f_0wind
+
+        Trace.Printf(" %d %v\n", p.pkt_idx, p.f_ack)
+        if p.f_ack {
+            if pu.ackList == nil {
+                pu.ackList = p
+            } else {
+                // loop on next_0win
+                var p_next *pkt_fields = pu.ackList
+
+                for p_next.next_ack != nil {
+                    p_next = p_next.next_ack
+                }
+
+                p_next.next_ack = p
+            }
+        } // f_0wind
+
+		p = p.next
+	} // for
+}
+
+func ProcessPkts() {
+	for pidx, _ := range ptList{
+		fmt.Println("ProcessPkts()")
+		ProcessList(&ptList[pidx], ptList[pidx].pktList1)
+		ProcessList(&ptList[pidx], ptList[pidx].pktList2)
+	}
+}
+
+func PreScanPkts() {
+	h, err := pcap.OpenOffline(*pcapfile)
+	check(err)
+
+	// pre Scan for # of pkts
+	for {
+		_, _, err := h.ReadPacketData()
+		if err == io.EOF {
+			fmt.Printf("pkts %d\n", pkt_count)
+
+			// REVISIT: can we not to close the file.
+			//          but use seek() instead?
+			h.Close()
+			break
+		}
+		check(err)
+		pkt_count++
+	}
+}
+
+func ScanPkts() {
+	h, err := pcap.OpenOffline(*pcapfile)
+	check(err)
+	defer h.Close()
+
+	var pkt_idx int64 = 0
+
+	pktf = make([]pkt_fields, pkt_count)
+
+	for {
+		data, ci, err := h.ReadPacketData()
+		if err == io.EOF {
+			fmt.Printf("pkts %d tcp %d\n", pkt_idx, tcp_count)
+			Info.Printf("pkts %d tcp %d\n", pkt_idx, tcp_count)
+			return
+		}
+		check(err)
+		pkt_idx++
+		if pkt_idx%50000 == 0 {
+			fmt.Printf("%d pkts processed\n", pkt_idx)
+		}
+
+		// REVISIT: we should use go ScanLayer() instead
+		//          need to create a channel error for this
+		if err = ScanLayer(pkt_idx, data, ci.Timestamp); err != nil {
+			// do something??
+			continue
+		}
+	}
+}
+
+func ScanLayer(
+	pkt_idx int64, data []uint8, ts time.Time) error {
+
+	var eth layers.Ethernet
+	var ip4 layers.IPv4
+	var ip6 layers.IPv6
+	var tcp layers.TCP
+	var udp layers.UDP
+	var arp layers.ARP
+	// var llc layers.LLC
+	var payload gopacket.Payload
+
+	parser := gopacket.NewDecodingLayerParser(
+		layers.LayerTypeEthernet, &eth, &ip4, &ip6, &tcp, &udp, &arp,
+		&payload)
+
+	decodedLayers := make([]gopacket.LayerType, 0, 10)
+
+	if err := parser.DecodeLayers(data, &decodedLayers); err != nil {
+		// Info.Printf("Parseing pkt %d error %s\n", pkt_idx, err)
+		return err
+	}
+
+	for _, typ := range decodedLayers {
+		switch typ {
+		case layers.LayerTypeTCP:
+			tcp_count++
+			go func() {
+				idx := pkt_idx - 1
+				pktf[idx].pkt_idx = pkt_idx
+				pktf[idx].sMac = eth.SrcMAC
+				pktf[idx].dMac = eth.DstMAC
+				pktf[idx].sIP = ip4.SrcIP
+				pktf[idx].dIP = ip4.DstIP
+				pktf[idx].sPort = tcp.SrcPort
+				pktf[idx].dPort = tcp.DstPort
+				pktf[idx].Seq = tcp.Seq
+				pktf[idx].Ack = tcp.Ack
+				pktf[idx].len = len(tcp.Payload)
+				if tcp.ACK {
+					pktf[idx].f_ack = true
+				}
+				if tcp.FIN {
+					pktf[idx].f_fin = true
+				}
+				if tcp.SYN {
+					pktf[idx].f_syn = true
+				}
+				if tcp.RST {
+					pktf[idx].f_rst = true
+				}
+				if tcp.Window == 0 {
+					pktf[idx].f_0win = true
+				}
+				pktf[idx].ts = ts
+			}()
+		}
+	}
+
+	return nil
+}
+
+func FillPkt() {
+
+}
+
+/*
+ * This func is called the 1st line in main().
+ * Set up the logger
+ *
+ * for additional logger info, check
+ * http://www.goinggo.net/2013/11/using-log-package-in-go.html
+ */
+func Init(
+	traceHandle io.Writer,
+	infoHandle io.Writer,
+	warningHandle io.Writer,
+	errorHandle io.Writer) {
+
+	Trace = log.New(traceHandle,
+		"TRACE: ",
+		//log.Ldate | log.Ltime | log.Lshortfile)
+		log.Ltime|log.Lshortfile)
+
+	Info = log.New(infoHandle,
+		"INFO: ",
+		log.Ldate|log.Ltime|log.Lshortfile)
+
+	Warning = log.New(warningHandle,
+		"WARNING: ",
+		log.Ldate|log.Ltime|log.Lshortfile)
+
+	Error = log.New(errorHandle,
+		"ERROR: ",
+		log.Ldate|log.Ltime|log.Lshortfile)
+}
+
+func usage() {
+	fmt.Println("usage of pkt_anlyzer:")
+	fmt.Println("  pkt_anlyzer -pcap=<pcap file> [-out=<output file>]")
+}
+
+/*
+ * This func is for debug purpose.  It shows the type of the given var.
+ * This helps getting more useful info how the var can be utilized.
+ */
+func typeof(v interface{}) string {
+	return reflect.TypeOf(v).String()
+}
+
+func check(e error) {
+	if e != nil {
+		panic(e)
+	}
+}

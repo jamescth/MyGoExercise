@@ -1,0 +1,1 @@
+./new_pkt -pcap=./ddmc.fw.pcap -info=/tmp/info -trace=/tmp/trace -cprof=./cprof.prof -mprof=./mprof.prof

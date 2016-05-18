@@ -1,0 +1,105 @@
+// http://sweetohm.net/html/go-yaml-parsers.en.html
+// http://mlafeldt.github.io/blog/decoding-yaml-in-go/
+// http://stackoverflow.com/questions/26290485/golang-yaml-reading-with-map-of-maps
+package config
+
+import (
+	"errors"
+	"gopkg.in/yaml.v2"
+)
+
+type Test_CMD struct {
+	cmds []string
+}
+
+/*
+ 2 different ways to unmarshal yaml:
+
+ a.
+ Tests map[string][]string
+
+ <input>
+ test1:
+   - cmd xxx
+   - cmd xxx
+
+ b.
+ type CMDs struct {
+		 CMD1 string
+		 CMD2 string
+ }
+ Tests map[string]CMDs
+
+ <input>
+ test1:
+   CMD1: xxx
+   CMD2: xxx
+*/
+
+type Target struct {
+	Login  string `yaml:"login"`
+	Passwd string `yaml:"passwd"`
+	Host   string `yaml:"host"`
+}
+
+type Config struct {
+	Description string `yaml:"description"`
+	Login       string `yaml:"login"`
+	Passwd      string `yaml:"passwd"`
+	Host        string `yaml:"host"`
+	Tests       [][]string
+	//Tests map[string][]string
+}
+
+func (c *Config) Parse(data []byte) error {
+	if err := yaml.Unmarshal(data, c); err != nil {
+		return err
+	}
+	if c.Host == "" {
+		return errors.New("config: No hostname")
+	}
+
+	return nil
+}
+
+func (c *Config) Get_User() string {
+	return c.Login
+}
+
+func (c *Config) Get_Passwd() string {
+	return c.Passwd
+}
+
+func (c *Config) Get_Host() string {
+	return c.Host
+}
+
+//func (c *Config) Get_Tests() map[string][]string {
+func (c *Config) Get_Tests() [][]string {
+	return c.Tests
+}
+
+/*
+func (c *Config) UnmarshalYAML(unmarshal func(interface{}) error) error {
+	var aux struct {
+		Description string `yaml:"description"`
+		Login       string `yaml:"login"`
+		Passwd      string `yaml:"passwd"`
+		Host        string `yaml:"host"`
+		Tests       [][]string
+	}
+
+	if err := unmarshal(&aux); err != nil {
+		return err
+	}
+	if aux.Host == "" {
+		return errors.New("config: No hostname")
+	}
+
+	c.Description = aux.Description
+	c.Login = aux.Login
+	c.Passwd = aux.Passwd
+	c.Host = aux.Host
+	return nil
+}
+*/

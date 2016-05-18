@@ -1,0 +1,708 @@
+package main
+
+// pcap may require linux to:
+//     sudo apt-get install libpcap0.8-dev
+import(
+	"fmt"
+	"bytes"
+	"net"
+	"os"
+	"io"
+	"time"
+
+	"github.com/google/gopacket/pcap"
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
+)
+
+const (
+	PSH_ACK = -1
+)
+
+/*
+ * When new a PcapFile, it needs to provide a file path.
+ */
+
+// PcapFile is the top layer
+// REVISIT:What else do we need here???
+type PcapFile struct {
+	pcap	string
+	//pcap		*pcap.Handle
+	l2conn		[]L2List
+}
+
+func (p *PcapFile) String() string {
+	Trace.Println("PcapFile String()")
+	var b bytes.Buffer
+	b.WriteString(p.pcap)
+	b.WriteByte('\n')
+	for _, c := range p.l2conn {
+		//fmt.Fprintf(&b,"%d ", i)
+		b.WriteString(c.String())
+	}
+
+	return b.String()
+}
+
+func (p *PcapFile) Insert(ori []L2List, val *L2List) []L2List {
+	l := len(ori)
+	new := ori
+	var c int
+
+	if cap(ori) == l {
+		if l == 0 {
+			c = 2
+		} else if l < 9000 {
+			c = l * 2
+		} else {
+			c = l + 9000
+		}
+		new = make([]L2List, l+1, c)
+		copy(new, ori)
+	} else {
+		new = append(new, *val)
+	}
+	new[l] = *val
+	return new
+}
+
+// getL2() will check if there is a L2List matches m1 & m2.
+// If no entry matches m1 & m2, getL2() will append a new 
+// entry for m1 & m2 and return the new one back to the caller.
+func (p *PcapFile) getL2(m1, m2 *net.HardwareAddr) *L2List {
+	Trace.Printf("m1 %s m2 %s\n", *m1, *m2)
+
+	// Search if there is an exising entry matched the MACs
+	for idx, c := range p.l2conn {
+		if c.Match(m1, m2) {
+			// Trace.Printf("c.mac1 %s c.mac2 %s idx %d\n",
+			//		 c.mac1, c.mac2, idx)
+			return &p.l2conn[idx]
+		}
+	}
+
+	// we cant find any matched entry.  Append it.
+	i := len(p.l2conn)
+	l2 := NewL2List(m1, m2)
+	p.l2conn = p.Insert(p.l2conn, l2)
+
+	return &p.l2conn[i]
+
+}
+
+func (p *PcapFile) parse_pkt(
+		p_num int64, data []uint8, ci gopacket.CaptureInfo) error {
+	var eth layers.Ethernet
+	var ip4 layers.IPv4
+	var ip6 layers.IPv6
+	var tcp layers.TCP
+	var udp layers.UDP
+	var arp layers.ARP
+	// var llc layers.LLC
+	var payload gopacket.Payload
+
+	Trace.Println("parse_pkt()")
+
+	parser := gopacket.NewDecodingLayerParser(
+			layers.LayerTypeEthernet, &eth, &ip4, &ip6, &tcp, &udp, &arp,
+			&payload)
+
+	decodedLayers := make([]gopacket.LayerType, 0, 10)
+
+	if err := parser.DecodeLayers(data, &decodedLayers); err != nil {
+		Trace.Printf("  Parseing pkt %d error %s\n", p_num, err)
+		// if error, 
+		return err
+	}
+
+	for _, typ := range decodedLayers {
+		switch typ{
+		case layers.LayerTypeTCP:
+			//fmt.Printf("%d %s %s %s -> %s %s %s\n", p_num,
+			//		eth.SrcMAC, ip4.SrcIP, tcp.SrcPort,
+			//		eth.DstMAC, ip4.DstIP, tcp.DstPort)
+
+			// start insert the pkt.
+			// should we use a new func instead? how about parameters?
+			l2 := p.getL2(&eth.SrcMAC, &eth.DstMAC)
+			l3 := l2.getL3(&ip4.SrcIP, &ip4.DstIP)
+			l4 := l3.getL4(tcp.SrcPort, tcp.DstPort)
+			l4.addPkt(p_num, ci, data)
+		}
+	}
+
+	return nil
+}
+
+func (p *PcapFile) run_internal(src gopacket.PacketDataSource) {
+	Trace.Println("PcapFile.run_internal()")
+	var num_pkts int64 = 0
+
+	for {
+		data, ci, err := src.ReadPacketData()
+		if err != nil {
+			if err == io.EOF {
+				fmt.Println(num_pkts, " packets processed")
+				return
+			}
+			Error.Println("reading packet data: ", err)
+			os.Exit(1)
+		}
+		num_pkts++
+
+		if num_pkts % 5000 == 0 {
+			Info.Printf("%d pkts processed\n", num_pkts)
+		}
+		// _ = data
+		// _ = ci
+
+
+		// processing data
+		if err = p.parse_pkt(num_pkts, data, ci); err != nil {
+			// we don't handle per pkt error. Skip it & move on
+			continue
+		}
+	}
+
+	Info.Printf("Num %d pkts\n", num_pkts)
+}
+
+func (p *PcapFile) Run() {
+	Trace.Println("PcapFile.Run()")
+	var err error
+	var handle *pcap.Handle
+
+	if handle, err = pcap.OpenOffline(p.pcap); err != nil {
+		Error.Println("Open pcap failed\n", p.pcap)
+		os.Exit(1)
+	}
+
+	var s gopacket.PacketDataSource = handle
+	p.run_internal(s)
+
+	// close the pcap file
+	handle.Close()
+}
+
+func (p *PcapFile) Show() {
+	Trace.Println("PcapFile.Show()")
+	fmt.Println(p)
+}
+
+func NewPcapFile(f *string) *PcapFile {
+	Trace.Println("NewPcapFile")
+	p := new(PcapFile)
+	p.pcap = *f
+	// p.l2conn = make([]L2List, 10)
+
+	return p
+	//return &PcapFile{f, make([]L2List, 1)}
+}
+
+/*
+ * This is for Ethernet/TCP/UDP analysis only (first for now).
+ *
+ * To re-organize the pcap, instead of sorting it by timestamp, we do it via connection.
+ * 
+ * For a pcap file, it may contain multiple NICs (if -i=any).   *
+ * PcapConn 
+ */
+
+// Compare 2 byte slices.  This is used for MAC & IP comparason
+func compare(X, Y []byte) int {
+	if len(X) > len(Y) { 
+		return 1 
+	} else if len(Y) > len(X) {
+		return -1
+	}
+
+	// here is len(X) == len(Y)
+	for i, _ := range X {
+		if X[i] > Y[i] {
+			return 1
+		} else if Y[i] > X[i] {
+			return -1
+		}
+	}
+	return 0
+}
+
+type L2List struct {
+	mac1, mac2	net.HardwareAddr
+	l3conn		[]L3List
+}
+
+func (l2 *L2List) String() string {
+	Trace.Println("L2List.String()")
+	var b bytes.Buffer
+	fmt.Fprintf(&b, "%s <==> %s\n", l2.mac1, l2.mac2)
+	for _, l3 := range l2.l3conn {
+		fmt.Fprintf(&b, " IPs ")
+		b.WriteString(l3.String())
+	}
+
+	return b.String()
+}
+
+func NewL2List(m1, m2 *net.HardwareAddr) *L2List {
+	Trace.Println("NewL2List()")
+
+	l2 := new(L2List)
+	l2.mac1 = *m1
+	l2.mac2 = *m2
+
+	return l2
+}
+
+func (l2 *L2List) Insert(ori []L3List, val *L3List) []L3List {
+	l := len(ori)
+	new := ori
+	var c int
+
+	if cap(ori) == l {
+		if l == 0 {
+			c = 2
+		} else if l < 9000 {
+			c = l * 4
+		} else {
+			c = l + 9000
+		}
+		new = make([]L3List, l+1, c)
+		copy(new, ori)
+	} else {
+		new = append(new, *val)
+	}
+	new[l] = *val
+	return new
+}
+
+func (l2 *L2List) getL3(ip1, ip2 *net.IP) *L3List {
+	Trace.Printf("ip1 %s ip2 %s\n", ip1, ip2)
+
+	// search if there is an existing entry matched the IPs
+	for idx, l3 := range l2.l3conn {
+		if l3.Match(ip1, ip2) {
+			return &l2.l3conn[idx]
+		}
+	}
+
+	// no existing entry
+	i := len(l2.l3conn)
+	l3 := NewL3List(ip1, ip2)
+	l2.l3conn = l2.Insert(l2.l3conn, l3)
+
+	return &l2.l3conn[i]
+}
+
+func (l2 *L2List) Match(m1, m2 *net.HardwareAddr) bool {
+	Trace.Println(l2, m1, m2)
+
+	if compare(*m1,l2.mac1) == 0  && compare(*m2,l2.mac2) == 0 {
+		return true
+	} else if compare(*m1,l2.mac2) == 0 && compare(*m2, l2.mac1) == 0 {
+		return true
+	}
+
+	return false
+}
+
+type L3List struct {
+	ip1, ip2	net.IP
+	typ			layers.EthernetType
+	l4conn		[]L4List
+}
+
+func NewL3List(ip1, ip2 *net.IP) *L3List {
+	Trace.Println("NewL3List()")
+
+	l3 := new(L3List)
+	l3.ip1 = *ip1
+	l3.ip2 = *ip2
+
+	return l3
+}
+
+func (l3 *L3List) Insert(ori []L4List, val *L4List) []L4List {
+	l := len(ori)
+	new := ori
+	var c int
+
+	if cap(ori) == l {
+		if l == 0 {
+			c = 2
+		} else if l < 9000 {
+			c = l * 4
+		} else {
+			c = l + 9000
+		}
+		new = make([]L4List, l+1, c)
+		copy(new, ori)
+	} else {
+		new = append(new, *val)
+	}
+	new[l] = *val
+	return new
+}
+
+func (l3 *L3List) getL4(p1, p2 layers.TCPPort) *L4List {
+	Trace.Printf("port1 %s port2 %s\n", p1, p2)
+
+	// search first
+	for idx, l4 := range l3.l4conn {
+		if l4.Match(p1, p2) {
+			return &l3.l4conn[idx]
+		}
+	}
+
+	// need to append one
+	i := len(l3.l4conn)
+	l4 := NewL4List(p1, p2)
+	l3.l4conn = l3.Insert(l3.l4conn, l4)
+
+	return &l3.l4conn[i]
+}
+
+func (l3 *L3List) String() string {
+	var b bytes.Buffer
+
+	fmt.Fprintf(&b, "%s <==> %s\n", l3.ip1, l3.ip2)
+	for _, l4 := range l3.l4conn {
+		b.WriteString(l4.String())
+	}
+
+	return b.String()
+}
+
+func (l3 *L3List) Match(ip1, ip2 *net.IP) bool {
+	Trace.Println(l3, ip1, ip2)
+
+	if compare(*ip1, l3.ip1) == 0 && compare(*ip2, l3.ip2) == 0 {
+		return true
+	} else if compare(*ip1, l3.ip2) == 0 && compare(*ip2, l3.ip1) == 0 {
+		return true
+	}
+
+	return false
+}
+
+type L4List struct {
+	l4prot	layers.IPProtocol
+	pkts1, pkts2	*pkts
+	pktFIN			[]int64
+	pktSYN			[]int64
+	pktRST			[]int64
+	pkt0Win			[]int64
+	pktdup			[]int64
+	pktmiss			[]int64
+	pktooo			[]int64
+}
+
+func (l4 *L4List) String() string {
+	var b bytes.Buffer
+	b.WriteString(l4.pkts1.String())
+	b.WriteString(l4.pkts2.String())
+	fmt.Fprintln(&b, "   SYN  ", l4.pktSYN)
+	//		 " FIN ", l4.pktFIN, " RST ", l4.pktRST)
+	fmt.Fprintln(&b, "   FIN  ", l4.pktFIN)
+	fmt.Fprintln(&b, "   RST  ", l4.pktRST)
+	fmt.Fprintln(&b, "   0win ", l4.pkt0Win)
+	fmt.Fprintln(&b, "   OOO  ", l4.pktooo)
+	//fmt.Fprintln(&b, "       ACK  ", l4.pktdup)
+	b.WriteByte('\n')
+	return b.String()
+}
+
+func (l4 *L4List) Match(p1, p2 layers.TCPPort) bool {
+	if l4.pkts1.Match(p1, p2) {
+		return true
+	} else if l4.pkts2.Match(p1, p2) {
+		return true
+	}
+
+	return false
+}
+
+func insInt64(ori []int64, val int64) []int64 {
+	l := len(ori)
+	new := ori
+	var c int
+
+	if cap(ori) == l {
+		if l == 0 {
+			c = 10
+		} else if l < 9000 {
+			c = l * 2
+		} else {
+			c = l + 9000
+		}
+		new = make([]int64, l+1, c)
+		copy(new, ori)
+	} else {
+		new = append(new, val)
+	}
+	new[l] = val
+	return new
+
+}
+
+func (l4 *L4List) Insert(ori []pkt_fields, val *pkt_fields) []pkt_fields {
+	l := len(ori)
+	new := ori
+	var c int
+
+	if cap(ori) == l {
+		if l == 0 {
+			c = 100
+		} else if l < 9000 {
+			c = l * 4
+		} else {
+			c = l + 9000
+		}
+		new = make([]pkt_fields, l+1, c)
+		copy(new, ori)
+	} else {
+		new = append(new, *val)
+	}
+	new[l] = *val
+	return new
+}
+
+func (l4 *L4List) addPkt(p_num int64, ci gopacket.CaptureInfo, data []byte) {
+	Trace.Println("L4List addPkt() ", p_num)
+
+	pkt := gopacket.NewPacket(data, layers.LayerTypeEthernet, gopacket.Default)
+	tcplayer := pkt.Layer(layers.LayerTypeTCP)
+	if tcplayer == nil {
+		panic("tcplayer is nil")
+	}
+
+	tcp, _ := tcplayer.(*layers.TCP)
+	pktf := new(pkt_fields)
+
+	var sender,receiver *pkts
+	_ = receiver
+
+	/*
+	if (tcp.SYN) {
+		l4.pktSYN = insInt64(l4.pktSYN, p_num)
+	}
+	if (tcp.FIN) {
+		l4.pktFIN = insInt64(l4.pktFIN, p_num)
+	}
+	if (tcp.RST) {
+		l4.pktRST = insInt64(l4.pktRST, p_num)
+	}
+	if (tcp.Window == 0) {
+		l4.pkt0Win = insInt64(l4.pkt0Win, p_num)
+		pktf.f_0win = true
+	}
+	*/
+	if l4.pkts1.Match(tcp.SrcPort, tcp.DstPort) {
+		sender = l4.pkts1
+		receiver = l4.pkts2
+	} else if l4.pkts2.Match(tcp.SrcPort, tcp.DstPort) {
+		sender = l4.pkts2
+		receiver = l4.pkts1
+	} else {
+		panic("TCP no port matched")
+	}
+
+	/*
+	//if tcp.ACK && tcp.PSH {
+	//	pktf.ack_pkt = PSH_ACK
+	//}
+
+	if tcp.ACK {
+		pktf.f_ack = true
+	}
+	if tcp.PSH {
+		pktf.f_psh = true
+	}
+	if tcp.SYN {
+		pktf.f_syn = true
+	}
+
+	pktf.pkt_num = p_num
+	pktf.Timestamp = ci.Timestamp
+	// Instead of using ci.Length, we measure Payload for tcp purpose
+	pktf.len = len(tcp.Payload)
+	pktf.Seq = tcp.Seq
+	pktf.Ack = tcp.Ack
+
+	// run pkt analyzer for rtt, OOO, dup-ack'ed, re-transmission
+
+	//l4.CheckPkt(pktf, sender, receiver)
+	*/
+
+	//_ = pktf
+	//_ = sender
+	sender.fields = l4.Insert(sender.fields, pktf)
+	
+}
+
+func NewL4List(p1, p2 layers.TCPPort) *L4List {
+	Trace.Println("NewL4List()")
+
+	l4 := new(L4List)
+	l4.pkts1 = NewPkts(p1, p2)
+	l4.pkts2 = NewPkts(p2, p1)
+
+	return l4
+}
+
+const (
+	MP = -1
+	OOO = -2
+	DUP = -3
+)
+
+func (l4 *L4List) CheckPkt (p *pkt_fields, sender,receiver *pkts) {
+	// p(pkt) is coming from the sender
+	// for sender, we need to verify:
+	// 1. seq # == last pkt(seq# + payload)
+	//		a. if seq # > last pkt(seq# + payload)
+	//		   missing pkt
+	//		b. if seq # < last pkt(seq# + payload)
+	//		   a dup pkt (same one exists, verify flags as well) or out-of-order
+	// for receiver, we need to verify:
+	// 1. mark act'er
+	// 2. calulate rtt
+
+	// let's do the standard one first
+	// make sure the sender's seq is right
+	Trace.Println("L4List CheckPkt()")
+
+	// When we get here, the current pkt is always sender
+	if len(sender.fields) == 0 {
+		return
+	}
+	var s_lastp *pkt_fields
+	s_lastp = &sender.fields[len(sender.fields) - 1]
+	next_seq := s_lastp.Seq + uint32(s_lastp.len)
+	if s_lastp.f_syn {
+		next_seq++
+	}
+	if p.Seq != next_seq {
+		// need to exclude 0 win case
+		if !p.f_0win {
+			l4.pktooo = insInt64(l4.pktooo, p.pkt_num)
+		}
+	}
+
+	// check receiver
+	if len(receiver.fields) == 0 {
+		return
+	}
+	// var s_lastp **pkt_fields
+	s_lastp = &receiver.fields[len(receiver.fields) - 1]
+	next_ack := s_lastp.Seq + uint32(s_lastp.len)
+	if s_lastp.f_syn {
+		next_ack++
+	}
+
+	Trace.Printf("%d p.Ack %d next_ack %d s_lastp.ack_pkt %d",
+				p.pkt_num, p.Ack, next_ack, s_lastp.ack_pkt)
+
+	// right act, calculate rtt as well
+	if p.Ack == next_ack && s_lastp.ack_pkt == 0 {
+		s_lastp.ack_pkt = p.pkt_num
+		s_lastp.rtt = p.Timestamp.Sub(s_lastp.Timestamp)
+
+		Trace.Printf(" actby %d rtt %d\n", s_lastp.ack_pkt, s_lastp.rtt)
+		return
+	}
+
+	if p.Ack != next_ack {
+		if !p.f_ack && !p.f_0win {
+			l4.pktdup = insInt64(l4.pktdup, p.pkt_num)
+			return
+		}
+	}
+	/*
+	num := sender.Check(p.Ack, p.Seq)
+	if num == MP {
+		l4.pktmiss = insInt64(l4.pktmiss, p.pkt_num)
+	} else if num == OOO {
+		l4.pktooo = insInt64(l4.pktooo, p.pkt_num)
+	} else if num == DUP {
+		l4.pktdup = insInt64(l4.pktdup, p.pkt_num)
+	}
+	*/
+}
+
+type pkt_fields struct {
+	pkt_num		int64
+	Seq			uint32
+	Ack			uint32
+	ack_pkt		int64		// this pkt has been ack'ed by #
+	rtt			time.Duration
+	len			int
+	f_ack		bool
+	f_psh		bool
+	f_syn		bool
+	f_0win		bool
+	Timestamp	time.Time
+}
+
+type pkts struct {
+	SrcPort		layers.TCPPort
+	DstPort		layers.TCPPort
+
+	size		int64
+	ave_rtt		float32
+	big_rtt		[]int64
+	fields		[]pkt_fields
+}
+
+func (ps *pkts) Check(ack, seq uint32) int64 {
+	idx := len(ps.fields)
+	if idx == 0 {
+		return int64(idx)
+	}
+
+	p := ps.fields[idx-1]
+	_ = p
+	return int64(idx)
+}
+
+func NewPkts(p1, p2 layers.TCPPort) *pkts {
+	Trace.Println("NewPkts()")
+
+	pk := new(pkts)
+	pk.SrcPort = p1
+	pk.DstPort = p2
+
+	return pk
+}
+
+func (p *pkts) String() string {
+	var b bytes.Buffer
+	fmt.Fprintf(&b, "   SPort %s DPort %s\n", p.SrcPort, p.DstPort)
+
+	fmt.Fprintf(&b, "     Pkt-idx  len    seq-num    ack-num   act-by       rtt\n")
+	for _, p := range p.fields {
+		//fmt.Fprintf(&b, "     %d %4d s %10d a %10d %s\n",
+		//		 p.pkt_num, p.len, p.Seq, p.Ack, p.Timestamp)
+		fmt.Fprintf(&b, "     %7d %4d %10d %10d %7d %10f\n",
+				 p.pkt_num, p.len, p.Seq, p.Ack, p.ack_pkt, p.rtt.Seconds())
+	}
+
+	return b.String()
+}
+
+func (pk *pkts) Match(p1, p2 layers.TCPPort) bool {
+	if p1 == pk.SrcPort && p2 == pk.DstPort {
+		return true
+	} 
+
+	return false
+}
+
+// how to run the comparason???
+/*
+func (pk *pkts) Check(seq, ack uint32) {
+	for idx, p := range pk.fields {
+		if p.s
+	}
+}
+*/
