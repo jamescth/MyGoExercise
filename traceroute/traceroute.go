@@ -1,5 +1,6 @@
 // Package traceroute provides functions for executing a tracroute to a remote
 // host.
+// License https://github.com/aeden/traceroute
 package traceroute
 
 import (
