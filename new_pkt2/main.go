@@ -2,10 +2,12 @@ package main
 
 import (
 	"encoding/hex"
+	"flag"
 	"fmt"
 	"io"
 	"log"
 	"net"
+	"os"
 	"time"
 
 	"github.com/google/gopacket"
@@ -38,11 +40,11 @@ type PktStream struct {
 	SrcPort layers.TCPPort
 	DstPort layers.TCPPort
 
-	WinScale int
+	WinScale []byte
 	pkts     []myPacket
 }
 
-func processPkts() {
+func processPkts(fname string, w io.Writer) {
 	var (
 		ethLayer layers.Ethernet
 		ipLayer  layers.IPv4
@@ -52,7 +54,7 @@ func processPkts() {
 	pktnum := 0
 	tcpnum := 0
 
-	h, err := pcap.OpenOffline("./ddmc.fw.pcap")
+	h, err := pcap.OpenOffline(fname)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -118,6 +120,14 @@ func processPkts() {
 		}
 
 		var newPStream PktStream
+		// get window scale factor
+		if tcpLayer.SYN {
+			for _, opt := range tcpLayer.Options {
+				if opt.OptionType == layers.TCPOptionKindWindowScale {
+					newPStream.WinScale = opt.OptionData
+				}
+			}
+		}
 
 		newPStream.SrcPort = p.SrcPort
 		newPStream.DstPort = p.DstPort
@@ -129,7 +139,8 @@ func processPkts() {
 	}
 
 	for _, ps := range pp {
-		fmt.Printf("%s - %s, port %s - %s pkts %d\n", ps.SrcIP, ps.DstIP, ps.SrcPort, ps.DstPort, len(ps.pkts))
+		fmt.Fprintf(w, "%s - %s, port %s - %s pkts %d winscale 0x%s\n",
+			ps.SrcIP, ps.DstIP, ps.SrcPort, ps.DstPort, len(ps.pkts), hex.EncodeToString(ps.WinScale))
 
 		var t time.Time
 		for i, pkt := range ps.pkts {
@@ -139,17 +150,25 @@ func processPkts() {
 				du = pkt.Time.Sub(t)
 			}
 
-			fmt.Printf("   %d - %d, seq %10d ack %10d window %4d size %d time %s\n", pkt.SrcPort, pkt.DstPort, pkt.Seq, pkt.Ack, pkt.Window, pkt.Length /*pkt.Size*/, du)
+			fmt.Fprintf(w, "   %d - %d, seq %10d ack %10d win %4d size %d time %s\n",
+				pkt.SrcPort, pkt.DstPort, pkt.Seq, pkt.Ack, pkt.Window, pkt.Length /*pkt.Size*/, du)
 			t = pkt.Time
 		}
 	}
-	fmt.Println(pktnum, tcpnum, len(pp))
+	fmt.Fprintln(w, pktnum, tcpnum, len(pp))
 }
 
 func main() {
-	countPcapPkt()
+	fpcap := flag.String("pcap", "", "pcap filename")
+	if fpcap == nil {
+		fmt.Println("CMD -pcap=<pcap file>")
+		os.Exit(1)
+	}
+
+	processPkts(*fpcap, os.Stdout)
 }
 
+/*
 func countPcapPkt() error {
 	pktCount := 0
 
@@ -218,3 +237,4 @@ func packetInfo(pkt gopacket.Packet) {
 		}
 	}
 }
+*/
