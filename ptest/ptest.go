@@ -55,8 +55,8 @@ func exercise() []byte {
 
 	b := make([]byte, size)
 
-	// fizz receives the buffer index to insert
-	// 'Fizz', and returns n writen bytes
+	// fizz inserts "Fizz" at the given buffer index,
+	// and returns n writen bytes
 	fizz := func(l int) int {
 		b[l] = 'F'
 		b[l+1] = 'i'
@@ -65,8 +65,8 @@ func exercise() []byte {
 		return 4
 	}
 
-	// buzz receives the buffer index to insert
-	// 'Buzz', and returns n writen bytes
+	// buzz inserts "Buzz" at the given buffer index,
+	// and returns n writen bytes
 	buzz := func(l int) int {
 		b[l] = 'B'
 		b[l+1] = 'u'
