@@ -126,7 +126,6 @@ func exercise() []byte {
 		index++
 	}
 
-	//fmt.Println(string(b))
 	return b
 }
 
