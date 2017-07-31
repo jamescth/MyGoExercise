@@ -1,6 +1,7 @@
 package main
 
 import (
+	"io"
 	"strings"
 	"testing"
 
@@ -23,7 +24,9 @@ unknown
 `
 	got, err := promptForAddress(strings.NewReader(in))
 	if err != nil {
-		t.Fatalf("promptForAddress(%q) had unexpected error: %s", in, err.Error())
+		if err != io.EOF {
+			t.Fatalf("promptForAddress(%q) had unexpected error: %s", in, err.Error())
+		}
 	}
 	if got.Id != 12345 {
 		t.Errorf("promptForAddress(%q) got %d, want ID %d", in, got.Id, 12345)
