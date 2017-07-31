@@ -1,0 +1,15 @@
+	# protobuf compilition for go, python
+		// https://github.com/znly/docker-protobuf
+		docker run --rm -v $(pwd):$(pwd) -w $(pwd) znly/protoc --go_out=. -I. *.proto
+		docker run --rm -v $(pwd):$(pwd) -w $(pwd) znly/protoc --python_out=. -I. *.proto
+	
+	# python run env
+		sudo apt-get install pip
+		sudo apt-get install python-pip
+		sudo pip install --upgrade pip
+
+	# python run
+		pip -V
+		python2.7 ./add_person.py test.address
+		python2.7 ./list_people.py test.address 
+
