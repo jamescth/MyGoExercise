@@ -1,0 +1,22 @@
+2018-01-30T06:07:54 datrium_hyperdriver_config_agent: Started, pid: 68193 VIB version: 5.0.8.0-999999_abcdef
+68193  68193  sh                                   /bin/sh /opt/datrium_hyperdriver/bin/config_agent.sh
+2018-01-30T06:20:02 datrium_hyperdriver_bootstrap: bootstrap from 10.80.165.38
+PING 10.80.165.38 (10.80.165.38): 56 data bytes
+64 bytes from 10.80.165.38: icmp_seq=0 ttl=64 time=0.575 ms
+
+--- 10.80.165.38 ping statistics ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.575/0.575/0.575 ms
+2018-01-30T06:20:02 datrium_hyperdriver_bootstrap: pinged 10.80.165.38
+Connecting to 10.80.165.38 (10.80.165.38:80)
+bootstrap            100% |*******************************|  8786   0:00:00 ETA
+2018-01-30T06:20:02 datrium_hyperdriver_bootstrap: downloaded bootstrap rc= 0
+Connecting to 10.80.165.38 (10.80.165.38:80)
+bootstrap.cksum      100% |*******************************|    44   0:00:00 ETA
+2018-01-30T06:20:02 datrium_hyperdriver_bootstrap: downloaded bootstrap.cksum rc= 0
+bootstrap: OK
+2018-01-30T06:20:02 datrium_hyperdriver_bootstrap: checksum passed
+2018-01-30T06:20:16 datrium_hyperdriver_bootstrap: bootstrap done rc= 0
+2018-01-30T06:20:16 datrium_hyperdriver_bootstrap: wrote the state file rc= 0 with 10.80.165.38 0
+2018-01-30T06:20:16 datrium_hyperdriver_config_agent: bootstrapped to 10.80.165.38 rc= 0
+2018-01-30T06:20:16 datrium_hyperdriver_config_agent: state changed to 10.80.165.38

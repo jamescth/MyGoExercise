@@ -1,0 +1,292 @@
+{
+	"user":"root",
+	"password":"ca$hc0w",
+	"passphrase":"",
+	"hosts":["10.80.13.32","10.80.16.230"],
+	"cmds":[
+		{
+			"desc":"set hostname",
+			"output":"","run":"/bin/esxcli system hostname set --host=vesx00"
+		},
+		{
+			"desc":"enable host coredump",
+			"output":"","run":"vsish -e set /userworld/global/coreDumpEnabled 1"
+		},
+		{
+			"desc":"set host firewall",
+			"output":"", "run":"/bin/esxcli network firewall set -e true"
+		},
+		{
+			"desc":"set nic mac follow",
+			"output":"", "run":"esxcfg-advcfg -g /Net/FollowHardwareMac"
+		},
+		{
+			"desc":"set advanced config UserVars",
+			"output":"", "run":"/bin/esxcfg-advcfg -A QA_dittos_System --add-type string --add-desc Datrium-Specific --add-default \"True\" "
+		},
+		{
+			"desc":"set advanced config UserVars",
+			"output":"", "run":"/bin/esxcli system settings advanced list -o /UserVars/QA_dittos_System"
+		},
+		{
+			"desc":"Upgrading tiny vib from /da/main/Prod/Build/EsxX64/Debug/FE/VAAI/build/hyperdriver_bundle/datrium-hyperdriver-esx.zip",
+			"output":"", "run":"/bin/esxcli software vib list | grep datrium-hyperdriver-esx"
+		},
+		{
+			"desc":"Upgrading tiny vib from /da/main/Prod/Build/EsxX64/Debug/FE/VAAI/build/hyperdriver_bundle/datrium-hyperdriver-esx.zip",
+			"output":"", "run":"scp put root@10.80.5.232 /da/main/Prod/Build/EsxX64/Debug/FE/VAAI/build/hyperdriver_bundle/datrium-hyperdriver-esx.zip /var/tmp"
+		},
+		{
+			"desc":"Upgrading tiny vib from /da/main/Prod/Build/EsxX64/Debug/FE/VAAI/build/hyperdriver_bundle/datrium-hyperdriver-esx.zip",
+			"output":"", "run":"/bin/esxcli software vib install -d /var/tmp/datrium-hyperdriver-esx.zip --no-sig-check"
+		},
+		{
+			"desc":"Upgrading tiny vib from /da/main/Prod/Build/EsxX64/Debug/FE/VAAI/build/hyperdriver_bundle/datrium-hyperdriver-esx.zip",
+			"output":"", "run":"grep -q DatriumNetshelfIp /etc/vmware/esx.conf"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/etc/init.d/datrium_hyperdriver status"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"ps -c|grep config_agent.sh"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"grep -q DatriumNetshelfIp /etc/vmware/esx.conf"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/da/bin/procmgr_cli.py devmode-set 2"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"ls -1 --color=never /da/data/cores"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"config dvx set --name jho-test_nondisrupt_mounted____HA_dittos.f4c4.0.171108140628"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"config time-server set --primary-time-server ntp3.datrium.com --optional-time-server ntp.datrium.com"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/da/bin/procmgr_cli.py show | grep Mode/Changing"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"PYTHONPATH=\"/da/bin/PythonRoot:/da/bin/PythonGenRoot\" /da/bin/hamgr_cli.py --timeout 300 -c 1 --json show"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/da/bin/CollectionUtils --DaLog.logFileName /da/data/var/log/CollectionUtils.log --CollectionUtils.operations enable --CollectionUtils.collectionName Collection1"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"datastores show --output-format=json"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"entersupportmode; dev conf set ConfStressCounter.enabled=true"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"vsish -e get /userworld/global/coreDumpEnabled"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli software vib list | grep datrium-hyperdriver-esx"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium_hyperdriver/bin/da -l"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"ping -c3 10.80.79.180"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium_hyperdriver/bin/da 10.80.79.180"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium_hyperdriver/bin/da -l"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"ls -l /opt/datrium"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium_hyperdriver/bin/da -c"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"localcli network firewall ruleset list"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli system settings advanced list -o /UserVars/DatriumSelectedSSDs"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/procmgr_cli.py show | grep Mode/Changing"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"cat /opt/datrium/Version.txt"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli software vib list | grep Datrium | awk '{print $2}'"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"PYTHONPATH=\"/opt/datrium/PythonRoot:/opt/datrium/PythonGenRoot\" /opt/datrium/python2/bin/python -m datrium.platform.common.frontend_conf --get FE~FEMain.nfhMode"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli --debug --formatter=json storage vmfs extent list"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"mkdir -p /var/core/datrium_test_infra_bin"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"scp put root@10.80.5.232 /da/main/Prod/Build/EsxX64/Debug/Install/test/NfsPerfTool /var/core/datrium_test_infra_bin"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"scp put root@10.80.5.232 /da/main/Prod/Build/EsxX64/Debug/Install/bin/NVLogTool /var/core/datrium_test_infra_bin"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/procmgr_cli.py show"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/procmgr_cli.py devmode-set 2"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/procmgr_cli.py devmode-show"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli software vib list | grep Datrium | awk '{print $2}'"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"PYTHONPATH=\"/opt/datrium/PythonRoot:/opt/datrium/PythonGenRoot\" /opt/datrium/python2/bin/python -m datrium.platform.common.frontend_conf --set FE~NfsProxyServer.nfsLoopbackOnly=False"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"curl http://10.80.79.180/static/SetupLinuxHost.py | python - --netshelf 10.80.79.180 --port 2181 --device /dev/sdb --datastore Datastore1"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"systemctl start datrium"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"systemctl start docker"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/procmgr_cli.py devmode-set 2"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"config alias add datastore=\"datastores\""
+		},
+		{
+			"desc":"",
+			"output":"", "run":"onfig dvx show --output-format json"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"network show --output-format=json"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"scp put root@10.80.6.11 /tmp/tmpeco68Y /da/ucenter.run/uc.tar"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"cd /da/ucenter.run; tar xf uc.tar"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"wget -O /var/www/cgi-bin/upgrade_center.py \"http://git.datrium.com/gitweb/?p=main.git;a=blob_plain;f=Support/ucenter/upgrade_center.py\"; chmod 577 /var/www/cgi-bin/upgrade_center.py"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli storage nfs list"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"ls /opt/datrium/bin/dacli"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/opt/datrium/bin/dacli mount"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/bin/esxcli --formatter=json --debug storage nfs list"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"mkdir -p /mnt/datrium/jho-test_nondisrupt_mounted____HA_dittos.f4c4.0.171108140628-Datastore1"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"mount -t nfs localhost:/10.80.79.180:2181/Datastore1 /mnt/datrium/jho-test_nondisrupt_mounted____HA_dittos.f4c4.0.171108140628-Datastore1"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"echo \"helloworld ABCDEFG 123456 !@#$%^\" > /vmfs/volumes/jho-test_nondisrupt_mounted____HA_dittos.f4c4.0.171108140628-Datastore1/host_0_testfile.txt"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"dvx software show --output-format=json --refresh"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"/var/core/datrium_test_infra_bin/NfsPerfTool ++group=host/vim/vimuser --Registry.zookeeper 10.80.79.180:2181 --DaLog.logFileName /var/tmp/nfsperftool-acc77434.log --uuid da:80:27:c7:87:cf --filename /vmfs/volumes/jho-test_nondisrupt_mounted____HA_dittos.f4c4.0.171108140628-Datastore1/background_io_0 --seed 4362 --start 0 --end 33554432 --bytesPerIO 1048576 --pingThreads 0 --randReadThreads 0 --seqReadThreads 0 --randWriteThreads 0 --seqWriteThreads 2 --cookie \"Write pass 0\" --premounted"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"dvx software download 5.0.8.0-999999_abcdef"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"dvx software show --task-only --output-format=json"
+		},
+		{
+			"desc":"",
+			"output":"", "run":"dvx software upgrade 5.0.8.0-999999_abcdef --no-confirm"
+		},
+		{
+			"desc":"",
+			"output":"", "run":""
+		},
+		{
+			"desc":"",
+			"output":"", "run":""
+		},
+		{
+			"desc":"",
+			"output":"", "run":""
+		},
+		{
+			"desc":"",
+			"output":"", "run":""
+		},
+	]
+}

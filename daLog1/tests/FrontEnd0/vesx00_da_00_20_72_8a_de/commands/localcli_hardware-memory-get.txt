@@ -1,0 +1,4 @@
+Memory:
+   Physical Memory: 23621783552 Bytes
+   Reliable Memory: 0 Bytes
+   NUMA Node Count: 1

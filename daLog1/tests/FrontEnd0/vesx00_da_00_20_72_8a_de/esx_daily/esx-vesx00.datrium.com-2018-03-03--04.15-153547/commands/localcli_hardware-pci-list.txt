@@ -1,0 +1,1513 @@
+
+0000:00:00.0:
+   Address: 0000:00:00.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: Virtual Machine Chipset
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x7190
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x1976
+   Device Class: 0x0600
+   Device Class Name: Host bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:01.0:
+   Address: 0000:00:01.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x01
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x7191
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x01
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:07.0:
+   Address: 0000:00:07.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x07
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: Virtual Machine Chipset
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x7110
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x1976
+   Device Class: 0x0601
+   Device Class Name: ISA bridge
+   Programming Interface: 0x00
+   Revision ID: 0x08
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:07.1:
+   Address: 0000:00:07.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x07
+   Function: 0x1
+   VMkernel Name: vmhba0
+   Vendor Name: Intel Corporation
+   Device Name: PIIX4 for 430TX/440BX/MX IDE Controller
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x7111
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x1976
+   Device Class: 0x0101
+   Device Class Name: IDE interface
+   Programming Interface: 0x8a
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3205
+   Module ID: 15
+   Module Name: vmkata
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:07.3:
+   Address: 0000:00:07.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x07
+   Function: 0x3
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: Virtual Machine Chipset
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x7113
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x1976
+   Device Class: 0x0680
+   Device Class Name: Bridge
+   Programming Interface: 0x00
+   Revision ID: 0x08
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:07.7:
+   Address: 0000:00:07.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x07
+   Function: 0x7
+   VMkernel Name: 
+   Vendor Name: VMware
+   Device Name: Virtual Machine Communication Interface
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x0740
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x0740
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x10
+   Interrupt Line: 0x09
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:0f.0:
+   Address: 0000:00:0f.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x0f
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: VMware
+   Device Name: SVGA II Adapter
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x0405
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x0405
+   Device Class: 0x0300
+   Device Class Name: VGA compatible controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0x09
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3221
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 1
+   Slot Description: Chassis slot 1; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:10.0:
+   Address: 0000:00:10.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x10
+   Function: 0x0
+   VMkernel Name: vmhba1
+   Vendor Name: LSI Logic / Symbios Logic
+   Device Name: 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x1000
+   Device ID: 0x0030
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x1976
+   Device Class: 0x0100
+   Device Class Name: SCSI storage controller
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0x0b
+   IRQ: 11
+   Interrupt Vector: 0x4f
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 4150
+   Module Name: mptspi
+   Chassis: 0
+   Physical Slot: 2
+   Slot Description: Chassis slot 2; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:11.0:
+   Address: 0000:00:11.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x11
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: VMware
+   Device Name: PCI bridge
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x0790
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x01
+   Revision ID: 0x02
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x02
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 3
+   Slot Description: Chassis slot 3; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.0:
+   Address: 0000:00:15.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:15.0]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x2f
+   PCI Pin: 0xff
+   Spawned Bus: 0x03
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.1:
+   Address: 0000:00:15.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x1
+   VMkernel Name: PCIe RP[0000:00:15.1]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x30
+   PCI Pin: 0xff
+   Spawned Bus: 0x04
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 1
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.2:
+   Address: 0000:00:15.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x2
+   VMkernel Name: PCIe RP[0000:00:15.2]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x31
+   PCI Pin: 0xff
+   Spawned Bus: 0x05
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 2
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.3:
+   Address: 0000:00:15.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x3
+   VMkernel Name: PCIe RP[0000:00:15.3]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x32
+   PCI Pin: 0xff
+   Spawned Bus: 0x06
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 3
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.4:
+   Address: 0000:00:15.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x4
+   VMkernel Name: PCIe RP[0000:00:15.4]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x33
+   PCI Pin: 0xff
+   Spawned Bus: 0x07
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 4
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.5:
+   Address: 0000:00:15.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x5
+   VMkernel Name: PCIe RP[0000:00:15.5]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x34
+   PCI Pin: 0xff
+   Spawned Bus: 0x08
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 5
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.6:
+   Address: 0000:00:15.6
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x6
+   VMkernel Name: PCIe RP[0000:00:15.6]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x35
+   PCI Pin: 0xff
+   Spawned Bus: 0x09
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 6
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.7:
+   Address: 0000:00:15.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x7
+   VMkernel Name: PCIe RP[0000:00:15.7]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x36
+   PCI Pin: 0xff
+   Spawned Bus: 0x0a
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 7
+   Slot Description: Chassis slot 7; function 7
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.0:
+   Address: 0000:00:16.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:16.0]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x37
+   PCI Pin: 0xff
+   Spawned Bus: 0x0b
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.1:
+   Address: 0000:00:16.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x1
+   VMkernel Name: PCIe RP[0000:00:16.1]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x38
+   PCI Pin: 0xff
+   Spawned Bus: 0x0c
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 1
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.2:
+   Address: 0000:00:16.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x2
+   VMkernel Name: PCIe RP[0000:00:16.2]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x39
+   PCI Pin: 0xff
+   Spawned Bus: 0x0d
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 2
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.3:
+   Address: 0000:00:16.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x3
+   VMkernel Name: PCIe RP[0000:00:16.3]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3a
+   PCI Pin: 0xff
+   Spawned Bus: 0x0e
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 3
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.4:
+   Address: 0000:00:16.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x4
+   VMkernel Name: PCIe RP[0000:00:16.4]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3b
+   PCI Pin: 0xff
+   Spawned Bus: 0x0f
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 4
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.5:
+   Address: 0000:00:16.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x5
+   VMkernel Name: PCIe RP[0000:00:16.5]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3c
+   PCI Pin: 0xff
+   Spawned Bus: 0x10
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 5
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.6:
+   Address: 0000:00:16.6
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x6
+   VMkernel Name: PCIe RP[0000:00:16.6]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3d
+   PCI Pin: 0xff
+   Spawned Bus: 0x11
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 6
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.7:
+   Address: 0000:00:16.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x7
+   VMkernel Name: PCIe RP[0000:00:16.7]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3e
+   PCI Pin: 0xff
+   Spawned Bus: 0x12
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 8
+   Slot Description: Chassis slot 8; function 7
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.0:
+   Address: 0000:00:17.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:17.0]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x3f
+   PCI Pin: 0xff
+   Spawned Bus: 0x13
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.1:
+   Address: 0000:00:17.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x1
+   VMkernel Name: PCIe RP[0000:00:17.1]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x40
+   PCI Pin: 0xff
+   Spawned Bus: 0x14
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 1
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.2:
+   Address: 0000:00:17.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x2
+   VMkernel Name: PCIe RP[0000:00:17.2]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x41
+   PCI Pin: 0xff
+   Spawned Bus: 0x15
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 2
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.3:
+   Address: 0000:00:17.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x3
+   VMkernel Name: PCIe RP[0000:00:17.3]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x42
+   PCI Pin: 0xff
+   Spawned Bus: 0x16
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 3
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.4:
+   Address: 0000:00:17.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x4
+   VMkernel Name: PCIe RP[0000:00:17.4]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x43
+   PCI Pin: 0xff
+   Spawned Bus: 0x17
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 4
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.5:
+   Address: 0000:00:17.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x5
+   VMkernel Name: PCIe RP[0000:00:17.5]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x44
+   PCI Pin: 0xff
+   Spawned Bus: 0x18
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 5
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.6:
+   Address: 0000:00:17.6
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x6
+   VMkernel Name: PCIe RP[0000:00:17.6]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x45
+   PCI Pin: 0xff
+   Spawned Bus: 0x19
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 6
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:17.7:
+   Address: 0000:00:17.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x17
+   Function: 0x7
+   VMkernel Name: PCIe RP[0000:00:17.7]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x46
+   PCI Pin: 0xff
+   Spawned Bus: 0x1a
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 9
+   Slot Description: Chassis slot 9; function 7
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.0:
+   Address: 0000:00:18.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:18.0]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x47
+   PCI Pin: 0xff
+   Spawned Bus: 0x1b
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 0
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.1:
+   Address: 0000:00:18.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x1
+   VMkernel Name: PCIe RP[0000:00:18.1]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x48
+   PCI Pin: 0xff
+   Spawned Bus: 0x1c
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 1
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.2:
+   Address: 0000:00:18.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x2
+   VMkernel Name: PCIe RP[0000:00:18.2]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x49
+   PCI Pin: 0xff
+   Spawned Bus: 0x1d
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 2
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.3:
+   Address: 0000:00:18.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x3
+   VMkernel Name: PCIe RP[0000:00:18.3]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x4a
+   PCI Pin: 0xff
+   Spawned Bus: 0x1e
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 3
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.4:
+   Address: 0000:00:18.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x4
+   VMkernel Name: PCIe RP[0000:00:18.4]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x4b
+   PCI Pin: 0xff
+   Spawned Bus: 0x1f
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 4
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.5:
+   Address: 0000:00:18.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x5
+   VMkernel Name: PCIe RP[0000:00:18.5]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x4c
+   PCI Pin: 0xff
+   Spawned Bus: 0x20
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 5
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.6:
+   Address: 0000:00:18.6
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x6
+   VMkernel Name: PCIe RP[0000:00:18.6]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x4d
+   PCI Pin: 0xff
+   Spawned Bus: 0x21
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 6
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:18.7:
+   Address: 0000:00:18.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x18
+   Function: 0x7
+   VMkernel Name: PCIe RP[0000:00:18.7]
+   Vendor Name: VMware
+   Device Name: PCI Express Root Port
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x15ad
+   Device ID: 0x07a0
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x4e
+   PCI Pin: 0xff
+   Spawned Bus: 0x22
+   Flags: 0x3202
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 10
+   Slot Description: Chassis slot a; function 7
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:02:00.0:
+   Address: 0000:02:00.0
+   Segment: 0x0000
+   Bus: 0x02
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: vmnic0
+   Vendor Name: Intel Corporation
+   Device Name: 82545EM Gigabit Ethernet Controller (Copper)
+   Configured Owner: Unknown
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x100f
+   SubVendor ID: 0x15ad
+   SubDevice ID: 0x0750
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0x0a
+   IRQ: 10
+   Interrupt Vector: 0x50
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 4125
+   Module Name: e1000
+   Chassis: 0
+   Physical Slot: 32
+   Slot Description: Chassis slot 20; function 0
+   Passthru Capable: false
+   Parent Device: PCI 0:0:17:0
+   Dependent Device: PCI 0:0:17:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+

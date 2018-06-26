@@ -1,0 +1,605 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z Section for VMware ESX, pid=67262, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z verbose -[2E041B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:50:12Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.600Z info -[2E041B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.600Z info -[2E041B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:50:12Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E45B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2E45B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2EC7B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2EC7B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2F08B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.601Z info -[2F08B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E86B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E86B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2F8AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2F8AB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2F49B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2F49B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.602Z info -[2E041B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.604Z info -[2E041B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.604Z info -[2E041B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.604Z info -[2E041B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.604Z info -[2E041B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.604Z info -[2E041B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z error -[2E041B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.605Z verbose -[2E041B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z Section for VMware ESX, pid=67284, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z verbose -[70A61B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:50:12Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:50:12Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.657Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70E7B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70E7B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[7169B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[7169B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[7128B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[7128B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[722CB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[722CB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[70A61B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[71EBB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[71EBB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[70A61B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[70A61B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[70A61B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.658Z info -[71AAB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.659Z info -[71AAB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.660Z info -[70A61B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.660Z info -[70A61B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.660Z info -[70A61B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.660Z info -[70A61B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z info -[70A61B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z error -[70A61B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:50:12Z rabbitmqproxy: 2016-11-18T01:50:12.661Z verbose -[70A61B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z Section for VMware ESX, pid=67255, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z verbose -[59B11B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:53:59Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z info -[59B11B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z info -[59B11B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:53:59Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z info -[59B11B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z info -[59B11B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.149Z info -[59B11B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59F2B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59F2B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5A33B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5A33B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5A74B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5A74B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5AB5B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5AB5B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5B37B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5B37B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5AF6B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[59B11B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.151Z info -[59B11B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.151Z info -[59B11B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.151Z info -[59B11B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.151Z info -[59B11B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.151Z info -[59B11B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.150Z info -[5AF6B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.152Z info -[59B11B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z info -[59B11B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z info -[59B11B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z info -[59B11B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z info -[59B11B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z error -[59B11B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.153Z verbose -[59B11B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z Section for VMware ESX, pid=67276, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z verbose -[2B421B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:53:59Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:53:59Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.190Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B83B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B83B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2BC4B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2BC4B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C05B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C05B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C46B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C46B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C87B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2C87B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2CC8B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2CC8B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.191Z info -[2B421B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.193Z info -[2B421B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.193Z info -[2B421B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.193Z info -[2B421B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.193Z info -[2B421B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z info -[2B421B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z error -[2B421B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:53:59Z rabbitmqproxy: 2016-11-18T01:53:59.194Z verbose -[2B421B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z Section for VMware ESX, pid=67257, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z verbose -[511A1B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:59:00Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:59:00Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.775Z info -[511A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[515BB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[515BB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[519CB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[519CB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[51DDB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[51DDB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[521EB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[521EB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[52A0B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[52A0B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[525FB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[525FB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.776Z info -[511A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.778Z info -[511A1B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.778Z info -[511A1B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.778Z info -[511A1B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.778Z info -[511A1B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z info -[511A1B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z error -[511A1B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.779Z verbose -[511A1B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z Section for VMware ESX, pid=67279, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z verbose -[3AE91B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-18T01:59:00Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-18T01:59:00Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.825Z info -[3B2AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3B2AB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3B6BB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3B6BB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3BACB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3BACB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3BEDB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3BEDB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3C2EB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3C2EB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3C6FB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3C6FB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.826Z info -[3AE91B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.828Z info -[3AE91B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.828Z info -[3AE91B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.828Z info -[3AE91B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.828Z info -[3AE91B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z info -[3AE91B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z error -[3AE91B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-18T01:59:00Z rabbitmqproxy: 2016-11-18T01:59:00.829Z verbose -[3AE91B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z Section for VMware ESX, pid=67257, version=6.5.0, build=4564106, option=Release
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z verbose -[3FA41B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-29T01:15:25Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-29T01:15:25Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.824Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[4067B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[4067B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FE5B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FE5B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[3FA41B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[4026B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[4026B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[40A8B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[40A8B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[3FA41B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[3FA41B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[3FA41B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[3FA41B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[3FA41B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.825Z info -[40E9B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.827Z info -[40E9B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.826Z info -[412AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.827Z info -[412AB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.828Z info -[3FA41B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.828Z info -[3FA41B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.828Z info -[3FA41B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.828Z info -[3FA41B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.828Z info -[3FA41B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z error -[3FA41B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.829Z verbose -[3FA41B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z Section for VMware ESX, pid=67281, version=6.5.0, build=4564106, option=Release
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z verbose -[74011B0] [Originator@6876 sub=Default] Dumping early logs:
+2016-11-29T01:15:25Z rabbitmqproxy: ------ Early init logs start --------
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z info -[74011B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z info -[74011B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2016-11-29T01:15:25Z rabbitmqproxy: ------ Early init logs end   --------
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z info -[74011B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.899Z info -[74011B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=Default] Current working directory: /
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[7442B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74C4B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74C4B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[74011B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[74011B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.900Z info -[7442B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[74011B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[74011B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7483B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7483B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7587B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7587B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[74011B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7546B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7546B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7505B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[7505B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.901Z info -[74011B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.902Z info -[74011B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.903Z info -[74011B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.903Z info -[74011B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.903Z info -[74011B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.903Z info -[74011B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z info -[74011B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z error -[74011B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2016-11-29T01:15:25Z rabbitmqproxy: 2016-11-29T01:15:25.904Z verbose -[74011B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z Section for VMware ESX, pid=67251, version=6.5.0, build=4564106, option=Release
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z verbose -[61C01B0] [Originator@6876 sub=Default] Dumping early logs:
+2018-03-03T02:18:25Z rabbitmqproxy: ------ Early init logs start --------
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z info -[61C01B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z info -[61C01B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2018-03-03T02:18:25Z rabbitmqproxy: ------ Early init logs end   --------
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z info -[61C01B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.461Z info -[61C01B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Default] Initialized channel manager
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Default] Current working directory: /
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6201B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6201B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6283B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6283B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6305B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6305B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[62C4B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[62C4B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[61C01B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.462Z info -[6242B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.463Z info -[6242B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.463Z info -[6346B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.463Z info -[6346B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.464Z info -[61C01B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.464Z info -[61C01B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.464Z info -[61C01B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.464Z info -[61C01B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.464Z info -[61C01B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z error -[61C01B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.465Z verbose -[61C01B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z Section for VMware ESX, pid=67273, version=6.5.0, build=4564106, option=Release
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z verbose -[4C4A1B0] [Originator@6876 sub=Default] Dumping early logs:
+2018-03-03T02:18:25Z rabbitmqproxy: ------ Early init logs start --------
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] Initialized SystemFactory
+2018-03-03T02:18:25Z rabbitmqproxy: ------ Early init logs end   --------
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] Logging uses fast path: false
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] Initialized channel manager
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=Default] Current working directory: /
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.500Z info -[4C4A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4CCCB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4CCCB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4D4EB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4D4EB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C8BB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 3, Max workers: 3, Reservation ratio: 9
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C8BB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4D8FB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4D8FB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4DD0B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4DD0B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Libs] Could not expand environment variable HOME.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.501Z info -[4C4A1B0] [Originator@6876 sub=Libs] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.502Z info -[4D0DB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.502Z info -[4D0DB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.503Z info -[4C4A1B0] [Originator@6876 sub=Libs] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.503Z info -[4C4A1B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.503Z info -[4C4A1B0] [Originator@6876 sub=Libs] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.503Z info -[4C4A1B0] [Originator@6876 sub=Libs] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.503Z info -[4C4A1B0] [Originator@6876 sub=Default] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 101 rmp::ConfigInfo::load], Configuration processCount=1(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 105 rmp::ConfigInfo::load], Configuration serviceCount=4(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 109 rmp::ConfigInfo::load], Configuration caFile=/etc/vmware/ssl/castore.pem(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 113 rmp::ConfigInfo::load], Configuration caDir=(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 117 rmp::ConfigInfo::load], Configuration keyFile=/etc/vmware/ssl/rui.key(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 121 rmp::ConfigInfo::load], Configuration certFile=/etc/vmware/ssl/rui.crt(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 125 rmp::ConfigInfo::load], Configuration udsPath=/var/run/rabbitmqproxy.uds(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 139 rmp::ConfigInfo::load], Configuration vmxEmuPort=5678(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 143 rmp::ConfigInfo::load], Configuration rabbitAuthnMethod=CAF(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 147 rmp::ConfigInfo::load], Configuration parseMessage=true(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 151 rmp::ConfigInfo::load], Configuration modifyMessage=true(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 155 rmp::ConfigInfo::load], Configuration fakeVcUuid=5007bf85-97e8-cc5e-1960-bf348c0dd40c(default)
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z error -[4C4A1B0] [Originator@6876 sub=Default] [configInfo.cpp 203 rmp::ConfigInfo::load], Configuration file /etc/vmware/rabbitmqproxy/config.xml contains no broker
+2018-03-03T02:18:25Z rabbitmqproxy: 2018-03-03T02:18:25.504Z verbose -[4C4A1B0] [Originator@6876 sub=Default] [globalContext.cpp 129 rmp::GlobalContext::terminateApplication], Terminating...

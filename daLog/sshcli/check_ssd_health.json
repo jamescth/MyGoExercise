@@ -1,0 +1,16 @@
+{
+	"user":"root",
+	"password":"sha1c0w",
+	"passphrase":"",
+	"hosts":["10.80.9.63"],
+	"cmds":[
+		{
+			"desc":"get the devlice list",
+			"output":"","run":"esxcli storage core device list"
+		},
+		{
+			"desc":"note down the naa.* ID for the interested SSDs",
+			"output":"","run":"esxcli storage core device smart get -d naa.<ID from the previous step>"
+		}
+	]
+}

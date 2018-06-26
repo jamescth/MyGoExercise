@@ -1,0 +1,75 @@
+2016-11-18T01:49:44Z vmkeventd[65880]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:49:44Z vmkeventd[65880]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:49:44Z vmkeventd[65880]: vmkmod: /vmfs is a not a regular file
+2016-11-18T01:49:44Z vmkeventd[65880]: VMKMod_ComputeModPath failed for module vmfs: "Bad parameter" (bad0007)
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:49:59Z vmkeventd[66311]: message handler 1 failed: Busy
+2016-11-18T01:53:32Z vmkeventd[65881]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:32Z vmkeventd[65881]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:32Z vmkeventd[65881]: vmkmod: /vmfs is a not a regular file
+2016-11-18T01:53:32Z vmkeventd[65881]: VMKMod_ComputeModPath failed for module vmfs: "Bad parameter" (bad0007)
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:47Z vmkeventd[66296]: message handler 1 failed: Busy
+2016-11-18T01:58:34Z vmkeventd[65881]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:34Z vmkeventd[65881]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:34Z vmkeventd[65881]: vmkmod: /vmfs is a not a regular file
+2016-11-18T01:58:34Z vmkeventd[65881]: VMKMod_ComputeModPath failed for module vmfs: "Bad parameter" (bad0007)
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:49Z vmkeventd[66296]: message handler 1 failed: Busy
+2016-11-29T01:14:56Z vmkeventd[65885]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:14:56Z vmkeventd[65885]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:14:57Z vmkeventd[65885]: vmkmod: /vmfs is a not a regular file
+2016-11-29T01:14:57Z vmkeventd[65885]: VMKMod_ComputeModPath failed for module vmfs: "Bad parameter" (bad0007)
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:12Z vmkeventd[66289]: message handler 1 failed: Busy
+2018-03-03T02:18:00Z vmkeventd[65879]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:00Z vmkeventd[65879]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:00Z vmkeventd[65879]: vmkmod: /vmfs is a not a regular file
+2018-03-03T02:18:00Z vmkeventd[65879]: VMKMod_ComputeModPath failed for module vmfs: "Bad parameter" (bad0007)
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:15Z vmkeventd[66294]: message handler 1 failed: Busy

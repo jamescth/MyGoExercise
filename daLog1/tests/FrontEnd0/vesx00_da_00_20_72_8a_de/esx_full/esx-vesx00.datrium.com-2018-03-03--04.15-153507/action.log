@@ -1,0 +1,21 @@
+2018-03-03 04:15:28.939727: run RELOCATE /usr/lib/vmware/vm-support/bin/encryption-prolog.sh (/etc/vmware/vm-support/vm-support-prolog.mfx) took 0.000 sec
+2018-03-03 04:15:28.965548: run - /bin/date (/etc/vmware/vm-support/datrium-core.mfx) took 0.000 sec
+2018-03-03 04:15:28.973304: run - uptime (/etc/vmware/vm-support/datrium-core.mfx) took 0.000 sec
+2018-03-03 04:15:28.964523: run - vmware -vl (/etc/vmware/vm-support/datrium-core.mfx) took 0.000 sec
+2018-03-03 04:15:28.969942: run - uname -a (/etc/vmware/vm-support/datrium-core.mfx) took 0.000 sec
+2018-03-03 04:15:29.003750: copy IGNORE_MISSING /tmp/vmware-*/vmware-panic.log (/etc/vmware/vm-support/vm-logs.mfx) took 0.000 sec
+2018-03-03 04:15:29.005999: copy IGNORE_MISSING /tmp/vmware-*/vmware-vmx-*.log (/etc/vmware/vm-support/vm-logs.mfx) took 0.000 sec
+2018-03-03 04:15:28.985867: vmfile IGNORE_ERROR,IGNORE_MISSING,MAXSIZE *.dsk (/etc/vmware/vm-support/vm-disks.mfx) took 0.000 sec
+2018-03-03 04:15:28.982302: vmfile IGNORE_ERROR,IGNORE_MISSING,MAXSIZE *.vmdk (/etc/vmware/vm-support/vm-disks.mfx) took 0.000 sec
+2018-03-03 04:15:29.007086: vmfile IGNORE_MISSING,IGNORE_ERROR *.cfg (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.064566: vmfile IGNORE_MISSING,IGNORE_ERROR *.vmx (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.002750: vmfile IGNORE_ERROR,IGNORE_MISSING *.log (/etc/vmware/vm-support/vm-logs.mfx) took 0.000 sec
+2018-03-03 04:15:29.065434: vmfile IGNORE_MISSING,IGNORE_ERROR *.vmsd (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.066461: vmfile IGNORE_MISSING,IGNORE_ERROR *-aux.xml (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.066144: vmfile IGNORE_MISSING,IGNORE_ERROR *.vmft (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.066844: vmfile IGNORE_MISSING,IGNORE_ERROR shared.vmft (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.064975: vmfile IGNORE_MISSING,IGNORE_ERROR *.vmxf (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.067583: vmcmd IGNORE_MISSING,IGNORE_ERROR /bin/ls -isla "{VMDIR}" (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.067185: vmfile IGNORE_MISSING,IGNORE_ERROR .ft-generation* (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.067948: run DUMP_JSON /usr/sbin/localcli vm process list (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2018-03-03 04:15:29.241183: run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/encryption-epilog.sh (/etc/vmware/vm-support/vm-support-epilog.mfx) took 0.000 sec

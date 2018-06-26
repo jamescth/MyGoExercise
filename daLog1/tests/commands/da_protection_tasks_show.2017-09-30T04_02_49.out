@@ -1,0 +1,1977 @@
+{
+    "tasks": [
+        {
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "expectedCompletion": 1509799764467983242, 
+            "id": "repl-fb7e3de2-9f0f-11e7-93f2-0050cc7a7b75", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "pg_all", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "a6000b06-65d6-11e7-aeb4-0050cc7a7b81", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "pg_all - Half-hourly 5min Daily - 2017-09-21T21:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "d4b58418-9f0f-11e7-be91-0050cc7a7b75", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506027600008096424, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 5150, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "b5-mgmt", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "b5 site", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_OUT", 
+            "progress": 19, 
+            "startTime": 1506027665076997927, 
+            "state": "RUNNING", 
+            "taskStateDetailsData": {
+                "keyValues": [
+                    {
+                        "key": "pgSnapName", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "pg_all - Half-hourly 5min Daily - 2017-09-21T21:00 UTC", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "pgSnapId", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "d4b58418-9f0f-11e7-be91-0050cc7a7b75", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "pgName", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "pg_all", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "pgId", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "a6000b06-65d6-11e7-aeb4-0050cc7a7b81", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "remoteReplicaSiteIpAddr", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "b5-mgmt", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "remoteReplicaSiteDvxName", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "dvx05", 
+                            "type": 1
+                        }
+                    }, 
+                    {
+                        "key": "remoteReplicaSiteName", 
+                        "val": {
+                            "enumVal": {}, 
+                            "msgVal": {
+                                "keyVal": []
+                            }, 
+                            "repeatedStringVal": [], 
+                            "stringVal": "b5 site", 
+                            "type": 1
+                        }
+                    }
+                ], 
+                "messageId": "com.datrium.repl.srcState.sendingData"
+            }
+        }, 
+        {
+            "completionTime": 1506582199684784193, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-cdd67098-a41a-11e7-af93-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4 - Hourly - 2017-09-28T07:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "a7c7b7ea-a41a-11e7-ac02-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506582004907828115, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 18, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506582162061478496, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506582198614752970, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-d49e63e0-a41a-11e7-b06b-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8 - Hourly - 2017-09-28T07:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "adbbc1f0-a41a-11e7-af5b-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506582014895772815, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 6, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506582172740765146, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506582050051979846, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-a856b490-a41a-11e7-ac06-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1 - Hourly - 2017-09-28T07:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "a4db73be-a41a-11e7-a9b9-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506582000003993604, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 27, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506582005864697480, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506578470256541041, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-5fd81e0a-a412-11e7-90e9-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4 - Hourly - 2017-09-28T06:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "46ade1b2-a412-11e7-8e98-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506578406025672112, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 18, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506578448315695539, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506578468355660302, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-5fa33c12-a412-11e7-9091-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1 - Hourly - 2017-09-28T06:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "43173418-a412-11e7-8c4f-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506578400005026987, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 27, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506578447918092389, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506578467727943713, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-62612aea-a412-11e7-91d0-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8 - Hourly - 2017-09-28T06:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "4b101900-a412-11e7-9056-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506578413380227591, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 6, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506578453507133876, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506574854439408360, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-f2d28f64-a409-11e7-b294-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4 - Hourly - 2017-09-28T05:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "e5090606-a409-11e7-b039-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506574806232426530, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 18, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506574829439039421, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506574854364585281, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-f29d41a6-a409-11e7-b23c-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1 - Hourly - 2017-09-28T05:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "e152cb00-a409-11e7-adf0-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506574800004997670, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 27, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506574829031719693, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506574850940824080, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-f5ba4f28-a409-11e7-b379-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8 - Hourly - 2017-09-28T05:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "e9bcfdd8-a409-11e7-b207-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506574814122752276, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 6, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506574835080716035, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506571233589162318, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-8695dbd8-a401-11e7-bbf2-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1 - Hourly - 2017-09-28T04:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "7f8ea630-a401-11e7-b81f-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506571200006717978, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 27, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506571211822276418, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506571231204190575, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-86d0010a-a401-11e7-bc91-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4 - Hourly - 2017-09-28T04:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "82d7437e-a401-11e7-ba68-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506571205515766614, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 18, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506571212262670482, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506571230838103663, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-896a622a-a401-11e7-bd83-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_8 - Hourly - 2017-09-28T04:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "86f0c2a0-a401-11e7-bcca-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506571212393746693, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 6, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506571216657324328, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506567783972168972, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-40e91634-a3f9-11e7-a72f-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_4 - Hourly - 2017-09-28T03:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "21517f32-a3f9-11e7-a4e4-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506567605926285188, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 18, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506567659016910628, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506567758008760001, 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "repl-40b6ae2e-a3f9-11e7-a6d8-0050cc7a7a01", 
+            "keyValues": [
+                {
+                    "key": "pgName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "Overlapping_1 - Hourly - 2017-09-28T03:00 UTC", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapId", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "1dca51a4-a3f9-11e7-a295-0050cc7a7a01", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "pgSnapCreateTimeNs", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int64Val": 1506567600007215183, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 4
+                    }
+                }, 
+                {
+                    "key": "nVmSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 27, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "nNonVmFileSnaps", 
+                    "val": {
+                        "enumVal": {}, 
+                        "int32Val": 0, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "type": 3
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteDvxName", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "dvx05", 
+                        "type": 1
+                    }
+                }, 
+                {
+                    "key": "remoteReplicaSiteIpAddr", 
+                    "val": {
+                        "enumVal": {}, 
+                        "msgVal": {
+                            "keyVal": []
+                        }, 
+                        "repeatedStringVal": [], 
+                        "stringVal": "10.196.17.24", 
+                        "type": 1
+                    }
+                }
+            ], 
+            "kind": "REPL_IN", 
+            "progress": 100, 
+            "startTime": 1506567658620603327, 
+            "state": "SUCCESS", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }
+    ]
+}

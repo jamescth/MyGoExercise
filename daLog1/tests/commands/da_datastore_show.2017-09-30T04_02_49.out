@@ -1,0 +1,33 @@
+{
+    "status": [
+        {
+            "available": 261.66442627807646, 
+            "dataReductionRatio": 10.357792813932663, 
+            "datastoreID": "DATASTORE.6", 
+            "encryptionStatus": "Enabled", 
+            "health": {
+                "description": "", 
+                "events": [
+                    {
+                        "componentId": "DATASTORE.6", 
+                        "componentKind": "DATASTORE", 
+                        "componentName": "Datastore1", 
+                        "eventId": "23da1f40-a587-11e7-b429-0050cc7a7b75", 
+                        "eventType": "DatastoreHealthOKEvent", 
+                        "keyValues": [], 
+                        "severity": "INFO", 
+                        "triggerTime": 1506738549875486783
+                    }
+                ], 
+                "extendedAttributes": [], 
+                "id": "DATASTORE.6", 
+                "kind": "DATASTORE", 
+                "status": 2
+            }, 
+            "identifier": "Datastore1", 
+            "status": "ENABLED", 
+            "usable": 283.37248664855997, 
+            "used": 21.70806037048351
+        }
+    ]
+}

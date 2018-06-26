@@ -1,0 +1,83 @@
+
+[
+
+      {
+         "Free": 743620112384,
+         "Mount Point": "\/vmfs\/volumes\/4c3d99dd-a7f147db",
+         "Mounted": true,
+         "Size": 763378130944,
+         "Type": "NFS",
+         "UUID": "4c3d99dd-a7f147db",
+         "Volume Name": "tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181525-Datastore1"
+      }, 
+
+      {
+         "Free": 6695157760,
+         "Mount Point": "\/vmfs\/volumes\/5a9a09e4-90d278b8-f0b8-da0020728ade",
+         "Mounted": true,
+         "Size": 7784628224,
+         "Type": "VFFS",
+         "UUID": "5a9a09e4-90d278b8-f0b8-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-B5FRJ9"
+      }, 
+
+      {
+         "Free": 15729688576,
+         "Mount Point": "\/vmfs\/volumes\/5a9a09e5-23b777aa-3869-da0020728ade",
+         "Mounted": true,
+         "Size": 24964497408,
+         "Type": "VFFS",
+         "UUID": "5a9a09e5-23b777aa-3869-da0020728ade",
+         "Volume Name": "datrium-reserved-core-vesx00_da:00:20:72:8a:de-7CTEAH"
+      }, 
+
+      {
+         "Free": 6899630080,
+         "Mount Point": "\/vmfs\/volumes\/5a9a0a07-48cf9180-d0b5-da0020728ade",
+         "Mounted": true,
+         "Size": 7784628224,
+         "Type": "VFFS",
+         "UUID": "5a9a0a07-48cf9180-d0b5-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-GT5MIJ"
+      }, 
+
+      {
+         "Free": 83927040,
+         "Mount Point": "\/vmfs\/volumes\/582e5c2c-ab33b738-8d35-0050569f1d40",
+         "Mounted": true,
+         "Size": 299712512,
+         "Type": "vfat",
+         "UUID": "582e5c2c-ab33b738-8d35-0050569f1d40",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 4259381248,
+         "Mount Point": "\/vmfs\/volumes\/582e5c33-b97a9b7f-ef9b-0050569f1d40",
+         "Mounted": true,
+         "Size": 4293591040,
+         "Type": "vfat",
+         "UUID": "582e5c33-b97a9b7f-ef9b-0050569f1d40",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 111251456,
+         "Mount Point": "\/vmfs\/volumes\/045b1f7d-afef8d2a-9d47-ddeb46b56410",
+         "Mounted": true,
+         "Size": 261853184,
+         "Type": "vfat",
+         "UUID": "045b1f7d-afef8d2a-9d47-ddeb46b56410",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 111218688,
+         "Mount Point": "\/vmfs\/volumes\/c07c7477-8047e0d3-e4e1-3c1f078157b1",
+         "Mounted": true,
+         "Size": 261853184,
+         "Type": "vfat",
+         "UUID": "c07c7477-8047e0d3-e4e1-3c1f078157b1",
+         "Volume Name": ""
+      }
+]

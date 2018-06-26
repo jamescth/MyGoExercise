@@ -1,0 +1,14 @@
+{
+    "bandwidth": 1500.0, 
+    "currentBandwidth": 1500.0, 
+    "reducedBandwidth": 1000.0, 
+    "reducedDays": [
+        "Mon", 
+        "Tue", 
+        "Wed", 
+        "Thu", 
+        "Fri"
+    ], 
+    "reducedEndTime": "21:00", 
+    "reducedStartTime": "06:00"
+}

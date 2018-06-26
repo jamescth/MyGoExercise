@@ -1,0 +1,172 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:05Z iofiltervpd[66514]: main:176:IOFilterVP loading filter configurations ...
+2016-11-18T01:50:05Z iofiltervpd[66514]: GetInstance:70:Allocated a new instance of IOFilterConfigManager
+2016-11-18T01:50:05Z iofiltervpd[66514]: LoadConfigurationsFromConfigFile:215:Number of filters loaded: 0
+2016-11-18T01:50:05Z iofiltervpd[66514]: IOFVPSSL_ParseAdvancedProtocolOptions:409:Disabled ssl protocols: sslv3
+2016-11-18T01:50:05Z iofiltervpd[66514]: main:222:SSL ciphers supported: !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:50:05Z iofiltervpd[66514]: main:231:sslflag : 513
+2016-11-18T01:50:05Z iofiltervpd[66514]: main:241:IOFilterVP successfully started.
+2016-11-18T01:50:06Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:239:received command:
+2016-11-18T01:50:06Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:252:Invalid command sent over the control channel:  size= 0
+2016-11-18T01:50:07Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml VMW_vmwarevmcrypt_1.0.0
+2016-11-18T01:50:07Z iofiltervpd[66514]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml: successfully loaded filter configuration.
+2016-11-18T01:50:07Z iofiltervpd[66514]: ReadConfigFromFile:248:FilterName: vmwarevmcrypt
+2016-11-18T01:50:07Z iofiltervpd[66514]: ReadConfigFromFile:249:FilterClass: encryption
+2016-11-18T01:50:07Z iofiltervpd[66514]: ReadConfigFromFile:250:FilterVersion: 1.0.0
+2016-11-18T01:50:07Z iofiltervpd[66514]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:50:07Z iofiltervpd[66514]: LoadFilterCatalogs:191:Added 1 catalog(s) for filter vmwarevmcrypt
+2016-11-18T01:50:07Z iofiltervpd[66514]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T01:50:07Z iofiltervpd[66514]: AddConfiguration:258:Number of filters loaded: 1
+2016-11-18T01:50:08Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/spm-config.xml VMW_spm_1.0.0
+2016-11-18T01:50:08Z iofiltervpd[66514]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/spm-config.xml: successfully loaded filter configuration.
+2016-11-18T01:50:08Z iofiltervpd[66514]: ReadConfigFromFile:248:FilterName: spm
+2016-11-18T01:50:08Z iofiltervpd[66514]: ReadConfigFromFile:249:FilterClass: datastoreIoControl
+2016-11-18T01:50:08Z iofiltervpd[66514]: ReadConfigFromFile:250:FilterVersion: 1.0.230
+2016-11-18T01:50:08Z iofiltervpd[66514]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:50:08Z iofiltervpd[66514]: LoadFilterCatalogs:191:Added 8 catalog(s) for filter spm
+2016-11-18T01:50:08Z iofiltervpd[66514]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T01:50:08Z iofiltervpd[66514]: AddConfiguration:258:Number of filters loaded: 2
+2016-11-18T01:52:55Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:292:Number of filters loaded: 1
+2016-11-18T01:52:55Z iofiltervpd[66514]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T01:52:55Z iofiltervpd[66514]: RemoveConfiguration:292:Number of filters loaded: 0
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:51Z iofiltervpd[66510]: main:176:IOFilterVP loading filter configurations ...
+2016-11-18T01:53:51Z iofiltervpd[66510]: GetInstance:70:Allocated a new instance of IOFilterConfigManager
+2016-11-18T01:53:51Z iofiltervpd[66510]: LoadConfigurationsFromConfigFile:215:Number of filters loaded: 0
+2016-11-18T01:53:51Z iofiltervpd[66510]: IOFVPSSL_ParseAdvancedProtocolOptions:409:Disabled ssl protocols: sslv3
+2016-11-18T01:53:51Z iofiltervpd[66510]: main:222:SSL ciphers supported: !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:53:51Z iofiltervpd[66510]: main:231:sslflag : 513
+2016-11-18T01:53:52Z iofiltervpd[66510]: main:241:IOFilterVP successfully started.
+2016-11-18T01:53:52Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:239:received command:
+2016-11-18T01:53:52Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:252:Invalid command sent over the control channel:  size= 0
+2016-11-18T01:53:53Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml VMW_vmwarevmcrypt_1.0.0
+2016-11-18T01:53:53Z iofiltervpd[66510]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml: successfully loaded filter configuration.
+2016-11-18T01:53:53Z iofiltervpd[66510]: ReadConfigFromFile:248:FilterName: vmwarevmcrypt
+2016-11-18T01:53:53Z iofiltervpd[66510]: ReadConfigFromFile:249:FilterClass: encryption
+2016-11-18T01:53:53Z iofiltervpd[66510]: ReadConfigFromFile:250:FilterVersion: 1.0.0
+2016-11-18T01:53:53Z iofiltervpd[66510]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:53:53Z iofiltervpd[66510]: LoadFilterCatalogs:191:Added 1 catalog(s) for filter vmwarevmcrypt
+2016-11-18T01:53:53Z iofiltervpd[66510]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T01:53:53Z iofiltervpd[66510]: AddConfiguration:258:Number of filters loaded: 1
+2016-11-18T01:53:55Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/spm-config.xml VMW_spm_1.0.0
+2016-11-18T01:53:55Z iofiltervpd[66510]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/spm-config.xml: successfully loaded filter configuration.
+2016-11-18T01:53:55Z iofiltervpd[66510]: ReadConfigFromFile:248:FilterName: spm
+2016-11-18T01:53:55Z iofiltervpd[66510]: ReadConfigFromFile:249:FilterClass: datastoreIoControl
+2016-11-18T01:53:55Z iofiltervpd[66510]: ReadConfigFromFile:250:FilterVersion: 1.0.230
+2016-11-18T01:53:55Z iofiltervpd[66510]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:53:55Z iofiltervpd[66510]: LoadFilterCatalogs:191:Added 8 catalog(s) for filter spm
+2016-11-18T01:53:55Z iofiltervpd[66510]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T01:53:55Z iofiltervpd[66510]: AddConfiguration:258:Number of filters loaded: 2
+2016-11-18T01:57:57Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T01:57:57Z iofiltervpd[66510]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T01:57:57Z iofiltervpd[66510]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T01:57:57Z iofiltervpd[66510]: RemoveConfiguration:292:Number of filters loaded: 1
+2016-11-18T01:57:58Z iofiltervpd[66510]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T01:57:58Z iofiltervpd[66510]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T01:57:58Z iofiltervpd[66510]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T01:57:58Z iofiltervpd[66510]: RemoveConfiguration:292:Number of filters loaded: 0
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:53Z iofiltervpd[66512]: main:176:IOFilterVP loading filter configurations ...
+2016-11-18T01:58:53Z iofiltervpd[66512]: GetInstance:70:Allocated a new instance of IOFilterConfigManager
+2016-11-18T01:58:53Z iofiltervpd[66512]: LoadConfigurationsFromConfigFile:215:Number of filters loaded: 0
+2016-11-18T01:58:53Z iofiltervpd[66512]: IOFVPSSL_ParseAdvancedProtocolOptions:409:Disabled ssl protocols: sslv3
+2016-11-18T01:58:53Z iofiltervpd[66512]: main:222:SSL ciphers supported: !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:58:53Z iofiltervpd[66512]: main:231:sslflag : 513
+2016-11-18T01:58:53Z iofiltervpd[66512]: main:241:IOFilterVP successfully started.
+2016-11-18T01:58:54Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:239:received command:
+2016-11-18T01:58:54Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:252:Invalid command sent over the control channel:  size= 0
+2016-11-18T01:58:55Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml VMW_vmwarevmcrypt_1.0.0
+2016-11-18T01:58:55Z iofiltervpd[66512]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml: successfully loaded filter configuration.
+2016-11-18T01:58:55Z iofiltervpd[66512]: ReadConfigFromFile:248:FilterName: vmwarevmcrypt
+2016-11-18T01:58:55Z iofiltervpd[66512]: ReadConfigFromFile:249:FilterClass: encryption
+2016-11-18T01:58:55Z iofiltervpd[66512]: ReadConfigFromFile:250:FilterVersion: 1.0.0
+2016-11-18T01:58:55Z iofiltervpd[66512]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:58:55Z iofiltervpd[66512]: LoadFilterCatalogs:191:Added 1 catalog(s) for filter vmwarevmcrypt
+2016-11-18T01:58:55Z iofiltervpd[66512]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T01:58:55Z iofiltervpd[66512]: AddConfiguration:258:Number of filters loaded: 1
+2016-11-18T01:58:56Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/spm-config.xml VMW_spm_1.0.0
+2016-11-18T01:58:56Z iofiltervpd[66512]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/spm-config.xml: successfully loaded filter configuration.
+2016-11-18T01:58:56Z iofiltervpd[66512]: ReadConfigFromFile:248:FilterName: spm
+2016-11-18T01:58:56Z iofiltervpd[66512]: ReadConfigFromFile:249:FilterClass: datastoreIoControl
+2016-11-18T01:58:56Z iofiltervpd[66512]: ReadConfigFromFile:250:FilterVersion: 1.0.230
+2016-11-18T01:58:56Z iofiltervpd[66512]: ReadConfigFromFile:251:FilterType: disk
+2016-11-18T01:58:56Z iofiltervpd[66512]: LoadFilterCatalogs:191:Added 8 catalog(s) for filter spm
+2016-11-18T01:58:56Z iofiltervpd[66512]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T01:58:56Z iofiltervpd[66512]: AddConfiguration:258:Number of filters loaded: 2
+2016-11-18T02:00:49Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T02:00:49Z iofiltervpd[66512]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-18T02:00:49Z iofiltervpd[66512]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-18T02:00:49Z iofiltervpd[66512]: RemoveConfiguration:292:Number of filters loaded: 1
+2016-11-18T02:00:50Z iofiltervpd[66512]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T02:00:50Z iofiltervpd[66512]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-18T02:00:50Z iofiltervpd[66512]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-18T02:00:50Z iofiltervpd[66512]: RemoveConfiguration:292:Number of filters loaded: 0
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:17Z iofiltervpd[66511]: main:176:IOFilterVP loading filter configurations ...
+2016-11-29T01:15:17Z iofiltervpd[66511]: GetInstance:70:Allocated a new instance of IOFilterConfigManager
+2016-11-29T01:15:17Z iofiltervpd[66511]: LoadConfigurationsFromConfigFile:215:Number of filters loaded: 0
+2016-11-29T01:15:17Z iofiltervpd[66511]: IOFVPSSL_ParseAdvancedProtocolOptions:409:Disabled ssl protocols: sslv3
+2016-11-29T01:15:17Z iofiltervpd[66511]: main:222:SSL ciphers supported: !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-29T01:15:17Z iofiltervpd[66511]: main:231:sslflag : 513
+2016-11-29T01:15:17Z iofiltervpd[66511]: main:241:IOFilterVP successfully started.
+2016-11-29T01:15:18Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:239:received command:
+2016-11-29T01:15:18Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:252:Invalid command sent over the control channel:  size= 0
+2016-11-29T01:15:19Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml VMW_vmwarevmcrypt_1.0.0
+2016-11-29T01:15:19Z iofiltervpd[66511]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml: successfully loaded filter configuration.
+2016-11-29T01:15:19Z iofiltervpd[66511]: ReadConfigFromFile:248:FilterName: vmwarevmcrypt
+2016-11-29T01:15:19Z iofiltervpd[66511]: ReadConfigFromFile:249:FilterClass: encryption
+2016-11-29T01:15:19Z iofiltervpd[66511]: ReadConfigFromFile:250:FilterVersion: 1.0.0
+2016-11-29T01:15:19Z iofiltervpd[66511]: ReadConfigFromFile:251:FilterType: disk
+2016-11-29T01:15:19Z iofiltervpd[66511]: LoadFilterCatalogs:191:Added 1 catalog(s) for filter vmwarevmcrypt
+2016-11-29T01:15:19Z iofiltervpd[66511]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-29T01:15:19Z iofiltervpd[66511]: AddConfiguration:258:Number of filters loaded: 1
+2016-11-29T01:15:21Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/spm-config.xml VMW_spm_1.0.0
+2016-11-29T01:15:21Z iofiltervpd[66511]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/spm-config.xml: successfully loaded filter configuration.
+2016-11-29T01:15:21Z iofiltervpd[66511]: ReadConfigFromFile:248:FilterName: spm
+2016-11-29T01:15:21Z iofiltervpd[66511]: ReadConfigFromFile:249:FilterClass: datastoreIoControl
+2016-11-29T01:15:21Z iofiltervpd[66511]: ReadConfigFromFile:250:FilterVersion: 1.0.230
+2016-11-29T01:15:21Z iofiltervpd[66511]: ReadConfigFromFile:251:FilterType: disk
+2016-11-29T01:15:21Z iofiltervpd[66511]: LoadFilterCatalogs:191:Added 8 catalog(s) for filter spm
+2016-11-29T01:15:21Z iofiltervpd[66511]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-29T01:15:21Z iofiltervpd[66511]: AddConfiguration:258:Number of filters loaded: 2
+2016-11-29T01:18:11Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-29T01:18:11Z iofiltervpd[66511]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml
+2016-11-29T01:18:11Z iofiltervpd[66511]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2016-11-29T01:18:11Z iofiltervpd[66511]: RemoveConfiguration:292:Number of filters loaded: 1
+2016-11-29T01:18:12Z iofiltervpd[66511]: IOFilterVPControlHandleMessage:239:received command: removeconf /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-29T01:18:12Z iofiltervpd[66511]: RemoveConfiguration:285:Removing configuration: /usr/lib/vmware/vmiof/disk/spm-config.xml
+2016-11-29T01:18:12Z iofiltervpd[66511]: RemoveConfiguration:291:Removed configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2016-11-29T01:18:12Z iofiltervpd[66511]: RemoveConfiguration:292:Number of filters loaded: 0
+2018-01-30T06:05:55Z mark: storage-path-claim-completed
+2018-01-30T06:05:56Z iofiltervpd[66509]: main:176:IOFilterVP loading filter configurations ...
+2018-01-30T06:05:56Z iofiltervpd[66509]: GetInstance:70:Allocated a new instance of IOFilterConfigManager
+2018-01-30T06:05:56Z iofiltervpd[66509]: LoadConfigurationsFromConfigFile:215:Number of filters loaded: 0
+2018-01-30T06:05:56Z iofiltervpd[66509]: IOFVPSSL_ParseAdvancedProtocolOptions:409:Disabled ssl protocols: sslv3
+2018-01-30T06:05:56Z iofiltervpd[66509]: main:222:SSL ciphers supported: !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2018-01-30T06:05:56Z iofiltervpd[66509]: main:231:sslflag : 513
+2018-01-30T06:05:57Z iofiltervpd[66509]: main:241:IOFilterVP successfully started.
+2018-01-30T06:05:57Z iofiltervpd[66509]: IOFilterVPControlHandleMessage:239:received command:
+2018-01-30T06:05:57Z iofiltervpd[66509]: IOFilterVPControlHandleMessage:252:Invalid command sent over the control channel:  size= 0
+2018-01-30T06:05:58Z iofiltervpd[66509]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml VMW_vmwarevmcrypt_1.0.0
+2018-01-30T06:05:58Z iofiltervpd[66509]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml: successfully loaded filter configuration.
+2018-01-30T06:05:58Z iofiltervpd[66509]: ReadConfigFromFile:248:FilterName: vmwarevmcrypt
+2018-01-30T06:05:58Z iofiltervpd[66509]: ReadConfigFromFile:249:FilterClass: encryption
+2018-01-30T06:05:58Z iofiltervpd[66509]: ReadConfigFromFile:250:FilterVersion: 1.0.0
+2018-01-30T06:05:58Z iofiltervpd[66509]: ReadConfigFromFile:251:FilterType: disk
+2018-01-30T06:05:58Z iofiltervpd[66509]: LoadFilterCatalogs:191:Added 1 catalog(s) for filter vmwarevmcrypt
+2018-01-30T06:05:58Z iofiltervpd[66509]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml successfully.
+2018-01-30T06:05:58Z iofiltervpd[66509]: AddConfiguration:258:Number of filters loaded: 1
+2018-01-30T06:05:59Z iofiltervpd[66509]: IOFilterVPControlHandleMessage:239:received command: addconf /usr/lib/vmware/vmiof/disk/spm-config.xml VMW_spm_1.0.0
+2018-01-30T06:05:59Z iofiltervpd[66509]: ReadConfigFromFile:247:/usr/lib/vmware/vmiof/disk/spm-config.xml: successfully loaded filter configuration.
+2018-01-30T06:05:59Z iofiltervpd[66509]: ReadConfigFromFile:248:FilterName: spm
+2018-01-30T06:05:59Z iofiltervpd[66509]: ReadConfigFromFile:249:FilterClass: datastoreIoControl
+2018-01-30T06:05:59Z iofiltervpd[66509]: ReadConfigFromFile:250:FilterVersion: 1.0.230
+2018-01-30T06:05:59Z iofiltervpd[66509]: ReadConfigFromFile:251:FilterType: disk
+2018-01-30T06:05:59Z iofiltervpd[66509]: LoadFilterCatalogs:191:Added 8 catalog(s) for filter spm
+2018-01-30T06:05:59Z iofiltervpd[66509]: LoadConfiguration:158:Added configuration file: /usr/lib/vmware/vmiof/disk/spm-config.xml successfully.
+2018-01-30T06:05:59Z iofiltervpd[66509]: AddConfiguration:258:Number of filters loaded: 2

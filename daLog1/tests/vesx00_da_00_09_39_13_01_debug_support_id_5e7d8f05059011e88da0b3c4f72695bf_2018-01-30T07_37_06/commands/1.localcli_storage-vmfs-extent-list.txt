@@ -1,0 +1,5 @@
+Volume Name                                            VMFS UUID                            Extent Number  Device Name          Partition
+-----------------------------------------------------------------------------------------------------------------------------------------
+datrium-reserved-sys-vesx00_da:00:09:39:13:01-L7A1JT   5a700ee4-fd6614ae-8dcf-da0009391301              0  mpx.vmhba1:C0:T1:L0          1  
+datrium-reserved-sys-vesx00_da:00:09:39:13:01-FP6U4M   5a700ee6-68b2761e-b209-da0009391301              0  mpx.vmhba1:C0:T0:L0          3  
+datrium-reserved-core-vesx00_da:00:09:39:13:01-BUU6HF  5a700ee8-3ae9fbe2-5f30-da0009391301              0  mpx.vmhba1:C0:T0:L0          4  

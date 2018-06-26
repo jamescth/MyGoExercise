@@ -1,0 +1,55 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:18Z ESXShell: ESXi Shell unavailable
+2016-11-18T01:51:25Z ESXShell: ESXi shell login enabled
+2016-11-18T01:51:25Z ESXShell: ESXi Shell available
+2016-11-18T01:51:27Z SSH: SSH login enabled
+2016-11-18T01:51:59Z shell[67888]: Interactive shell session started
+2016-11-18T01:52:07Z shell[67888]: [root]: esxcfg-advcfg -s 1 /Net/FollowHardwareMac
+2016-11-18T01:52:45Z shell[67888]: [root]: reboot
+2016-11-18T01:52:56Z ESXShell: ESXi shell login disabled
+2016-11-18T01:52:56Z SSH: SSH login disabled
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:50Z ESXShell: ESXi shell login enabled
+2016-11-18T01:53:50Z SSH: SSH login enabled
+2016-11-18T01:54:05Z ESXShell: ESXi Shell available
+2016-11-18T01:54:22Z shell[67766]: Interactive shell session started
+2016-11-18T01:54:30Z shell[67766]: [root]: ls -l /vmfs/volumes/
+2016-11-18T01:54:53Z shell[67766]: [root]: ls -l /vmfs/devices/disks/
+2016-11-18T01:55:25Z shell[67766]: [root]: esxcli filesystem
+2016-11-18T01:55:29Z shell[67766]: [root]: esxcli storage
+2016-11-18T01:55:33Z shell[67766]: [root]: esxcli storage filesystem
+2016-11-18T01:55:35Z shell[67766]: [root]: esxcli storage filesystem list
+2016-11-18T01:56:02Z shell[67766]: [root]: esxcli storage filesystem unmount -l datastore1
+2016-11-18T01:56:29Z shell[67766]: [root]: ls -l /vmfs/volumes/
+2016-11-18T01:56:35Z shell[67766]: [root]: ls -l /vmfs/volumes/582e5c32-5b0663e1-03bb-0050569f1d40
+2016-11-18T01:56:44Z shell[67766]: [root]: ls -l /vmfs/devices/
+2016-11-18T01:56:47Z shell[67766]: [root]: ls -l /vmfs/devices/disks/
+2016-11-18T01:57:02Z shell[67766]: [root]: partUtil delete /vmfs/devices/disks/mpx.vmhba1\:C0\:T0\:L0 3
+2016-11-18T01:57:32Z shell[67766]: [root]: partedUtil delete /vmfs/devices/disks/mpx.vmhba1\:C0\:T0\:L0 3
+2016-11-18T01:57:48Z shell[67766]: [root]: reboot
+2016-11-18T01:57:58Z ESXShell: ESXi shell login disabled
+2016-11-18T01:57:58Z SSH: SSH login disabled
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:52Z ESXShell: ESXi shell login enabled
+2016-11-18T01:58:52Z SSH: SSH login enabled
+2016-11-18T01:59:07Z ESXShell: ESXi Shell available
+2016-11-18T02:00:24Z shell[67782]: Interactive shell session started
+2016-11-18T02:00:29Z shell[67782]: [root]: ls -l /vmfs/volumes/
+2016-11-18T02:00:39Z shell[67782]: [root]: shutdown.sh
+2016-11-18T02:00:50Z ESXShell: ESXi shell login disabled
+2016-11-18T02:00:51Z SSH: SSH login disabled
+2016-11-18T02:00:51Z ESXShell: ESXi Shell unavailable
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:16Z ESXShell: ESXi shell login enabled
+2016-11-29T01:15:16Z SSH: SSH login enabled
+2016-11-29T01:15:33Z ESXShell: ESXi Shell available
+2016-11-29T01:17:45Z shell[67788]: Interactive shell session started
+2016-11-29T01:17:52Z shell[67788]: [root]: vi /etc/vmware/esx.conf
+2016-11-29T01:18:00Z shell[67788]: [root]: shutdown.sh
+2016-11-29T01:18:12Z ESXShell: ESXi shell login disabled
+2016-11-29T01:18:12Z SSH: SSH login disabled
+2016-11-29T01:18:12Z ESXShell: ESXi Shell unavailable
+2018-01-30T06:05:55Z mark: storage-path-claim-completed
+2018-01-30T06:05:55Z ESXShell: ESXi shell login enabled
+2018-01-30T06:05:56Z SSH: SSH login enabled
+2018-01-30T06:06:10Z ESXShell: ESXi Shell available

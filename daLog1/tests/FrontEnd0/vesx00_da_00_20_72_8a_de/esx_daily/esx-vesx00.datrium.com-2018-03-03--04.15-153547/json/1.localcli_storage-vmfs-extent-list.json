@@ -1,0 +1,30 @@
+
+[
+
+      {
+         "Device Name": "mpx.vmhba1:C0:T0:L0",
+         "Extent Number": 0,
+         "LVM UUID": "5a9a09e4-7839aea2-45b6-da0020728ade",
+         "Partition": 3,
+         "VMFS UUID": "5a9a09e4-90d278b8-f0b8-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-B5FRJ9"
+      }, 
+
+      {
+         "Device Name": "mpx.vmhba1:C0:T0:L0",
+         "Extent Number": 0,
+         "LVM UUID": "5a9a09e5-13525730-377e-da0020728ade",
+         "Partition": 4,
+         "VMFS UUID": "5a9a09e5-23b777aa-3869-da0020728ade",
+         "Volume Name": "datrium-reserved-core-vesx00_da:00:20:72:8a:de-7CTEAH"
+      }, 
+
+      {
+         "Device Name": "mpx.vmhba1:C0:T1:L0",
+         "Extent Number": 0,
+         "LVM UUID": "5a9a0a07-3cb9b1a6-6284-da0020728ade",
+         "Partition": 1,
+         "VMFS UUID": "5a9a0a07-48cf9180-d0b5-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-GT5MIJ"
+      }
+]

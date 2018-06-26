@@ -1,0 +1,2 @@
+VMware ESXi 6.5.0 build-4564106
+VMware ESXi 6.5.0 GA

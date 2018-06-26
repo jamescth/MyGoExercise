@@ -1,0 +1,12 @@
+{
+	"user":"root",
+	"password":"sha1c0w",
+	"passphrase":"",
+	"hosts":["10.80.9.63"],
+	"cmds":[
+		{
+			"desc":"bug 33676",
+			"output":"","run":"export DATRIUM_SERVER_PLAT_DEV=1; dacli kv set \"conf:use_vmfs\" \"True\";dacli kv cpl \"conf:use_vmfs\" \"persist-across-reboot\""
+		}
+	]
+}

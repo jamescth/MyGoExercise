@@ -1,0 +1,7 @@
+cat datrium*/Version.txt
+
+esxcli software vib list | grep dat
+
+esxcli software vib remote -n datrium-head-esx
+
+esxcli software vib install -d http://{dvx ip}/static/ESXVISHyperDriver

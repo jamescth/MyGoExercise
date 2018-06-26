@@ -1,0 +1,11 @@
+Controller        :      1 [Self]                                     2 [Peer]                                
+dvaId             :      30304d35-1612-2200-95a5-95a980fce604         30304d35-1612-2200-95a5-95a980fce604    
+serialNo          :      RMS1013354G00LG                              RMS1013354G0224                         
+role              :      Passive                                      Active                                  
+maintenance       :      0                                            0                                       
+controllerState   :      Ok                                           Ok                                      
+replState         :      Synced                                       Synced                                  
+haState           :      Redundant                                    Redundant                               
+mirrorOn          :      1                                            1                                       
+runningVersion    :      3.1.1.0-27658_d471364                        3.1.1.0-27658_d471364                   
+

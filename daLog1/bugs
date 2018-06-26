@@ -1,0 +1,103 @@
+$dmesg -T | grep -E -i -B100 'killed process'
+
+[Wed Apr 18 13:53:22 2018] Hardware name: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 09/21/2015
+[Wed Apr 18 13:53:22 2018]  ffff8806233e0fd0 00000000cc76efa3 ffff88059d6bb920 ffffffff816a3e51
+[Wed Apr 18 13:53:22 2018]  ffff88059d6bb9b0 ffffffff8169f246 ffffffff810e93ac ffff8800354cd590
+[Wed Apr 18 13:53:22 2018]  ffff8800354cd5a8 0000000000000206 0000000000000206 ffff88059d6bb9a0
+[Wed Apr 18 13:53:22 2018] Call Trace:
+[Wed Apr 18 13:53:22 2018]  [<ffffffff816a3e51>] dump_stack+0x19/0x1b
+[Wed Apr 18 13:53:22 2018]  [<ffffffff8169f246>] dump_header+0x90/0x229
+[Wed Apr 18 13:53:22 2018]  [<ffffffff810e93ac>] ? ktime_get_ts64+0x4c/0xf0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff8113d37f>] ? delayacct_end+0x8f/0xb0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff811863a4>] oom_kill_process+0x254/0x3d0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff81185e4d>] ? oom_unkillable_task+0xcd/0x120
+[Wed Apr 18 13:53:22 2018]  [<ffffffff81185ef6>] ? find_lock_task_mm+0x56/0xc0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff81186be6>] out_of_memory+0x4b6/0x4f0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff8169fd4a>] __alloc_pages_slowpath+0x5d6/0x724
+[Wed Apr 18 13:53:22 2018]  [<ffffffff8118cdb5>] __alloc_pages_nodemask+0x405/0x420
+[Wed Apr 18 13:53:22 2018]  [<ffffffff811d1078>] alloc_pages_current+0x98/0x110
+[Wed Apr 18 13:53:22 2018]  [<ffffffff81182927>] __page_cache_alloc+0x97/0xb0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff81184ec0>] filemap_fault+0x170/0x410
+[Wed Apr 18 13:53:22 2018]  [<ffffffffc0267156>] ext4_filemap_fault+0x36/0x50 [ext4]
+[Wed Apr 18 13:53:22 2018]  [<ffffffff811ad0d2>] __do_fault+0x52/0xe0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff811ad57b>] do_read_fault.isra.44+0x4b/0x130
+[Wed Apr 18 13:53:22 2018]  [<ffffffff811b1e81>] handle_mm_fault+0x691/0xfa0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff8120011d>] ? do_sync_read+0x8d/0xd0
+[Wed Apr 18 13:53:22 2018]  [<ffffffff816b0074>] __do_page_fault+0x154/0x450
+[Wed Apr 18 13:53:22 2018]  [<ffffffff816b03a5>] do_page_fault+0x35/0x90
+[Wed Apr 18 13:53:22 2018]  [<ffffffff816ac5c8>] page_fault+0x28/0x30
+[Wed Apr 18 13:53:22 2018] Mem-Info:
+[Wed Apr 18 13:53:22 2018] active_anon:5515472 inactive_anon:493398 isolated_anon:32
+ active_file:77 inactive_file:272 isolated_file:0
+ unevictable:0 dirty:0 writeback:0 unstable:0
+ slab_reclaimable:9587 slab_unreclaimable:7062
+ mapped:1054 shmem:1023 pagetables:14551 bounce:0
+ free:41892 free_pcp:90 free_cma:0
+[Wed Apr 18 13:53:22 2018] Node 0 DMA free:15860kB min:40kB low:48kB high:60kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15992kB managed:15908kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:16kB kernel_stack:0kB pagetables:0kB unstable:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? yes
+[Wed Apr 18 13:53:22 2018] lowmem_reserve[]: 0 2813 23924 23924
+[Wed Apr 18 13:53:22 2018] Node 0 DMA32 free:92208kB min:7940kB low:9924kB high:11908kB active_anon:2219220kB inactive_anon:556060kB active_file:16kB inactive_file:16kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3129216kB managed:2883208kB mlocked:0kB dirty:0kB writeback:0kB mapped:8kB shmem:4kB slab_reclaimable:3692kB slab_unreclaimable:2060kB kernel_stack:208kB pagetables:6000kB unstable:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB writeback_tmp:0kB pages_scanned:199 all_unreclaimable? yes
+[Wed Apr 18 13:53:22 2018] lowmem_reserve[]: 0 0 21110 21110
+[Wed Apr 18 13:53:22 2018] Node 0 Normal free:59500kB min:59596kB low:74492kB high:89392kB active_anon:19842668kB inactive_anon:1417532kB active_file:292kB inactive_file:1072kB unevictable:0kB isolated(anon):128kB isolated(file):0kB present:22020096kB managed:21617520kB mlocked:0kB dirty:0kB writeback:0kB mapped:4208kB shmem:4088kB slab_reclaimable:34656kB slab_unreclaimable:26172kB kernel_stack:3440kB pagetables:52204kB unstable:0kB bounce:0kB free_pcp:360kB local_pcp:120kB free_cma:0kB writeback_tmp:0kB pages_scanned:2277 all_unreclaimable? yes
+[Wed Apr 18 13:53:22 2018] lowmem_reserve[]: 0 0 0 0
+[Wed Apr 18 13:53:22 2018] Node 0 DMA: 1*4kB (U) 0*8kB 1*16kB (U) 1*32kB (U) 1*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15860kB
+[Wed Apr 18 13:53:22 2018] Node 0 DMA32: 75*4kB (UE) 43*8kB (UE) 33*16kB (UEM) 33*32kB (UEM) 24*64kB (E) 19*128kB (EM) 7*256kB (E) 51*512kB (UM) 57*1024kB (UM) 0*2048kB 0*4096kB = 92468kB
+[Wed Apr 18 13:53:22 2018] Node 0 Normal: 9326*4kB (UE) 2718*8kB (UE) 7*16kB (UEM) 7*32kB (U) 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 59384kB
+[Wed Apr 18 13:53:22 2018] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[Wed Apr 18 13:53:22 2018] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[Wed Apr 18 13:53:22 2018] 63239 total pagecache pages
+[Wed Apr 18 13:53:22 2018] 61745 pages in swap cache
+[Wed Apr 18 13:53:22 2018] Swap cache stats: add 902511, delete 840766, find 135971/174340
+[Wed Apr 18 13:53:22 2018] Free swap  = 0kB
+[Wed Apr 18 13:53:22 2018] Total swap = 2093052kB
+[Wed Apr 18 13:53:22 2018] 6291326 pages RAM
+[Wed Apr 18 13:53:22 2018] 0 pages HighMem/MovableOnly
+[Wed Apr 18 13:53:22 2018] 162167 pages reserved
+[Wed Apr 18 13:53:22 2018] [ pid ]   uid  tgid total_vm      rss nr_ptes swapents oom_score_adj name
+[Wed Apr 18 13:53:22 2018] [  515]     0   515     9233      864      21       84             0 systemd-journal
+[Wed Apr 18 13:53:22 2018] [  540]     0   540    66578        0      33      123             0 lvmetad
+[Wed Apr 18 13:53:22 2018] [  554]     0   554    11240        1      22      368         -1000 systemd-udevd
+[Wed Apr 18 13:53:22 2018] [  706]     0   706    31972        0      18      144             0 smartd
+[Wed Apr 18 13:53:22 2018] [  708]     0   708    53030      317      39      188             0 rsyslogd
+[Wed Apr 18 13:53:22 2018] [  709]   998   709   135115        0      61     1894             0 polkitd
+[Wed Apr 18 13:53:22 2018] [  712]     0   712     5405       40      15       41             0 irqbalance
+[Wed Apr 18 13:53:22 2018] [  713]   996   713     2133        7      10       31             0 lsmd
+[Wed Apr 18 13:53:22 2018] [  715]     0   715    24903        0      41      404             0 VGAuthService
+[Wed Apr 18 13:53:22 2018] [  716]    81   716     7715        1      20      132          -900 dbus-daemon
+[Wed Apr 18 13:53:22 2018] [  757]     0   757    57837       84      57      256             0 vmtoolsd
+[Wed Apr 18 13:53:22 2018] [  760]     0   760     4210        0      13       48             0 alsactl
+[Wed Apr 18 13:53:22 2018] [  762]     0   762     1618        0       9       43             0 rngd
+[Wed Apr 18 13:53:22 2018] [  765]     0   765    54849        0      62      454             0 abrtd
+[Wed Apr 18 13:53:22 2018] [  766]     0   766    54227        1      57      351             0 abrt-watch-log
+[Wed Apr 18 13:53:22 2018] [  767]     0   767    54227        0      56      351             0 abrt-watch-log
+[Wed Apr 18 13:53:22 2018] [  791]    32   791    16239       11      35      127             0 rpcbind
+[Wed Apr 18 13:53:22 2018] [  810]     0   810    50314        1      38      123             0 gssproxy
+[Wed Apr 18 13:53:22 2018] [  984]    38   984     9055       30      23      129             0 ntpd
+[Wed Apr 18 13:53:22 2018] [  987]     0   987    28343        0      54     3137             0 dhclient
+[Wed Apr 18 13:53:22 2018] [ 1034]     0  1034    26499       12      54      232         -1000 sshd
+[Wed Apr 18 13:53:22 2018] [ 1040]     0  1040    48405        0      47      287             0 cupsd
+[Wed Apr 18 13:53:22 2018] [ 1041]     0  1041   140602       80      91     3100             0 tuned
+[Wed Apr 18 13:53:22 2018] [ 1177]     0  1177    64547        0      41      123             0 ypbind
+[Wed Apr 18 13:53:22 2018] [ 1228]     0  1228     7112       25      18       61             0 systemd-logind
+[Wed Apr 18 13:53:22 2018] [ 1240]     0  1240     6464        0      18       53             0 atd
+[Wed Apr 18 13:53:22 2018] [ 1242]     0  1242    31558       16      17      140             0 crond
+[Wed Apr 18 13:53:22 2018] [ 1279]     0  1279   158463       44      51      543             0 automount
+[Wed Apr 18 13:53:22 2018] [ 1359]     0  1359    22907        9      45      246             0 master
+[Wed Apr 18 13:53:22 2018] [ 1365]    89  1365    23457       12      47      249             0 pickup
+[Wed Apr 18 13:53:22 2018] [ 1366]    89  1366    23474        0      48      264             0 qmgr
+[Wed Apr 18 13:53:22 2018] [ 1437]     0  1437    27511        1      10       31             0 agetty
+[Wed Apr 18 13:53:22 2018] [ 1441]     0  1441    37490        1      78      328             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1456]  1320  1456    37490        0      76      332             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1457]  1320  1457    30235        1      15      435             0 bash
+[Wed Apr 18 13:53:22 2018] [ 1479]     0  1479    85374        0      69      503          -900 abrt-dbus
+[Wed Apr 18 13:53:22 2018] [ 1513]  1320  1513  7174623  5943961   12740   506549             0 cmd
+[Wed Apr 18 13:53:22 2018] [ 1538]    29  1538    11115        0      26      210             0 rpc.statd
+[Wed Apr 18 13:53:22 2018] [ 1565]     0  1565    37490      328      77        0             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1569]  1320  1569    37490      329      75        0             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1570]  1320  1570    13839      151      32        0             0 sftp-server
+[Wed Apr 18 13:53:22 2018] [ 1580]     0  1580    37490      329      75        0             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1584]  1320  1584    37490      332      74        0             0 sshd
+[Wed Apr 18 13:53:22 2018] [ 1585]  1320  1585    30202      409      16        0             0 bash
+[Wed Apr 18 13:53:22 2018] [ 1623]  1320  1623    40487      184      37        0             0 top
+[Wed Apr 18 13:53:22 2018] Out of memory: Kill process 1513 (cmd) score 971 or sacrifice child
+[Wed Apr 18 13:53:22 2018] Killed process 1513 (cmd) total-vm:28698492kB, anon-rss:23775844kB, file-rss:0kB, shmem-rss:0kB
+

@@ -1,0 +1,34 @@
+
+Mode/Changing: 2p/False
+
+Name                   Stat  PID      Auto  Enable Modes        Vmsize    RSS  Uptime
+---------------------------------------------------------------------------------
+DVFS                   S              1     1      5                                 
+ClumpStoreServer       S              1     1      4,5                               
+DaggerWorker           S              1     1      3,4,5                             
+EncryptorAgent         R     1721     1     1      2p,4,5          99M    35M 1h 1664s
+UpgradeMgr             S              1     1      3,4,5                             
+chunkstore01           S              0     0      3,4,5                             
+chunkstore02           S              0     0      3,4,5                             
+chunkstore03           S              0     0      3,4,5                             
+chunkstore04           S              0     0      3,4,5                             
+chunkstore05           S              0     0      3,4,5                             
+chunkstore06           S              0     0      3,4,5                             
+chunkstore07           S              0     0      3,4,5                             
+chunkstore08           S              0     0      3,4,5                             
+chunkstore09           S              0     0      3,4,5                             
+chunkstore10           S              0     0      3,4,5                             
+chunkstore11           S              0     0      3,4,5                             
+chunkstore12           S              0     0      3,4,5                             
+NetworkMonitor         R     1722     1     1      2,2p,3,4,5     135M    72M 1h 1664s
+eventproducer          R     1720     1     1      2,2p,3,4,5     109M    29M 1h 1664s
+AutosupportService     R     1535     1     1      1,2,2p,3,4,5   1.3G   109M 1h 1723s
+hamgr                  R     1532     1     1      1,2,2p,3,4,5   398M   134M 1h 1723s
+irqbalance             R     1534     1     1      1,2,2p,3,4,5     6M     1M 1h 1723s
+mcelog                 R     1533     1     1      1,2,2p,3,4,5    12M   920K 1h 1723s
+ntpd                   R     3030     0     1      1,2,2p,3,4,5    21M     1M 1h 1660s
+platmgr                R     1715     0     1      1,2,2p,3,4,5   468M   151M 1h 1664s
+GFPIndexSlave          R     1733     1     1      2p            15.5G    47M 1h 1664s
+NVScrollSlave          R     1730     1     1      2p             6.1G    44M 1h 1664s
+---------------------------------------------------------------------------------
+Total                                                            24.1G   627M        

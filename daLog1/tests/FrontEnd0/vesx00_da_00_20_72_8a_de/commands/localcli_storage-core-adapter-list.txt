@@ -1,0 +1,5 @@
+HBA Name  Driver  Link State  UID           Capabilities  Description
+---------------------------------------------------------------------
+vmhba0    vmkata  link-n/a    ide.vmhba0                  (0000:00:07.1) Intel Corporation PIIX4 for 430TX/440BX/MX IDE Controller
+vmhba1    mptspi  link-n/a    pscsi.vmhba1                (0000:00:10.0) LSI Logic / Symbios Logic 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI
+vmhba64   vmkata  link-n/a    ide.vmhba64                 (0000:00:07.1) Intel Corporation PIIX4 for 430TX/440BX/MX IDE Controller

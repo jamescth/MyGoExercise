@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "controllerIncomingBandwidthUsage": 0.0, 
+        "controllerOutgoingBandwidthUsage": 0.0, 
+        "hostIncomingBandwidthUsage": 0.0, 
+        "hostOutgoingBandwidthUsage": 0.0, 
+        "incomingBandwidthUsage": 0.0, 
+        "incomingThrottle": 1500.0, 
+        "livePgCount": 4, 
+        "outgoingBandwidthUsage": 0.0, 
+        "replicaPgCount": 4, 
+        "replicaSiteIncomingCount": 0, 
+        "replicaSiteOutgoingCount": 2, 
+        "status": {
+            "description": "OK", 
+            "events": [], 
+            "extendedAttributes": [], 
+            "id": "PROTECTION.root", 
+            "kind": "PROTECTION", 
+            "status": 2
+        }
+    }
+}

@@ -1,0 +1,54 @@
+
+[
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "Device Display Name": "Local VMware Disk (mpx.vmhba1:C0:T1:L0)",
+         "Is Boot USB Device": false,
+         "Is Local SAS Device": false,
+         "Is USB": false,
+         "Path Selection Policy": "VMW_PSP_FIXED",
+         "Path Selection Policy Device Config": "{preferred=vmhba1:C0:T1:L0;current=vmhba1:C0:T1:L0}",
+         "Path Selection Policy Device Custom Config": "",
+         "Storage Array Type": "VMW_SATP_LOCAL",
+         "Storage Array Type Device Config": "SATP VMW_SATP_LOCAL does not support device configuration.",
+         "Working Paths": 
+            [
+            "vmhba1:C0:T1:L0"
+            ]
+      }, 
+
+      {
+         "Device": "mpx.vmhba64:C0:T0:L0",
+         "Device Display Name": "Local NECVMWar CD-ROM (mpx.vmhba64:C0:T0:L0)",
+         "Is Boot USB Device": false,
+         "Is Local SAS Device": false,
+         "Is USB": false,
+         "Path Selection Policy": "VMW_PSP_FIXED",
+         "Path Selection Policy Device Config": "{preferred=vmhba64:C0:T0:L0;current=vmhba64:C0:T0:L0}",
+         "Path Selection Policy Device Custom Config": "",
+         "Storage Array Type": "VMW_SATP_LOCAL",
+         "Storage Array Type Device Config": "SATP VMW_SATP_LOCAL does not support device configuration.",
+         "Working Paths": 
+            [
+            "vmhba64:C0:T0:L0"
+            ]
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "Device Display Name": "Local VMware Disk (mpx.vmhba1:C0:T0:L0)",
+         "Is Boot USB Device": false,
+         "Is Local SAS Device": false,
+         "Is USB": false,
+         "Path Selection Policy": "VMW_PSP_FIXED",
+         "Path Selection Policy Device Config": "{preferred=vmhba1:C0:T0:L0;current=vmhba1:C0:T0:L0}",
+         "Path Selection Policy Device Custom Config": "",
+         "Storage Array Type": "VMW_SATP_LOCAL",
+         "Storage Array Type Device Config": "SATP VMW_SATP_LOCAL does not support device configuration.",
+         "Working Paths": 
+            [
+            "vmhba1:C0:T0:L0"
+            ]
+      }
+]

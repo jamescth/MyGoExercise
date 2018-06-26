@@ -1,0 +1,4 @@
+Neighbor      Mac Address        Vmknic  Expiry    State  Type
+--------------------------------------------------------------
+10.80.165.38  02:da:d8:74:34:0e  vmk0    1198 sec         Unknown
+10.80.0.1     88:a2:5e:54:5c:e0  vmk0    1199 sec         Unknown

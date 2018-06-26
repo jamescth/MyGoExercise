@@ -1,0 +1,7 @@
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-prolog.sh" returned no information, don't collect file vm-support-incident-key for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/dump-vmfs-traces.sh" returned no information, don't collect file var/log/vmfsGlobalTraces.tar for this cmd.
+No file found matching /var/lib/vmware/hostprofiles/statusData
+Cmd "/usr/lib/vmware/vm-support/bin/dump-vvol-traces.sh" returned no information, don't collect file var/log/vvol-traces.tar for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/hostprofile.xml.gz" returned no information, don't collect file commands/hostprofile.xml for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/answerfile.xml.gz" returned no information, don't collect file commands/answerfile.xml for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-epilog.sh" returned no information, don't collect file commands/encryption-epilog.sh.txt for this cmd.

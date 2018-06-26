@@ -1,0 +1,11 @@
+Ramdisk Name    System  Include in Coredumps  Reserved    Maximum     Used        Peak Used   Free   Reserved Free  Maximum Inodes  Allocated Inodes  Used Inodes  Mount Point
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+root            true    true                   32768 KiB   32768 KiB      28 KiB     232 KiB   99 %           99 %           17408              4960         4930  /
+etc             true    true                   28672 KiB   28672 KiB     204 KiB     236 KiB   99 %           99 %            4096              1024          595  /etc
+opt             true    true                       0 KiB   32768 KiB       8 KiB       8 KiB   99 %            0 %            8192              1024           25  /opt
+var             true    true                    5120 KiB   49152 KiB    3168 KiB    3168 KiB   93 %           38 %            8192              1024          647  /var
+tmp             false   false                   2048 KiB  262144 KiB     316 KiB    2292 KiB   99 %           84 %            8192               384            9  /tmp
+iofilters       false   false                      0 KiB   32768 KiB       0 KiB       0 KiB  100 %            0 %           10240                32            1  /var/run/iofilters
+hostdstats      false   false                      0 KiB  256000 KiB    1804 KiB    1804 KiB   99 %            0 %            8192                32            4  /var/lib/vmware/hostd/stats
+datrium-BSBSBS  false   false                 829440 KiB  829440 KiB  739368 KiB  739368 KiB   10 %           10 %            8192              4224         4220  /da-sys
+datrium-AUT26X  false   false                   1024 KiB    1024 KiB       4 KiB       4 KiB   99 %           99 %            8192                32            4  /dakv

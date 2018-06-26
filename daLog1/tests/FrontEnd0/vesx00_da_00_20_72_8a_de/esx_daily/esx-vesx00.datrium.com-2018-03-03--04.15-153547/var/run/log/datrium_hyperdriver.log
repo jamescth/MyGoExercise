@@ -1,0 +1,7 @@
+2018-03-03T02:21:17 datrium_hyperdriver: added key; rc = 0
+Value of DatriumNetshelfIp is 
+2018-03-03T02:21:18 datrium_hyperdriver: set key to ""; rc = 0
+2018-03-03T02:21:18 datrium_hyperdriver: copied plugin files; rc = 0
+hostd is running. Please restart hostd to enable datrium esxcli plugin.
+Datrium HyperDriver is not running.
+2018-03-03T02:21:18 datrium_hyperdriver: started config agent; rc = 0

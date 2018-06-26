@@ -1,0 +1,16 @@
+Device               Partition  Layout  GUID
+--------------------------------------------
+mpx.vmhba1:C0:T1:L0          0  GPT     00000000000000000000000000000000
+mpx.vmhba1:C0:T1:L0          1  GPT     aa31e02a400f11db9590000c2911d1b8
+mpx.vmhba1:C0:T1:L0          3  GPT     db56da867622478a9928b44257a2e46e
+mpx.vmhba1:C0:T0:L0          0  GPT     00000000000000000000000000000000
+mpx.vmhba1:C0:T0:L0          1  GPT     c12a7328f81f11d2ba4b00a0c93ec93b
+mpx.vmhba1:C0:T0:L0          2  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+mpx.vmhba1:C0:T0:L0          3  GPT     aa31e02a400f11db9590000c2911d1b8
+mpx.vmhba1:C0:T0:L0          4  GPT     aa31e02a400f11db9590000c2911d1b8
+mpx.vmhba1:C0:T0:L0          5  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+mpx.vmhba1:C0:T0:L0          6  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+mpx.vmhba1:C0:T0:L0          7  GPT     9d27538040ad11dbbf97000c2911d1b8
+mpx.vmhba1:C0:T0:L0          8  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+mpx.vmhba1:C0:T0:L0          9  GPT     9d27538040ad11dbbf97000c2911d1b8
+mpx.vmhba1:C0:T0:L0         10  GPT     db56da867622478a9928b44257a2e46e

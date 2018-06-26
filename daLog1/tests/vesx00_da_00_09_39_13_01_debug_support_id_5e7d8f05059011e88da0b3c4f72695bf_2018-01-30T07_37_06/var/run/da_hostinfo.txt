@@ -1,0 +1,131 @@
+{
+    "driveLayouts": [
+        {
+            "capacityMiB": 81920, 
+            "daCoreMiB": 0, 
+            "daSysMiB": 7629, 
+            "devFsPath": "/vmfs/devices/disks/mpx.vmhba1:C0:T1:L0", 
+            "fStoreMiB": 74289, 
+            "unusedMiB": 0
+        }, 
+        {
+            "capacityMiB": 51200, 
+            "daCoreMiB": 23841, 
+            "daSysMiB": 7629, 
+            "devFsPath": "/vmfs/devices/disks/mpx.vmhba1:C0:T0:L0", 
+            "fStoreMiB": 12174, 
+            "unusedMiB": 0
+        }
+    ], 
+    "hostCheck": {}, 
+    "storageControllers": [
+        {
+            "controllerId": "0", 
+            "currentMode": "Unknown", 
+            "deviceId": 0, 
+            "driver": "vmkata", 
+            "driverVersion": "0.1-1vmw.650.0.0.4564106", 
+            "firmware": "Unknown", 
+            "firmwarePackage": "Unknown", 
+            "hbaName": "vmhba0", 
+            "jbodEnabled": "None", 
+            "model": "Intel Corporation PIIX4 for 430TX/440BX/MX IDE Controller", 
+            "subDeviceId": 0, 
+            "subVendorId": 0, 
+            "supportJbod": false, 
+            "supportedMode": [
+                "Unknown"
+            ], 
+            "unconfiguredDrives": [], 
+            "vendorId": 0, 
+            "virtualDrives": []
+        }, 
+        {
+            "controllerId": "1", 
+            "currentMode": "Unknown", 
+            "deviceId": 0, 
+            "driver": "mptspi", 
+            "driverVersion": "4.23.01.00-10vmw", 
+            "firmware": "Unknown", 
+            "firmwarePackage": "Unknown", 
+            "hbaName": "vmhba1", 
+            "jbodEnabled": "None", 
+            "model": "LSI Logic / Symbios Logic 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI", 
+            "subDeviceId": 0, 
+            "subVendorId": 0, 
+            "supportJbod": false, 
+            "supportedMode": [
+                "Unknown"
+            ], 
+            "unconfiguredDrives": [], 
+            "vendorId": 0, 
+            "virtualDrives": [
+                {
+                    "devFsPath": "/vmfs/devices/disks/mpx.vmhba1:C0:T1:L0", 
+                    "driveId": 1, 
+                    "driveType": "Unknown", 
+                    "isNvme": false, 
+                    "physicalDrives": [
+                        {
+                            "driveId": 1, 
+                            "driveIdent": "1", 
+                            "firmwareRev": "1.0", 
+                            "locationDesc": "vmhba1:C0:T1:L0", 
+                            "medium": "SSD", 
+                            "serialNumber": "mpx.vmhba1:C0:T1:L0", 
+                            "sizeMiB": 81920, 
+                            "state": "on", 
+                            "vendorModel": "VMware Virtual disk"
+                        }
+                    ], 
+                    "sizeMiB": 81920, 
+                    "state": "on"
+                }, 
+                {
+                    "devFsPath": "/vmfs/devices/disks/mpx.vmhba1:C0:T0:L0", 
+                    "driveId": 0, 
+                    "driveType": "Unknown", 
+                    "isNvme": false, 
+                    "physicalDrives": [
+                        {
+                            "driveId": 0, 
+                            "driveIdent": "0", 
+                            "firmwareRev": "1.0", 
+                            "locationDesc": "vmhba1:C0:T0:L0", 
+                            "medium": "SSD", 
+                            "serialNumber": "mpx.vmhba1:C0:T0:L0", 
+                            "sizeMiB": 51200, 
+                            "state": "on", 
+                            "vendorModel": "VMware Virtual disk"
+                        }
+                    ], 
+                    "sizeMiB": 51200, 
+                    "state": "on"
+                }
+            ]
+        }, 
+        {
+            "controllerId": "64", 
+            "currentMode": "Unknown", 
+            "deviceId": 0, 
+            "driver": "vmkata", 
+            "driverVersion": "0.1-1vmw.650.0.0.4564106", 
+            "firmware": "Unknown", 
+            "firmwarePackage": "Unknown", 
+            "hbaName": "vmhba64", 
+            "jbodEnabled": "None", 
+            "model": "Intel Corporation PIIX4 for 430TX/440BX/MX IDE Controller", 
+            "subDeviceId": 0, 
+            "subVendorId": 0, 
+            "supportJbod": false, 
+            "supportedMode": [
+                "Unknown"
+            ], 
+            "unconfiguredDrives": [], 
+            "vendorId": 0, 
+            "virtualDrives": []
+        }
+    ], 
+    "timeStamp": "2018-01-30T07:37:32.074537", 
+    "version": 2
+}

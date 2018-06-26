@@ -1,0 +1,55 @@
+
+ide.vmhba64-ide.0:0-mpx.vmhba64:C0:T0:L0:
+   UID: ide.vmhba64-ide.0:0-mpx.vmhba64:C0:T0:L0
+   Runtime Name: vmhba64:C0:T0:L0
+   Device: mpx.vmhba64:C0:T0:L0
+   Device Display Name: Local NECVMWar CD-ROM (mpx.vmhba64:C0:T0:L0)
+   Adapter: vmhba64
+   Channel: 0
+   Target: 0
+   LUN: 0
+   Plugin: NMP
+   State: active
+   Transport: ide
+   Adapter Identifier: ide.vmhba64
+   Target Identifier: ide.0:0
+   Adapter Transport Details: Unavailable or path is unclaimed
+   Target Transport Details: Unavailable or path is unclaimed
+   Maximum IO Size: 32768
+
+pscsi.vmhba1-pscsi.0:1-mpx.vmhba1:C0:T1:L0:
+   UID: pscsi.vmhba1-pscsi.0:1-mpx.vmhba1:C0:T1:L0
+   Runtime Name: vmhba1:C0:T1:L0
+   Device: mpx.vmhba1:C0:T1:L0
+   Device Display Name: Local VMware Disk (mpx.vmhba1:C0:T1:L0)
+   Adapter: vmhba1
+   Channel: 0
+   Target: 1
+   LUN: 0
+   Plugin: NMP
+   State: active
+   Transport: parallel
+   Adapter Identifier: pscsi.vmhba1
+   Target Identifier: pscsi.0:1
+   Adapter Transport Details: Unavailable or path is unclaimed
+   Target Transport Details: Unavailable or path is unclaimed
+   Maximum IO Size: 4194304
+
+pscsi.vmhba1-pscsi.0:0-mpx.vmhba1:C0:T0:L0:
+   UID: pscsi.vmhba1-pscsi.0:0-mpx.vmhba1:C0:T0:L0
+   Runtime Name: vmhba1:C0:T0:L0
+   Device: mpx.vmhba1:C0:T0:L0
+   Device Display Name: Local VMware Disk (mpx.vmhba1:C0:T0:L0)
+   Adapter: vmhba1
+   Channel: 0
+   Target: 0
+   LUN: 0
+   Plugin: NMP
+   State: active
+   Transport: parallel
+   Adapter Identifier: pscsi.vmhba1
+   Target Identifier: pscsi.0:0
+   Adapter Transport Details: Unavailable or path is unclaimed
+   Target Transport Details: Unavailable or path is unclaimed
+   Maximum IO Size: 4194304
+

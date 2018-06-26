@@ -1,0 +1,4 @@
+Firewall:
+   DefaultAction: DROP
+   Enabled: true
+   Loaded: true

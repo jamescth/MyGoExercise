@@ -1,0 +1,6 @@
+/scratch/
+/scratch/var
+/scratch/var/tmp
+/scratch/downloads
+/scratch/log
+/scratch/core

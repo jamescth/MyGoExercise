@@ -1,0 +1,24 @@
+{
+	"mountPoint":"",
+	"logFiles":[
+		{
+			"desc":"hello",
+			"prefix":"core.", 
+			"type":"core"
+		},
+		{
+			"prefix":"zcore.", 
+			"type":"zcore"
+		},
+		{
+			"prefix":"dvaEvents.log",
+			"type":"plain"
+		},
+		{
+			"prefix":"vmkernel.",
+			"type":"plain",
+			"startLine":"VMKernel loaded",
+			"patterns":["fatal error", "ABORT", "NFS mount", "Dumping", "Error", "resource busy", "StorageApdHandler", "datrium_hyperdriver", "datrium-reserved-sys", "timed out", "WARNING", "Aborted VMFS IO", "RPC failed", "mbMagic", "VMKernel loaded"]
+		}
+
+}

@@ -1,0 +1,5 @@
+------------ [Sat Mar  3 02:44:07 2018] redirected stderr of ESXPlatMgr(83268) ------------
+
+--- 2018-03-03T04:11:04.379475+0000 ABORT: PROCESS: ESXPlatMgr BUILD: 4.0.1.0-30253_0d82724_g, PID: 83268 ------ Common/Bootstrap/Bootstrap.c:1028 (); in BootstrapSigCoreHandler() Got signal 7  ---
+Backtrace: 0x5db36d010 <- WaitForTerm <- Bootstrap_Main <- main <- 0x5dabf48cd <- top
+------------ [Sat Mar  3 04:12:09 2018] redirected stderr of ESXPlatMgr(150793) ------------

@@ -1,0 +1,32 @@
+{
+	"user":"root",
+	"password":"ca$hc0w",
+	"passphrase":"",
+	"hosts":["10.80.13.32","10.80.16.230"],
+	"cmds":[
+		{
+			"desc":"List NFS mounts",
+			"output":"","run":"esxcli storage nfs list"
+		},
+		{
+			"desc":"Unmount Datrium datastore {volume is list from the previous cmd",
+			"output":"","run":"esxcli storage nfs remove -v DVX_10.2.20.228_Datastore1"
+		},
+		{
+			"desc":"list the installed VIBs and look for any instances with datrium in the name",
+			"output":"", "run":"esxcli software vib list | grep -i da"
+		},
+		{
+			"desc":"uninstall the Datrium VAAI VIB first (this requires reboot)",
+			"output":"", "run":"esxcli software vib remove -n datrium-vaai-esx"
+		},
+		{
+			"desc":"remove Datrium head VIB",
+			"output":"", "run":"esxcli software vib remove -n datrium-head-esx"
+		},
+		{
+			"desc":"get back ESX esx.conf*",
+			"output":"esx.conf", "run":"cat /etc/vmware/esx.conf"
+		}
+	]
+}

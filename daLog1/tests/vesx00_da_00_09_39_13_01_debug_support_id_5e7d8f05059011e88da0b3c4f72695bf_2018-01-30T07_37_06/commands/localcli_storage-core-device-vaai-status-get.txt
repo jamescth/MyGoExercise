@@ -1,0 +1,22 @@
+
+mpx.vmhba1:C0:T1:L0:
+   VAAI Plugin Name: 
+   ATS Status: unsupported
+   Clone Status: unsupported
+   Zero Status: unsupported
+   Delete Status: unsupported
+
+mpx.vmhba64:C0:T0:L0:
+   VAAI Plugin Name: 
+   ATS Status: unsupported
+   Clone Status: unsupported
+   Zero Status: unsupported
+   Delete Status: unsupported
+
+mpx.vmhba1:C0:T0:L0:
+   VAAI Plugin Name: 
+   ATS Status: unsupported
+   Clone Status: unsupported
+   Zero Status: unsupported
+   Delete Status: unsupported
+

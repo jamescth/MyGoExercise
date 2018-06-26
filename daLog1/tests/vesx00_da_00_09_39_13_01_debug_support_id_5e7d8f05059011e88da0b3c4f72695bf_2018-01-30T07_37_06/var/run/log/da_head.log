@@ -1,0 +1,9 @@
+2018-01-30T06:20:16 da_head: ======== Starting /opt/datrium/bin/da_head start (pid: 74297) ============
+2018-01-30T06:20:16 da_head: No left over /opt/datrium/bin/procmgr.py found
+2018-01-30T06:20:16 da_head: /opt/datrium/bin/esx_platmgr.py is not running
+/opt/datrium/bin/da_head: line 316: can't open /var/run/da_sec_dom.out: no such file
+2018-01-30T06:20:54 da_head: Generating da_sec_dom.out
+2018-01-30T06:21:33 da_head: ======== Starting /opt/datrium/bin/da_head start (pid: 77453) ============
+2018-01-30T06:21:33 da_head: No left over /opt/datrium/bin/procmgr.py found
+2018-01-30T06:21:33 da_head: /opt/datrium/bin/esx_platmgr.py is not running
+No handlers could be found for logger "datrium.platform.esx.esx_kvstore"

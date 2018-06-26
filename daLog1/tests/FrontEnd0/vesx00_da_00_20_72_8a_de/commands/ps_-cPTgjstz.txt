@@ -1,0 +1,565 @@
+WID     CID     WorldName                            GID    PGID   SID    PCID    Type    State   Wait    CPU   Time          Command
+65537   0       idle1                                65537  0     0     0       SI      READY   NONE    1         0.0     
+65538   0       idle2                                65537  0     0     0       SI      READY   NONE    2         0.0     
+65539   0       idle3                                65537  0     0     0       SI      READY   NONE    3         0.0     
+65540   0       SVGAConsole                          65537  0     0     0       S       WAIT    NOEVQ   0-3       0.124518
+65541   0       debugtermlivedump                    65537  0     0     0       S       WAIT    DEBUGT  0-3       0.3     
+65542   0       logSysAlert                          65537  0     0     0       S       WAIT    SYSALE  0-3       0.697   
+65543   0       serialLogger                         65537  0     0     0       S       WAIT    SERIAL  0-3       0.2488  
+65544   0       tlbflushcount                        65537  0     0     0       S       WAIT    TLB_FC  0-3       0.1191  
+65545   0       tlbflushcounttryflush                65537  0     0     0       S       WAIT    TLB_FC  0-3       0.823069
+65546   0       PageRetire                           65537  0     0     0       S       WAIT    NOEVQ   0-3       0.194   
+65547   0       idle0                                65537  0     0     0       SI      READY   NONE    0         0.0     
+65548   0       netLegacyRx                          65537  0     0     0       S       WAIT    NET     0-3       0.5     
+65549   0       NetEventWorld                        65537  0     0     0       S       WAIT    NET     0-3       0.4     
+65550   0       netCoalesce2World                    65537  0     0     0       S       WAIT    NOEVQ   0-3       0.5     
+65551   0       netCoalesce2FineWorld                65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+65552   0       ndiscWorld                           65537  0     0     0       S       WAIT    NOEVQ   0-3       0.24858 
+65553   0       UplinkWatchdogWorld                  65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4666  
+65554   0       uplinkLoadBalancerWorld              65537  0     0     0       S       WAIT    NOEVQ   0-3       0.32305 
+65555   0       PktCapWorld                          65537  0     0     0       S       WAIT    SLP     0-3       0.4     
+65556   0       PktCapSessionFreeWorld               65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4     
+65557   0       CmdCompl-0                           65537  0     0     0       S       WAIT    NOEVQ   0         0.27348 
+65558   0       CmdCompl-1                           65537  0     0     0       S       WAIT    NOEVQ   1         0.26729 
+65559   0       CmdCompl-2                           65537  0     0     0       S       WAIT    NOEVQ   2         0.25576 
+65560   0       CmdCompl-3                           65537  0     0     0       S       WAIT    NOEVQ   3         0.28705 
+65561   0       ScsiFilterTransWorld                 65561  0     0     0       S       WAIT    LOCK    0-3       0.4     
+65562   0       AsyncTimeout                         65562  0     0     0       S       WAIT    NOEVQ   0-3       0.18664 
+65563   0       DeviceTaskmgmtWatchdog               65563  0     0     0       S       WAIT    NOEVQ   0-3       0.20152 
+65564   0       PathTaskmgmtWatchdog                 65564  0     0     0       S       WAIT    NOEVQ   0-3       0.20607 
+65565   0       SCSI-GenPurpose-0                    65537  0     0     0       S       WAIT    SCSINO  0-3       0.3     
+65566   0       directMapUnmap                       65537  0     0     0       S       WAIT    NOEVQ   0-3       0.76676 
+65567   0       RCUWorld                             65537  0     0     0       S       WAIT    NOEVQ   0-3       1.504375
+65568   0       HELPER_IMMEDIATE_QUEUE-0-0           65568  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65569   0       HELPER_MISC_QUEUE-1-0                65569  0     0     0       SH      WAIT    HREQ    0-3       0.235   
+65570   0       HELPER_MISC_QUEUE-1-1                65569  0     0     0       SH      WAIT    HREQ    0-3       0.27    
+65571   0       HELPER_MISC_QUEUE-1-2                65569  0     0     0       SH      WAIT    HREQ    0-3       0.60    
+65572   0       HELPER_VMFS_JOURNAL_QUEUE-2-0        65572  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65573   0       HELPER_LVM_DRIVER_QUEUE-3-0          65573  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65574   0       HELPER_VMFS_HEARTBEAT_QUEUE-4-0      65574  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65575   0       HELPER_VMFS_HEARTBEAT_QUEUE-4-1      65574  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65576   0       HELPER_VMFS_HEARTBEAT_QUEUE-4-2      65574  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65577   0       HELPER_VMXNET2_MISC_QUEUE-5-0        65577  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65578   0       HELPER_VMXNET2_MISC_QUEUE-5-1        65577  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65579   0       HELPER_SWAP_QUEUE-6-0                65579  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65580   0       HELPER_SWAP_QUEUE-6-1                65579  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65581   0       HELPER_SWAP_QUEUE-6-2                65579  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65582   0       HELPER_SWAP_QUEUE-6-3                65579  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65583   0       HELPER_LLSWAP_QUEUE-7-0              65583  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65584   0       HELPER_MEMSCHED_QUEUE-8-0            65584  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65585   0       HELPER_SCSI_QUEUE-9-0                65585  0     0     0       SH      WAIT    HREQ    0-3       0.49    
+65586   0       HELPER_SCSI_QUEUE-9-1                65585  0     0     0       SH      WAIT    HREQ    0-3       0.466   
+65587   0       HELPER_E1000_PAGE_IN_QUEUE-10-0      65587  0     0     0       SH      WAIT    HREQ    0-3       0.6     
+65588   0       HELPER_LVM_ASYNCIO_QUEUE-11-0        65588  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65589   0       HELPER_UPLINK_ASYNC_CALL_QUEUE-12-0  65589  0     0     0       SH      WAIT    HREQ    0-3       0.357335
+65590   0       HELPER_NETWORK_MISC_QUEUE-13-0       65590  0     0     0       SH      WAIT    HREQ    0-3       0.71    
+65591   0       HELPER_NETWORK_MISC_QUEUE-13-1       65590  0     0     0       SH      WAIT    HREQ    0-3       0.100   
+65592   0       HELPER_WATCHDOG_QUEUE-14-0           65592  0     0     0       SH      WAIT    HREQ    0-3       0.19992 
+65593   0       HELPER_MISC_INFRA_QUEUE-15-0         65593  0     0     0       SH      WAIT    HREQ    0-3       3.260215
+65594   0       HELPER_MISC_INFRA_QUEUE-15-1         65593  0     0     0       SH      WAIT    HREQ    0-3       3.250861
+65595   0       HELPER_MISC_INFRA_QUEUE-15-2         65593  0     0     0       SH      WAIT    HREQ    0-3       3.256875
+65596   0       HELPER_VMXNET3_PT_QUEUE-16-0         65596  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65597   0       HELPER_VMXNET3_PT_QUEUE-16-1         65596  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65598   0       HELPER_VMXNET3_STATS_QUEUE-17-0      65598  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65599   0       HELPER_PT_MANAGER_QUEUE-18-0         65599  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65600   0       HELPER_PAGERETIRE_QUEUE-19-0         65600  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65601   0       HELPER_IODM_QUEUE-20-0               65601  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65602   0       HELPER_USERMEM_QUEUE-21-0            65602  0     0     0       SH      WAIT    HREQ    0-3       0.3     
+65603   0       HELPER_DEFER_WORK_QUEUE-22-0         65603  0     0     0       SH      WAIT    HREQ    0-3       0.529   
+65604   0       systemSwapPDL                        65537  0     0     0       S       WAIT    NOEVQ   0-3       0.2579  
+65605   0       VMK swapper helper queue-23-0        65605  0     0     0       SH      WAIT    HREQ    0-3       0.5270  
+65621   0       llswap defragmenter                  65537  0     0     0       S       WAIT    LLSWAP  0-3       0.4     
+65622   0       gsSwapRefill                         65537  0     0     0       S       WAIT    SWPG    0-3       0.5378  
+65623   0       retireWld.0000                       65537  0     0     0       S       WAIT    NOEVQ   0         0.7     
+65624   0       retireWld.0001                       65537  0     0     0       S       WAIT    NOEVQ   1         0.9     
+65625   0       retireWld.0002                       65537  0     0     0       S       WAIT    NOEVQ   2         0.8     
+65626   0       retireWld.0003                       65537  0     0     0       S       WAIT    NOEVQ   3         0.5     
+65627   0       itRebalance                          65537  0     0     0       S       WAIT    NOEVQ   0-3       2.46004 
+65628   0       memschedRealloc-fast                 65537  0     0     0       S       WAIT    MEM     0-3       0.3     
+65629   0       memschedRealloc                      65537  0     0     0       S       WAIT    MEM     0-3       4.988088
+65630   0       memmetrics-periodic                  65537  0     0     0       S       WAIT    NOEVQ   0-3       0.73909 
+65631   0       memsched-periodic                    65537  0     0     0       S       WAIT    NOEVQ   0-3       0.254358
+65632   0       pshare-est                           65537  0     0     0       S       WAIT    NOEVQ   0-3       0.5721  
+65633   0       lpage-est                            65537  0     0     0       S       WAIT    NOEVQ   0-3       0.41480 
+65634   0       lpage                                65537  0     0     0       S       WAIT    LPAGEN  0-3       0.3     
+65635   0       CpuSchedAgingVtimes                  65537  0     0     0       S       WAIT    NOEVQ   0-3       1.502335
+65636   0       CpuSchedPeriodic                     65537  0     0     0       S       WAIT    NOEVQ   0-3       6.102745
+65637   0       CpuMetricsLoadHistory                65537  0     0     0       S       WAIT    NOEVQ   0-3       0.751079
+65638   0       CpuSchedExtendedCore                 65537  0     0     0       S       WAIT    NOEVQ   0-3       0.7401  
+65639   0       PktSlabMemoryStats                   65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3843  
+65640   0       netpoll cleanup helpers-24-0         65640  0     0     0       SH      WAIT    HREQ    0-3       0.98    
+65642   0       PSEventHelper-25-0                   65642  0     0     0       SH      WAIT    HREQ    0-3       0.145   
+65646   0       PortEventHelper-26-0                 65646  0     0     0       SH      WAIT    HREQ    0-3       0.79    
+65654   0       fssAIO-27-0                          65654  0     0     0       SH      WAIT    HREQ    0-3       0.2808  
+65658   0       DCFlushCaches                        65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4158  
+65659   0       OCFlush                              65537  0     0     0       S       WAIT    OCFLNO  0-3       1.484155
+65660   0       VCHelperQueue-28-0                   65660  0     0     0       SH      WAIT    HREQ    0-3       0.2218  
+65676   0       devfsHelper-29-0                     65676  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65677   0       bcsyncd                              65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4     
+65678   0       BCFlush-0                            65537  0     0     0       S       WAIT    BCFL    0-3       0.621621
+65679   0       BCFlush-1                            65537  0     0     0       S       WAIT    BCFL    0-3       0.797235
+65680   0       fdsAIO-30-0                          65680  0     0     0       SH      WAIT    HREQ    0-3       0.2757  
+65684   0       VSCSI HBA Helper Queue-31-0          65684  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65685   0       VSCSI HBA Helper Queue-31-1          65684  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65686   0       VSCSI HBA Helper Queue-31-2          65684  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65687   0       VSCSI HBA Helper Queue-31-3          65684  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+65688   0       VSCSI Helper Queue-32-0              65688  0     0     0       SH      WAIT    HREQ    0-3       0.132139
+65692   0       VSCSI Emulation Helper Queue-33-0    65692  0     0     0       SH      WAIT    HREQ    0-3       0.151993
+65696   0       VSCSIPoll                            65537  0     0     0       S       WAIT    NOEVQ   0-3      11.994156
+65697   0       reset-handler                        65697  0     0     0       S       WAIT    SCSI    0-3       0.349   
+65698   0       reset-watchdog                       65698  0     0     0       S       WAIT    NOEVQ   0-3       0.117366
+65699   0       SCSI Event Framework helpers-34-0    65699  0     0     0       SH      WAIT    HREQ    0-3       0.87    
+65707   0       Storage-APD                          65537  0     0     0       S       WAIT    NOEVQ   0-3       0.64    
+65708   0       SCSI periodic path probe-35-0        65708  0     0     0       SH      WAIT    HREQ    0-3       0.193   
+65716   0       SCSI periodic device probe-36-0      65716  0     0     0       SH      WAIT    HREQ    0-3       0.87    
+65724   0       SCSI periodic reclaim-37-0           65724  0     0     0       SH      WAIT    HREQ    0-3       0.4686  
+65725   0       SCSIDeviceSchedQCleanup              65725  0     0     0       S       WAIT    NOEVQ   0-3       0.415   
+65726   0       SCSI path scan helpers-38-0          65726  0     0     0       SH      WAIT    HREQ    0-3       0.230   
+65727   0       SCSI path scan helpers-38-1          65726  0     0     0       SH      WAIT    HREQ    0-3       0.238   
+65728   0       SCSI path scan helpers-38-2          65726  0     0     0       SH      WAIT    HREQ    0-3       0.263   
+65729   0       SCSI path scan helpers-38-3          65726  0     0     0       SH      WAIT    HREQ    0-3       0.141   
+65730   0       SCSI path scan helpers-38-4          65726  0     0     0       SH      WAIT    HREQ    0-3       0.139   
+65731   0       SCSI device scan helpers-39-0        65731  0     0     0       SH      WAIT    HREQ    0-3       0.85    
+65736   0       SCSI device APD helpers-40-0         65736  0     0     0       SH      WAIT    HREQ    0-3       0.72    
+65752   0       serialSwitcher                       65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+65753   0       logterm                              65537  0     0     0       S       WAIT    LOGTER  0-3       0.1525  
+65754   0       logterm-scroll                       65537  0     0     0       S       WAIT    LOGTER  0-3       0.3     
+65755   0       SchedPowerEnergy                     65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3680  
+65756   0       memMap-adj                           65537  0     0     0       S       WAIT    NOEVQ   0-3       1.330100
+65757   0       VMKPCIPassthruUnmask                 65537  0     0     0       S       WAIT    NOEVQ   0-3       0.2     
+65758   0       RandomEntropySpillOverHelper-41-0    65758  0     0     0       SH      WAIT    HREQ    0-3       0.856   
+65762   0       tq:incompatTQ                        65537  0     0     0       S       WAIT    NOEVQ   0-3       0.2     
+65763   0       asyncRemapHelpers-42-0               65763  0     0     0       SH      WAIT    HREQ    0-3       0.6     
+65764   0       swapglobal-groupmove                 65537  0     0     0       S       WAIT    SWPG    0-3       0.3     
+65765   0       DeviceTaskmgmtHandler                65765  0     0     0       S       WAIT    SCSI    0-3       0.32    
+65766   0       PathTaskmgmtHandler                  65766  0     0     0       S       WAIT    SCSI    0-3       0.22    
+65767   0       serial rx tty1                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.5     
+65768   0       serial rx tty2                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.6     
+65769   0       userMemTouchEst-43039c4c1000         65537  0     0     0       S       WAIT    NOEVQ   0-3       5.930937
+65770   65770  init                                 65770  65770  65770  0       U       WAIT    UWAIT   0-3       0.9662    /bin/init
+65828   65828  wdog-65829                           65828  65827  65827  65770   U       WAIT    UWAIT   0-3       0.1531    /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+65829   65829  vmsyslogd                            65829  65827  65827  65828   U       WAIT    UFUTEX  0-3       3.744851  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+133925  133925  <zombie>                             65827  65827  65829                   
+65830   65829  vmsyslogd                            65829  65827  65827  65828   UX      WAIT    USOCKR  0-3       1.899548  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+65831   65829  vmsyslogd                            65829  65827  65827  65828   UX      WAIT    LOG     0-3       0.110786  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+65839   65839  sh                                   65839  65839  65839  65770   U       WAIT    UWAIT   0-3       0.4505    /bin/sh /sbin/watchdog.sh -s vobd /usr/lib/vmware/vob/bin/vobd
+65848   65848  vobd                                 65848  65848  65848  65839   U       WAIT    UPOL    0-3       0.23674   /usr/lib/vmware/vob/bin/vobd
+65852   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UFUTEX  0-3       0.10158   /usr/lib/vmware/vob/bin/vobd
+65853   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.5872    /usr/lib/vmware/vob/bin/vobd
+65854   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.3066    /usr/lib/vmware/vob/bin/vobd
+65855   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.673     /usr/lib/vmware/vob/bin/vobd
+65856   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.40      /usr/lib/vmware/vob/bin/vobd
+65857   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.1095    /usr/lib/vmware/vob/bin/vobd
+65858   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.1371    /usr/lib/vmware/vob/bin/vobd
+65859   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.55      /usr/lib/vmware/vob/bin/vobd
+65860   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.58      /usr/lib/vmware/vob/bin/vobd
+65861   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.1287    /usr/lib/vmware/vob/bin/vobd
+65862   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.26      /usr/lib/vmware/vob/bin/vobd
+65863   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.26      /usr/lib/vmware/vob/bin/vobd
+65864   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.772     /usr/lib/vmware/vob/bin/vobd
+65865   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.22      /usr/lib/vmware/vob/bin/vobd
+65866   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.54      /usr/lib/vmware/vob/bin/vobd
+65867   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.62      /usr/lib/vmware/vob/bin/vobd
+65872   65872  sh                                   65872  65824  65824  65770   U       WAIT    UWAIT   0-3       0.4395    /bin/sh /sbin/watchdog.sh -s vmkeventd -u 10 -q 5 -t 9999999 /usr/lib/vmware/vmkeventd/bin/vmkeventd
+65879   65879  vmkeventd                            65879  65879  65879  65872   U       WAIT    UPOL    0-3       0.116015  /usr/lib/vmware/vmkeventd/bin/vmkeventd
+65881   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.24      /usr/lib/vmware/vob/bin/vobd
+65882   65848  vobd                                 65848  65848  65848  65839   UX      WAIT    UPOL    0-3       0.64      /usr/lib/vmware/vob/bin/vobd
+65888   0       vprobeDrainEngine                    65537  0     0     0       S       WAIT    VMKAPI  0-3       0.4     
+65900   0       tq:VmkapiV2_1_0_0TimerQueue          65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4     
+65906   0       tq:vmkata                            65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+65907   0       thread taskq_0                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.24    
+65908   0       thread taskq_1                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.24    
+65909   0       thread taskq_2                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.20    
+65910   0       thread taskq_3                       65537  0     0     0       S       WAIT    VMKAPI  0-3       0.8     
+65911   0       cam.doneq0                           65537  0     0     0       S       WAIT    VMKAPI  0-3       0.575   
+65912   0       cam.doneq1                           65537  0     0     0       S       WAIT    VMKAPI  0-3       0.843   
+65913   0       cam.doneq2                           65537  0     0     0       S       WAIT    VMKAPI  0-3       0.32    
+65914   0       cam.doneq3                           65537  0     0     0       S       WAIT    VMKAPI  0-3       0.8     
+65915   0       CAM taskq                            65537  0     0     0       S       WAIT    VMKAPI  0-3       0.25    
+65916   0       cam.scanner                          65537  0     0     0       S       WAIT    VMKAPI  0-3       0.1850  
+65918   0       iscsi_trans_vmklink                  65537  0     0     0       S       WAIT    SCSI    0-3       0.3     
+65919   0       tq:vmklinux                          65537  0     0     0       S       WAIT    NOEVQ   0-3       0.462451
+65920   0       vmklnx Helper-43-0                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.98918 
+65921   0       vmklnx Helper-43-1                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.102793
+65922   0       vmklnx Helper-43-2                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.96173 
+65923   0       vmklnx Helper-43-3                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.100047
+65924   0       vmklnx Helper-43-4                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.99978 
+65925   0       vmklnx Helper-43-5                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.97442 
+65926   0       vmklnx Helper-43-6                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.97673 
+65927   0       vmklnx Helper-43-7                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.97546 
+65928   0       vmklnx Helper-43-8                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.98851 
+65929   0       vmklnx Helper-43-9                   65920  0     0     0       SH      WAIT    HREQ    0-3       0.98385 
+65930   0       vmklnx Helper-43-10                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.96185 
+65931   0       vmklnx Helper-43-11                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.98072 
+65932   0       vmklnx Helper-43-12                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.98911 
+65933   0       vmklnx Helper-43-13                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.99535 
+65934   0       vmklnx Helper-43-14                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.98329 
+65935   0       vmklnx Helper-43-15                  65920  0     0     0       SH      WAIT    HREQ    0-3       0.95900 
+65936   65936  vmkdevmgr                            65936  65936  65936  65770   U       WAIT    UPOL    0-3       0.7596    /bin/vmkdevmgr
+65940   0       advUnicastAddrWorld                  65537  0     0     0       S       WAIT    NOEVQ   0-3       0.724   
+65941   0       MirrorAgent                          65537  0     0     0       S       WAIT    LOCK    0-3       0.10    
+65942   0       etherswitchHelper-44-0               65942  0     0     0       SH      WAIT    HREQ    0-3       0.13    
+65950   0       vmnic0-pollWorld-0                   65537  0     0     0       S       WAIT    NET     0-3       3.126945
+65951   0       vmnic0-pollWorld-backup              65537  0     0     0       S       WAIT    NET     0-3       0.5     
+65957   0       tq:NMP                               65537  0     0     0       S       WAIT    NOEVQ   0-3       0.1085  
+65958   0       NMP Failover Helper-45-0             65958  0     0     0       SH      WAIT    HREQ    0-3       0.470   
+65961   0       tq:VMW_SATP_LOCAL                    65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4810  
+65969   0       tq:NetHealthcheck                    65537  0     0     0       S       WAIT    NOEVQ   0-3       0.2     
+65970   0       HC_Ticket-46-0                       65970  0     0     0       SH      WAIT    HREQ    0-3       0.231   
+65971   0       L2Echo Rx                            65537  0     0     0       S       WAIT    VMKAPI  0-3       0.3     
+65974   0       tq:VLANMTUCheck                      65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+65976   0       HeartbeatHelper-47-0                 65976  0     0     0       SH      WAIT    HREQ    0-3       0.10    
+65978   0       tq:Shaper Schedule                   65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+65980   0       tq:lldp                              65537  0     0     0       S       WAIT    NOEVQ   0-3       0.2     
+65983   0       IpfixHelper-48-0                     65983  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+65984   0       ipfix_sender                         65984  0     0     0       S       WAIT    LOCK    0-3       0.2     
+65986   0       tq:tcpip4                            65537  0     0     0       S       WAIT    NOEVQ   0-3       4.355606
+65987   0       tq:tcpip4-flow-affinitizer           65537  0     0     0       S       WAIT    NOEVQ   0-3       0.212648
+65988   0       tcpip-isr                            65537  0     0     0       S       WAIT    KTCPLO  0-3       7.593358
+65989   0       Tcpip4 wtask                         65537  0     0     0       S       WAIT    KTCP    0-3       0.6     
+65990   0       TCP/IP net event Helper-49-0         65990  0     0     0       SH      WAIT    HREQ    0-3       0.139   
+65994   0       TcpipPktComp#0                       65537  0     0     0       S       WAIT    KTCPLO  0-3       0.1     
+65995   0       TcpipFlowCleaner_                    65537  0     0     0       S       WAIT    KTCP    3         0.32208 
+65998   0       VMCI Helper Queue-50-0               65998  0     0     0       SH      WAIT    HREQ    0-3       0.6     
+65999   0       VMCI Socket Helper Queue-51-0        65999  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+66000   0       dvfilter-52-0                        66000  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+66001   0       DVFilter-ReplyWorld                  65537  0     0     0       S       WAIT    NOEVQ   0-3       0.109491
+66002   0       DVFilter-HeartbeatWorld              65537  0     0     0       S       WAIT    NOEVQ   0-3       0.4609  
+66003   0       DVFilter-Comm-XmitWorld              65537  0     0     0       S       WAIT    NOEVQ   0-3       0.21795 
+66004   0       DVFilter-Comm-2                      65537  0     0     0       S       WAIT    NET     0-3       0.2     
+66014   0       tq:dvfilter-generic-fastpath         65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+66023   66023  sh                                   66023  66023  66023  65770   U       WAIT    UWAIT   0-3       0.4385    /bin/sh /sbin/watchdog.sh -s net-lacp -u 1000 -q 100 -t 100 /usr/sbin/net-lacp
+66032   66032  net-lacp                             66032  66032  66032  66023   U       WAIT    UPOL    0-3       0.586812  /usr/sbin/net-lacp
+66033   66032  net-lacp                             66032  66032  66032  66023   UX      WAIT    USLP    0-3       0.375259  /usr/sbin/net-lacp
+66034   66032  net-lacp                             66032  66032  66032  66023   UX      WAIT    USLP    0-3       0.131421  /usr/sbin/net-lacp
+66036   0       Cmpl-vmhba0-0                        65537  0     0     0       S       WAIT    SCSINO  0-3       0.3     
+66037   0       Cmpl-vmhba64-0                       65537  0     0     0       S       WAIT    SCSINO  0-3       0.563   
+66038   0       DVS sync world                       66038  0     0     0       S       WAIT    NOEVQ   0-3       0.18126 
+66039   0       DVSSync send world                   66039  0     0     0       S       WAIT    SLP     0-3       0.17    
+66040   0       DVSSync ack world                    66040  0     0     0       S       WAIT    KTCP    0-3       0.5     
+66041   0       DVSSync recv world                   66041  0     0     0       S       WAIT    KTCP    0-3       0.19    
+66043   0       vmk0-rx-0                            65537  0     0     0       S       WAIT    KTCPLO  0-3       2.966245
+66044   0       vmk0-tx                              65537  0     0     0       S       WAIT    KTCPLO  0-3       9.45859 
+66047   66047  dhclient-uw                          66047  66047  66047  65770   U       WAIT    UPOL    0-3       0.59761   /bin/dhclient-uw -pf /var/run/dhcp-vmk0.pid -rt 90 -lf /var/lib/dhcp/dhclient-vmk0.leases -cf /etc/dhclient-vmk0.conf -4 -nw -d vmk0
+66052   0       vmnic0-0-tx                          65537  0     0     0       S       WAIT    NET     0-3       0.5366  
+66069   0       COWRECacheMgr                        65537  0     0     0       S       WAIT    COWREC  0-3       0.3569  
+66072   0       SunRPCAsyncIO-0                      65537  0     0     0       S       WAIT    SUNRPC  0-3       0.312567
+66073   0       SunRPC GSS CTX Monitor               65537  0     0     0       S       WAIT    SLP     0-3       0.9     
+66077   0       J6ReplayHelper-53-0                  66077  0     0     0       SH      WAIT    HREQ    0-3       0.85    
+66093   0       asyncReplayHelperQueue-54-0          66093  0     0     0       SH      WAIT    HREQ    0-3       0.87    
+66109   0       Vol3JournalExtendMgrWorld            65537  0     0     0       S       WAIT    VMKAPI  0-3       0.71    
+66110   0       FS3FdUnlockMgr                       65537  0     0     0       S       WAIT    FS3FDM  0-3       0.18456 
+66111   0       fil3HelperQueue-55-0                 66111  0     0     0       SH      WAIT    HREQ    0-3       0.92    
+66114   0       VMFS6-v24-PB3-PBGC-Manager           65537  0     0     0       S       WAIT    FS3PBC  0-3       0.3185  
+66115   0       FS3DiskHeartbeat                     65537  0     0     0       S       WAIT    NOEVQ   0-3       0.11662 
+66116   0       gblHelperQueue-56-0                  66116  0     0     0       SH      WAIT    HREQ    0-3       0.96    
+66126   0       FS3ResMgr                            65537  0     0     0       S       WAIT    FS3RES  0-3       0.85275 
+66127   0       res3HelperQueueVMFS5-57-0            66127  0     0     0       SH      WAIT    HREQ    0-3       0.3904  
+66143   0       FS3ResMgr                            65537  0     0     0       S       WAIT    FS3RES  0-3       0.18887 
+66144   0       res3HelperQueueVMFS6-58-0            66144  0     0     0       SH      WAIT    HREQ    0-3       0.84    
+66160   0       oio3HelperQ-59-0                     66160  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+66161   0       Res6AffinityMgrWorld                 65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3550  
+66162   0       AffMgr-Helper-Queue-60-0             66162  0     0     0       SH      WAIT    HREQ    0-3       0.82    
+66166   0       FSUnmapManager                       65537  0     0     0       S       WAIT    FSUNMA  0-3       0.16542 
+66167   0       FSUnmapLockBreaker                   65537  0     0     0       S       WAIT    FS3UNM  0-3       0.582   
+66168   0       Unmap Helper Queue-61-0              66168  0     0     0       SH      WAIT    HREQ    0-3       0.88    
+66184   0       Unmap Helper Queue-62-0              66184  0     0     0       SH      WAIT    HREQ    0-3       0.80    
+66200   0       Unmap Helper Queue-63-0              66200  0     0     0       SH      WAIT    HREQ    0-3       0.89    
+66216   0       Unmap Helper Queue-64-0              66216  0     0     0       SH      WAIT    HREQ    0-3       0.78    
+66245   66245  sh                                   66245  66245  66245  65770   U       WAIT    UWAIT   0-3       0.5490    /bin/sh /sbin/watchdog.sh -q 128 -t 65536 -s nfsgssd /usr/lib/vmware/nfs/bin/nfsgssd -f -a
+66255   66255  nfsgssd                              66255  66255  66255  66245   U       WAIT    USLP    0-3       0.772405  /usr/lib/vmware/nfs/bin/nfsgssd -f -a
+66260   0       NFSv3-RemountHandler                 66260  0     0     0       S       WAIT    LOCK    0-3       0.3     
+66261   0       NFSv3-ServerMonitor                  65537  0     0     0       S       WAIT    NOEVQ   0-3       0.10185 
+66262   0       NFSv3-LockMonitor                    66262  0     0     0       S       WAIT    NOEVQ   0-3       0.1962  
+66264   0       tq:NFS41                             65537  0     0     0       S       WAIT    NOEVQ   0-3       0.3     
+66265   0       NFS41SMConnQueue-0                   65537  0     0     0       S       WAIT    VMKAPI  0-3       0.3     
+66266   0       NFS41SMSessQueue-0                   65537  0     0     0       S       WAIT    VMKAPI  0-3       0.5     
+66267   0       NFS41SMClusQueue-0                   65537  0     0     0       S       WAIT    VMKAPI  0-3       0.2     
+66268   0       NFS41SMNotifQueue-0                  65537  0     0     0       S       WAIT    VMKAPI  0-3       0.3     
+66269   0       NFS41WorkQueueGeneric-0              65537  0     0     0       S       WAIT    VMKAPI  0-3       0.2     
+66270   0       NFS41WorkQueueGeneric-1              65537  0     0     0       S       WAIT    VMKAPI  0-3       0.4     
+66271   0       NFS41WorkQueueGeneric-2              65537  0     0     0       S       WAIT    VMKAPI  0-3       0.2     
+66272   0       NFS41WorkQueueGeneric-3              65537  0     0     0       S       WAIT    VMKAPI  0-3       0.2     
+66278   0       vFlashHelperQueue-65-0               66278  0     0     0       SH      WAIT    HREQ    0-3       0.92    
+66305   66305  busybox                              66305  66305  66305  65770   U       WAIT    USLP    0-3       0.24682   /usr/lib/vmware/busybox/bin/busybox crond
+66309   0       rdmaAddrResQ-66-0                    66309  0     0     0       SH      WAIT    HREQ    0-3       0.5     
+66310   0       rdmaCMWorkQ-67-0                     66310  0     0     0       SH      WAIT    HREQ    0-3       0.103   
+66314   0       rdmaCMAWorkQ-68-0                    66314  0     0     0       SH      WAIT    HREQ    0-3       0.107   
+66328   0       FTCptListener                        65537  0     0     0       S       WAIT    FTCPT   0-3       0.4     
+66329   0       ftCptHelperQueue-69-0                66329  0     0     0       SH      WAIT    HREQ    0-3       0.136505
+66334   0       HBR helper queue-70-0                66334  0     0     0       SH      WAIT    HREQ    0-3       0.1822  
+66342   0       HbrDemandLogWorld                    65537  0     0     0       S       WAIT    HBRDLG  0-3       0.3     
+66346   66346  busybox                              66346  66346  66346  65770   U       WAIT    UPOL    0-3       0.248564  /usr/lib/vmware/busybox/bin/busybox inetd /var/run/inetd.conf
+66348   0       vrdmaHelperQueue-71-0                66348  0     0     0       SH      WAIT    HREQ    0-3       0.7     
+66351   0       filtmod-watchdog                     65537  0     0     0       S       WAIT    NOEVQ   0-3       0.787   
+66355   0       vmotionServer                        66355  0     0     0       S       WAIT    LOCK    0-3       0.8     
+66357   0       VFC Cache Helper Queue-72-0          66357  0     0     0       SH      WAIT    HREQ    0-3       0.98    
+66374   0       ballonVMCINotificationWorld          65537  0     0     0       S       WAIT    MEM     0-3       0.3     
+132000  0       SCSI periodic device probe-36-4      65716  0     0     0       SH      WAIT    HREQ    0-3       0.526   
+66497   66497  sh                                   66497  66497  66497  65770   U       WAIT    UWAIT   0-3       0.4728    /bin/sh /sbin/watchdog.sh -s iofiltervpd /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+66508   66508  ioFilterVPServer                     66508  66508  66508  66497   U       WAIT    KTCP    0-3       0.365512  /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+66509   66508  ioFilterVPServer                     66508  66508  66508  66497   UX      WAIT    UPOL    0-3       0.182847  /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+66525   66525  sh                                   66525  66525  66525  65770   U       WAIT    UWAIT   0-3       0.4804    /bin/sh /sbin/watchdog.sh -s swapobjd /usr/lib/vmware/swapobj/bin/swapobjd
+66535   66535  swapobjd                             66535  66535  66535  66525   U       WAIT    UPOL    0-3       0.164079  /usr/lib/vmware/swapobj/bin/swapobjd
+66736   66736  sh                                   66736  66736  66736  65770   U       WAIT    UWAIT   0-3       0.5698    /bin/sh /sbin/watchdog.sh -s storageRM /sbin/storageRM
+66749   66749  storageRM                            66749  66749  66749  66736   U       WAIT    USLP    0-3       0.77492   /sbin/storageRM
+66766   66766  sh                                   66766  66766  66766  65770   U       WAIT    UWAIT   0-3       0.5814    /bin/sh /sbin/watchdog.sh -s hostd hostd ++min=0,swapscope=system /etc/vmware/hostd/config.xml
+66776   66776  hostd-worker                         66776  66776  66776  66766   U       RUN     NONE    0-3       6.280994  hostd /etc/vmware/hostd/config.xml
+66785   66785  sh                                   66785  66785  66785  65770   U       WAIT    UWAIT   0-3       0.5688    /bin/sh /sbin/watchdog.sh -s sdrsInjector /sbin/sdrsInjector
+66796   66796  sdrsInjector                         66796  66796  66796  66785   U       WAIT    USLP    0-3       0.64826   /sbin/sdrsInjector
+66800   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UPOL    0-3       0.202426  hostd /etc/vmware/hostd/config.xml
+66801   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.3687    hostd /etc/vmware/hostd/config.xml
+66802   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.176     hostd /etc/vmware/hostd/config.xml
+66803   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.8160    hostd /etc/vmware/hostd/config.xml
+66804   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.2697    hostd /etc/vmware/hostd/config.xml
+67103   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.3255    hostd /etc/vmware/hostd/config.xml
+67111   66776  hostd-poll                           66776  66776  66776  66766   UX      WAIT    UPOL    0-3       0.6791    hostd /etc/vmware/hostd/config.xml
+67151   67151  sh                                   67151  67151  67151  65770   U       WAIT    UWAIT   0-3       0.5760    /bin/sh /sbin/watchdog.sh -s rhttpproxy rhttpproxy ++min=0,swapscope=system -r /etc/vmware/rhttpproxy/config.xml
+67164   67164  rhttpproxy                           67164  67164  67164  67151   U       WAIT    UFUTEX  0-3       0.59587   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67165   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.165     rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67166   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.786983  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67167   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.783731  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67168   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.780423  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67169   67164  rhttpproxy-IO                        67164  67164  67164  67151   UX      WAIT    UPOL    0-3       5.403855  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67170   67164  rhttpproxy-IO                        67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       5.292588  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67171   67164  rhttpproxy-fair                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       1.310291  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67172   67164  rhttpproxy-poll                      67164  67164  67164  67151   UX      WAIT    UPOL    0-3       0.130     rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67180   67180  sh                                   67180  67180  67180  65770   U       WAIT    UWAIT   0-3       0.6218    /bin/sh /sbin/watchdog.sh -s hostdCgiServer hostdCgiServer
+67191   67191  hostdCgiServer                       67191  67191  67191  67180   U       WAIT    UFUTEX  0-3       0.8546    hostdCgiServer
+67192   67191  worker                               67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.170     hostdCgiServer
+67193   67191  worker                               67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.68      hostdCgiServer
+67194   67191  worker                               67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.75      hostdCgiServer
+67195   67191  worker                               67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.52      hostdCgiServer
+67196   67191  IO                                   67191  67191  67191  67180   UX      WAIT    UPOL    0-3       0.955     hostdCgiServer
+67197   67191  IO                                   67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.39      hostdCgiServer
+67198   67191  fair                                 67191  67191  67191  67180   UX      WAIT    UFUTEX  0-3       0.62      hostdCgiServer
+67214   67214  sh                                   67214  67214  67214  65770   U       WAIT    UWAIT   0-3       0.6667    /bin/sh /sbin/watchdog.sh -s net-lbt -u 1000 -q 100 -t 100 /sbin/net-lbt ++min=0
+67224   67224  net-lbt                              67224  67224  67224  67214   U       WAIT    USLP    0-3       0.64950   /sbin/net-lbt
+67325   67325  slpd                                 67325  67325  67325  65770   U       WAIT    UPOL    0-3       0.16965   /sbin/slpd -N -l syslog
+67333   67333  sh                                   67333  67333  67333  65770   U       WAIT    UWAIT   0-3       0.5731    /bin/sh /sbin/watchdog.sh -s dcbd -t 5 /usr/sbin/dcbd
+67343   67343  dcbd                                 67343  67343  67343  67333   U       WAIT    UPOL    0-3       0.263447  /usr/sbin/dcbd
+67345   0       dcb_vmklink                          65537  0     0     0       S       WAIT    VMKAPI  0-3       0.10    
+67353   67353  sh                                   67353  67353  67353  65770   U       WAIT    UWAIT   0-3       0.4704    /bin/sh /sbin/watchdog.sh -s nscd /usr/lib/vmware/nscd/bin/nscd -d
+67362   67362  nscd                                 67362  67362  67362  67353   U       WAIT    UPOL    0-3       0.65672   /usr/lib/vmware/nscd/bin/nscd -d
+67363   67362  nscd                                 67362  67362  67362  67353   UX      WAIT    UFUTEX  0-3       0.32470   /usr/lib/vmware/nscd/bin/nscd -d
+67364   67362  nscd                                 67362  67362  67362  67353   UX      WAIT    UFUTEX  0-3       0.28396   /usr/lib/vmware/nscd/bin/nscd -d
+67365   67362  nscd                                 67362  67362  67362  67353   UX      WAIT    UFUTEX  0-3       0.30114   /usr/lib/vmware/nscd/bin/nscd -d
+67366   67362  nscd                                 67362  67362  67362  67353   UX      WAIT    UFUTEX  0-3       0.28816   /usr/lib/vmware/nscd/bin/nscd -d
+67367   67362  nscd                                 67362  67362  67362  67353   UX      WAIT    UFUTEX  0-3       0.28744   /usr/lib/vmware/nscd/bin/nscd -d
+67375   67375  sh                                   67375  67375  67375  65770   U       WAIT    UWAIT   0-3       0.4882    /bin/sh /sbin/watchdog.sh -s cdp /usr/sbin/net-cdp
+67386   67386  net-cdp                              67386  67386  67386  67375   U       WAIT    UPOL    0-3       0.3699    /usr/sbin/net-cdp
+67396   67396  sh                                   67396  67396  67396  65770   U       WAIT    UWAIT   0-3       0.4533    /bin/sh /sbin/watchdog.sh -s smartd -t 5 /usr/sbin/smartd
+67405   67405  smartd                               67405  67405  67405  67396   U       WAIT    USLP    0-3       0.107271  /usr/sbin/smartd
+67425   67425  sh                                   67425  67425  67425  65770   U       WAIT    UWAIT   0-3       0.4889    /bin/sh /sbin/watchdog.sh -s vpxa /usr/lib/vmware/vpxa/bin/vpxa ++min=0,swapscope=system -D /etc/vmware/vpxa
+67434   67434  vpxa                                 67434  67434  67434  67425   U       WAIT    UFUTEX  0-3       0.127737  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67435   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.273     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67436   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UPOL    0-3       0.180724  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67437   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.78      /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67438   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.43756   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67439   67434  vpxa-IO                              67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.434131  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67440   67434  vpxa-IO                              67434  67434  67434  67425   UX      WAIT    UPOL    0-3       0.442660  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67441   67434  vpxa-fair                            67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.270317  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67443   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.47316   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67444   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.45584   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67445   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.44491   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67446   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.48968   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67447   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.46029   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67448   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.32198   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67449   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.44737   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67450   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.40949   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67451   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.45816   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67454   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.158     hostd /etc/vmware/hostd/config.xml
+67455   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       6.123320  hostd /etc/vmware/hostd/config.xml
+67457   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       5.318217  hostd /etc/vmware/hostd/config.xml
+67467   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.44964   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67468   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.47109   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67469   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.46987   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67470   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.47774   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67471   67434  vpxa-worker                          67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.45589   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67473   67434  vpxa-poll                            67434  67434  67434  67425   UX      WAIT    UPOL    0-3       0.104     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67474   67434  vpxa                                 67434  67434  67434  67425   UX      WAIT    UFUTEX  0-3       0.502     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+67475   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.76803   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67500   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       3.597263  hostd /etc/vmware/hostd/config.xml
+67501   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UPOL    0-3       4.494544  hostd /etc/vmware/hostd/config.xml
+67502   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       3.975827  hostd /etc/vmware/hostd/config.xml
+67503   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       5.822057  hostd /etc/vmware/hostd/config.xml
+67504   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       4.999292  hostd /etc/vmware/hostd/config.xml
+67505   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       3.342016  hostd /etc/vmware/hostd/config.xml
+67508   66776  hostd-worker                         66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       3.385023  hostd /etc/vmware/hostd/config.xml
+67511   66776  hbr                                  66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.4028    hostd /etc/vmware/hostd/config.xml
+67524   66776  hostd                                66776  66776  66776  66766   UX      WAIT    UFUTEX  0-3       0.2850    hostd /etc/vmware/hostd/config.xml
+67545   67545  sh                                   67545  67545  67545  65770   U       WAIT    UWAIT   0-3       0.5928    /bin/sh /sbin/watchdog.sh -s vmtoolsd -t 5 /bin/vmtoolsd
+67554   67554  vmtoolsd                             67554  67554  67554  67545   U       WAIT    UPOL    0-3       3.855784  /bin/vmtoolsd
+67556   67554  gmain                                67554  67554  67554  67545   UX      WAIT    UPOL    0-3       0.64      /bin/vmtoolsd
+67624   67624  sh                                   67624  67624  67624  65770   U       WAIT    UWAIT   0-3       0.5312    /bin/sh /bin/techsupport.sh
+67625   67625  dcui                                 67625  67625  67625  65770   U       WAIT    UPOL    0-3       0.92480   /bin/dcui 2
+67648   67648  getty                                67648  67648  67648  67624   U       WAIT    UTTYR   0-3       0.1452    getty 38400 tty1
+67652   67625  dcui                                 67625  67625  67625  65770   UX      WAIT    USIG    0-3       0.52      /bin/dcui 2
+67662   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.782676  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67769   67769  sshd                                 67769  67769  67769  66346   U       WAIT    UPOL    0-3       1.318146  sshd -i
+67782   67625  dcui                                 67625  67625  67625  65770   UX      WAIT    USLP    0-3       9.569911  /bin/dcui 2
+67783   67625  dcui                                 67625  67625  67625  65770   UX      WAIT    USLP    0-3       0.619450  /bin/dcui 2
+67815   67164  rhttpproxy-work                      67164  67164  67164  67151   UX      WAIT    UFUTEX  0-3       0.763772  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+67832   67832  sh                                   67832  67832  67832  65770   U       WAIT    UWAIT   0-3       0.5332    /bin/sh /sbin/watchdog.sh -t 100 -s ntpd /sbin/ntpd -g -n -c /etc/ntp.conf -f /etc/ntp.drift
+67842   67842  ntpd                                 67842  67842  67842  67832   U       WAIT    UPOL    0-3       0.291768  /sbin/ntpd -g -n -c /etc/ntp.conf -f /etc/ntp.drift
+68195   68195  sh                                   68195  68195  68195  65770   U       WAIT    UWAIT   0-3       0.6523    /bin/sh /bin/watchdog.sh -s datrium_hyperdriver_config_agent /opt/datrium_hyperdriver/bin/config_agent.sh
+68205   68205  sh                                   68205  68205  68205  68195   U       WAIT    UWAIT   0-3      13.247534  /bin/sh /opt/datrium_hyperdriver/bin/config_agent.sh
+74918   74918  sh                                   74918  74918  74918  65770   U       WAIT    UWAIT   0-3       0.4442    /bin/sh /sbin/watchdog.sh -s datrium_head /opt/da_head0 start
+74928   74928  sh                                   74928  74928  74928  74918   U       WAIT    UWAIT   0-3       0.3616    /bin/sh /opt/da_head0 start
+74935   74935  sh                                   74935  74928  74928  74928   U       WAIT    UWAIT   0-3       0.9051    /bin/sh /opt/datrium/bin/da_head start
+76798   0       res3HelperQueueVMFS5-57-1            66127  0     0     0       SH      WAIT    HREQ    0-3       0.3964  
+76819   0       res3HelperQueueVMFS5-57-2            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4097  
+76833   0       RandomEntropySpillOverHelper-41-1    65758  0     0     0       SH      WAIT    HREQ    0-3       0.885   
+76844   0       res3HelperQueueVMFS5-57-3            66127  0     0     0       SH      WAIT    HREQ    0-3       0.3896  
+76917   0       res3HelperQueueVMFS5-57-4            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4271  
+76941   0       res3HelperQueueVMFS5-57-5            66127  0     0     0       SH      WAIT    HREQ    0-3       0.3963  
+76963   0       res3HelperQueueVMFS5-57-6            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4463  
+76972   76972  python                               76972  74928  74928  74935   U       WAIT    UPOL    0-3       4.42452   /opt/datrium/python2/bin/python /opt/datrium/bin/procmgr.py --Esx --daemon --config /opt/datrium/etc/procmgr.json --logfile /var/log/datrium/procmgr.log --mode 1 --event-file /var/log/datrium/dvaEvents.log --use-directio-logging
+77069   0       res3HelperQueueVMFS5-57-7            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4410  
+77156   0       res3HelperQueueVMFS5-57-8            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4165  
+77184   0       res3HelperQueueVMFS5-57-9            66127  0     0     0       SH      WAIT    HREQ    0-3       0.4671  
+77216   0       res3HelperQueueVMFS5-57-10           66127  0     0     0       SH      WAIT    HREQ    0-3       0.4555  
+77259   0       res3HelperQueueVMFS5-57-11           66127  0     0     0       SH      WAIT    HREQ    0-3       0.3831  
+77272   0       RandomEntropySpillOverHelper-41-2    65758  0     0     0       SH      WAIT    HREQ    0-3       0.825   
+77288   0       res3HelperQueueVMFS5-57-12           66127  0     0     0       SH      WAIT    HREQ    0-3       0.5128  
+77311   0       res3HelperQueueVMFS5-57-13           66127  0     0     0       SH      WAIT    HREQ    0-3       0.4975  
+77340   0       res3HelperQueueVMFS5-57-14           66127  0     0     0       SH      WAIT    HREQ    0-3       0.3923  
+77592   0       res3HelperQueueVMFS5-57-15           66127  0     0     0       SH      WAIT    HREQ    0-3       0.5372  
+147379  0       SCSI periodic device probe-36-5      65716  0     0     0       SH      WAIT    HREQ    0-3       0.54    
+147380  0       SCSI periodic path probe-35-3        65708  0     0     0       SH      WAIT    HREQ    0-3       0.33    
+84306   0       RPC-tx-127.0.0.1.8.1                 65537  0     0     0       S       WAIT    SUNRPC  0-3       0.98847 
+150051  150051  FE                                   150051  74928  74928  76972   U       WAIT    UFUTEX  0-3       3.107086  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150087  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3      20.679193  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150088  150051  FE                                   150051  74928  74928  76972   UX      RUN     NONE    0-3      17.612696  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150089  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3      13.537030  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150090  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.631097  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150091  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.263244  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150092  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.11510   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150093  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.884377  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150094  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       4.415144  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150095  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.349423  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150096  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.371100  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150097  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.355732  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150098  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.363181  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150099  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.368839  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150100  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.359343  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150101  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.348290  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150102  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.345908  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150113  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.81725   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150114  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.68455   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150115  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.67465   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150116  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.64925   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150117  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.59209   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150118  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.57170   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150119  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.56906   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150120  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.230739  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150121  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UPOL    0-3       0.9482    /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150122  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UPOL    0-3       0.109556  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150123  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.26063   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150124  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UPOL    0-3       1.112091  /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150125  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.30883   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150166  150051  FE                                   150051  74928  74928  76972   UX      WAIT    UPOL    0-3       0.57316   /opt/datrium/bin/FE --Conf.confFile /opt/datrium/etc/dva.conf --OS.coreSlot 2 --OS.disableDoubleCoreDump
+150227  150227  python                               150227  74928  74928  76972   U       WAIT    UPOL    0-3       1.37931   /opt/datrium/python2/bin/python /opt/datrium/bin/event_producer.py --DaLog.logFileName /var/log/datrium/event_producer.log --event-file /var/log/datrium/dvaEvents.log --cluster-health-file /var/log/datrium/clusterHealth.log --non-controller True --Conf.confFile /opt/datrium/etc/dva.conf
+150454  150454  DaggerWorker                         150454  74928  74928  76972   U       WAIT    UFUTEX  0-3       0.398927  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150455  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       3.442909  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150456  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.772806  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150457  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.106381  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150458  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.287182  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150459  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.171607  /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150460  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       2.27508   /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150471  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.30724   /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150472  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UPOL    0-3       0.8234    /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150473  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UPOL    0-3       0.33746   /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150596  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UPOL    0-3       0.40197   /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150597  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.2986    /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+150608  150608  python                               150608  74928  74928  76972   U       WAIT    UPOL    0-3       1.803981  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150628  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.326584  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150629  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.328120  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150650  150608  python                               150608  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.12617   /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150652  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.321965  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150665  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.247866  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150671  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.415351  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150672  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.48115   /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150673  150608  python                               150608  74928  74928  76972   UX      WAIT    UPOL    0-3       0.265346  /opt/datrium/python2/bin/python /opt/datrium/bin/esx_platmgr.py --Conf.confFile /opt/datrium/etc/dva.conf
+150705  150705  FEMountd                             150705  74928  74928  76972   U       WAIT    UFUTEX  0-3       0.106839  /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150706  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.213221  /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150707  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       2.426347  /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150708  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.75782   /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150709  150705  FEMountd                             150705  74928  74928  76972   UX      READY   NONE    0-3       1.776552  /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150710  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.26547   /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150711  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UPOL    0-3       0.7054    /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150712  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UPOL    0-3       0.1247    /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150713  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.21184   /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150714  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UPOL    0-3       0.8511    /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+150793  150793  ESXPlatMgr                           150793  74928  74928  76972   U       WAIT    UFUTEX  0-3       0.153112  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150800  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.840548  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150801  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.726484  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150802  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.951910  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150803  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.1533    /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150804  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.61977   /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150805  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.113355  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150806  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.666793  /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150807  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.31319   /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150808  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UPOL    0-3       0.6843    /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150809  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UPOL    0-3       0.26621   /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150811  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UPOL    0-3       0.41891   /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150812  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.3026    /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150898  150898  UpgradeMgr                           150898  74928  74928  76972   U       WAIT    UFUTEX  0-3       0.143053  /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150899  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       1.416819  /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150900  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       2.64384   /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150901  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.522     /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150902  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.634     /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150903  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.1394    /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150904  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.2215    /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150905  150898  UpgradeMgr                           150898  74928  74928  76972   UX      READY   NONE    0-3       1.649316  /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150906  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.25298   /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150907  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UPOL    0-3       0.6781    /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150908  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UPOL    0-3       0.17563   /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150909  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UPOL    0-3       0.55582   /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150910  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.3046    /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+150973  150973  NetworkHeartbeatServer               150973  74928  74928  76972   U       WAIT    UFUTEX  0-3       0.110069  /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150974  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       2.389196  /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150975  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.599727  /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150976  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.5828    /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150977  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.864     /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150978  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.171     /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150979  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.3198    /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150980  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      READY   NONE    0-3       1.348372  /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150981  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.23305   /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150982  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UPOL    0-3       0.6894    /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150983  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UPOL    0-3       0.19883   /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+150984  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.2086    /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+151247  0       SCSI periodic device probe-36-5      65716  0     0     0       SH      WAIT    HREQ    0-3       0.6     
+151248  0       SCSI periodic path probe-35-3        65708  0     0     0       SH      WAIT    HREQ    0-3       0.4     
+151405  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UPOL    0-3       0.55313   /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+151406  150973  NetworkHeartbeatServer               150973  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.16561   /opt/datrium/bin/NetworkHeartbeatServer --Conf.confFile /opt/datrium/etc/dva.conf
+151476  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UPOL    0-3       0.15126   /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+151477  150705  FEMountd                             150705  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.2062    /opt/datrium/bin/FEMountd --Conf.confFile /opt/datrium/etc/dva.conf
+151860  150454  DaggerWorker                         150454  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.12085   /opt/datrium/bin/DaggerWorker --Conf.confFile /opt/datrium/etc/dva.conf
+151862  150898  UpgradeMgr                           150898  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.12844   /opt/datrium/bin/UpgradeMgr --Conf.confFile /opt/datrium/etc/dva.conf
+151864  150793  ESXPlatMgr                           150793  74928  74928  76972   UX      WAIT    UFUTEX  0-3       0.11463   /opt/datrium/bin/ESXPlatMgr --Conf.confFile /opt/datrium/etc/dva.conf
+86969   0       RandomEntropySpillOverHelper-41-3    65758  0     0     0       SH      WAIT    HREQ    0-3       0.749   
+153015  153015  python                               153015  74928  74928  150608  U       WAIT    UWAIT   0-3       1.264365  /opt/datrium/python2/bin/python /opt/datrium/bin/collect_support.py -m debug_support_esx.dfx -p --timeout 86400 --support_type DEBUG --identifier 723af8171e9911e8951502da88fdb9c5
+153032  153015  python                               153015  74928  74928  150608  UX      WAIT    UFUTEX  0-3       0.986     /opt/datrium/python2/bin/python /opt/datrium/bin/collect_support.py -m debug_support_esx.dfx -p --timeout 86400 --support_type DEBUG --identifier 723af8171e9911e8951502da88fdb9c5
+153044  153015  python                               153015  74928  74928  150608  UX      WAIT    UPOL    0-3       0.5440    /opt/datrium/python2/bin/python /opt/datrium/bin/collect_support.py -m debug_support_esx.dfx -p --timeout 86400 --support_type DEBUG --identifier 723af8171e9911e8951502da88fdb9c5
+153546  153546  sh                                   153546  74928  74928  153015  U       WAIT    UWAIT   0-3       0.4591    /bin/sh -c /bin/python /bin/vm-support -s -a "Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base"  | /opt/datrium/bin/DOut /var/autosupport/stage/esx_daily/da_esx_daily_2018_03_03_04_15_29.tgz
+153547  153547  python                               153547  74928  74928  153546  U       WAIT    UFUTEX  0-3       0.150866  /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153548  153548  DOut                                 153548  74928  74928  153546  U       WAIT    UPIPER  0-3       0.6250    /opt/datrium/bin/DOut /var/autosupport/stage/esx_daily/da_esx_daily_2018_03_03_04_15_29.tgz
+153550  153547  python                               153547  74928  74928  153546  UX      READY   NONE    0-3       0.762473  /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153551  153547  python                               153547  74928  74928  153546  UX      RUN     NONE    0-3       0.186002  /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153552  153547  python                               153547  74928  74928  153546  UX      WAIT    UFUTEX  0-3       0.303815  /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153553  153547  python                               153547  74928  74928  153546  UX      WAIT    UFUTEX  0-3       0.19890   /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153554  153547  python                               153547  74928  74928  153546  UX      WAIT    UFUTEX  0-3       0.89551   /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153560  153547  python                               153547  74928  74928  153546  UX      WAIT    UFUTEX  0-3       0.100     /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+153945  153945  esxtop                               153945  74928  74928  150608  U       WAIT    USIG    0-3       0.292924  esxtop -a -b -d2 -n1 -import-entity /tmp/datrium_esx_entity_new_150608
+154012  153547  python                               153547  74928  74928  153546  UX      WAIT    UPIPER  0-3       0.4011    /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+154018  154018  sh                                   154018  154018  154018  153547  U       WAIT    UWAIT   0-3       0.4910    /bin/sh /usr/lib/vmware/vm-support/bin/storageHostProfiles.sh
+154023  154023  python                               154023  154018  154018  154018  U       WAIT    KTCP    0-3       1.406595  /usr/bin/python /bin/esxhpcli gd -o /tmp/154018/gd_results.bin
+154161  154161  sleep                                154161  68205  68205  68205   U       WAIT    USLP    0-3       0.1326    sleep 1
+154172  153547  python                               153547  74928  74928  153546  UX                        /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+154174  153547  python                               153547  74928  74928  153546  UX      WAIT    UPIPER  0-3       0.3869    /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+154175  154175  ps                                   154175  154175  154175  153547  U       RUN     NONE    0-3       0.1166    ps -cPTgjstz
+154176  153547  python                               153547  74928  74928  153546  UX      READY   NONE    0-3       0.3521    /bin/python /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+154177  154177  localcli                             154177  154177  154177  153547  U       RUN     NONE    0-3       0.5495    /usr/sbin/localcli --formatter=json storage core plugin registration list
+97098   0       SCSI periodic device probe-36-5      65716  0     0     0       SH      WAIT    HREQ    0-3       0.980   
+

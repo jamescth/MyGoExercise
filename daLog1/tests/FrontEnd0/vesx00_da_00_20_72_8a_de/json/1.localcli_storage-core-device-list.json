@@ -1,0 +1,171 @@
+
+[
+
+      {
+         "Attached Filters": 
+            [
+            ],
+         "DIX Enabled": false,
+         "DIX Guard Type": "NO GUARD SUPPORT",
+         "Devfs Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T1:L0",
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "Device Max Queue Depth": 32,
+         "Device Type": "Direct-Access ",
+         "Display Name": "Local VMware Disk (mpx.vmhba1:C0:T1:L0)",
+         "Drive Type": "unknown",
+         "Emulated DIX/DIF Enabled": false,
+         "Has Settable Display Name": false,
+         "Is Boot Device": false,
+         "Is Boot USB Device": false,
+         "Is Local": true,
+         "Is Local SAS Device": false,
+         "Is Offline": false,
+         "Is Perennially Reserved": false,
+         "Is Pseudo": false,
+         "Is RDM Capable": false,
+         "Is Removable": false,
+         "Is SAS": false,
+         "Is SSD": true,
+         "Is Shared Clusterwide": false,
+         "Is USB": false,
+         "Is VVOL PE": false,
+         "Model": "Virtual disk    ",
+         "Multipath Plugin": "NMP",
+         "No of outstanding IOs with competing worlds": 32,
+         "Number of Physical Drives": "unknown",
+         "Other UIDs": 
+            [
+            "vml.0000000000766d686261313a313a30"
+            ],
+         "PI Activated": false,
+         "PI Protection Mask": "NO PROTECTION",
+         "PI Type": 0,
+         "Protection Enabled": false,
+         "Queue Full Sample Size": 0,
+         "Queue Full Threshold": 0,
+         "RAID Level": "unknown",
+         "Revision": "1.0 ",
+         "SCSI Level": 2,
+         "Size": 81920,
+         "Status": "on",
+         "Supported Guard Types": 
+            [
+            "NO GUARD SUPPORT"
+            ],
+         "Thin Provisioning Status": "unknown",
+         "VAAI Status": "unsupported",
+         "Vendor": "VMware  "
+      }, 
+
+      {
+         "Attached Filters": 
+            [
+            ],
+         "DIX Enabled": false,
+         "DIX Guard Type": "NO GUARD SUPPORT",
+         "Devfs Path": "\/vmfs\/devices\/cdrom\/mpx.vmhba64:C0:T0:L0",
+         "Device": "mpx.vmhba64:C0:T0:L0",
+         "Device Max Queue Depth": 1,
+         "Device Type": "CD-ROM ",
+         "Display Name": "Local NECVMWar CD-ROM (mpx.vmhba64:C0:T0:L0)",
+         "Drive Type": "unknown",
+         "Emulated DIX/DIF Enabled": false,
+         "Has Settable Display Name": false,
+         "Is Boot Device": false,
+         "Is Boot USB Device": false,
+         "Is Local": true,
+         "Is Local SAS Device": false,
+         "Is Offline": false,
+         "Is Perennially Reserved": false,
+         "Is Pseudo": false,
+         "Is RDM Capable": false,
+         "Is Removable": true,
+         "Is SAS": false,
+         "Is SSD": false,
+         "Is Shared Clusterwide": false,
+         "Is USB": false,
+         "Is VVOL PE": false,
+         "Model": "VMware IDE CDR10",
+         "Multipath Plugin": "NMP",
+         "No of outstanding IOs with competing worlds": 32,
+         "Number of Physical Drives": "unknown",
+         "Other UIDs": 
+            [
+            "vml.0005000000766d68626136343a303a30"
+            ],
+         "PI Activated": false,
+         "PI Protection Mask": "NO PROTECTION",
+         "PI Type": 0,
+         "Protection Enabled": false,
+         "Queue Full Sample Size": 0,
+         "Queue Full Threshold": 0,
+         "RAID Level": "unknown",
+         "Revision": "1.00",
+         "SCSI Level": 5,
+         "Size": 0,
+         "Status": "on",
+         "Supported Guard Types": 
+            [
+            "NO GUARD SUPPORT"
+            ],
+         "Thin Provisioning Status": "unknown",
+         "VAAI Status": "unsupported",
+         "Vendor": "NECVMWar"
+      }, 
+
+      {
+         "Attached Filters": 
+            [
+            ],
+         "DIX Enabled": false,
+         "DIX Guard Type": "NO GUARD SUPPORT",
+         "Devfs Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0",
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "Device Max Queue Depth": 32,
+         "Device Type": "Direct-Access ",
+         "Display Name": "Local VMware Disk (mpx.vmhba1:C0:T0:L0)",
+         "Drive Type": "unknown",
+         "Emulated DIX/DIF Enabled": false,
+         "Has Settable Display Name": false,
+         "Is Boot Device": true,
+         "Is Boot USB Device": false,
+         "Is Local": true,
+         "Is Local SAS Device": false,
+         "Is Offline": false,
+         "Is Perennially Reserved": false,
+         "Is Pseudo": false,
+         "Is RDM Capable": false,
+         "Is Removable": false,
+         "Is SAS": false,
+         "Is SSD": true,
+         "Is Shared Clusterwide": false,
+         "Is USB": false,
+         "Is VVOL PE": false,
+         "Model": "Virtual disk    ",
+         "Multipath Plugin": "NMP",
+         "No of outstanding IOs with competing worlds": 32,
+         "Number of Physical Drives": "unknown",
+         "Other UIDs": 
+            [
+            "vml.0000000000766d686261313a303a30"
+            ],
+         "PI Activated": false,
+         "PI Protection Mask": "NO PROTECTION",
+         "PI Type": 0,
+         "Protection Enabled": false,
+         "Queue Full Sample Size": 0,
+         "Queue Full Threshold": 0,
+         "RAID Level": "unknown",
+         "Revision": "1.0 ",
+         "SCSI Level": 2,
+         "Size": 51200,
+         "Status": "on",
+         "Supported Guard Types": 
+            [
+            "NO GUARD SUPPORT"
+            ],
+         "Thin Provisioning Status": "unknown",
+         "VAAI Status": "unsupported",
+         "Vendor": "VMware  "
+      }
+]

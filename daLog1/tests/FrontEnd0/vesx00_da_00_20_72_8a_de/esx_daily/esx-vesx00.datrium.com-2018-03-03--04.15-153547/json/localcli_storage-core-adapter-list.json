@@ -1,0 +1,36 @@
+
+[
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:07.1) Intel Corporation PIIX4 for 430TX\/440BX\/MX IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba0",
+         "Link State": "link-n\/a",
+         "UID": "ide.vmhba0"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:10.0) LSI Logic \/ Symbios Logic 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+         "Driver": "mptspi",
+         "HBA Name": "vmhba1",
+         "Link State": "link-n\/a",
+         "UID": "pscsi.vmhba1"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:07.1) Intel Corporation PIIX4 for 430TX\/440BX\/MX IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba64",
+         "Link State": "link-n\/a",
+         "UID": "ide.vmhba64"
+      }
+]

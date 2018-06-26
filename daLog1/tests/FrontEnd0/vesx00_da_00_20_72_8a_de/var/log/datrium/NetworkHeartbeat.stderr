@@ -1,0 +1,5 @@
+------------ [Sat Mar  3 02:44:06 2018] redirected stderr of NetworkHeartbeat(83226) ------------
+
+--- 2018-03-03T04:11:04.379573+0000 ABORT: PROCESS: NetworkHeartbeatServer BUILD: 4.0.1.0-30253_0d82724_g, PID: 83226 ------ Common/Bootstrap/Bootstrap.c:1028 (); in BootstrapSigCoreHandler() Got signal 7  ---
+Backtrace: 0x758231f010 <- WaitForTerm <- Bootstrap_Main <- main <- 0x7581ba68cd <- top
+------------ [Sat Mar  3 04:12:22 2018] redirected stderr of NetworkHeartbeat(150973) ------------

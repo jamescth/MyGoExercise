@@ -1,0 +1,240 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:12.045Z Section for VMware ESX, pid=67200, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:50:12.045Z verbose hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:50:12.044Z info -[8632FC0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:50:12.044Z info -[8632FC0] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:50:12.045Z warning hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Unrecognized log/level '' using 'info'
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:50:12.045Z info hostdCgiServer[8674B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[8674B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 1
+2016-11-18T01:50:12.045Z info hostdCgiServer[86F6B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[86F6B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:50:12.045Z info hostdCgiServer[88C2B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[88C2B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12.045Z info hostdCgiServer[8881B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[8881B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:12.045Z info hostdCgiServer[8A40B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[8A40B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:50:12.045Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default] Starting CGI server on port 8303.
+2016-11-18T01:50:12.045Z info hostdCgiServer[86B5B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.045Z info hostdCgiServer[86B5B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12.046Z info hostdCgiServer[8840B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:12.046Z info hostdCgiServer[8840B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=CgiHandler] CGI handler created with URL prefix /cgi-bin, CGI directory /usr/lib/vmware/hostd/cgi-bin/, docRoot /usr/lib/vmware/hostd/docroot/
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=Default.HTTPService] Http Service started: <server <acceptor p:0x06be0618, h:5, <TCP '127.0.0.1:8303'>>, >
+2016-11-18T01:50:12.046Z info hostdCgiServer[8632FC0] [Originator@6876 sub=ThreadPool] Main thread queue created.
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:58.596Z Section for VMware ESX, pid=67191, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:53:58.596Z verbose hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:53:58.596Z info -[5DF7FC0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:53:58.596Z info -[5DF7FC0] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:53:58.596Z warning hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Unrecognized log/level '' using 'info'
+2016-11-18T01:53:58.596Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:53:58.596Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:53:58.596Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:53:58.597Z info hostdCgiServer[5E39B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[5E39B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 1
+2016-11-18T01:53:58.597Z info hostdCgiServer[5E7AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[5E7AB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[5EBBB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[5EBBB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[5EFCB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[5EFCB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[6240B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[6240B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[6281B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[6281B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[62C2B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:53:58.597Z info hostdCgiServer[62C2B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:53:58.597Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default] Starting CGI server on port 8303.
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=CgiHandler] CGI handler created with URL prefix /cgi-bin, CGI directory /usr/lib/vmware/hostd/cgi-bin/, docRoot /usr/lib/vmware/hostd/docroot/
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=Default.HTTPService] Http Service started: <server <acceptor p:0x043a5568, h:5, <TCP '127.0.0.1:8303'>>, >
+2016-11-18T01:53:58.598Z info hostdCgiServer[5DF7FC0] [Originator@6876 sub=ThreadPool] Main thread queue created.
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:59:00.295Z Section for VMware ESX, pid=67204, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:59:00.295Z verbose hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:59:00.295Z info -[8684FC0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:59:00.295Z info -[8684FC0] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:59:00.295Z warning hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Unrecognized log/level '' using 'info'
+2016-11-18T01:59:00.295Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 0
+2016-11-18T01:59:00.296Z info hostdCgiServer[8707B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8707B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[86C6B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[86C6B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8748B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8748B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[8940B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8940B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[8981B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:59:00.296Z info hostdCgiServer[8981B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:59:00.296Z info hostdCgiServer[8789B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[8789B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:00.296Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default] Starting CGI server on port 8303.
+2016-11-18T01:59:00.296Z info hostdCgiServer[87CAB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:00.296Z info hostdCgiServer[87CAB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=CgiHandler] CGI handler created with URL prefix /cgi-bin, CGI directory /usr/lib/vmware/hostd/cgi-bin/, docRoot /usr/lib/vmware/hostd/docroot/
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=Default.HTTPService] Http Service started: <server <acceptor p:0x06c325f8, h:5, <TCP '127.0.0.1:8303'>>, >
+2016-11-18T01:59:00.297Z info hostdCgiServer[8684FC0] [Originator@6876 sub=ThreadPool] Main thread queue created.
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:25.220Z Section for VMware ESX, pid=67198, version=6.5.0, build=4564106, option=Release
+2016-11-29T01:15:25.220Z verbose hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-29T01:15:25.220Z info -[3683FC0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-29T01:15:25.220Z info -[3683FC0] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-29T01:15:25.220Z warning hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Unrecognized log/level '' using 'info'
+2016-11-29T01:15:25.220Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-29T01:15:25.220Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-29T01:15:25.220Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-29T01:15:25.220Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-29T01:15:25.221Z info hostdCgiServer[36C5B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[36C5B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3706B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[3706B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3747B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[3747B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 3
+2016-11-29T01:15:25.221Z info hostdCgiServer[3788B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[3788B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3B40B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[3B40B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.221Z info hostdCgiServer[3B81B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.222Z info hostdCgiServer[3B81B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-29T01:15:25.221Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-29T01:15:25.222Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-29T01:15:25.222Z info hostdCgiServer[37C9B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:25.222Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default] Starting CGI server on port 8303.
+2016-11-29T01:15:25.222Z info hostdCgiServer[37C9B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=CgiHandler] CGI handler created with URL prefix /cgi-bin, CGI directory /usr/lib/vmware/hostd/cgi-bin/, docRoot /usr/lib/vmware/hostd/docroot/
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=Default.HTTPService] Http Service started: <server <acceptor p:0x01c315f0, h:5, <TCP '127.0.0.1:8303'>>, >
+2016-11-29T01:15:25.223Z info hostdCgiServer[3683FC0] [Originator@6876 sub=ThreadPool] Main thread queue created.
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:24.944Z Section for VMware ESX, pid=67191, version=6.5.0, build=4564106, option=Release
+2018-03-03T02:18:24.944Z verbose hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-03-03T02:18:24.944Z info -[4DA6FC0] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-03-03T02:18:24.944Z info -[4DA6FC0] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-03-03T02:18:24.944Z warning hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Unrecognized log/level '' using 'info'
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Initialized channel manager
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DE8B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 0
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DE8B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[4E6AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[4E6AB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[4EABB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[4EABB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[4E29B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[4E29B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[5140B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[5140B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2018-03-03T02:18:24.944Z info hostdCgiServer[5181B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.944Z info hostdCgiServer[5181B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2018-03-03T02:18:24.944Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-03-03T02:18:24.944Z info hostdCgiServer[4EECB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:24.945Z info hostdCgiServer[4EECB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default] Starting CGI server on port 8303.
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=CgiHandler] CGI handler created with URL prefix /cgi-bin, CGI directory /usr/lib/vmware/hostd/cgi-bin/, docRoot /usr/lib/vmware/hostd/docroot/
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=Default.HTTPService] Http Service started: <server <acceptor p:0x03354600, h:5, <TCP '127.0.0.1:8303'>>, >
+2018-03-03T02:18:24.945Z info hostdCgiServer[4DA6FC0] [Originator@6876 sub=ThreadPool] Main thread queue created.

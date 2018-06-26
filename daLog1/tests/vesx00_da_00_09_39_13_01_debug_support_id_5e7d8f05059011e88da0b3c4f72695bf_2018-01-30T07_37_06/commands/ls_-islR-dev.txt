@@ -1,0 +1,213 @@
+/dev:
+total 6
+     10      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 PMemDisk
+    133      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 cbt
+     87      0 lrwxrwxrwx    1 root     root            18 Jan 30 07:37 cdp -> char/vmkdriver/cdp
+      6      0 drwxr-xr-x    2 root     root           512 Jan 30 07:37 cdrom
+      5      0 drwxr-xr-x   12 root     root           512 Jan 30 07:37 char
+     79      0 lrwxrwxrwx    1 root     root            18 Jan 30 07:37 cna -> char/vmkdriver/cna
+     31      0 lrwxrwxrwx    1 root     root            16 Jan 30 07:37 console -> char/tty/console
+    123      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 deltadisks
+      4      0 drwxr-xr-x    2 root     root           512 Jan 30 07:37 disks
+     38      0 lrwxrwxrwx    1 root     root            14 Jan 30 07:37 dmesg -> char/mem/dmesg
+     97      0 lrwxrwxrwx    1 root     root            38 Jan 30 07:37 dvfilter-generic-vmware -> char/vmkdriver/dvfilter-generic-vmware
+     91      0 lrwxrwxrwx    1 root     root            26 Jan 30 07:37 dvfiltertbl -> char/vmkdriver/dvfiltertbl
+     89      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 dvsdev -> char/vmkdriver/dvsdev
+      2      0 lrwxrwxrwx    1 root     root             7 Jan 30 07:37 generic -> genscsi
+      3      0 drwxr-xr-x    2 root     root           512 Jan 30 07:37 genscsi
+     81      0 lrwxrwxrwx    1 root     root            20 Jan 30 07:37 input -> char/vmkdriver/input
+     75      0 lrwxrwxrwx    1 root     root            19 Jan 30 07:37 iodm -> char/vmkdriver/iodm
+     83      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 keymap -> char/vmkdriver/keymap
+     36      0 lrwxrwxrwx    1 root     root            13 Jan 30 07:37 klog -> char/mem/klog
+     93      0 lrwxrwxrwx    1 root     root            19 Jan 30 07:37 lacp -> char/vmkdriver/lacp
+    122      0 drwxr-xr-x    2 root     root           512 Jan 30 07:37 lvm
+     95      0 lrwxrwxrwx    1 root     root            25 Jan 30 07:37 mptctl_spi -> char/vmkdriver/mptctl_spi
+     13      0 lrwxrwxrwx    1 root     root            13 Jan 30 07:37 null -> char/mem/null
+     19      0 lrwxrwxrwx    1 root     root            13 Jan 30 07:37 port -> char/mem/port
+     22      0 lrwxrwxrwx    1 root     root            13 Jan 30 07:37 ptmx -> char/pty/ptmx
+     65      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 random -> char/vmkdriver/random
+    128      0 lrwxrwxrwx    1 root     root            25 Jan 30 07:37 sunrpc-gss -> char/vmkdriver/sunrpc-gss
+    131      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 svm
+     25      0 lrwxrwxrwx    1 root     root            10 Jan 30 07:37 tty -> char/tty/0
+     27      0 lrwxrwxrwx    1 root     root            10 Jan 30 07:37 tty1 -> char/tty/1
+     29      0 lrwxrwxrwx    1 root     root            10 Jan 30 07:37 tty2 -> char/tty/2
+    248      0 lrwxrwxrwx    1 root     root            11 Jan 30 07:37 ttyp0 -> char/pty/t0
+     67      0 lrwxrwxrwx    1 root     root            22 Jan 30 07:37 urandom -> char/vmkdriver/urandom
+    125      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 vdfm
+    129      0 drwxrwxrwt    2 root     root           512 Jan 30 07:37 vflash
+     85      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vmnic0 -> char/vmkdriver/vmnic0
+     73      0 lrwxrwxrwx    1 root     root            26 Jan 30 07:37 vmwMgmtInfo -> char/vmkdriver/vmwMgmtInfo
+     77      0 lrwxrwxrwx    1 root     root            27 Jan 30 07:37 vmwMgmtNode0 -> char/vmkdriver/vmwMgmtNode0
+     71      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vprobe -> char/vmkdriver/vprobe
+     62      0 lrwxrwxrwx    1 root     root            16 Jan 30 07:37 vsock -> char/vsock/vsock
+     17      0 lrwxrwxrwx    1 root     root            13 Jan 30 07:37 zero -> char/mem/zero
+
+/dev/PMemDisk:
+total 0
+
+/dev/cbt:
+total 0
+    134      0 -r--r--r--    1 root     root             0 Jan 30 07:37 control
+
+/dev/cdrom:
+total 0
+    118      0 -rw-------    1 root     root             0 Jan 30 07:37 mpx.vmhba64:C0:T0:L0
+    120      0 lrwxrwxrwx    1 root     root            20 Jan 30 07:37 vml.0005000000766d68626136343a303a30 -> mpx.vmhba64:C0:T0:L0
+
+/dev/char:
+total 0
+     68      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 devmgr
+     11      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 mem
+     20      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 pty
+      8      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 scsi-trace
+     32      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 serial
+     23      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 tty
+     63      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 vmkdriver
+     39      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 vob
+      7      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 vscsi-filters
+     60      0 drwxr-xr-x    2 root     root             0 Jan 30 07:37 vsock
+
+/dev/char/devmgr:
+total 0
+     69      0 crw-------    1 root     root        0,   0 Jan 30 07:37 devmgr
+
+/dev/char/mem:
+total 41495
+     37      0 crw-------    1 root     root        0,   0 Jan 30 07:37 dmesg
+     35      0 crw-------    1 root     root        0,   0 Jan 30 07:37 klog
+     12      0 crw-rw-rw-    1 root     root        1,   3 Jan 30 07:37 null
+     15    176 cr--------    1 root     root        0,   0 Jan 30 07:37 pir
+     18  32768 crw-rw----    1 root     root        0,   0 Jan 30 07:37 port
+     14   8550 cr--------    1 root     root        0,   0 Jan 30 07:37 smbios
+     16      0 crw-rw-rw-    1 root     root        1,   5 Jan 30 07:37 zero
+
+/dev/char/pty:
+total 0
+     21      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 ptmx
+    247      0 crw-------    1 root     root        0,   0 Jan 30 07:37 t0
+
+/dev/char/scsi-trace:
+total 0
+    114      0 crw-------    1 root     root        0,   0 Jan 30 07:37 mpx.vmhba1:C0:T0:L0
+    117      0 crw-------    1 root     root        0,   0 Jan 30 07:37 mpx.vmhba1:C0:T1:L0
+    121      0 crw-------    1 root     root        0,   0 Jan 30 07:37 mpx.vmhba64:C0:T0:L0
+      9      0 crw-------    1 root     root        0,   0 Jan 30 07:37 trace-any
+
+/dev/char/serial:
+total 0
+     33      0 crw-------    1 root     root        0,   0 Jan 30 07:37 uart0
+     34      0 crw-------    1 root     root        0,   0 Jan 30 07:37 uart1
+
+/dev/char/tty:
+total 0
+     24      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 0
+     26      0 crw--w----    1 root     root        0,   0 Jan 30 07:37 1
+     28      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 2
+     30      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 console
+
+/dev/char/vmkdriver:
+total 0
+     86      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 cdp
+     78      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 cna
+     96      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 dvfilter-generic-vmware
+     90      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 dvfiltertbl
+     88      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 dvsdev
+     80      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 input
+     74      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 iodm
+     82      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 keymap
+     92      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 lacp
+     94      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 mptctl_spi
+     64      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 random
+    127      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 sunrpc-gss
+     66      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 urandom
+     84      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 vmnic0
+     72      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 vmwMgmtInfo
+     76      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 vmwMgmtNode0
+     70      0 crw-rw-rw-    1 root     root        0,   0 Jan 30 07:37 vprobe
+
+/dev/char/vob:
+total 0
+     41      0 crw-------    1 root     root        0,   0 Jan 30 07:37 APD
+     47      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Apei
+     43      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Cpu
+     51      0 crw-------    1 root     root        0,   0 Jan 30 07:37 External
+     57      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Hardware
+     54      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Migrate
+     42      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Net
+     55      0 crw-------    1 root     root        0,   0 Jan 30 07:37 PageRetire
+     46      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Pci
+     40      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Scsi
+     48      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Scsispew
+     53      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Swap
+     45      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Test
+     49      0 crw-------    1 root     root        0,   0 Jan 30 07:37 UW
+     50      0 crw-------    1 root     root        0,   0 Jan 30 07:37 VM
+     59      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Vfat
+     56      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Visorfs
+     44      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Vmfs
+     58      0 crw-------    1 root     root        0,   0 Jan 30 07:37 Vsan
+     52      0 crw-------    1 root     root        0,   0 Jan 30 07:37 iScsi
+
+/dev/char/vscsi-filters:
+total 0
+    130      0 crw-------    1 root     root        0,   0 Jan 30 07:37 hbr_filter
+
+/dev/char/vsock:
+total 0
+     61      0 crw-------    1 root     root        0,   0 Jan 30 07:37 vsock
+
+/dev/deltadisks:
+total 0
+    124      0 -r--r--r--    1 root     root             0 Jan 30 07:37 control
+
+/dev/disks:
+total 272626592
+    112 52428800 -rw-------    1 root     root     53687091200 Jan 30 07:37 mpx.vmhba1:C0:T0:L0
+     98   4064 -rw-------    1 root     root       4161536 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:1
+    193 12466176 -rw-------    1 root     root     12765364224 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:10
+    100 4193280 -rw-------    1 root     root     4293918720 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:2
+    189 7812096 -rw-------    1 root     root     7999586304 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:3
+    191 24413184 -rw-------    1 root     root     24999100416 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:4
+    102 255984 -rw-------    1 root     root     262127616 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:5
+    104 255984 -rw-------    1 root     root     262127616 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:6
+    106 112624 -rw-------    1 root     root     115326976 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:7
+    108 292848 -rw-------    1 root     root     299876352 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:8
+    110 2621440 -rw-------    1 root     root     2684354560 Jan 30 07:37 mpx.vmhba1:C0:T0:L0:9
+    115 83886080 -rw-------    1 root     root     85899345920 Jan 30 07:37 mpx.vmhba1:C0:T1:L0
+    184 7812096 -rw-------    1 root     root     7999586304 Jan 30 07:37 mpx.vmhba1:C0:T1:L0:1
+    186 76071936 -rw-------    1 root     root     77897662464 Jan 30 07:37 mpx.vmhba1:C0:T1:L0:3
+    113      0 lrwxrwxrwx    1 root     root            19 Jan 30 07:37 vml.0000000000766d686261313a303a30 -> mpx.vmhba1:C0:T0:L0
+     99      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:1 -> mpx.vmhba1:C0:T0:L0:1
+    194      0 lrwxrwxrwx    1 root     root            22 Jan 30 07:37 vml.0000000000766d686261313a303a30:10 -> mpx.vmhba1:C0:T0:L0:10
+    101      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:2 -> mpx.vmhba1:C0:T0:L0:2
+    190      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:3 -> mpx.vmhba1:C0:T0:L0:3
+    192      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:4 -> mpx.vmhba1:C0:T0:L0:4
+    103      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:5 -> mpx.vmhba1:C0:T0:L0:5
+    105      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:6 -> mpx.vmhba1:C0:T0:L0:6
+    107      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:7 -> mpx.vmhba1:C0:T0:L0:7
+    109      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:8 -> mpx.vmhba1:C0:T0:L0:8
+    111      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a303a30:9 -> mpx.vmhba1:C0:T0:L0:9
+    116      0 lrwxrwxrwx    1 root     root            19 Jan 30 07:37 vml.0000000000766d686261313a313a30 -> mpx.vmhba1:C0:T1:L0
+    185      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a313a30:1 -> mpx.vmhba1:C0:T1:L0:1
+    187      0 lrwxrwxrwx    1 root     root            21 Jan 30 07:37 vml.0000000000766d686261313a313a30:3 -> mpx.vmhba1:C0:T1:L0:3
+
+/dev/genscsi:
+total 0
+    119      0 lrwxrwxrwx    1 root     root            29 Jan 30 07:37 mpx.vmhba64:C0:T0:L0 -> ../cdrom/mpx.vmhba64:C0:T0:L0
+
+/dev/lvm:
+total 39583744
+    188 7602176 -rw-------    1 root     root     7784628224 Jan 30 07:37 5a700ee4-eadab0b3-8bc5-da0009391301
+    195 7602176 -rw-------    1 root     root     7784628224 Jan 30 07:37 5a700ee6-56d5e81c-aebf-da0009391301
+    196 24379392 -rw-------    1 root     root     24964497408 Jan 30 07:37 5a700ee8-0f3d4baa-5bd2-da0009391301
+
+/dev/svm:
+total 0
+    132      0 -r--r--r--    1 root     root             0 Jan 30 07:37 control
+
+/dev/vdfm:
+total 0
+    126      0 -r--r--r--    1 root     root             0 Jan 30 07:37 control
+
+/dev/vflash:
+total 0

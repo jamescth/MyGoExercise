@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+
+LSI Logic / Symbios Logic 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI (vmhba1)
+
+       Firmware: Unknown
+         Driver: mptspi (4.23.01.00-10vmw)
+   Current mode: Unknown
+Supported modes: Unknown
+   Support JBOD: No
+
+--- /vmfs/devices/disks/mpx.vmhba1:C0:T1:L0 (virtual drive)
+
+     Type: Unknown
+     Size: 81920 MiB
+    State: on
+
+    --- VMware Virtual disk (physical SSD)
+
+        Serial number: mpx.vmhba1:C0:T1:L0
+             Firmware: 1.0
+             Location: vmhba1:C0:T1:L0
+                 Size: 81920 MiB
+                State: on
+-------
+
+--- /vmfs/devices/disks/mpx.vmhba1:C0:T0:L0 (virtual drive)
+
+     Type: Unknown
+     Size: 51200 MiB
+    State: on
+
+    --- VMware Virtual disk (physical SSD)
+
+        Serial number: mpx.vmhba1:C0:T0:L0
+             Firmware: 1.0
+             Location: vmhba1:C0:T0:L0
+                 Size: 51200 MiB
+                State: on
+-------
+--------------------------------------------------------------------------------

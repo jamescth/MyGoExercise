@@ -1,0 +1,34 @@
+Adding missing key ScanError.summary
+Error running command gd: (vmodl.fault.SystemError) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   msg = <unset>,
+   faultCause = <unset>,
+   faultMessage = (vmodl.LocalizableMessage) [
+      (LocalizableMessageWithPath) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         key = 'com.vmware.vim.profile.engine.UnexpectedError',
+         arg = (vmodl.KeyAnyValue) [
+            (vmodl.KeyAnyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'context',
+               value = 'Exception while Gathering Generic Plug-in Data'
+            },
+            (vmodl.KeyAnyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'error',
+               value = "Error (see log for more info):\nMore than one VMFS partition found on disk '/vmfs/devices/disks/mpx.vmhba1:C0:T0:L0'.\n"
+            }
+         ],
+         message = "Error: Error (see log for more info):\nMore than one VMFS partition found on disk '/vmfs/devices/disks/mpx.vmhba1:C0:T0:L0'.\n."
+      }
+   ],
+   reason = ''
+}
+Error running command ep: [Errno 2] No such file or directory: '/tmp/124960/gd_results.bin'
+Error running command dp: Host Profile Document File /tmp/124960/profile.bin Not Found
+Error running command dp: Host Profile Document File /tmp/124960/profile.bin Not Found
+Error running command dp: Host Profile Document File /tmp/124960/profile.bin Not Found

@@ -1,0 +1,94 @@
+2018-03-03 04:15:29.699730: run RELOCATE /usr/lib/vmware/vm-support/bin/encryption-prolog.sh (/etc/vmware/vm-support/vm-support-prolog.mfx) took 0.000 sec
+2018-03-03 04:15:29.725423: run - uname -a (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.726160: run - uptime (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.725110: run - /bin/date (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.724388: run - vmware -vl (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.767130: run TIMEOUT /usr/sbin/esxcfg-info -u -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.758508: run TIMEOUT /usr/sbin/esxcfg-info -o -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.885498: run TIMEOUT /usr/sbin/esxcfg-info -e (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.746726: run TIMEOUT /usr/sbin/esxcfg-info -n -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.919875: run TIMEOUT /usr/sbin/esxcfg-info -b -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.928002: run - /sbin/vmkload_mod -l (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.748028: run TIMEOUT /usr/sbin/esxcfg-info -y -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.975903: run TIMEOUT /bin/lspci -v (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.042854: run - /usr/sbin/vmkerrcode -l (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.014131: run - /bin/vdf -h (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.075971: run - /usr/sbin/secpolicytools -d (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.112123: run - /sbin/bootOption -oC (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.137655: safecopy IGNORE_MISSING /etc/vmware/esx.conf (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.954309: run - find /scratch/ -type d -maxdepth 2 (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.353158: run DUMP_JSON /usr/sbin/localcli hardware platform get (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.148457: run DUMP_JSON /usr/sbin/localcli hardware pci list (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.157672: run DUMP_JSON /usr/sbin/localcli hardware cpu list (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.736431: run DUMP_JSON /usr/sbin/localcli hardware memory get (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.908037: run DUMP_JSON /usr/sbin/localcli network ip interface ipv4 get (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:30.778853: run DUMP_JSON /usr/sbin/localcli network nic list (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:29.790906: run TIMEOUT /usr/sbin/esxcfg-info -d -F 'xml' (/etc/vmware/vm-support/datrium-base.mfx) took 1.000 sec
+2018-03-03 04:15:31.216861: run TIMEOUT /usr/sbin/esxcfg-advcfg -g /NFS/MaxQueueDepth (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.071852: run DUMP_JSON /usr/sbin/localcli network ip neighbor list (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.135116: run DUMP_JSON /usr/sbin/localcli network firewall get (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.148806: run DUMP_JSON /usr/sbin/localcli system visorfs ramdisk list (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.354533: run - memstats -r vm-stats (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.381354: run - memstats -r swap-stats (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.423792: run - memstats -r heap-stats (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.524315: run - /opt/datrium/bin/esx_groups.py -m (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:32.070934: run - sched-stats -t worldlet-state-times (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:32.088105: run - sh -c 'for nic in $(vsish -r -e ls /net/pNics); do localcli network nic stats get -n $nic; done' (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:32.192544: safecopy IGNORE_MISSING /opt/datrium/etc/dva.conf (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:31.311425: run DUMP_JSON /opt/datrium/bin/procmgr_cli.py show -j (/etc/vmware/vm-support/datrium-base.mfx) took 0.000 sec
+2018-03-03 04:15:32.272294: run TIMEOUT /usr/sbin/esxcfg-info -s -F 'xml' (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:32.512910: run DUMP_JSON /usr/sbin/localcli storage vmfs extent list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:31.346812: run TIMEOUT /opt/datrium/bin/dacli guestinfo (/etc/vmware/vm-support/datrium-base.mfx) took 1.000 sec
+2018-03-03 04:15:32.831764: run DUMP_JSON /usr/sbin/localcli storage core device list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:32.865794: run DUMP_JSON /usr/sbin/localcli storage nfs list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:33.169762: run DUMP_JSON /usr/sbin/localcli storage nmp device list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:33.386029: run DUMP_JSON /usr/sbin/localcli storage core adapter stats get (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:33.296217: run DUMP_JSON /usr/sbin/localcli storage core adapter list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:33.593191: run DUMP_JSON /usr/sbin/localcli storage core device stats get (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:33.634828: run DUMP_JSON /usr/sbin/localcli storage core path list (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:32.205134: copy RECURSE,IGNORE_MISSING /var/run/log/ (/etc/vmware/vm-support/datrium-base.mfx) took 1.000 sec
+2018-03-03 04:15:34.121019: run DUMP_JSON /usr/sbin/localcli storage nfs param get -n all (/etc/vmware/vm-support/datrium-storage.mfx) took 0.000 sec
+2018-03-03 04:15:34.295532: run TIMEOUT df (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:34.631630: run - ls -isla / (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:31.256655: run DUMP_JSON /usr/sbin/localcli software vib list (/etc/vmware/vm-support/datrium-base.mfx) took 3.000 sec
+2018-03-03 04:15:34.644556: run - ls -islR /dev (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:34.646645: run TIMEOUT ls -isl /vmfs/volumes (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:33.808382: run TIMEOUT /opt/datrium/bin/dacli raid show (/etc/vmware/vm-support/datrium-storage.mfx) took 4.000 sec
+2018-03-03 04:15:33.872061: run TIMEOUT /opt/datrium/bin/dacli ssd show (/etc/vmware/vm-support/datrium-storage.mfx) took 6.000 sec
+2018-03-03 04:15:40.540273: run SERIALIZED,IGNORE_ERROR,TIMEOUT vmkvsitools lsof (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:40.571785: run DUMP_JSON,IGNORE_ERROR /usr/sbin/localcli system visorfs get (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:40.585817: run DUMP_JSON,IGNORE_ERROR /usr/sbin/localcli system visorfs tardisk list (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:40.582182: run DUMP_JSON,IGNORE_ERROR /usr/sbin/localcli system visorfs ramdisk list (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:40.570761: run IGNORE_ERROR,TIMEOUT /bin/vdu -a / (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:41.135052: run DUMP_JSON,TIMEOUT /usr/sbin/localcli storage vmfs snapshot list (/etc/vmware/vm-support/filesystem.mfx) took 1.000 sec
+2018-03-03 04:15:41.203778: run DUMP_JSON,TIMEOUT /usr/sbin/localcli storage vmfs extent list (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:41.341934: run DUMP_JSON,TIMEOUT /usr/sbin/localcli storage vmfs lockmode list -i (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.146164: run IGNORE_ERROR,TIMEOUT vmkfstools -P -v 10 /bootbank (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.204644: run IGNORE_ERROR,TIMEOUT vmkfstools -P -v 10 /altbootbank (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.229740: run IGNORE_ERROR,TIMEOUT vmkfstools -P -v 10 /scratch (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:40.898503: run DUMP_JSON,TIMEOUT /usr/sbin/localcli storage filesystem list -i (/etc/vmware/vm-support/filesystem.mfx) took 1.000 sec
+2018-03-03 04:15:42.385223: run IGNORE_ERROR,TIMEOUT vmkfstools -P -v 10 /productLocker (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.415628: run IGNORE_ERROR,RELOCATE /usr/lib/vmware/vm-support/bin/dump-vmfs-traces.sh (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.448123: safecopy IGNORE_MISSING /var/lib/vmware/hostprofiles/statusData (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2018-03-03 04:15:42.442329: run IGNORE_ERROR,IGNORE_MISSING,RELOCATE /usr/lib/vmware/vm-support/bin/dump-vvol-traces.sh (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:42.530024: run IGNORE_ERROR,RELOCATE /usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/hostprofile.xml.gz (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2018-03-03 04:15:42.615526: run IGNORE_ERROR,RELOCATE /usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/answerfile.xml.gz (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2018-03-03 04:15:42.138509: vmcmd TIMEOUT /usr/lib/vmware/vm-support/bin/dump-vmdk-rdm-info.sh "{VMCFG}" (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2018-03-03 04:15:43.040957: run IGNORE_ERROR,TIMEOUT fdisk -lu (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:43.136681: run TIMEOUT /usr/sbin/esxcfg-scsidevs -m (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:42.136316: vmfscmd IGNORE_ERROR,TIMEOUT vmkfstools -P -v 10 "/vmfs/volumes/{VMFS}" (/etc/vmware/vm-support/filesystem.mfx) took 2.000 sec
+2018-03-03 04:15:43.880145: run DUMP_JSON /usr/sbin/localcli storage core device list (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:44.297392: run DUMP_JSON /usr/sbin/localcli storage core device partition list (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:44.610110: run DUMP_JSON /usr/sbin/localcli storage core device partition showguid (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:45.071243: run DUMP_JSON /usr/sbin/localcli storage core device vaai status get (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:43.121854: run IGNORE_ERROR,TIMEOUT /usr/lib/vmware/vm-support/bin/partedUtil.sh (/etc/vmware/vm-support/storage.mfx) took 2.000 sec
+2018-03-03 04:15:45.380957: run DUMP_JSON /usr/sbin/localcli storage core adapter list (/etc/vmware/vm-support/storage.mfx) took 1.000 sec
+2018-03-03 04:15:45.762068: run DUMP_JSON /usr/sbin/localcli storage core adapter stats get (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:45.786659: run DUMP_JSON /usr/sbin/localcli storage core device stats get (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:46.384140: run DUMP_JSON /usr/sbin/localcli storage core device detached list (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:46.491400: run TIMEOUT /usr/lib/vmware/vm-support/bin/smartinfo (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:46.884935: run IGNORE_ERROR ps -cPTgjstz (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2018-03-03 04:15:46.902772: run - /sbin/memstats -r uw-stats (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2018-03-03 04:15:46.408483: run DUMP_JSON /usr/sbin/localcli storage core plugin registration list (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2018-03-03 04:15:42.448435: run IGNORE_ERROR,RELOCATE,TIMEOUT /usr/lib/vmware/vm-support/bin/storageHostProfiles.sh (/etc/vmware/vm-support/hostProfiles.mfx) took 29.000 sec
+2018-03-03 04:16:11.545097: run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/encryption-epilog.sh (/etc/vmware/vm-support/vm-support-epilog.mfx) took 0.000 sec

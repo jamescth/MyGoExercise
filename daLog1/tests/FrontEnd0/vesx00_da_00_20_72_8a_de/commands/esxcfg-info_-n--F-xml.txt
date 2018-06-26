@@ -1,0 +1,1352 @@
+<network-info>
+   <value name="current-max-virtual-switches" type="uint32" format="dec">256</value>
+   <value name="next-reboot-max-virtual-switches" type="uint32" format="dec">256</value>
+   <console-nic-info>
+      <console-nics>
+      </console-nics>
+   </console-nic-info>
+   <routing-info>
+      <value name="netstack-instance" type="string">defaultTcpipStack</value>
+      <value name="kernel-gateway" type="string">10.80.0.1</value>
+      <value name="kernel-ipv6-gateway" type="string">::</value>
+      <value name="console-gateway" type="string">0.0.0.0</value>
+      <value name="console-gateway-device" type="string"></value>
+      <value name="vmkernel-ipv4-gateway-interface" type="string"></value>
+      <value name="vmkernel-ipv4-gateway-source" type="string">DHCP</value>
+      <value name="vmkernel-ipv6-gateway-interface" type="string"></value>
+      <vmkernel-routes>
+         <route>
+            <value name="network" type="string">0.0.0.0/0</value>
+            <value name="gateway" type="string">10.80.0.1</value>
+            <value name="interface" type="string">vmk0</value>
+         </route>
+         <route>
+            <value name="network" type="string">10.80.0.0/16</value>
+            <value name="gateway" type="string">0.0.0.0</value>
+            <value name="interface" type="string">vmk0</value>
+         </route>
+      </vmkernel-routes>
+      <vmkernel-ipv6-routes>
+         <v6route>
+            <value name="network" type="string">fe80::/64</value>
+            <value name="gateway" type="string">::</value>
+            <value name="interface" type="string">lo0</value>
+         </v6route>
+         <v6route>
+            <value name="network" type="string">fe80::/64</value>
+            <value name="gateway" type="string">::</value>
+            <value name="interface" type="string">vmk0</value>
+         </v6route>
+         <v6route>
+            <value name="network" type="string">ff01::/32</value>
+            <value name="gateway" type="string">::1</value>
+            <value name="interface" type="string">lo0</value>
+         </v6route>
+         <v6route>
+            <value name="network" type="string">ff01::/32</value>
+            <value name="gateway" type="string">fe80::d800:20ff:fe72:8ade</value>
+            <value name="interface" type="string">vmk0</value>
+         </v6route>
+         <v6route>
+            <value name="network" type="string">ff02::/32</value>
+            <value name="gateway" type="string">::1</value>
+            <value name="interface" type="string">lo0</value>
+         </v6route>
+         <v6route>
+            <value name="network" type="string">ff02::/32</value>
+            <value name="gateway" type="string">fe80::d800:20ff:fe72:8ade</value>
+            <value name="interface" type="string">vmk0</value>
+         </v6route>
+      </vmkernel-ipv6-routes>
+   </routing-info>
+   <virtual-switch-info>
+      <virtual-switches>
+         <virtual-switch>
+            <value name="name" type="string">vSwitch0</value>
+            <value name="uplinks" type="string">vmnic0</value>
+            <value name="total-ports" type="uint32" format="dec">1642</value>
+            <value name="configured-ports" type="uint32" format="dec">128</value>
+            <value name="used-ports" type="uint32" format="dec">4</value>
+            <value name="beacon-enabled" type="bool">false</value>
+            <value name="beacon-interval" type="uint32" format="dec">1</value>
+            <value name="beacon-threshold" type="uint32" format="dec">3</value>
+            <value name="beacon-required-by" type="string"></value>
+            <value name="cdp-status" type="string">listen</value>
+            <value name="mtu" type="uint32" format="dec">1500</value>
+            <value name="switch-class" type="string">etherswitch</value>
+            <unclaimed-ports>
+               <port>
+                  <value name="port-id" type="uint32" format="dec">33554433</value>
+                  <value name="world-leader" type="uint32" format="dec">0</value>
+                  <value name="client-name" type="string">Management</value>
+                  <value name="mac-addr" type="string">00:00:00:00:00:00</value>
+                  <value name="blocked" type="bool">false</value>
+                  <value name="type" type="string">None</value>
+                  <value name="portgroup-name" type="string"></value>
+                  <value name="portset-name" type="string">vSwitch0</value>
+                  <stats>
+                     <value name="packets-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-tso-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-tso-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="packets-rx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-rx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="actions" type="uint64" format="dec">0</value>
+                     <value name="uplink-rx-packets" type="uint64" format="dec">373000</value>
+                     <value name="pks-billed" type="uint64" format="dec">0</value>
+                     <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                  </stats>
+                  <input-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">2</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">2</value>
+                     <value name="packets-passed" type="uint64" format="dec">2</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </input-iochain-stats>
+                  <output-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">298281</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">373037</value>
+                     <value name="packets-passed" type="uint64" format="dec">373037</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </output-iochain-stats>
+                  <notify-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">0</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">0</value>
+                     <value name="packets-passed" type="uint64" format="dec">0</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </notify-iochain-stats>
+                  <dvfilter-filters>
+                  </dvfilter-filters>
+               </port>
+               <port>
+                  <value name="port-id" type="uint32" format="dec">33554434</value>
+                  <value name="world-leader" type="uint32" format="dec">0</value>
+                  <value name="client-name" type="string">vmnic0</value>
+                  <value name="mac-addr" type="string">00:00:00:00:00:00</value>
+                  <value name="blocked" type="bool">false</value>
+                  <value name="type" type="string">Pnic</value>
+                  <value name="portgroup-name" type="string"></value>
+                  <value name="portset-name" type="string">vSwitch0</value>
+                  <stats>
+                     <value name="packets-tx-ok" type="uint64" format="dec">347975</value>
+                     <value name="bytes-tx-ok" type="uint64" format="dec">57687181</value>
+                     <value name="dropped-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-tso-tx-ok" type="uint64" format="dec">641457</value>
+                     <value name="bytes-tso-tx-ok" type="uint64" format="dec">14929995972</value>
+                     <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="packets-rx-ok" type="uint64" format="dec">2818162</value>
+                     <value name="bytes-rx-ok" type="uint64" format="dec">2514655986</value>
+                     <value name="dropped-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="actions" type="uint64" format="dec">0</value>
+                     <value name="uplink-rx-packets" type="uint64" format="dec">0</value>
+                     <value name="pks-billed" type="uint64" format="dec">0</value>
+                     <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                  </stats>
+                  <input-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">1089915</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">2818162</value>
+                     <value name="packets-passed" type="uint64" format="dec">2818162</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </input-iochain-stats>
+                  <output-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">741582</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">989432</value>
+                     <value name="packets-passed" type="uint64" format="dec">989432</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </output-iochain-stats>
+                  <notify-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">0</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">0</value>
+                     <value name="packets-passed" type="uint64" format="dec">0</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </notify-iochain-stats>
+                  <dvfilter-filters>
+                  </dvfilter-filters>
+               </port>
+               <port>
+                  <value name="port-id" type="uint32" format="dec">33554435</value>
+                  <value name="world-leader" type="uint32" format="dec">0</value>
+                  <value name="client-name" type="string">Shadow of vmnic0</value>
+                  <value name="mac-addr" type="string">00:50:56:5c:bb:7f</value>
+                  <value name="blocked" type="bool">false</value>
+                  <value name="type" type="string">None</value>
+                  <value name="portgroup-name" type="string"></value>
+                  <value name="portset-name" type="string">vSwitch0</value>
+                  <stats>
+                     <value name="packets-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-tso-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-tso-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                     <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                     <value name="packets-rx-ok" type="uint64" format="dec">0</value>
+                     <value name="bytes-rx-ok" type="uint64" format="dec">0</value>
+                     <value name="dropped-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                     <value name="actions" type="uint64" format="dec">0</value>
+                     <value name="uplink-rx-packets" type="uint64" format="dec">464560</value>
+                     <value name="pks-billed" type="uint64" format="dec">0</value>
+                     <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                  </stats>
+                  <input-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">0</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">0</value>
+                     <value name="packets-passed" type="uint64" format="dec">0</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </input-iochain-stats>
+                  <output-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">360932</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">464601</value>
+                     <value name="packets-passed" type="uint64" format="dec">464601</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </output-iochain-stats>
+                  <notify-iochain-stats>
+                     <value name="starts" type="uint64" format="dec">0</value>
+                     <value name="resumes" type="uint64" format="dec">0</value>
+                     <value name="errors" type="uint64" format="dec">0</value>
+                     <value name="packets-started" type="uint64" format="dec">0</value>
+                     <value name="packets-passed" type="uint64" format="dec">0</value>
+                     <value name="packets-dropped" type="uint64" format="dec">0</value>
+                  </notify-iochain-stats>
+                  <dvfilter-filters>
+                  </dvfilter-filters>
+               </port>
+            </unclaimed-ports>
+            <configured-teaming-policy>
+               <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+               <value name="notify-switch" type="bool">true</value>
+               <value name="rolling-restoration" type="bool">false</value>
+               <link-criteria>
+                  <value name="beacon" type="string">ignore</value>
+               </link-criteria>
+               <value name="uplink-order" type="string">vmnic0</value>
+               <value name="max-active-uplinks" type="int" format="dec">1</value>
+            </configured-teaming-policy>
+            <effective-teaming-policy>
+               <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+               <value name="notify-switch" type="bool">true</value>
+               <value name="rolling-restoration" type="bool">false</value>
+               <link-criteria>
+                  <value name="beacon" type="string">ignore</value>
+               </link-criteria>
+               <value name="uplink-order" type="string">vmnic0</value>
+               <value name="max-active-uplinks" type="int" format="dec">1</value>
+            </effective-teaming-policy>
+            <configured-security-policy>
+               <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+               <value name="allow-macaddr-change" type="bool">true</value>
+               <value name="allow-forged-transmits" type="bool">true</value>
+            </configured-security-policy>
+            <effective-security-policy>
+               <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+               <value name="allow-macaddr-change" type="bool">true</value>
+               <value name="allow-forged-transmits" type="bool">true</value>
+            </effective-security-policy>
+            <configured-shaping-policy>
+               <value name="peak-bps" type="opaque-string">unset</value>
+               <value name="average-bps" type="opaque-string">unset</value>
+               <value name="burst-size" type="opaque-string">unset</value>
+            </configured-shaping-policy>
+            <effective-shaping-policy>
+               <value name="peak-bps" type="opaque-string">unset</value>
+               <value name="average-bps" type="opaque-string">unset</value>
+               <value name="burst-size" type="opaque-string">unset</value>
+            </effective-shaping-policy>
+            <configured-nic-capabilities>
+               <value name="vlan-tag" type="bool">true</value>
+               <value name="vlan-untag" type="bool">true</value>
+               <value name="checksum-offload" type="bool">true</value>
+               <value name="tcp-segmentation-offload" type="bool">true</value>
+               <value name="scatter-gather-tx" type="bool">true</value>
+            </configured-nic-capabilities>
+            <effective-nic-capabilities>
+               <value name="vlan-tag" type="bool">true</value>
+               <value name="vlan-untag" type="bool">true</value>
+               <value name="checksum-offload" type="bool">true</value>
+               <value name="tcp-segmentation-offload" type="bool">true</value>
+               <value name="scatter-gather-tx" type="bool">true</value>
+            </effective-nic-capabilities>
+            <port-groups>
+               <port-group>
+                  <value name="name" type="string">VM Network</value>
+                  <value name="virtual-switch" type="string">vSwitch0</value>
+                  <value name="active-clients" type="uint32" format="dec">0</value>
+                  <value name="vlan-id" type="uint16" format="dec">0</value>
+                  <configured-teaming-policy>
+                     <value name="teaming-policy" type="opaque-string">unset</value>
+                     <value name="notify-switch" type="opaque-string">unset</value>
+                     <value name="rolling-restoration" type="opaque-string">unset</value>
+                     <value name="link-criteria" type="opaque-string">unset</value>
+                     <value name="uplink-order" type="opaque-string">unset</value>
+                     <value name="max-active-uplinks" type="opaque-string">unset</value>
+                  </configured-teaming-policy>
+                  <effective-teaming-policy>
+                     <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                     <value name="notify-switch" type="bool">true</value>
+                     <value name="rolling-restoration" type="bool">false</value>
+                     <link-criteria>
+                        <value name="beacon" type="string">ignore</value>
+                     </link-criteria>
+                     <value name="uplink-order" type="string">vmnic0</value>
+                     <value name="max-active-uplinks" type="int" format="dec">1</value>
+                  </effective-teaming-policy>
+                  <configured-security-policy>
+                     <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                     <value name="allow-macaddr-change" type="opaque-string">unset</value>
+                     <value name="allow-forged-transmits" type="opaque-string">unset</value>
+                  </configured-security-policy>
+                  <effective-security-policy>
+                     <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                     <value name="allow-macaddr-change" type="bool">true</value>
+                     <value name="allow-forged-transmits" type="bool">true</value>
+                  </effective-security-policy>
+                  <configured-shaping-policy>
+                     <value name="peak-bps" type="opaque-string">unset</value>
+                     <value name="average-bps" type="opaque-string">unset</value>
+                     <value name="burst-size" type="opaque-string">unset</value>
+                  </configured-shaping-policy>
+                  <effective-shaping-policy>
+                     <value name="peak-bps" type="opaque-string">unset</value>
+                     <value name="average-bps" type="opaque-string">unset</value>
+                     <value name="burst-size" type="opaque-string">unset</value>
+                  </effective-shaping-policy>
+                  <configured-nic-capabilities>
+                     <value name="vlan-tag" type="opaque-string">unset</value>
+                     <value name="vlan-untag" type="opaque-string">unset</value>
+                     <value name="checksum-offload" type="opaque-string">unset</value>
+                     <value name="tcp-segmentation-offload" type="opaque-string">unset</value>
+                     <value name="scatter-gather-tx" type="opaque-string">unset</value>
+                  </configured-nic-capabilities>
+                  <effective-nic-capabilities>
+                     <value name="vlan-tag" type="bool">true</value>
+                     <value name="vlan-untag" type="bool">true</value>
+                     <value name="checksum-offload" type="bool">true</value>
+                     <value name="tcp-segmentation-offload" type="bool">true</value>
+                     <value name="scatter-gather-tx" type="bool">true</value>
+                  </effective-nic-capabilities>
+                  <ports>
+                  </ports>
+                  <vlan-filters>
+                  </vlan-filters>
+               </port-group>
+               <port-group>
+                  <value name="name" type="string">Management Network</value>
+                  <value name="virtual-switch" type="string">vSwitch0</value>
+                  <value name="active-clients" type="uint32" format="dec">1</value>
+                  <value name="vlan-id" type="uint16" format="dec">0</value>
+                  <configured-teaming-policy>
+                     <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                     <value name="notify-switch" type="bool">true</value>
+                     <value name="rolling-restoration" type="bool">false</value>
+                     <link-criteria>
+                        <value name="beacon" type="string">ignore</value>
+                     </link-criteria>
+                     <value name="uplink-order" type="string">vmnic0</value>
+                     <value name="max-active-uplinks" type="int" format="dec">1</value>
+                  </configured-teaming-policy>
+                  <effective-teaming-policy>
+                     <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                     <value name="notify-switch" type="bool">true</value>
+                     <value name="rolling-restoration" type="bool">false</value>
+                     <link-criteria>
+                        <value name="beacon" type="string">ignore</value>
+                     </link-criteria>
+                     <value name="uplink-order" type="string">vmnic0</value>
+                     <value name="max-active-uplinks" type="int" format="dec">1</value>
+                  </effective-teaming-policy>
+                  <configured-security-policy>
+                     <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                     <value name="allow-macaddr-change" type="opaque-string">unset</value>
+                     <value name="allow-forged-transmits" type="opaque-string">unset</value>
+                  </configured-security-policy>
+                  <effective-security-policy>
+                     <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                     <value name="allow-macaddr-change" type="bool">true</value>
+                     <value name="allow-forged-transmits" type="bool">true</value>
+                  </effective-security-policy>
+                  <configured-shaping-policy>
+                     <value name="peak-bps" type="opaque-string">unset</value>
+                     <value name="average-bps" type="opaque-string">unset</value>
+                     <value name="burst-size" type="opaque-string">unset</value>
+                  </configured-shaping-policy>
+                  <effective-shaping-policy>
+                     <value name="peak-bps" type="opaque-string">unset</value>
+                     <value name="average-bps" type="opaque-string">unset</value>
+                     <value name="burst-size" type="opaque-string">unset</value>
+                  </effective-shaping-policy>
+                  <configured-nic-capabilities>
+                     <value name="vlan-tag" type="opaque-string">unset</value>
+                     <value name="vlan-untag" type="opaque-string">unset</value>
+                     <value name="checksum-offload" type="opaque-string">unset</value>
+                     <value name="tcp-segmentation-offload" type="opaque-string">unset</value>
+                     <value name="scatter-gather-tx" type="opaque-string">unset</value>
+                  </configured-nic-capabilities>
+                  <effective-nic-capabilities>
+                     <value name="vlan-tag" type="bool">true</value>
+                     <value name="vlan-untag" type="bool">true</value>
+                     <value name="checksum-offload" type="bool">true</value>
+                     <value name="tcp-segmentation-offload" type="bool">true</value>
+                     <value name="scatter-gather-tx" type="bool">true</value>
+                  </effective-nic-capabilities>
+                  <ports>
+                     <port>
+                        <value name="port-id" type="uint32" format="dec">33554436</value>
+                        <value name="world-leader" type="uint32" format="dec">0</value>
+                        <value name="client-name" type="string">vmk0</value>
+                        <value name="mac-addr" type="string">da:00:20:72:8a:de</value>
+                        <value name="blocked" type="bool">false</value>
+                        <value name="type" type="string">Tcp/Ip</value>
+                        <value name="portgroup-name" type="string">Management Network</value>
+                        <value name="portset-name" type="string">vSwitch0</value>
+                        <stats>
+                           <value name="packets-tx-ok" type="uint64" format="dec">347979</value>
+                           <value name="bytes-tx-ok" type="uint64" format="dec">57687793</value>
+                           <value name="dropped-tx" type="uint64" format="dec">0</value>
+                           <value name="packets-tso-tx-ok" type="uint64" format="dec">641502</value>
+                           <value name="bytes-tso-tx-ok" type="uint64" format="dec">14930607808</value>
+                           <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                           <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                           <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                           <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                           <value name="packets-rx-ok" type="uint64" format="dec">1184746</value>
+                           <value name="bytes-rx-ok" type="uint64" format="dec">2385753195</value>
+                           <value name="dropped-rx" type="uint64" format="dec">0</value>
+                           <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                           <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                           <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                           <value name="actions" type="uint64" format="dec">1523279</value>
+                           <value name="uplink-rx-packets" type="uint64" format="dec">2726710</value>
+                           <value name="pks-billed" type="uint64" format="dec">0</value>
+                           <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                           <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                        </stats>
+                        <input-iochain-stats>
+                           <value name="starts" type="uint64" format="dec">741625</value>
+                           <value name="resumes" type="uint64" format="dec">0</value>
+                           <value name="errors" type="uint64" format="dec">0</value>
+                           <value name="packets-started" type="uint64" format="dec">989480</value>
+                           <value name="packets-passed" type="uint64" format="dec">989478</value>
+                           <value name="packets-dropped" type="uint64" format="dec">0</value>
+                        </input-iochain-stats>
+                        <output-iochain-stats>
+                           <value name="starts" type="uint64" format="dec">1028971</value>
+                           <value name="resumes" type="uint64" format="dec">0</value>
+                           <value name="errors" type="uint64" format="dec">0</value>
+                           <value name="packets-started" type="uint64" format="dec">2726712</value>
+                           <value name="packets-passed" type="uint64" format="dec">2652304</value>
+                           <value name="packets-dropped" type="uint64" format="dec">0</value>
+                        </output-iochain-stats>
+                        <notify-iochain-stats>
+                           <value name="starts" type="uint64" format="dec">518811</value>
+                           <value name="resumes" type="uint64" format="dec">0</value>
+                           <value name="errors" type="uint64" format="dec">0</value>
+                           <value name="packets-started" type="uint64" format="dec">705630</value>
+                           <value name="packets-passed" type="uint64" format="dec">705630</value>
+                           <value name="packets-dropped" type="uint64" format="dec">0</value>
+                        </notify-iochain-stats>
+                        <dvfilter-filters>
+                           <dvfilter>
+                              <value name="agent-name" type="string">ESXi-Firewall</value>
+                              <value name="world-id" type="uint32" format="dec">0</value>
+                              <value name="world-name" type="string"></value>
+                              <value name="vnicindex" type="uint32" format="dec">4294967295</value>
+                              <value name="filterindex" type="uint32" format="dec">0</value>
+                              <value name="port-id" type="uint32" format="dec">33554436</value>
+                              <value name="state" type="string">IOChain Attached</value>
+                           </dvfilter>
+                        </dvfilter-filters>
+                     </port>
+                  </ports>
+                  <vlan-filters>
+                  </vlan-filters>
+               </port-group>
+            </port-groups>
+         </virtual-switch>
+      </virtual-switches>
+   </virtual-switch-info>
+   <vmkernel-nic-info>
+      <kernel-nics>
+         <vmkernel-nic>
+            <value name="port-group" type="string">Management Network</value>
+            <value name="netstack-instance" type="string">defaultTcpipStack</value>
+            <value name="interface" type="string">vmk0</value>
+            <value name="index" type="uint32" format="dec">0</value>
+            <value name="port-id" type="uint32" format="dec">33554436</value>
+            <value name="mtu" type="uint32" format="dec">1500</value>
+            <value name="tso-mss" type="uint32" format="dec">65535</value>
+            <value name="mac-address" type="string">da:00:20:72:8a:de</value>
+            <value name="tags" type="string">Management</value>
+            <actual-ip-settings>
+               <ipv4-settings>
+                  <value name="type" type="string">DHCP</value>
+                  <value name="ipv4-address" type="string">10.80.2.181</value>
+                  <value name="ipv4-netmask" type="string">255.255.0.0</value>
+                  <value name="ipv4-broadcast" type="string">10.80.255.255</value>
+                  <value name="valid-config" type="bool">true</value>
+               </ipv4-settings>
+               <ipv6-settings>
+                  <value name="type" type="string">Static</value>
+                  <value name="scope" type="string">Link Local</value>
+                  <value name="ipv6-address" type="string">fe80::d800:20ff:fe72:8ade/64</value>
+                  <value name="valid-config" type="bool">true</value>
+               </ipv6-settings>
+            </actual-ip-settings>
+            <configured-ip-settings>
+               <ipv4-settings>
+                  <value name="type" type="string">DHCP</value>
+                  <value name="ipv4-address" type="string">0.0.0.0</value>
+                  <value name="ipv4-netmask" type="string">0.0.0.0</value>
+                  <value name="ipv4-broadcast" type="string">0.0.0.0</value>
+                  <value name="valid-config" type="bool">true</value>
+               </ipv4-settings>
+               <ipv6-settings>
+               </ipv6-settings>
+            </configured-ip-settings>
+         </vmkernel-nic>
+      </kernel-nics>
+   </vmkernel-nic-info>
+   <dns-config>
+      <value name="netstack-instance" type="string">defaultTcpipStack</value>
+      <value name="hostname" type="string">vesx00</value>
+      <value name="domain" type="string">datrium.com</value>
+      <value name="search-list" type="string">datrium.com</value>
+      <value name="primary-name-server" type="string">10.126.0.19</value>
+      <value name="secondary-name-server" type="string">10.126.0.18</value>
+   </dns-config>
+   <physical-nics>
+      <physical-nic>
+         <value name="name" type="string">vmnic0</value>
+         <value name="pci-segment" type="uint32" format="dec">0</value>
+         <value name="pci-bus" type="uint32" format="dec">2</value>
+         <value name="pci-slot" type="uint32" format="dec">0</value>
+         <value name="pci-function" type="uint32" format="dec">0</value>
+         <value name="mac-address" type="string">da:00:20:72:8a:de</value>
+         <value name="virtual-mac-address" type="string">00:50:56:5c:bb:7f</value>
+         <value name="driver" type="string">e1000</value>
+         <value name="network-hint" type="string">0 0.0.0.0/0.0.0.0</value>
+         <value name="mtu" type="uint32" format="dec">1500</value>
+         <value name="configured-speed" type="opaque-string">0</value>
+         <value name="actual-speed" type="int" format="dec">1000</value>
+         <value name="configured-duplex" type="opaque-string">0</value>
+         <value name="actual-duplex" type="int" format="dec">1</value>
+         <value name="link-up" type="bool">true</value>
+         <value name="administrative-status" type="bool">true</value>
+         <value name="operational-status" type="bool">true</value>
+         <value name="enabled" type="bool">true</value>
+         <value name="wake-on-lan-supported-" type="bool">false</value>
+         <value name="wake-on-lan-enabled-" type="bool">false</value>
+         <value name="resource-scheduler-allowed--" type="bool">true</value>
+         <value name="resource-scheduler-supported-" type="bool">true</value>
+         <value name="cdp-network" type="bool">false</value>
+         <value name="lldp-network" type="bool">false</value>
+         <hardware-capabilities>
+            <value name="vlan-tag" type="bool">true</value>
+            <value name="vlan-untag" type="bool">true</value>
+            <value name="checksum-offload" type="bool">true</value>
+            <value name="tcp-segmentation-offload" type="bool">true</value>
+            <value name="scatter-gather-tx" type="bool">true</value>
+         </hardware-capabilities>
+         <supported-speeds-and-duplex>
+            <value name="supported-mode" type="string">auto/auto</value>
+            <value name="supported-mode" type="string">10/half</value>
+            <value name="supported-mode" type="string">10/full</value>
+            <value name="supported-mode" type="string">100/half</value>
+            <value name="supported-mode" type="string">100/full</value>
+            <value name="supported-mode" type="string">1000/full</value>
+         </supported-speeds-and-duplex>
+         <pci-device>
+            <value name="segment" type="uint16" format="hex">0x0000</value>
+            <value name="bus" type="uint8" format="hex">0x02</value>
+            <value name="slot" type="uint8" format="hex">0x00</value>
+            <value name="function" type="uint8" format="hex">0x00</value>
+            <value name="runtime-owner" type="string">vmkernel</value>
+            <value name="has-configured-owner" type="opaque-string">false</value>
+            <value name="configured-owner" type="string"></value>
+            <value name="vendor-id" type="uint16" format="hex">0x8086</value>
+            <value name="device-id" type="uint16" format="hex">0x100f</value>
+            <value name="sub-vendor-id" type="uint16" format="hex">0x15ad</value>
+            <value name="sub-device-id" type="uint16" format="hex">0x0750</value>
+            <value name="vendor-name" type="string">Intel Corporation</value>
+            <value name="device-name" type="string">82545EM Gigabit Ethernet Controller (Copper)</value>
+            <value name="device-class" type="uint16" format="dec">512</value>
+            <value name="device-class-name" type="string">Ethernet controller</value>
+            <value name="pic-line" type="uint8" format="dec">10</value>
+            <value name="old-irq" type="uint8" format="dec">10</value>
+            <value name="vector" type="uint8" format="dec">80</value>
+            <value name="pci-pin" type="uint8" format="dec">0</value>
+            <value name="spawned-bus" type="uint8" format="dec">0</value>
+            <value name="flags" type="uint16" format="dec">12801</value>
+            <bar-info>
+               <bar0>
+                  <value name="type" type="uint32" format="hex">0x00000003</value>
+                  <value name="address" type="uint64" format="hex">0x00000000fd5c0000</value>
+                  <value name="size" type="uint64" format="dec">131072</value>
+                  <value name="flags" type="uint32" format="hex">0x00000004</value>
+               </bar0>
+               <bar1>
+                  <value name="type" type="uint32" format="hex">0x00000004</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar1>
+               <bar2>
+                  <value name="type" type="uint32" format="hex">0x00000003</value>
+                  <value name="address" type="uint64" format="hex">0x00000000fdff0000</value>
+                  <value name="size" type="uint64" format="dec">65536</value>
+                  <value name="flags" type="uint32" format="hex">0x00000004</value>
+               </bar2>
+               <bar3>
+                  <value name="type" type="uint32" format="hex">0x00000004</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar3>
+               <bar4>
+                  <value name="type" type="uint32" format="hex">0x00000001</value>
+                  <value name="address" type="uint64" format="hex">0x0000000000002000</value>
+                  <value name="size" type="uint64" format="dec">64</value>
+                  <value name="flags" type="uint32" format="hex">0x00000001</value>
+               </bar4>
+               <bar5>
+                  <value name="type" type="uint32" format="dec">0</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar5>
+            </bar-info>
+            <value name="module-id" type="uint32" format="dec">4125</value>
+            <value name="chassis" type="uint8" format="dec">0</value>
+            <value name="physical-slot" type="uint32" format="dec">32</value>
+            <value name="vmkernel-device-name" type="string">vmnic0</value>
+            <value name="slot-description" type="string">Chassis slot 20; function 0</value>
+            <value name="passthru-capable" type="bool">false</value>
+            <value name="parent-device" type="string">PCI 0:0:17:0</value>
+            <value name="dependent-device" type="string">PCI 0:0:17:0</value>
+            <value name="reset-method" type="opaque-string">4</value>
+            <value name="fpt-shareable" type="bool">true</value>
+         </pci-device>
+      </physical-nic>
+   </physical-nics>
+   <dvfilter-fastpath-agents>
+      <dvfilter-fastpath-agent>
+         <value name="agent-name" type="string">dvfilter-faulter</value>
+         <value name="api-revision" type="uint32" format="dec">16842752</value>
+         <value name="fastpath-revision" type="uint32" format="dec">16842752</value>
+         <value name="ref-count" type="uint32" format="dec">1</value>
+      </dvfilter-fastpath-agent>
+      <dvfilter-fastpath-agent>
+         <value name="agent-name" type="string">ESXi-Firewall</value>
+         <value name="api-revision" type="uint32" format="dec">16842752</value>
+         <value name="fastpath-revision" type="uint32" format="dec">16842752</value>
+         <value name="ref-count" type="uint32" format="dec">2</value>
+      </dvfilter-fastpath-agent>
+      <dvfilter-fastpath-agent>
+         <value name="agent-name" type="string">dvfilter-generic-vmware</value>
+         <value name="api-revision" type="uint32" format="dec">16842752</value>
+         <value name="fastpath-revision" type="uint32" format="dec">16842752</value>
+         <value name="ref-count" type="uint32" format="dec">1</value>
+      </dvfilter-fastpath-agent>
+   </dvfilter-fastpath-agents>
+   <network-entities>
+      <console-nic-info>
+         <console-nics>
+         </console-nics>
+      </console-nic-info>
+      <dns-config>
+         <value name="netstack-instance" type="string">defaultTcpipStack</value>
+         <value name="hostname" type="string">vesx00</value>
+         <value name="domain" type="string">datrium.com</value>
+         <value name="search-list" type="string">datrium.com</value>
+         <value name="primary-name-server" type="string">10.126.0.19</value>
+         <value name="secondary-name-server" type="string">10.126.0.18</value>
+      </dns-config>
+      <routing-info>
+         <value name="netstack-instance" type="string">defaultTcpipStack</value>
+         <value name="kernel-gateway" type="string">10.80.0.1</value>
+         <value name="kernel-ipv6-gateway" type="string">::</value>
+         <value name="console-gateway" type="string">0.0.0.0</value>
+         <value name="console-gateway-device" type="string"></value>
+         <value name="vmkernel-ipv4-gateway-interface" type="string"></value>
+         <value name="vmkernel-ipv4-gateway-source" type="string">DHCP</value>
+         <value name="vmkernel-ipv6-gateway-interface" type="string"></value>
+         <vmkernel-routes>
+            <route>
+               <value name="network" type="string">0.0.0.0/0</value>
+               <value name="gateway" type="string">10.80.0.1</value>
+               <value name="interface" type="string">vmk0</value>
+            </route>
+            <route>
+               <value name="network" type="string">10.80.0.0/16</value>
+               <value name="gateway" type="string">0.0.0.0</value>
+               <value name="interface" type="string">vmk0</value>
+            </route>
+         </vmkernel-routes>
+         <vmkernel-ipv6-routes>
+            <v6route>
+               <value name="network" type="string">fe80::/64</value>
+               <value name="gateway" type="string">::</value>
+               <value name="interface" type="string">lo0</value>
+            </v6route>
+            <v6route>
+               <value name="network" type="string">fe80::/64</value>
+               <value name="gateway" type="string">::</value>
+               <value name="interface" type="string">vmk0</value>
+            </v6route>
+            <v6route>
+               <value name="network" type="string">ff01::/32</value>
+               <value name="gateway" type="string">::1</value>
+               <value name="interface" type="string">lo0</value>
+            </v6route>
+            <v6route>
+               <value name="network" type="string">ff01::/32</value>
+               <value name="gateway" type="string">fe80::d800:20ff:fe72:8ade</value>
+               <value name="interface" type="string">vmk0</value>
+            </v6route>
+            <v6route>
+               <value name="network" type="string">ff02::/32</value>
+               <value name="gateway" type="string">::1</value>
+               <value name="interface" type="string">lo0</value>
+            </v6route>
+            <v6route>
+               <value name="network" type="string">ff02::/32</value>
+               <value name="gateway" type="string">fe80::d800:20ff:fe72:8ade</value>
+               <value name="interface" type="string">vmk0</value>
+            </v6route>
+         </vmkernel-ipv6-routes>
+      </routing-info>
+      <vmkernel-nic-info>
+         <kernel-nics>
+            <vmkernel-nic>
+               <value name="port-group" type="string">Management Network</value>
+               <value name="netstack-instance" type="string">defaultTcpipStack</value>
+               <value name="interface" type="string">vmk0</value>
+               <value name="index" type="uint32" format="dec">0</value>
+               <value name="port-id" type="uint32" format="dec">33554436</value>
+               <value name="mtu" type="uint32" format="dec">1500</value>
+               <value name="tso-mss" type="uint32" format="dec">65535</value>
+               <value name="mac-address" type="string">da:00:20:72:8a:de</value>
+               <value name="tags" type="string">Management</value>
+               <actual-ip-settings>
+                  <ipv4-settings>
+                     <value name="type" type="string">DHCP</value>
+                     <value name="ipv4-address" type="string">10.80.2.181</value>
+                     <value name="ipv4-netmask" type="string">255.255.0.0</value>
+                     <value name="ipv4-broadcast" type="string">10.80.255.255</value>
+                     <value name="valid-config" type="bool">true</value>
+                  </ipv4-settings>
+                  <ipv6-settings>
+                     <value name="type" type="string">Static</value>
+                     <value name="scope" type="string">Link Local</value>
+                     <value name="ipv6-address" type="string">fe80::d800:20ff:fe72:8ade/64</value>
+                     <value name="valid-config" type="bool">true</value>
+                  </ipv6-settings>
+               </actual-ip-settings>
+               <configured-ip-settings>
+                  <ipv4-settings>
+                     <value name="type" type="string">DHCP</value>
+                     <value name="ipv4-address" type="string">0.0.0.0</value>
+                     <value name="ipv4-netmask" type="string">0.0.0.0</value>
+                     <value name="ipv4-broadcast" type="string">0.0.0.0</value>
+                     <value name="valid-config" type="bool">true</value>
+                  </ipv4-settings>
+                  <ipv6-settings>
+                  </ipv6-settings>
+               </configured-ip-settings>
+            </vmkernel-nic>
+         </kernel-nics>
+      </vmkernel-nic-info>
+      <virtual-switch-info>
+         <virtual-switches>
+            <virtual-switch>
+               <value name="name" type="string">vSwitch0</value>
+               <value name="uplinks" type="string">vmnic0</value>
+               <value name="total-ports" type="uint32" format="dec">1642</value>
+               <value name="configured-ports" type="uint32" format="dec">128</value>
+               <value name="used-ports" type="uint32" format="dec">4</value>
+               <value name="beacon-enabled" type="bool">false</value>
+               <value name="beacon-interval" type="uint32" format="dec">1</value>
+               <value name="beacon-threshold" type="uint32" format="dec">3</value>
+               <value name="beacon-required-by" type="string"></value>
+               <value name="cdp-status" type="string">listen</value>
+               <value name="mtu" type="uint32" format="dec">1500</value>
+               <value name="switch-class" type="string">etherswitch</value>
+               <unclaimed-ports>
+                  <port>
+                     <value name="port-id" type="uint32" format="dec">33554433</value>
+                     <value name="world-leader" type="uint32" format="dec">0</value>
+                     <value name="client-name" type="string">Management</value>
+                     <value name="mac-addr" type="string">00:00:00:00:00:00</value>
+                     <value name="blocked" type="bool">false</value>
+                     <value name="type" type="string">None</value>
+                     <value name="portgroup-name" type="string"></value>
+                     <value name="portset-name" type="string">vSwitch0</value>
+                     <stats>
+                        <value name="packets-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-tso-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-tso-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="packets-rx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-rx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="actions" type="uint64" format="dec">0</value>
+                        <value name="uplink-rx-packets" type="uint64" format="dec">373000</value>
+                        <value name="pks-billed" type="uint64" format="dec">0</value>
+                        <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                        <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     </stats>
+                     <input-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">2</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">2</value>
+                        <value name="packets-passed" type="uint64" format="dec">2</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </input-iochain-stats>
+                     <output-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">298281</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">373037</value>
+                        <value name="packets-passed" type="uint64" format="dec">373037</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </output-iochain-stats>
+                     <notify-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">0</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">0</value>
+                        <value name="packets-passed" type="uint64" format="dec">0</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </notify-iochain-stats>
+                     <dvfilter-filters>
+                     </dvfilter-filters>
+                  </port>
+                  <port>
+                     <value name="port-id" type="uint32" format="dec">33554434</value>
+                     <value name="world-leader" type="uint32" format="dec">0</value>
+                     <value name="client-name" type="string">vmnic0</value>
+                     <value name="mac-addr" type="string">00:00:00:00:00:00</value>
+                     <value name="blocked" type="bool">false</value>
+                     <value name="type" type="string">Pnic</value>
+                     <value name="portgroup-name" type="string"></value>
+                     <value name="portset-name" type="string">vSwitch0</value>
+                     <stats>
+                        <value name="packets-tx-ok" type="uint64" format="dec">348003</value>
+                        <value name="bytes-tx-ok" type="uint64" format="dec">57697356</value>
+                        <value name="dropped-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-tso-tx-ok" type="uint64" format="dec">641866</value>
+                        <value name="bytes-tso-tx-ok" type="uint64" format="dec">14941383647</value>
+                        <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="packets-rx-ok" type="uint64" format="dec">2818579</value>
+                        <value name="bytes-rx-ok" type="uint64" format="dec">2514690258</value>
+                        <value name="dropped-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="actions" type="uint64" format="dec">0</value>
+                        <value name="uplink-rx-packets" type="uint64" format="dec">0</value>
+                        <value name="pks-billed" type="uint64" format="dec">0</value>
+                        <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                        <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     </stats>
+                     <input-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">1090295</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">2818579</value>
+                        <value name="packets-passed" type="uint64" format="dec">2818579</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </input-iochain-stats>
+                     <output-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">741901</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">989869</value>
+                        <value name="packets-passed" type="uint64" format="dec">989869</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </output-iochain-stats>
+                     <notify-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">0</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">0</value>
+                        <value name="packets-passed" type="uint64" format="dec">0</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </notify-iochain-stats>
+                     <dvfilter-filters>
+                     </dvfilter-filters>
+                  </port>
+                  <port>
+                     <value name="port-id" type="uint32" format="dec">33554435</value>
+                     <value name="world-leader" type="uint32" format="dec">0</value>
+                     <value name="client-name" type="string">Shadow of vmnic0</value>
+                     <value name="mac-addr" type="string">00:50:56:5c:bb:7f</value>
+                     <value name="blocked" type="bool">false</value>
+                     <value name="type" type="string">None</value>
+                     <value name="portgroup-name" type="string"></value>
+                     <value name="portset-name" type="string">vSwitch0</value>
+                     <stats>
+                        <value name="packets-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-tso-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-tso-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                        <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                        <value name="packets-rx-ok" type="uint64" format="dec">0</value>
+                        <value name="bytes-rx-ok" type="uint64" format="dec">0</value>
+                        <value name="dropped-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                        <value name="actions" type="uint64" format="dec">0</value>
+                        <value name="uplink-rx-packets" type="uint64" format="dec">464560</value>
+                        <value name="pks-billed" type="uint64" format="dec">0</value>
+                        <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                        <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                     </stats>
+                     <input-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">0</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">0</value>
+                        <value name="packets-passed" type="uint64" format="dec">0</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </input-iochain-stats>
+                     <output-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">360932</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">464601</value>
+                        <value name="packets-passed" type="uint64" format="dec">464601</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </output-iochain-stats>
+                     <notify-iochain-stats>
+                        <value name="starts" type="uint64" format="dec">0</value>
+                        <value name="resumes" type="uint64" format="dec">0</value>
+                        <value name="errors" type="uint64" format="dec">0</value>
+                        <value name="packets-started" type="uint64" format="dec">0</value>
+                        <value name="packets-passed" type="uint64" format="dec">0</value>
+                        <value name="packets-dropped" type="uint64" format="dec">0</value>
+                     </notify-iochain-stats>
+                     <dvfilter-filters>
+                     </dvfilter-filters>
+                  </port>
+               </unclaimed-ports>
+               <configured-teaming-policy>
+                  <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                  <value name="notify-switch" type="bool">true</value>
+                  <value name="rolling-restoration" type="bool">false</value>
+                  <link-criteria>
+                     <value name="beacon" type="string">ignore</value>
+                  </link-criteria>
+                  <value name="uplink-order" type="string">vmnic0</value>
+                  <value name="max-active-uplinks" type="int" format="dec">1</value>
+               </configured-teaming-policy>
+               <effective-teaming-policy>
+                  <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                  <value name="notify-switch" type="bool">true</value>
+                  <value name="rolling-restoration" type="bool">false</value>
+                  <link-criteria>
+                     <value name="beacon" type="string">ignore</value>
+                  </link-criteria>
+                  <value name="uplink-order" type="string">vmnic0</value>
+                  <value name="max-active-uplinks" type="int" format="dec">1</value>
+               </effective-teaming-policy>
+               <configured-security-policy>
+                  <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                  <value name="allow-macaddr-change" type="bool">true</value>
+                  <value name="allow-forged-transmits" type="bool">true</value>
+               </configured-security-policy>
+               <effective-security-policy>
+                  <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                  <value name="allow-macaddr-change" type="bool">true</value>
+                  <value name="allow-forged-transmits" type="bool">true</value>
+               </effective-security-policy>
+               <configured-shaping-policy>
+                  <value name="peak-bps" type="opaque-string">unset</value>
+                  <value name="average-bps" type="opaque-string">unset</value>
+                  <value name="burst-size" type="opaque-string">unset</value>
+               </configured-shaping-policy>
+               <effective-shaping-policy>
+                  <value name="peak-bps" type="opaque-string">unset</value>
+                  <value name="average-bps" type="opaque-string">unset</value>
+                  <value name="burst-size" type="opaque-string">unset</value>
+               </effective-shaping-policy>
+               <configured-nic-capabilities>
+                  <value name="vlan-tag" type="bool">true</value>
+                  <value name="vlan-untag" type="bool">true</value>
+                  <value name="checksum-offload" type="bool">true</value>
+                  <value name="tcp-segmentation-offload" type="bool">true</value>
+                  <value name="scatter-gather-tx" type="bool">true</value>
+               </configured-nic-capabilities>
+               <effective-nic-capabilities>
+                  <value name="vlan-tag" type="bool">true</value>
+                  <value name="vlan-untag" type="bool">true</value>
+                  <value name="checksum-offload" type="bool">true</value>
+                  <value name="tcp-segmentation-offload" type="bool">true</value>
+                  <value name="scatter-gather-tx" type="bool">true</value>
+               </effective-nic-capabilities>
+               <port-groups>
+                  <port-group>
+                     <value name="name" type="string">VM Network</value>
+                     <value name="virtual-switch" type="string">vSwitch0</value>
+                     <value name="active-clients" type="uint32" format="dec">0</value>
+                     <value name="vlan-id" type="uint16" format="dec">0</value>
+                     <configured-teaming-policy>
+                        <value name="teaming-policy" type="opaque-string">unset</value>
+                        <value name="notify-switch" type="opaque-string">unset</value>
+                        <value name="rolling-restoration" type="opaque-string">unset</value>
+                        <value name="link-criteria" type="opaque-string">unset</value>
+                        <value name="uplink-order" type="opaque-string">unset</value>
+                        <value name="max-active-uplinks" type="opaque-string">unset</value>
+                     </configured-teaming-policy>
+                     <effective-teaming-policy>
+                        <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                        <value name="notify-switch" type="bool">true</value>
+                        <value name="rolling-restoration" type="bool">false</value>
+                        <link-criteria>
+                           <value name="beacon" type="string">ignore</value>
+                        </link-criteria>
+                        <value name="uplink-order" type="string">vmnic0</value>
+                        <value name="max-active-uplinks" type="int" format="dec">1</value>
+                     </effective-teaming-policy>
+                     <configured-security-policy>
+                        <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                        <value name="allow-macaddr-change" type="opaque-string">unset</value>
+                        <value name="allow-forged-transmits" type="opaque-string">unset</value>
+                     </configured-security-policy>
+                     <effective-security-policy>
+                        <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                        <value name="allow-macaddr-change" type="bool">true</value>
+                        <value name="allow-forged-transmits" type="bool">true</value>
+                     </effective-security-policy>
+                     <configured-shaping-policy>
+                        <value name="peak-bps" type="opaque-string">unset</value>
+                        <value name="average-bps" type="opaque-string">unset</value>
+                        <value name="burst-size" type="opaque-string">unset</value>
+                     </configured-shaping-policy>
+                     <effective-shaping-policy>
+                        <value name="peak-bps" type="opaque-string">unset</value>
+                        <value name="average-bps" type="opaque-string">unset</value>
+                        <value name="burst-size" type="opaque-string">unset</value>
+                     </effective-shaping-policy>
+                     <configured-nic-capabilities>
+                        <value name="vlan-tag" type="opaque-string">unset</value>
+                        <value name="vlan-untag" type="opaque-string">unset</value>
+                        <value name="checksum-offload" type="opaque-string">unset</value>
+                        <value name="tcp-segmentation-offload" type="opaque-string">unset</value>
+                        <value name="scatter-gather-tx" type="opaque-string">unset</value>
+                     </configured-nic-capabilities>
+                     <effective-nic-capabilities>
+                        <value name="vlan-tag" type="bool">true</value>
+                        <value name="vlan-untag" type="bool">true</value>
+                        <value name="checksum-offload" type="bool">true</value>
+                        <value name="tcp-segmentation-offload" type="bool">true</value>
+                        <value name="scatter-gather-tx" type="bool">true</value>
+                     </effective-nic-capabilities>
+                     <ports>
+                     </ports>
+                     <vlan-filters>
+                     </vlan-filters>
+                  </port-group>
+                  <port-group>
+                     <value name="name" type="string">Management Network</value>
+                     <value name="virtual-switch" type="string">vSwitch0</value>
+                     <value name="active-clients" type="uint32" format="dec">1</value>
+                     <value name="vlan-id" type="uint16" format="dec">0</value>
+                     <configured-teaming-policy>
+                        <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                        <value name="notify-switch" type="bool">true</value>
+                        <value name="rolling-restoration" type="bool">false</value>
+                        <link-criteria>
+                           <value name="beacon" type="string">ignore</value>
+                        </link-criteria>
+                        <value name="uplink-order" type="string">vmnic0</value>
+                        <value name="max-active-uplinks" type="int" format="dec">1</value>
+                     </configured-teaming-policy>
+                     <effective-teaming-policy>
+                        <value name="teaming-policy" type="opaque-string">lb_srcid</value>
+                        <value name="notify-switch" type="bool">true</value>
+                        <value name="rolling-restoration" type="bool">false</value>
+                        <link-criteria>
+                           <value name="beacon" type="string">ignore</value>
+                        </link-criteria>
+                        <value name="uplink-order" type="string">vmnic0</value>
+                        <value name="max-active-uplinks" type="int" format="dec">1</value>
+                     </effective-teaming-policy>
+                     <configured-security-policy>
+                        <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                        <value name="allow-macaddr-change" type="opaque-string">unset</value>
+                        <value name="allow-forged-transmits" type="opaque-string">unset</value>
+                     </configured-security-policy>
+                     <effective-security-policy>
+                        <value name="allow-promiscuous-mode" type="opaque-string">unset</value>
+                        <value name="allow-macaddr-change" type="bool">true</value>
+                        <value name="allow-forged-transmits" type="bool">true</value>
+                     </effective-security-policy>
+                     <configured-shaping-policy>
+                        <value name="peak-bps" type="opaque-string">unset</value>
+                        <value name="average-bps" type="opaque-string">unset</value>
+                        <value name="burst-size" type="opaque-string">unset</value>
+                     </configured-shaping-policy>
+                     <effective-shaping-policy>
+                        <value name="peak-bps" type="opaque-string">unset</value>
+                        <value name="average-bps" type="opaque-string">unset</value>
+                        <value name="burst-size" type="opaque-string">unset</value>
+                     </effective-shaping-policy>
+                     <configured-nic-capabilities>
+                        <value name="vlan-tag" type="opaque-string">unset</value>
+                        <value name="vlan-untag" type="opaque-string">unset</value>
+                        <value name="checksum-offload" type="opaque-string">unset</value>
+                        <value name="tcp-segmentation-offload" type="opaque-string">unset</value>
+                        <value name="scatter-gather-tx" type="opaque-string">unset</value>
+                     </configured-nic-capabilities>
+                     <effective-nic-capabilities>
+                        <value name="vlan-tag" type="bool">true</value>
+                        <value name="vlan-untag" type="bool">true</value>
+                        <value name="checksum-offload" type="bool">true</value>
+                        <value name="tcp-segmentation-offload" type="bool">true</value>
+                        <value name="scatter-gather-tx" type="bool">true</value>
+                     </effective-nic-capabilities>
+                     <ports>
+                        <port>
+                           <value name="port-id" type="uint32" format="dec">33554436</value>
+                           <value name="world-leader" type="uint32" format="dec">0</value>
+                           <value name="client-name" type="string">vmk0</value>
+                           <value name="mac-addr" type="string">da:00:20:72:8a:de</value>
+                           <value name="blocked" type="bool">false</value>
+                           <value name="type" type="string">Tcp/Ip</value>
+                           <value name="portgroup-name" type="string">Management Network</value>
+                           <value name="portset-name" type="string">vSwitch0</value>
+                           <stats>
+                              <value name="packets-tx-ok" type="uint64" format="dec">348006</value>
+                              <value name="bytes-tx-ok" type="uint64" format="dec">57697536</value>
+                              <value name="dropped-tx" type="uint64" format="dec">0</value>
+                              <value name="packets-tso-tx-ok" type="uint64" format="dec">641866</value>
+                              <value name="bytes-tso-tx-ok" type="uint64" format="dec">14941383647</value>
+                              <value name="dropped-tso-tx" type="uint64" format="dec">0</value>
+                              <value name="packets-sw-tso-tx" type="uint64" format="dec">0</value>
+                              <value name="dropped-sw-tso-tx" type="uint64" format="dec">0</value>
+                              <value name="packets-zero-copy-tx-ok" type="uint64" format="dec">0</value>
+                              <value name="packets-rx-ok" type="uint64" format="dec">1185131</value>
+                              <value name="bytes-rx-ok" type="uint64" format="dec">2385786291</value>
+                              <value name="dropped-rx" type="uint64" format="dec">0</value>
+                              <value name="dropped-tso-rx" type="uint64" format="dec">0</value>
+                              <value name="packets-sw-tso-rx" type="uint64" format="dec">0</value>
+                              <value name="dropped-sw-tso-rx" type="uint64" format="dec">0</value>
+                              <value name="actions" type="uint64" format="dec">1523884</value>
+                              <value name="uplink-rx-packets" type="uint64" format="dec">2727096</value>
+                              <value name="pks-billed" type="uint64" format="dec">0</value>
+                              <value name="dropped-tx-due-to-page-absent" type="uint64" format="dec">0</value>
+                              <value name="dropped-rx-due-to-page-absent" type="uint64" format="dec">0</value>
+                           </stats>
+                           <input-iochain-stats>
+                              <value name="starts" type="uint64" format="dec">741903</value>
+                              <value name="resumes" type="uint64" format="dec">0</value>
+                              <value name="errors" type="uint64" format="dec">0</value>
+                              <value name="packets-started" type="uint64" format="dec">989871</value>
+                              <value name="packets-passed" type="uint64" format="dec">989869</value>
+                              <value name="packets-dropped" type="uint64" format="dec">0</value>
+                           </input-iochain-stats>
+                           <output-iochain-stats>
+                              <value name="starts" type="uint64" format="dec">1029324</value>
+                              <value name="resumes" type="uint64" format="dec">0</value>
+                              <value name="errors" type="uint64" format="dec">0</value>
+                              <value name="packets-started" type="uint64" format="dec">2727099</value>
+                              <value name="packets-passed" type="uint64" format="dec">2652691</value>
+                              <value name="packets-dropped" type="uint64" format="dec">0</value>
+                           </output-iochain-stats>
+                           <notify-iochain-stats>
+                              <value name="starts" type="uint64" format="dec">519076</value>
+                              <value name="resumes" type="uint64" format="dec">0</value>
+                              <value name="errors" type="uint64" format="dec">0</value>
+                              <value name="packets-started" type="uint64" format="dec">706009</value>
+                              <value name="packets-passed" type="uint64" format="dec">706009</value>
+                              <value name="packets-dropped" type="uint64" format="dec">0</value>
+                           </notify-iochain-stats>
+                           <dvfilter-filters>
+                              <dvfilter>
+                                 <value name="agent-name" type="string">ESXi-Firewall</value>
+                                 <value name="world-id" type="uint32" format="dec">0</value>
+                                 <value name="world-name" type="string"></value>
+                                 <value name="vnicindex" type="uint32" format="dec">4294967295</value>
+                                 <value name="filterindex" type="uint32" format="dec">0</value>
+                                 <value name="port-id" type="uint32" format="dec">33554436</value>
+                                 <value name="state" type="string">IOChain Attached</value>
+                              </dvfilter>
+                           </dvfilter-filters>
+                        </port>
+                     </ports>
+                     <vlan-filters>
+                     </vlan-filters>
+                  </port-group>
+               </port-groups>
+            </virtual-switch>
+         </virtual-switches>
+      </virtual-switch-info>
+      <physical-nic>
+         <value name="name" type="string">vmnic0</value>
+         <value name="pci-segment" type="uint32" format="dec">0</value>
+         <value name="pci-bus" type="uint32" format="dec">2</value>
+         <value name="pci-slot" type="uint32" format="dec">0</value>
+         <value name="pci-function" type="uint32" format="dec">0</value>
+         <value name="mac-address" type="string">da:00:20:72:8a:de</value>
+         <value name="virtual-mac-address" type="string">00:50:56:5c:bb:7f</value>
+         <value name="driver" type="string">e1000</value>
+         <value name="network-hint" type="string">0 0.0.0.0/0.0.0.0</value>
+         <value name="mtu" type="uint32" format="dec">1500</value>
+         <value name="configured-speed" type="opaque-string">0</value>
+         <value name="actual-speed" type="int" format="dec">1000</value>
+         <value name="configured-duplex" type="opaque-string">0</value>
+         <value name="actual-duplex" type="int" format="dec">1</value>
+         <value name="link-up" type="bool">true</value>
+         <value name="administrative-status" type="bool">true</value>
+         <value name="operational-status" type="bool">true</value>
+         <value name="enabled" type="bool">true</value>
+         <value name="wake-on-lan-supported-" type="bool">false</value>
+         <value name="wake-on-lan-enabled-" type="bool">false</value>
+         <value name="resource-scheduler-allowed--" type="bool">true</value>
+         <value name="resource-scheduler-supported-" type="bool">true</value>
+         <value name="cdp-network" type="bool">false</value>
+         <value name="lldp-network" type="bool">false</value>
+         <hardware-capabilities>
+            <value name="vlan-tag" type="bool">true</value>
+            <value name="vlan-untag" type="bool">true</value>
+            <value name="checksum-offload" type="bool">true</value>
+            <value name="tcp-segmentation-offload" type="bool">true</value>
+            <value name="scatter-gather-tx" type="bool">true</value>
+         </hardware-capabilities>
+         <supported-speeds-and-duplex>
+            <value name="supported-mode" type="string">auto/auto</value>
+            <value name="supported-mode" type="string">10/half</value>
+            <value name="supported-mode" type="string">10/full</value>
+            <value name="supported-mode" type="string">100/half</value>
+            <value name="supported-mode" type="string">100/full</value>
+            <value name="supported-mode" type="string">1000/full</value>
+         </supported-speeds-and-duplex>
+         <pci-device>
+            <value name="segment" type="uint16" format="hex">0x0000</value>
+            <value name="bus" type="uint8" format="hex">0x02</value>
+            <value name="slot" type="uint8" format="hex">0x00</value>
+            <value name="function" type="uint8" format="hex">0x00</value>
+            <value name="runtime-owner" type="string">vmkernel</value>
+            <value name="has-configured-owner" type="opaque-string">false</value>
+            <value name="configured-owner" type="string"></value>
+            <value name="vendor-id" type="uint16" format="hex">0x8086</value>
+            <value name="device-id" type="uint16" format="hex">0x100f</value>
+            <value name="sub-vendor-id" type="uint16" format="hex">0x15ad</value>
+            <value name="sub-device-id" type="uint16" format="hex">0x0750</value>
+            <value name="vendor-name" type="string">Intel Corporation</value>
+            <value name="device-name" type="string">82545EM Gigabit Ethernet Controller (Copper)</value>
+            <value name="device-class" type="uint16" format="dec">512</value>
+            <value name="device-class-name" type="string">Ethernet controller</value>
+            <value name="pic-line" type="uint8" format="dec">10</value>
+            <value name="old-irq" type="uint8" format="dec">10</value>
+            <value name="vector" type="uint8" format="dec">80</value>
+            <value name="pci-pin" type="uint8" format="dec">0</value>
+            <value name="spawned-bus" type="uint8" format="dec">0</value>
+            <value name="flags" type="uint16" format="dec">12801</value>
+            <bar-info>
+               <bar0>
+                  <value name="type" type="uint32" format="hex">0x00000003</value>
+                  <value name="address" type="uint64" format="hex">0x00000000fd5c0000</value>
+                  <value name="size" type="uint64" format="dec">131072</value>
+                  <value name="flags" type="uint32" format="hex">0x00000004</value>
+               </bar0>
+               <bar1>
+                  <value name="type" type="uint32" format="hex">0x00000004</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar1>
+               <bar2>
+                  <value name="type" type="uint32" format="hex">0x00000003</value>
+                  <value name="address" type="uint64" format="hex">0x00000000fdff0000</value>
+                  <value name="size" type="uint64" format="dec">65536</value>
+                  <value name="flags" type="uint32" format="hex">0x00000004</value>
+               </bar2>
+               <bar3>
+                  <value name="type" type="uint32" format="hex">0x00000004</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar3>
+               <bar4>
+                  <value name="type" type="uint32" format="hex">0x00000001</value>
+                  <value name="address" type="uint64" format="hex">0x0000000000002000</value>
+                  <value name="size" type="uint64" format="dec">64</value>
+                  <value name="flags" type="uint32" format="hex">0x00000001</value>
+               </bar4>
+               <bar5>
+                  <value name="type" type="uint32" format="dec">0</value>
+                  <value name="address" type="uint64" format="dec">0</value>
+                  <value name="size" type="uint64" format="dec">0</value>
+                  <value name="flags" type="uint32" format="dec">0</value>
+               </bar5>
+            </bar-info>
+            <value name="module-id" type="uint32" format="dec">4125</value>
+            <value name="chassis" type="uint8" format="dec">0</value>
+            <value name="physical-slot" type="uint32" format="dec">32</value>
+            <value name="vmkernel-device-name" type="string">vmnic0</value>
+            <value name="slot-description" type="string">Chassis slot 20; function 0</value>
+            <value name="passthru-capable" type="bool">false</value>
+            <value name="parent-device" type="string">PCI 0:0:17:0</value>
+            <value name="dependent-device" type="string">PCI 0:0:17:0</value>
+            <value name="reset-method" type="opaque-string">4</value>
+            <value name="fpt-shareable" type="bool">true</value>
+         </pci-device>
+      </physical-nic>
+   </network-entities>
+</network-info>

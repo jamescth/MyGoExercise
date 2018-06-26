@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------=== /opt/datrium/bin/lsi/storcli/storcli /call show all J
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"Status" : "Failure",
+		"Description" : "No Controller found"
+	}
+}
+]
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------=== /opt/datrium/bin/lsi/storcli/storcli /call/eall/sall show all J
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"Status" : "Failure",
+		"Description" : "No Controller found"
+	}
+}
+]
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------=== /opt/datrium/bin/lsi/storcli/storcli /call show events type=latest=100
+Status = Failure
+Description = No Controller found
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------=== /opt/datrium/bin/lsi/storcli/storcli /call show termlog type=config J
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"Status" : "Failure",
+		"Description" : "No Controller found"
+	}
+}
+]
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------=== /opt/datrium/bin/lsi/storcli/storcli /call show termlog type=contents
+Status = Failure
+Description = No Controller found
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,101 @@
+
+[
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "GUID": "00000000000000000000000000000000",
+         "Layout": "GPT",
+         "Partition": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "GUID": "aa31e02a400f11db9590000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 1
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "GUID": "db56da867622478a9928b44257a2e46e",
+         "Layout": "GPT",
+         "Partition": 3
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "00000000000000000000000000000000",
+         "Layout": "GPT",
+         "Partition": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "c12a7328f81f11d2ba4b00a0c93ec93b",
+         "Layout": "GPT",
+         "Partition": 1
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 2
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "aa31e02a400f11db9590000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 3
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "aa31e02a400f11db9590000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 4
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 5
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 6
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "9d27538040ad11dbbf97000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 7
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 8
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "9d27538040ad11dbbf97000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 9
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "GUID": "db56da867622478a9928b44257a2e46e",
+         "Layout": "GPT",
+         "Partition": 10
+      }
+]

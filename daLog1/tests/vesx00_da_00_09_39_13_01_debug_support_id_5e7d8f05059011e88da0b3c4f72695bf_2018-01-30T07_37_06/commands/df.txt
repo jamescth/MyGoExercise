@@ -1,0 +1,8 @@
+Filesystem       Bytes       Used   Available Use% Mounted on
+VFFS        7784628224  884998144  6899630080  11% /vmfs/volumes/datrium-reserved-sys-vesx00_da:00:09:39:13:01-L7A1JT
+VFFS        7784628224  910163968  6874464256  12% /vmfs/volumes/datrium-reserved-sys-vesx00_da:00:09:39:13:01-FP6U4M
+VFFS       24964497408 1154482176 23810015232   5% /vmfs/volumes/datrium-reserved-core-vesx00_da:00:09:39:13:01-BUU6HF
+vfat         299712512  215785472    83927040  72% /vmfs/volumes/582e5c2c-ab33b738-8d35-0050569f1d40
+vfat        4293591040   11403264  4282187776   0% /vmfs/volumes/582e5c33-b97a9b7f-ef9b-0050569f1d40
+vfat         261853184  150634496   111218688  58% /vmfs/volumes/c07c7477-8047e0d3-e4e1-3c1f078157b1
+vfat         261853184  150601728   111251456  58% /vmfs/volumes/045b1f7d-afef8d2a-9d47-ddeb46b56410

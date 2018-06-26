@@ -1,0 +1,364 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:09.969Z [/etc/init.d/vvold[66879]: /etc/init.d/vvold start, PID 66879]
+2016-11-18T01:50:09.992Z [/etc/init.d/vvold[66879]: Added 66879 to /var/run/vmware/.vmware-vvol.lock-dir/vvold-lock-dir-pid (1)]
+2016-11-18T01:50:10.145Z [/etc/init.d/vvold[66879]: vvold max reserve memory set to 200]
+2016-11-18T01:50:10.146Z [/etc/init.d/vvold[66934]: Called with 0 args ('')]
+2016-11-18T01:50:10.158Z [/etc/init.d/vvold[66934]: Usage: /etc/init.d/vvold {start|stop|restart|status|ssl_reset}]
+2016-11-18T01:50:10.229Z Section for VMware ESX, pid=67073, version=6.5.0, build=4564106, option=Release
+------ Early init logs start --------
+2016-11-18T01:50:10.229Z info -[9686850] [Originator@6876 sub=Default] Successfully registered SIGHUP handler
+2016-11-18T01:50:10.229Z info -[9686850] [Originator@6876 sub=Default] Successfully registered SIGPIPE handler
+2016-11-18T01:50:10.229Z info -[9686850] [Originator@6876 sub=Default] Successfully registered SIGTERM handler
+2016-11-18T01:50:10.229Z info -[9686850] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:50:10.229Z info -[9686850] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:50:10.229Z info vvold[9686850] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:50:10.230Z info vvold[96C7B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[96C7B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:50:10.230Z info vvold[9708B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[9708B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-18T01:50:10.230Z info vvold[9749B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[9749B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:10.230Z info vvold[978AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[978AB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:10.230Z info vvold[97CBB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[97CBB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:10.230Z info vvold[980CB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[980CB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:10.230Z info vvold[984DB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 59, Reservation ratio: 9
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:50:10.230Z info vvold[984DB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:50:10.230Z info vvold[9686850] [Originator@6876 sub=Default] Initalized App with config file:/etc/vmware/vvold/config.xml
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default] Listening on port 8090 (NOT using SSL) using version 'vvol.version.version1'.
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default] Initializing SOAP tcp adapter
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Default] enableChunkedResponses: true
+2016-11-18T01:50:10.231Z info vvold[9686850] [Originator@6876 sub=Libs] UUID: Running in UW, but cannot verify vmk syscall version, giving up.
+2016-11-18T01:50:10.232Z info vvold[9686850] [Originator@6876 sub=Libs] UUID: Invalid gethostid routine. Value = 0.
+2016-11-18T01:50:10.233Z warning vvold[9686850] [Originator@6876 sub=Libs] ObtainHardwareID unexpected failure: 22.
+2016-11-18T01:50:10.233Z warning vvold[9686850] [Originator@6876 sub=Libs] Hostinfo_MachineID ObtainHardwareID failure (Invalid argument); providing default.
+2016-11-18T01:50:10.233Z info vvold[9686850] [Originator@6876 sub=Default] Creating SOAP body handler for version 'vvol.version.version1'
+2016-11-18T01:50:10.233Z info vvold[9686850] [Originator@6876 sub=SOAP-1] Created SOAP body handler for vvol.version.version1 (vvol/1.0)
+2016-11-18T01:50:10.233Z info vvold[9686850] [Originator@6876 sub=Default] Creating SOAP body handler for internal version 'vvol.version.version1'
+2016-11-18T01:50:10.233Z info vvold[9686850] [Originator@6876 sub=SOAP-2] Created SOAP body handler for vvol.version.version1 (internalvvol/1.0)
+2016-11-18T01:50:10.235Z error vvold[9686850] [Originator@6876 sub=Default] VVold SI:main, no VVol config available, exiting
+2016-11-18T01:50:10.243Z [/etc/init.d/vvold[67082]: /etc/init.d/vvold stopnomemclear, PID 67082]
+2016-11-18T01:50:10.392Z [/etc/init.d/vvold[67082]: vvold stopped.]
+2016-11-18T01:50:10.515Z [/etc/init.d/vvold[67082]: PID 67082 removed /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:50:11.208Z [/etc/init.d/vvold[66879]: WaitVvoldToComeUp /var/run/vmware/.vmware-vvol.started created]
+2016-11-18T01:50:11.226Z [/etc/init.d/vvold[66879]: vvold stopped after start!]
+2016-11-18T01:50:11.245Z [/etc/init.d/vvold[66879]: /var/run/vmware/.vmware-vvol.started is not created]
+2016-11-18T01:50:11.434Z [/etc/init.d/vvold[66879]: Successfully cleared vvold memory reservation]
+2016-11-18T01:50:11.440Z [/etc/init.d/vvold[66879]: PID 66879 Created /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:50:11.452Z [/etc/init.d/vvold[66879]: Removed /var/run/vmware/.vmware-vvol.lock-dir]
+2016-11-18T01:52:53.247Z [/etc/init.d/vvold[68284]: /etc/init.d/vvold stop, PID 68284]
+2016-11-18T01:52:53.255Z [/etc/init.d/vvold[68284]: vvold is not running.]
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:56.713Z [/etc/init.d/vvold[66884]: /etc/init.d/vvold start, PID 66884]
+2016-11-18T01:53:56.725Z [/etc/init.d/vvold[66884]: Added 66884 to /var/run/vmware/.vmware-vvol.lock-dir/vvold-lock-dir-pid (1)]
+2016-11-18T01:53:56.805Z [/etc/init.d/vvold[66909]: Called with 0 args ('')]
+2016-11-18T01:53:56.821Z [/etc/init.d/vvold[66909]: Usage: /etc/init.d/vvold {start|stop|restart|status|ssl_reset}]
+2016-11-18T01:53:56.919Z [/etc/init.d/vvold[66884]: vvold max reserve memory set to 200]
+2016-11-18T01:53:57.005Z Section for VMware ESX, pid=67068, version=6.5.0, build=4564106, option=Release
+------ Early init logs start --------
+2016-11-18T01:53:57.004Z info -[4A03850] [Originator@6876 sub=Default] Successfully registered SIGHUP handler
+2016-11-18T01:53:57.004Z info -[4A03850] [Originator@6876 sub=Default] Successfully registered SIGPIPE handler
+2016-11-18T01:53:57.004Z info -[4A03850] [Originator@6876 sub=Default] Successfully registered SIGTERM handler
+2016-11-18T01:53:57.005Z info -[4A03850] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:53:57.005Z info -[4A03850] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:53:57.005Z info vvold[4A44B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4A44B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:53:57.005Z info vvold[4A85B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4A85B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-18T01:53:57.005Z info vvold[4AC6B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4AC6B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:57.005Z info vvold[4B07B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4B07B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:53:57.005Z info vvold[4B48B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4B48B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:57.005Z info vvold[4B89B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4B89B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 59, Reservation ratio: 9
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.005Z info vvold[4A03850] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:53:57.006Z info vvold[4BCAB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:53:57.006Z info vvold[4BCAB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default] Initalized App with config file:/etc/vmware/vvold/config.xml
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default] Listening on port 8090 (NOT using SSL) using version 'vvol.version.version1'.
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default] Initializing SOAP tcp adapter
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Default] enableChunkedResponses: true
+2016-11-18T01:53:57.006Z info vvold[4A03850] [Originator@6876 sub=Libs] UUID: Running in UW, but cannot verify vmk syscall version, giving up.
+2016-11-18T01:53:57.008Z info vvold[4A03850] [Originator@6876 sub=Libs] UUID: Invalid gethostid routine. Value = 0.
+2016-11-18T01:53:57.008Z warning vvold[4A03850] [Originator@6876 sub=Libs] ObtainHardwareID unexpected failure: 22.
+2016-11-18T01:53:57.008Z warning vvold[4A03850] [Originator@6876 sub=Libs] Hostinfo_MachineID ObtainHardwareID failure (Invalid argument); providing default.
+2016-11-18T01:53:57.009Z info vvold[4A03850] [Originator@6876 sub=Default] Creating SOAP body handler for version 'vvol.version.version1'
+2016-11-18T01:53:57.009Z info vvold[4A03850] [Originator@6876 sub=SOAP-1] Created SOAP body handler for vvol.version.version1 (vvol/1.0)
+2016-11-18T01:53:57.009Z info vvold[4A03850] [Originator@6876 sub=Default] Creating SOAP body handler for internal version 'vvol.version.version1'
+2016-11-18T01:53:57.009Z info vvold[4A03850] [Originator@6876 sub=SOAP-2] Created SOAP body handler for vvol.version.version1 (internalvvol/1.0)
+2016-11-18T01:53:57.010Z error vvold[4A03850] [Originator@6876 sub=Default] VVold SI:main, no VVol config available, exiting
+2016-11-18T01:53:57.018Z [/etc/init.d/vvold[67077]: /etc/init.d/vvold stopnomemclear, PID 67077]
+2016-11-18T01:53:57.194Z [/etc/init.d/vvold[67077]: vvold stopped.]
+2016-11-18T01:53:57.311Z [/etc/init.d/vvold[67077]: PID 67077 removed /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:53:57.983Z [/etc/init.d/vvold[66884]: WaitVvoldToComeUp /var/run/vmware/.vmware-vvol.started created]
+2016-11-18T01:53:58.003Z [/etc/init.d/vvold[66884]: vvold stopped after start!]
+2016-11-18T01:53:58.012Z [/etc/init.d/vvold[66884]: /var/run/vmware/.vmware-vvol.started is not created]
+2016-11-18T01:53:58.183Z [/etc/init.d/vvold[66884]: Successfully cleared vvold memory reservation]
+2016-11-18T01:53:58.192Z [/etc/init.d/vvold[66884]: PID 66884 Created /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:53:58.204Z [/etc/init.d/vvold[66884]: Removed /var/run/vmware/.vmware-vvol.lock-dir]
+2016-11-18T01:57:55.561Z [/etc/init.d/vvold[68198]: /etc/init.d/vvold stop, PID 68198]
+2016-11-18T01:57:55.583Z [/etc/init.d/vvold[68198]: vvold is not running.]
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:58.174Z [/etc/init.d/vvold[66891]: /etc/init.d/vvold start, PID 66891]
+2016-11-18T01:58:58.183Z [/etc/init.d/vvold[66891]: Added 66891 to /var/run/vmware/.vmware-vvol.lock-dir/vvold-lock-dir-pid (1)]
+2016-11-18T01:58:58.198Z [/etc/init.d/vvold[66903]: Called with 0 args ('')]
+2016-11-18T01:58:58.209Z [/etc/init.d/vvold[66903]: Usage: /etc/init.d/vvold {start|stop|restart|status|ssl_reset}]
+2016-11-18T01:58:58.350Z [/etc/init.d/vvold[66891]: vvold max reserve memory set to 200]
+2016-11-18T01:58:58.449Z Section for VMware ESX, pid=67070, version=6.5.0, build=4564106, option=Release
+------ Early init logs start --------
+2016-11-18T01:58:58.448Z info -[6FE9850] [Originator@6876 sub=Default] Successfully registered SIGHUP handler
+2016-11-18T01:58:58.448Z info -[6FE9850] [Originator@6876 sub=Default] Successfully registered SIGPIPE handler
+2016-11-18T01:58:58.448Z info -[6FE9850] [Originator@6876 sub=Default] Successfully registered SIGTERM handler
+2016-11-18T01:58:58.449Z info -[6FE9850] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:58:58.449Z info -[6FE9850] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:58:58.449Z info vvold[702AB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[702AB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:58:58.449Z info vvold[706BB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[706BB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-18T01:58:58.449Z info vvold[70ACB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[70ACB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:58:58.449Z info vvold[70EDB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[70EDB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:58:58.449Z info vvold[712EB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[712EB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:58:58.449Z info vvold[716FB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[716FB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 59, Reservation ratio: 9
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:58:58.449Z info vvold[6FE9850] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:58:58.449Z info vvold[71B0B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:58:58.450Z info vvold[71B0B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:58:58.450Z info vvold[6FE9850] [Originator@6876 sub=Default] Initalized App with config file:/etc/vmware/vvold/config.xml
+2016-11-18T01:58:58.450Z info vvold[6FE9850] [Originator@6876 sub=Default] Listening on port 8090 (NOT using SSL) using version 'vvol.version.version1'.
+2016-11-18T01:58:58.450Z info vvold[6FE9850] [Originator@6876 sub=Default] Initializing SOAP tcp adapter
+2016-11-18T01:58:58.451Z info vvold[6FE9850] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-18T01:58:58.451Z info vvold[6FE9850] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-18T01:58:58.451Z info vvold[6FE9850] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-18T01:58:58.451Z info vvold[6FE9850] [Originator@6876 sub=Default] enableChunkedResponses: true
+2016-11-18T01:58:58.451Z info vvold[6FE9850] [Originator@6876 sub=Libs] UUID: Running in UW, but cannot verify vmk syscall version, giving up.
+2016-11-18T01:58:58.453Z info vvold[6FE9850] [Originator@6876 sub=Libs] UUID: Invalid gethostid routine. Value = 0.
+2016-11-18T01:58:58.454Z warning vvold[6FE9850] [Originator@6876 sub=Libs] ObtainHardwareID unexpected failure: 22.
+2016-11-18T01:58:58.454Z warning vvold[6FE9850] [Originator@6876 sub=Libs] Hostinfo_MachineID ObtainHardwareID failure (Invalid argument); providing default.
+2016-11-18T01:58:58.454Z info vvold[6FE9850] [Originator@6876 sub=Default] Creating SOAP body handler for version 'vvol.version.version1'
+2016-11-18T01:58:58.454Z info vvold[6FE9850] [Originator@6876 sub=SOAP-1] Created SOAP body handler for vvol.version.version1 (vvol/1.0)
+2016-11-18T01:58:58.454Z info vvold[6FE9850] [Originator@6876 sub=Default] Creating SOAP body handler for internal version 'vvol.version.version1'
+2016-11-18T01:58:58.454Z info vvold[6FE9850] [Originator@6876 sub=SOAP-2] Created SOAP body handler for vvol.version.version1 (internalvvol/1.0)
+2016-11-18T01:58:58.456Z error vvold[6FE9850] [Originator@6876 sub=Default] VVold SI:main, no VVol config available, exiting
+2016-11-18T01:58:58.464Z [/etc/init.d/vvold[67079]: /etc/init.d/vvold stopnomemclear, PID 67079]
+2016-11-18T01:58:58.597Z [/etc/init.d/vvold[67079]: vvold stopped.]
+2016-11-18T01:58:58.736Z [/etc/init.d/vvold[67079]: PID 67079 removed /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:58:59.416Z [/etc/init.d/vvold[66891]: WaitVvoldToComeUp /var/run/vmware/.vmware-vvol.started created]
+2016-11-18T01:58:59.435Z [/etc/init.d/vvold[66891]: vvold stopped after start!]
+2016-11-18T01:58:59.444Z [/etc/init.d/vvold[66891]: /var/run/vmware/.vmware-vvol.started is not created]
+2016-11-18T01:58:59.603Z [/etc/init.d/vvold[66891]: Successfully cleared vvold memory reservation]
+2016-11-18T01:58:59.611Z [/etc/init.d/vvold[66891]: PID 66891 Created /var/run/vmware/vvold-done-calling-start]
+2016-11-18T01:58:59.621Z [/etc/init.d/vvold[66891]: Removed /var/run/vmware/.vmware-vvol.lock-dir]
+2016-11-18T02:00:47.777Z [/etc/init.d/vvold[68171]: /etc/init.d/vvold stop, PID 68171]
+2016-11-18T02:00:47.786Z [/etc/init.d/vvold[68171]: vvold is not running.]
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:22.897Z [/etc/init.d/vvold[66843]: /etc/init.d/vvold start, PID 66843]
+2016-11-29T01:15:22.912Z [/etc/init.d/vvold[66843]: Added 66843 to /var/run/vmware/.vmware-vvol.lock-dir/vvold-lock-dir-pid (1)]
+2016-11-29T01:15:23.143Z [/etc/init.d/vvold[66843]: vvold max reserve memory set to 200]
+2016-11-29T01:15:23.160Z [/etc/init.d/vvold[66934]: Called with 0 args ('')]
+2016-11-29T01:15:23.173Z [/etc/init.d/vvold[66934]: Usage: /etc/init.d/vvold {start|stop|restart|status|ssl_reset}]
+2016-11-29T01:15:23.275Z Section for VMware ESX, pid=67043, version=6.5.0, build=4564106, option=Release
+------ Early init logs start --------
+2016-11-29T01:15:23.274Z info -[8D64850] [Originator@6876 sub=Default] Successfully registered SIGHUP handler
+2016-11-29T01:15:23.274Z info -[8D64850] [Originator@6876 sub=Default] Successfully registered SIGPIPE handler
+2016-11-29T01:15:23.274Z info -[8D64850] [Originator@6876 sub=Default] Successfully registered SIGTERM handler
+2016-11-29T01:15:23.275Z info -[8D64850] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-29T01:15:23.275Z info -[8D64850] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-29T01:15:23.275Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-29T01:15:23.276Z info vvold[8DA5B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.276Z info vvold[8DA5B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:23.276Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 1
+2016-11-29T01:15:23.276Z info vvold[8DE6B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.276Z info vvold[8DE6B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:23.276Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 2
+2016-11-29T01:15:23.276Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-29T01:15:23.276Z info vvold[8E27B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.276Z info vvold[8E27B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:23.276Z info vvold[8E68B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.277Z info vvold[8E68B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:23.277Z info vvold[8EA9B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.277Z info vvold[8EA9B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:23.277Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 59, Reservation ratio: 9
+2016-11-29T01:15:23.277Z info vvold[8D64850] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.277Z info vvold[8F2BB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.277Z info vvold[8F2BB70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-29T01:15:23.277Z info vvold[8D64850] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-29T01:15:23.277Z info vvold[8EEAB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:23.277Z info vvold[8EEAB70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:23.277Z info vvold[8D64850] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-29T01:15:23.277Z info vvold[8D64850] [Originator@6876 sub=Default] Initalized App with config file:/etc/vmware/vvold/config.xml
+2016-11-29T01:15:23.278Z info vvold[8D64850] [Originator@6876 sub=Default] Listening on port 8090 (NOT using SSL) using version 'vvol.version.version1'.
+2016-11-29T01:15:23.278Z info vvold[8D64850] [Originator@6876 sub=Default] Initializing SOAP tcp adapter
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Default] enableChunkedResponses: true
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Libs] UUID: Running in UW, but cannot verify vmk syscall version, giving up.
+2016-11-29T01:15:23.279Z info vvold[8D64850] [Originator@6876 sub=Libs] UUID: Valid gethostid routine. Value = 20A6316.
+2016-11-29T01:15:23.280Z info vvold[8D64850] [Originator@6876 sub=Default] Creating SOAP body handler for version 'vvol.version.version1'
+2016-11-29T01:15:23.280Z info vvold[8D64850] [Originator@6876 sub=SOAP-1] Created SOAP body handler for vvol.version.version1 (vvol/1.0)
+2016-11-29T01:15:23.280Z info vvold[8D64850] [Originator@6876 sub=Default] Creating SOAP body handler for internal version 'vvol.version.version1'
+2016-11-29T01:15:23.280Z info vvold[8D64850] [Originator@6876 sub=SOAP-2] Created SOAP body handler for vvol.version.version1 (internalvvol/1.0)
+2016-11-29T01:15:23.282Z error vvold[8D64850] [Originator@6876 sub=Default] VVold SI:main, no VVol config available, exiting
+2016-11-29T01:15:23.296Z [/etc/init.d/vvold[67081]: /etc/init.d/vvold stopnomemclear, PID 67081]
+2016-11-29T01:15:23.504Z [/etc/init.d/vvold[67081]: vvold stopped.]
+2016-11-29T01:15:23.649Z [/etc/init.d/vvold[67081]: PID 67081 removed /var/run/vmware/vvold-done-calling-start]
+2016-11-29T01:15:24.256Z [/etc/init.d/vvold[66843]: WaitVvoldToComeUp /var/run/vmware/.vmware-vvol.started created]
+2016-11-29T01:15:24.291Z [/etc/init.d/vvold[66843]: vvold stopped after start!]
+2016-11-29T01:15:24.314Z [/etc/init.d/vvold[66843]: /var/run/vmware/.vmware-vvol.started is not created]
+2016-11-29T01:15:24.593Z [/etc/init.d/vvold[66843]: Successfully cleared vvold memory reservation]
+2016-11-29T01:15:24.613Z [/etc/init.d/vvold[66843]: PID 66843 Created /var/run/vmware/vvold-done-calling-start]
+2016-11-29T01:15:24.624Z [/etc/init.d/vvold[66843]: Removed /var/run/vmware/.vmware-vvol.lock-dir]
+2016-11-29T01:18:08.967Z [/etc/init.d/vvold[68176]: /etc/init.d/vvold stop, PID 68176]
+2016-11-29T01:18:08.978Z [/etc/init.d/vvold[68176]: vvold is not running.]
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:23.071Z [/etc/init.d/vvold[66874]: /etc/init.d/vvold start, PID 66874]
+2018-03-03T02:18:23.083Z [/etc/init.d/vvold[66874]: Added 66874 to /var/run/vmware/.vmware-vvol.lock-dir/vvold-lock-dir-pid (1)]
+2018-03-03T02:18:23.229Z [/etc/init.d/vvold[66874]: vvold max reserve memory set to 200]
+2018-03-03T02:18:23.250Z [/etc/init.d/vvold[66925]: Called with 0 args ('')]
+2018-03-03T02:18:23.257Z [/etc/init.d/vvold[66925]: Usage: /etc/init.d/vvold {start|stop|restart|status|ssl_reset}]
+2018-03-03T02:18:23.314Z Section for VMware ESX, pid=67036, version=6.5.0, build=4564106, option=Release
+------ Early init logs start --------
+2018-03-03T02:18:23.313Z info -[800D850] [Originator@6876 sub=Default] Successfully registered SIGHUP handler
+2018-03-03T02:18:23.313Z info -[800D850] [Originator@6876 sub=Default] Successfully registered SIGPIPE handler
+2018-03-03T02:18:23.313Z info -[800D850] [Originator@6876 sub=Default] Successfully registered SIGTERM handler
+2018-03-03T02:18:23.313Z info -[800D850] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-03-03T02:18:23.313Z info -[800D850] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] Initialized channel manager
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2018-03-03T02:18:23.314Z info vvold[804EB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2018-03-03T02:18:23.314Z info vvold[804EB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:23.314Z info vvold[808FB70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[808FB70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:23.314Z info vvold[80D0B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[80D0B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 1
+2018-03-03T02:18:23.314Z info vvold[8111B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[8111B70] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:23.314Z info vvold[8152B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[8152B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:23.314Z info vvold[8193B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[8193B70] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 59, Reservation ratio: 9
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-03-03T02:18:23.314Z info vvold[800D850] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-03-03T02:18:23.314Z info vvold[81D4B70] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:23.314Z info vvold[81D4B70] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] Initalized App with config file:/etc/vmware/vvold/config.xml
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] Listening on port 8090 (NOT using SSL) using version 'vvol.version.version1'.
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] Initializing SOAP tcp adapter
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default.HTTPService] Using default for nonChunkingAgents
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default.HTTPService] Using default for agentsNeedingContentLength
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default.HTTPService] Max buffered response size is 104857600 bytes
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] enableChunkedResponses: true
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Libs] UUID: Running in UW, but cannot verify vmk syscall version, giving up.
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Libs] UUID: Valid gethostid routine. Value = 500AB502.
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] Creating SOAP body handler for version 'vvol.version.version1'
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=SOAP-1] Created SOAP body handler for vvol.version.version1 (vvol/1.0)
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=Default] Creating SOAP body handler for internal version 'vvol.version.version1'
+2018-03-03T02:18:23.315Z info vvold[800D850] [Originator@6876 sub=SOAP-2] Created SOAP body handler for vvol.version.version1 (internalvvol/1.0)
+2018-03-03T02:18:23.317Z error vvold[800D850] [Originator@6876 sub=Default] VVold SI:main, no VVol config available, exiting
+2018-03-03T02:18:23.325Z [/etc/init.d/vvold[67070]: /etc/init.d/vvold stopnomemclear, PID 67070]
+2018-03-03T02:18:23.429Z [/etc/init.d/vvold[67070]: vvold stopped.]
+2018-03-03T02:18:23.530Z [/etc/init.d/vvold[67070]: PID 67070 removed /var/run/vmware/vvold-done-calling-start]
+2018-03-03T02:18:24.304Z [/etc/init.d/vvold[66874]: WaitVvoldToComeUp /var/run/vmware/.vmware-vvol.started created]
+2018-03-03T02:18:24.324Z [/etc/init.d/vvold[66874]: vvold stopped after start!]
+2018-03-03T02:18:24.333Z [/etc/init.d/vvold[66874]: /var/run/vmware/.vmware-vvol.started is not created]
+2018-03-03T02:18:24.478Z [/etc/init.d/vvold[66874]: Successfully cleared vvold memory reservation]
+2018-03-03T02:18:24.485Z [/etc/init.d/vvold[66874]: PID 66874 Created /var/run/vmware/vvold-done-calling-start]
+2018-03-03T02:18:24.499Z [/etc/init.d/vvold[66874]: Removed /var/run/vmware/.vmware-vvol.lock-dir]

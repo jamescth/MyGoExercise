@@ -1,0 +1,4 @@
+Boot Option File Content jumpstrt.gz : jumpstart.run-once=vsan-upgrade2.0.0, 
+Boot Option File Content useropts.gz :  
+Boot Option File Content features.gz : 
+Options : vmbTrustedBoot=false tboot=0x101b000 installerDiskDumpSlotSize=2560 no-auto-partition bootUUID=7d1f5b042a8defaf479dddeb46b56410

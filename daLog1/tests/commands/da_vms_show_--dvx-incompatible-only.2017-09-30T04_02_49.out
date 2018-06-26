@@ -1,0 +1,124 @@
+{
+    "cookie": "", 
+    "details": {
+        "cache": {}, 
+        "details": {}, 
+        "iops": {}, 
+        "latency": {}, 
+        "summary": {}, 
+        "throughput": {}
+    }, 
+    "hasMore": false, 
+    "summary": [
+        {
+            "name": "vm-910", 
+            "path": "/vm-910/vm-910.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.c0e8a8ba-579e-11e7-b1d4-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-90", 
+            "path": "/vm-90/vm-90.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.99a95c5c-579b-11e7-9ae3-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-864", 
+            "path": "/vm-864/vm-864.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.94b8e0de-579e-11e7-b07e-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-849", 
+            "path": "/vm-849/vm-849.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.85fd94d6-579e-11e7-b023-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-948", 
+            "path": "/vm-948/vm-948.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.ec160c94-579e-11e7-b344-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-865", 
+            "path": "/vm-865/vm-865.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.9497d5a6-579e-11e7-b07d-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "soak-329", 
+            "path": "/soak-329/soak-329.vmx", 
+            "powerState": "OFF", 
+            "size": 4.0, 
+            "vmId": "VM.6.1235606c-7c90-11e7-a4e5-0050cc7a7b81", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-873", 
+            "path": "/vm-873/vm-873.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.981f8bba-579e-11e7-b09b-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-885", 
+            "path": "/vm-885/vm-885.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.a54a2264-579e-11e7-b10a-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-939", 
+            "path": "/vm-939/vm-939.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.d72de4dc-579e-11e7-b295-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }, 
+        {
+            "name": "vm-836", 
+            "path": "/vm-836/vm-836.vmx", 
+            "powerState": "OFF", 
+            "size": 36.01953125, 
+            "vmId": "VM.6.72c8cbc4-579e-11e7-af8f-0050cc7a7b75", 
+            "vmIsDvxCompatible": false, 
+            "vmLive": true, 
+            "vmType": "VMWARE"
+        }
+    ]
+}

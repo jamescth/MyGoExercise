@@ -1,0 +1,196 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:51:57Z sshd[67886]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2016-11-18T01:51:57Z sshd[67886]: Connection from 10.0.253.76 port 55425
+2016-11-18T01:51:59Z sshd[67886]: Accepted keyboard-interactive/pam for root from 10.0.253.76 port 55425 ssh2
+2016-11-18T01:51:59Z sshd[67886]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2016-11-18T01:51:59Z sshd[67888]: Session opened for 'root' on /dev/char/pty/t0
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:54:20Z sshd[67764]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2016-11-18T01:54:20Z sshd[67764]: Connection from 10.0.253.76 port 55512
+2016-11-18T01:54:22Z sshd[67764]: Accepted keyboard-interactive/pam for root from 10.0.253.76 port 55512 ssh2
+2016-11-18T01:54:22Z sshd[67764]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2016-11-18T01:54:22Z sshd[67766]: Session opened for 'root' on /dev/char/pty/t0
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T02:00:22Z sshd[67780]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2016-11-18T02:00:22Z sshd[67780]: Connection from 10.0.253.76 port 55737
+2016-11-18T02:00:24Z sshd[67780]: Accepted keyboard-interactive/pam for root from 10.0.253.76 port 55737 ssh2
+2016-11-18T02:00:24Z sshd[67780]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2016-11-18T02:00:24Z sshd[67782]: Session opened for 'root' on /dev/char/pty/t0
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:17:44Z sshd[67786]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2016-11-29T01:17:44Z sshd[67786]: Connection from 10.2.20.33 port 53989
+2016-11-29T01:17:45Z sshd[67786]: Accepted keyboard-interactive/pam for root from 10.2.20.33 port 53989 ssh2
+2016-11-29T01:17:45Z sshd[67786]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2016-11-29T01:17:45Z sshd[67788]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:05:55Z mark: storage-path-claim-completed
+2018-01-30T06:06:26Z sshd[67764]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2018-01-30T06:06:26Z sshd[67764]: Connection from 10.3.184.14 port 60297
+2018-01-30T06:06:26Z sshd[67764]: Failed password for root from 10.3.184.14 port 60297 ssh2
+2018-01-30T06:06:26Z sshd[67764]: Accepted keyboard-interactive/pam for root from 10.3.184.14 port 60297 ssh2
+2018-01-30T06:06:26Z sshd[67764]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-01-30T06:06:26Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli system hostname set --host=vesx00'
+2018-01-30T06:06:26Z sshd[67766]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:06:27Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:06:45Z sshd[67764]: User 'root' running command 'source /etc/profile;vsish -e set /userworld/global/coreDumpEnabled 1'
+2018-01-30T06:06:45Z sshd[67778]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:06:45Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:06:49Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli network firewall set -e true'
+2018-01-30T06:06:49Z sshd[67786]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:06:50Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:35Z sshd[67764]: User 'root' running command 'source /etc/profile;esxcfg-advcfg -g /Net/FollowHardwareMac'
+2018-01-30T06:07:35Z sshd[67841]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:35Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:38Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcfg-advcfg -A QA_dittos_System --add-type string --add-desc Datrium-Specific --add-default "True" '
+2018-01-30T06:07:38Z sshd[67850]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:38Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:43Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli system settings advanced list -o /UserVars/QA_dittos_System'
+2018-01-30T06:07:43Z sshd[67967]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:43Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:46Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli software vib list | grep datrium-hyperdriver-esx'
+2018-01-30T06:07:46Z sshd[67978]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:47Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:07:49Z sshd[67764]: User 'root' running command 'scp  -r -t /var/tmp'
+2018-01-30T06:07:50Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli software vib install -d /var/tmp/datrium-hyperdriver-esx.zip --no-sig-check'
+2018-01-30T06:07:50Z sshd[68003]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:02Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:11Z sshd[67764]: User 'root' running command 'source /etc/profile;grep -q DatriumNetshelfIp /etc/vmware/esx.conf'
+2018-01-30T06:08:11Z sshd[68465]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:11Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:15Z sshd[67764]: User 'root' running command 'source /etc/profile;/etc/init.d/datrium_hyperdriver status'
+2018-01-30T06:08:15Z sshd[68505]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:16Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:18Z sshd[67764]: User 'root' running command 'source /etc/profile;ps -c|grep config_agent.sh'
+2018-01-30T06:08:18Z sshd[68552]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:18Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:20Z sshd[67764]: User 'root' running command 'source /etc/profile;[ -f /opt/datrium/Version.txt ] && cat /opt/datrium/Version.txt'
+2018-01-30T06:08:20Z sshd[68577]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:20Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:24Z sshd[67764]: User 'root' running command 'source /etc/profile;[ -f /opt/datrium_hyperdriver/Version.txt ] && cat /opt/datrium_hyperdriver/Version.txt'
+2018-01-30T06:08:24Z sshd[68616]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:08:24Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:50Z sshd[67764]: User 'root' running command 'source /etc/profile;vsish -e get /userworld/global/coreDumpEnabled'
+2018-01-30T06:19:50Z sshd[73896]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:50Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:52Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli software vib list | grep datrium-hyperdriver-esx'
+2018-01-30T06:19:52Z sshd[73920]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:54Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:56Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium_hyperdriver/bin/da -l'
+2018-01-30T06:19:56Z sshd[73967]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:56Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:19:58Z sshd[67764]: User 'root' running command 'source /etc/profile;ping -c3 10.80.165.38'
+2018-01-30T06:19:58Z sshd[73993]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:00Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:01Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium_hyperdriver/bin/da 10.80.165.38'
+2018-01-30T06:20:01Z sshd[74037]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:17Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:23Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium_hyperdriver/bin/da -l'
+2018-01-30T06:20:23Z sshd[74710]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:23Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:25Z sshd[67764]: User 'root' running command 'source /etc/profile;ls -l /opt/datrium'
+2018-01-30T06:20:25Z sshd[74991]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:25Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:27Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium_hyperdriver/bin/da -c'
+2018-01-30T06:20:27Z sshd[75260]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:27Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:29Z sshd[67764]: User 'root' running command 'source /etc/profile;localcli network firewall ruleset list'
+2018-01-30T06:20:29Z sshd[75551]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:20:29Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:06Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli system settings advanced list -o /UserVars/DatriumSelectedSSDs'
+2018-01-30T06:21:06Z sshd[76953]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:06Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:56Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium/bin/procmgr_cli.py show | grep Mode/Changing'
+2018-01-30T06:21:56Z sshd[77997]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:56Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:58Z sshd[67764]: User 'root' running command 'source /etc/profile;cat /opt/datrium/Version.txt'
+2018-01-30T06:21:58Z sshd[78037]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:21:58Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:00Z sshd[67764]: User 'root' running command 'source /etc/profile;cat /opt/datrium/Version.txt'
+2018-01-30T06:22:00Z sshd[78055]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:00Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:02Z sshd[67764]: User 'root' running command 'source /etc/profile;cat /opt/datrium/Version.txt'
+2018-01-30T06:22:02Z sshd[78083]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:02Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:04Z sshd[67764]: User 'root' running command 'source /etc/profile;readlink /var/core || echo missing'
+2018-01-30T06:22:04Z sshd[78112]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:04Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:05Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli software vib list | grep Datrium | awk '{print $2}''
+2018-01-30T06:22:05Z sshd[78131]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:08Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:10Z sshd[67764]: User 'root' running command 'source /etc/profile;PYTHONPATH="/opt/datrium/PythonRoot:/opt/datrium/PythonGenRoot" /opt/datrium/python2/bin/python -m datrium.platform.common.frontend_conf --get FE~FEMain.nfhMode'
+2018-01-30T06:22:10Z sshd[78197]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:10Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:11Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli --debug --formatter=json storage vmfs extent list'
+2018-01-30T06:22:11Z sshd[78225]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:12Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:14Z sshd[67764]: User 'root' running command 'source /etc/profile;readlink /var/log/datrium/core || echo missing'
+2018-01-30T06:22:14Z sshd[78271]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:14Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:16Z sshd[67764]: User 'root' running command 'source /etc/profile;ls -l /var/'
+2018-01-30T06:22:16Z sshd[78293]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:16Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:18Z sshd[67764]: User 'root' running command 'source /etc/profile;ls -l /var/core/'
+2018-01-30T06:22:18Z sshd[78321]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:18Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:19Z sshd[67764]: User 'root' running command 'source /etc/profile;mkdir -p /var/core/datrium_test_infra_bin'
+2018-01-30T06:22:19Z sshd[78350]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:19Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:21Z sshd[67764]: User 'root' running command 'scp  -r -t /var/core/datrium_test_infra_bin'
+2018-01-30T06:22:27Z sshd[67764]: User 'root' running command 'scp  -r -t /var/core/datrium_test_infra_bin'
+2018-01-30T06:22:34Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium/bin/procmgr_cli.py show'
+2018-01-30T06:22:34Z sshd[78497]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:34Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:36Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium/bin/procmgr_cli.py devmode-set 2'
+2018-01-30T06:22:36Z sshd[78524]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:36Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:37Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium/bin/procmgr_cli.py devmode-show'
+2018-01-30T06:22:37Z sshd[78553]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:38Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:40Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/esxcli software vib list | grep Datrium | awk '{print $2}''
+2018-01-30T06:22:40Z sshd[78583]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:42Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:44Z sshd[67764]: User 'root' running command 'source /etc/profile;PYTHONPATH="/opt/datrium/PythonRoot:/opt/datrium/PythonGenRoot" /opt/datrium/python2/bin/python -m datrium.platform.common.frontend_conf --set FE~NfsProxyServer.nfsLoopbackOnly=Fal'
+2018-01-30T06:22:44Z sshd[78650]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T06:22:44Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:20Z sshd[67764]: User 'root' running command 'source /etc/profile;ls -1 --color=never /var/core'
+2018-01-30T07:15:20Z sshd[110860]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:20Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:22Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/ls -1 --color=never /scratch/core'
+2018-01-30T07:15:22Z sshd[110891]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:23Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:24Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/ls -1 --color=never /tmp'
+2018-01-30T07:15:24Z sshd[110919]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:24Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:27Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/ls -1 --color=never /scratch/core'
+2018-01-30T07:15:27Z sshd[110950]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:27Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:28Z sshd[67764]: User 'root' running command 'source /etc/profile;/bin/ls -1 --color=never /tmp'
+2018-01-30T07:15:28Z sshd[110978]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:28Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:49Z sshd[67764]: User 'root' running command 'source /etc/profile;PYTHONPATH="/opt/datrium/PythonRoot:/opt/datrium/PythonGenRoot" /opt/datrium/bin/procmgr_cli.py --client dva.py switchmode --timeout 120 --sync 1'
+2018-01-30T07:15:49Z sshd[111203]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:50Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:57Z sshd[67764]: User 'root' running command 'source /etc/profile;/opt/datrium/bin/procmgr_cli.py --client dva.py abort --continue-after-abort'
+2018-01-30T07:15:57Z sshd[111283]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:15:58Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:37:04Z sshd[67764]: User 'root' running command 'source /etc/profile;chmod a+x /opt/datrium/bin/collect_support.py'
+2018-01-30T07:37:04Z sshd[124175]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:37:04Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:37:04Z sshd[67764]: User 'root' running command 'source /etc/profile;PYTHONPATH="/opt/datrium/PythonRoot/:/opt/datrium/PythonGenRoot/:${PYTHONPATH}" DA_OVERRIDE_SECURITY_DOMAIN="1" DA_DEVELOPER_MODE="1" PATH="/opt/datrium/bin:${PATH}" /opt/datrium/b'
+2018-01-30T07:37:04Z sshd[124193]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:37:59Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:37:59Z sshd[125383]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2018-01-30T07:37:59Z sshd[125383]: Connection from 10.3.184.14 port 60829
+2018-01-30T07:37:59Z sshd[125383]: Accepted keyboard-interactive/pam for root from 10.3.184.14 port 60829 ssh2
+2018-01-30T07:37:59Z sshd[125383]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-01-30T07:37:59Z sshd[125383]: User 'root' running command 'scp -r -f /var/autosupport/5dffeef2-0590-11e8-9dbf-da005094f071'
+2018-01-30T07:38:01Z sshd[125383]: Received disconnect from 10.3.184.14 port 60829:11: disconnected by user
+2018-01-30T07:38:01Z sshd[125383]: Disconnected from 10.3.184.14 port 60829
+2018-01-30T07:38:01Z sshd[125383]: pam_unix(sshd:session): session closed for user root
+2018-01-30T07:38:02Z sshd[67764]: User 'root' running command 'source /etc/profile;rm -rf /var/autosupport/5dffeef2-0590-11e8-9dbf-da005094f071'
+2018-01-30T07:38:02Z sshd[125407]: Session opened for 'root' on /dev/char/pty/t0
+2018-01-30T07:38:02Z sshd[67764]: Session closed for 'root' on /dev/char/pty/t0
+2018-01-30T07:38:02Z sshd[125426]: /etc/ssh/sshd_config line 15: Unsupported option PrintLastLog
+2018-01-30T07:38:02Z sshd[125426]: Connection from 10.3.184.14 port 60831
+2018-01-30T07:38:02Z sshd[125426]: Accepted keyboard-interactive/pam for root from 10.3.184.14 port 60831 ssh2
+2018-01-30T07:38:02Z sshd[125426]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-01-30T07:38:02Z sshd[125426]: User 'root' running command 'scp -r -f /scratch'

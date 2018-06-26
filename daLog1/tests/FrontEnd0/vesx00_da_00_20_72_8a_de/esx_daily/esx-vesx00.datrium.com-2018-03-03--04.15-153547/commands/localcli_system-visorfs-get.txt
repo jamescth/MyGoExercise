@@ -1,0 +1,10 @@
+VisorfsStatus:
+   Total Inodes: 655360
+   Used Inodes: 10413
+   Unlinked Inodes: 4
+   Reserved Inodes: 0
+   Peak Used Inodes: 10460
+   Peak Unlinked Inodes: 5
+   Peak Reserved Inodes: 1
+   Free Inode Percent: 98
+   Lowest Free Inode Percent: 98

@@ -1,0 +1,519 @@
+<generic-device-tree-info>
+   <device-tree-root>
+      <value name="handle-/-vsi-node" type="string">0xcbf430306bec442</value>
+      <value name="bus-type" type="string">logical</value>
+      <value name="address" type="string">acpi</value>
+      <value name="display-address" type="string">Not applicable</value>
+      <value name="identifier" type="string">acpi root device</value>
+      <value name="display-identifier" type="string">acpi root device</value>
+      <value name="alias" type="string"><![CDATA[<not set>]]></value>
+      <value name="registered-by-module" type="int" format="dec">0</value>
+      <value name="claimed-by-module" type="int" format="dec">0</value>
+      <child-device>
+         <value name="handle-/-vsi-node" type="string">0x649430306bec598</value>
+         <value name="bus-type" type="string">acpi</value>
+         <value name="address" type="string">\_SB_.PCI0</value>
+         <value name="display-address" type="string">\_SB_.PCI0</value>
+         <value name="identifier" type="string">h07PNP0A03x07PNP0A08</value>
+         <value name="display-identifier" type="string">h07PNP0A03x07PNP0A08</value>
+         <value name="alias" type="string"><![CDATA[<not set>]]></value>
+         <value name="registered-by-module" type="int" format="dec">0</value>
+         <value name="claimed-by-module" type="int" format="dec">0</value>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x6356430306bec927</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:00.0</value>
+            <value name="display-address" type="string">0000:00:00.0</value>
+            <value name="identifier" type="string">8086719015ad1976060000</value>
+            <value name="display-identifier" type="string">8086:7190 15ad:1976</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">-1</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2324430306beca64</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:01.0</value>
+            <value name="display-address" type="string">0000:00:01.0</value>
+            <value name="identifier" type="string">8086719100000000060400</value>
+            <value name="display-identifier" type="string">8086:7191 0000:0000</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x1da9430306becc42</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:07.0</value>
+            <value name="display-address" type="string">0000:00:07.0</value>
+            <value name="identifier" type="string">8086711015ad1976060100</value>
+            <value name="display-identifier" type="string">8086:7110 15ad:1976</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">-1</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2f0430306becd45</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:07.1</value>
+            <value name="display-address" type="string">0000:00:07.1</value>
+            <value name="identifier" type="string">8086711115ad197601018a</value>
+            <value name="display-identifier" type="string">8086:7111 15ad:1976</value>
+            <value name="alias" type="string">vmhba0</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">15</value>
+            <child-device>
+               <value name="handle-/-vsi-node" type="string">0x7f6c430306bf0a9e</value>
+               <value name="bus-type" type="string">logical</value>
+               <value name="address" type="string">pci#p0000:00:07.1#0</value>
+               <value name="display-address" type="string">Not applicable</value>
+               <value name="identifier" type="string">com.vmware.HBAPort</value>
+               <value name="display-identifier" type="string">com.vmware.HBAPort</value>
+               <value name="alias" type="string">vmhba0</value>
+               <value name="registered-by-module" type="int" format="dec">15</value>
+               <value name="claimed-by-module" type="int" format="dec">0</value>
+            </child-device>
+            <child-device>
+               <value name="handle-/-vsi-node" type="string">0x310e430306bf0b6d</value>
+               <value name="bus-type" type="string">logical</value>
+               <value name="address" type="string">pci#p0000:00:07.1#1</value>
+               <value name="display-address" type="string">Not applicable</value>
+               <value name="identifier" type="string">com.vmware.HBAPort</value>
+               <value name="display-identifier" type="string">com.vmware.HBAPort</value>
+               <value name="alias" type="string">vmhba64</value>
+               <value name="registered-by-module" type="int" format="dec">15</value>
+               <value name="claimed-by-module" type="int" format="dec">0</value>
+            </child-device>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x7340430306bed184</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:07.3</value>
+            <value name="display-address" type="string">0000:00:07.3</value>
+            <value name="identifier" type="string">8086711315ad1976068000</value>
+            <value name="display-identifier" type="string">8086:7113 15ad:1976</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">-1</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x42b430306bed239</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">p0000:00:07.7</value>
+            <value name="display-address" type="string">0000:00:07.7</value>
+            <value name="identifier" type="string">15ad074015ad0740088000</value>
+            <value name="display-identifier" type="string">15ad:0740 15ad:0740</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">-1</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x31fb430306bed352</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000001.00</value>
+            <value name="display-address" type="string">0000:00:0f.0</value>
+            <value name="identifier" type="string">15ad040515ad0405030000</value>
+            <value name="display-identifier" type="string">15ad:0405 15ad:0405</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">-1</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x7415430306bed420</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000002.00</value>
+            <value name="display-address" type="string">0000:00:10.0</value>
+            <value name="identifier" type="string">1000003015ad1976010000</value>
+            <value name="display-identifier" type="string">1000:0030 15ad:1976</value>
+            <value name="alias" type="string">vmhba1</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">4116</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x15a8430306bed56a</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000003.00</value>
+            <value name="display-address" type="string">0000:00:11.0</value>
+            <value name="identifier" type="string">15ad079000000000060401</value>
+            <value name="display-identifier" type="string">15ad:0790 0000:0000</value>
+            <value name="alias" type="string"><![CDATA[<not set>]]></value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+            <child-device>
+               <value name="handle-/-vsi-node" type="string">0x4c08430306bed741</value>
+               <value name="bus-type" type="string">pci</value>
+               <value name="address" type="string">s00000020.00</value>
+               <value name="display-address" type="string">0000:02:00.0</value>
+               <value name="identifier" type="string">8086100f15ad0750020000</value>
+               <value name="display-identifier" type="string">8086:100f 15ad:0750</value>
+               <value name="alias" type="string">vmnic0</value>
+               <value name="registered-by-module" type="int" format="dec">0</value>
+               <value name="claimed-by-module" type="int" format="dec">4116</value>
+            </child-device>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x4fb3430306bed866</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.00</value>
+            <value name="display-address" type="string">0000:00:15.0</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.0]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2b99430306beda6b</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.01</value>
+            <value name="display-address" type="string">0000:00:15.1</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.1]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x7813430306bedb29</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.02</value>
+            <value name="display-address" type="string">0000:00:15.2</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.2]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x65c1430306bedd55</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.03</value>
+            <value name="display-address" type="string">0000:00:15.3</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.3]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x73f0430306bedea3</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.04</value>
+            <value name="display-address" type="string">0000:00:15.4</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.4]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x3d52430306bee0cc</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.05</value>
+            <value name="display-address" type="string">0000:00:15.5</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.5]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0xfbb430306bee188</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.06</value>
+            <value name="display-address" type="string">0000:00:15.6</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.6]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x6bc6430306bee3c9</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000007.07</value>
+            <value name="display-address" type="string">0000:00:15.7</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:15.7]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x15e7430306bee466</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.00</value>
+            <value name="display-address" type="string">0000:00:16.0</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.0]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x1d29430306bee6c6</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.01</value>
+            <value name="display-address" type="string">0000:00:16.1</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.1]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x7288430306bee71e</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.02</value>
+            <value name="display-address" type="string">0000:00:16.2</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.2]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x7e59430306bee950</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.03</value>
+            <value name="display-address" type="string">0000:00:16.3</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.3]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x334d430306beeafe</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.04</value>
+            <value name="display-address" type="string">0000:00:16.4</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.4]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x10cb430306beec02</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.05</value>
+            <value name="display-address" type="string">0000:00:16.5</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.5]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x23d8430306beedeb</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.06</value>
+            <value name="display-address" type="string">0000:00:16.6</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.6]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x45ae430306beefaf</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000008.07</value>
+            <value name="display-address" type="string">0000:00:16.7</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:16.7]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x5013430306bef0e6</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.00</value>
+            <value name="display-address" type="string">0000:00:17.0</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.0]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2f2b430306bef21c</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.01</value>
+            <value name="display-address" type="string">0000:00:17.1</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.1]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x4936430306bef375</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.02</value>
+            <value name="display-address" type="string">0000:00:17.2</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.2]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x5ae430306bef5e0</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.03</value>
+            <value name="display-address" type="string">0000:00:17.3</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.3]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x6759430306bef609</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.04</value>
+            <value name="display-address" type="string">0000:00:17.4</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.4]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x1125430306bef8e1</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.05</value>
+            <value name="display-address" type="string">0000:00:17.5</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.5]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x47a7430306bef992</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.06</value>
+            <value name="display-address" type="string">0000:00:17.6</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.6]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x326c430306befbfe</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s00000009.07</value>
+            <value name="display-address" type="string">0000:00:17.7</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:17.7]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x71ca430306befc8e</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.00</value>
+            <value name="display-address" type="string">0000:00:18.0</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.0]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x1e8f430306befeff</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.01</value>
+            <value name="display-address" type="string">0000:00:18.1</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.1]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x77fc430306beff05</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.02</value>
+            <value name="display-address" type="string">0000:00:18.2</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.2]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x679b430306bf01cd</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.03</value>
+            <value name="display-address" type="string">0000:00:18.3</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.3]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2081430306bf02df</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.04</value>
+            <value name="display-address" type="string">0000:00:18.4</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.4]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x2a76430306bf0425</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.05</value>
+            <value name="display-address" type="string">0000:00:18.5</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.5]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x3bfd430306bf05ea</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.06</value>
+            <value name="display-address" type="string">0000:00:18.6</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.6]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+         <child-device>
+            <value name="handle-/-vsi-node" type="string">0x16ac430306bf076b</value>
+            <value name="bus-type" type="string">pci</value>
+            <value name="address" type="string">s0000000a.07</value>
+            <value name="display-address" type="string">0000:00:18.7</value>
+            <value name="identifier" type="string">15ad07a000000000060400</value>
+            <value name="display-identifier" type="string">15ad:07a0 0000:0000</value>
+            <value name="alias" type="string">PCIe RP[0000:00:18.7]</value>
+            <value name="registered-by-module" type="int" format="dec">0</value>
+            <value name="claimed-by-module" type="int" format="dec">0</value>
+         </child-device>
+      </child-device>
+      <child-device>
+         <value name="handle-/-vsi-node" type="string">0x5dc2430306bec761</value>
+         <value name="bus-type" type="string">acpi</value>
+         <value name="address" type="string">\_SB_.ACAD</value>
+         <value name="display-address" type="string">\_SB_.ACAD</value>
+         <value name="identifier" type="string">h08ACPI0003</value>
+         <value name="display-identifier" type="string">h08ACPI0003</value>
+         <value name="alias" type="string"><![CDATA[<not set>]]></value>
+         <value name="registered-by-module" type="int" format="dec">0</value>
+         <value name="claimed-by-module" type="int" format="dec">-1</value>
+      </child-device>
+   </device-tree-root>
+</generic-device-tree-info>

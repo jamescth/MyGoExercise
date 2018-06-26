@@ -1,0 +1,17 @@
+-------- Starting /opt/datrium/sys_etc/init.d/da_head_rp start @ Sat Mar 3 02:34:56 UTC 2018 ----------------
+VSISHCmdSet():Set failed: Not found
+da_head_rp: createResourceGroup: getting ID of resource group host vim vimuser
+da_head_rp: createResourceGroup: creating host/vim/vimuser dainit
+da_head_rp: createResourceGroup: setting minLimit to host/vim/vimuser dainit
+VSISHCmdSet():Set failed: Not found
+da_head_rp: createResourceGroup: getting ID of resource group host vim vimuser
+da_head_rp: createResourceGroup: creating host/vim/vimuser datrium
+da_head_rp: createResourceGroup: setting minLimit to host/vim/vimuser datrium
+VSISHCmdSet():Set failed: Not found
+da_head_rp: createResourceGroup: getting ID of resource group host vim vimuser datrium
+da_head_rp: createResourceGroup: creating host/vim/vimuser/datrium procmgr
+da_head_rp: createResourceGroup: setting minLimit to host/vim/vimuser/datrium procmgr
+VSISHCmdSet():Set failed: Not found
+da_head_rp: createResourceGroup: getting ID of resource group host vim vimuser datrium
+da_head_rp: createResourceGroup: creating host/vim/vimuser/datrium utility
+da_head_rp: createResourceGroup: setting minLimit to host/vim/vimuser/datrium utility

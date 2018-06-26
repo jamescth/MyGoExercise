@@ -1,0 +1,11 @@
+{
+    "isPasswdSet": true, 
+    "mailserver": {
+        "connectionType": "TLS", 
+        "host": "smtp.gmail.com", 
+        "noSigCheck": true, 
+        "passwd": "******", 
+        "port": 587, 
+        "userName": "automation@datrium.com"
+    }
+}

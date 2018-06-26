@@ -1,0 +1,91 @@
+Name                     Used Size (kb)
+vmkernel                 128  10566  
+chardevs                 110  48     
+user                     1    3064   
+crypto                   64   116    
+vsanapi                  1    88     
+vsanbase                 0    96     
+vprobe                   0    392    
+vmkapi_mgmt              4    28     
+procfs                   2    16     
+vmkapi_v2_3_0_0_mgmt_shim0    8      
+vmkapi_v2_2_0_0_mgmt_shim0    8      
+iodm                     2    20     
+vmkapi_v2_2_0_0_vmkernel_shim0    84     
+vmkapi_v2_3_0_0_vmkernel_shim6    96     
+vmkapi_v2_1_0_0_vmkernel_shim0    68     
+vmkata                   3    416    
+iscsi_trans              6    60     
+iscsi_trans_compat_shim  2    12     
+vmkapi_v2_3_0_0_vmklinux_shim2    12     
+vmkplexer                1    24     
+vmklinux_9               6    676    
+vmkapi_v2_2_0_0_iscsiInc_shim0    20     
+vmkapi_v2_3_0_0_iscsiInc_shim0    20     
+etherswitch              3    384    
+netsched_fifo            1    12     
+netsched_hclk            0    80     
+netioc                   0    32     
+vmklinux_9_2_3_0         3    48     
+cnic_register            0    12     
+e1000                    0    184    
+dm                       6    16     
+nmp                      20   212    
+vmw_satp_local           7    12     
+vmw_satp_default_aa      0    12     
+vmw_psp_lib              6    12     
+vmw_psp_fixed            8    16     
+vmw_psp_rr               0    16     
+vmw_psp_mru              0    12     
+healthchk                3    176    
+teamcheck                0    164    
+vlanmtucheck             0    180    
+heartbeat                0    168    
+shaper                   0    180    
+lldp                     0    28     
+cdp                      6    196    
+ipfix                    0    208    
+tcpip4                   1    1488   
+dvsdev                   0    16     
+vmci                     2    200    
+dvfilter                 6    152    
+lacp                     3    60     
+vmkapi_v2_3_0_0_dvfilter_shim0    8      
+vmkapi_v2_2_0_0_dvfilter_shim0    8      
+vmkapi_v2_1_0_0_dvfilter_shim0    8      
+mptspi                   1    236    
+esxfw                    1    184    
+dvfilter-generic-fastpath0    208    
+vmkibft                  0    32     
+gss                      1    168    
+lvmdriver                3    164    
+deltadisk                0    256    
+vdfm                     1    24     
+sunrpc                   5    136    
+vmfs3                    3    1380   
+ufs                      0    80     
+vfat                     4    56     
+vmklink_mpi              2    36     
+swapobj                  1    56     
+nfsclient                0    140    
+nfs41client              0    472    
+vflash                   1    64     
+procMisc                 0    8      
+nrdma                    3    360    
+nrdma_vmkapi_shim        2    12     
+vmkapi_v2_3_0_0_rdma_shim0    12     
+vmkapi_v2_1_0_0_nmp_shim 0    8      
+vmkapi_v2_3_0_0_nmp_shim 0    8      
+vmkapi_v2_2_0_0_nmp_shim 0    8      
+vmkapi_v2_1_0_0_iscsi_shim0    8      
+vmkapi_v2_2_0_0_iscsi_shim0    8      
+vmkapi_v2_3_0_0_iscsi_shim0    8      
+ftcpt                    0    320    
+hbr_filter               2    204    
+vrdma                    0    116    
+filtmod                  0    88     
+svmmirror                1    56     
+cbt                      0    16     
+migrate                  2    508    
+vfc                      0    164    
+balloonVMCI              0    8      

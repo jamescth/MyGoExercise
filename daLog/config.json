@@ -1,0 +1,215 @@
+{
+	"mountPoint":"/home/jho/colo00",
+	"logFiles":[
+		{
+			"desc":"hello",
+			"prefix":"core.", 
+			"type":"core"
+		},
+		{
+			"prefix":"zcore.", 
+			"type":"zcore"
+		},
+		{
+			"prefix":"dvaEvents.log",
+			"type":"plain"
+		},
+		{
+			"prefix":"test.log", 
+			"type":"plain"
+		},
+		{
+			"prefix":"esx.conf",
+			"type":"plain"
+		},
+		{
+			"prefix":"dva.conf",
+			"type":"plain"
+		},
+		{
+			"prefix":"dacli.log", 
+			"type":"plain",
+			"patterns":["No drives available to add", "ABORT"]
+		},
+		{
+			"prefix":"syslog.log",
+			"type":"plain",
+			"patterns":["da_head","fail"]
+		},
+		{
+			"prefix":"vmksummary.log.",
+			"type":"plain",
+			"patterns":["Host is rebooting", "Host has booted"]
+		},
+		{
+			"prefix":"vmkernel.",
+			"type":"plain",
+			"startLine":"VMKernel loaded",
+			"patterns":["fatal error", "ABORT", "NFS mount", "Dumping", "Error", "resource busy", "StorageApdHandler", "datrium_hyperdriver", "datrium-reserved-sys", "timed out", "WARNING", "Aborted VMFS IO", "RPC failed", "mbMagic", "VMKernel loaded"]
+		},
+		{
+			"prefix":"vmkwarning.log",
+			"type":"plain",
+			"patterns":["Datrium", "datrium"]
+		},
+		{
+			"prefix":"vmksummary.log",
+			"type":"plain",
+			"patterns":["Datrium", "datrium", "rebooting", "booted"]
+		},
+		{
+			"prefix":"hostd.log",
+			"type":"plain",
+			"patterns":["error", "All Paths Down", "Out of memory", "timed out", "warning","init logs start", "panic"]
+		},
+		{
+			"prefix":"vobd.",
+			"type":"plain",
+			"patterns":["esx.problem"]
+		},
+		{
+			"prefix":"da_pre_",
+			"type":"plain"
+		},
+		{
+			"prefix":"da_post_",
+			"type":"plain"
+		},
+		{
+			"prefix":"da_head.log",
+			"startLine":"Starting /opt/datrium/bin/da_head start",
+			"type":"plain"
+		},
+		{
+			"prefix":"da_head0.log",
+			"startLine":"Starting /opt/da_head0 start",
+			"type":"plain"
+		},
+		{
+			"prefix":"da_head_rp.log",
+			"startLine":"Starting /opt/datrium/sys_etc/init.d/da_head_rp start",
+			"type":"plain"
+		},
+		{
+			"prefix":"da_setup.log",
+			"type":"plain",
+			"patterns":["Error","procmgr mode"]
+		},
+		{
+			"prefix":"da_setup_dasys.log",
+			"type":"plain",
+			"patterns":["Error","procmgr mode"]
+		},
+		{
+			"prefix":"esx_platmgr.log",
+			"type":"plain",
+			"patterns":["esx_platmgr starting", "exceptionInfo", "ABORT", "CRITICAL","Not-Using-Bad-Disk-FE': True", "marked as bad", "report_ssd_failure", "platmgr_0_api"]
+		},
+		{
+			"prefix":"esx_platmgr_dasys.log",
+			"type":"plain",
+			"patterns":["exceptionInfo", "ABORT", "CRITICAL","Not-Using-Bad-Disk-FE': True", "marked as bad", "report_ssd_failure"]
+		},
+		{
+			"prefix":"esx_platmgr.stderr",
+			"type":"plain",
+			"patterns":["ERROR"]
+		},
+		{
+			"prefix":"esx_platmgr.stdout",
+			"type":"plain",
+			"patterns":["ERROR"]
+		},
+		{
+			"prefix":"upgrade_util.log", 
+			"type":"gz",
+			"patterns":["Upgrade center response", "Received successful"]
+		},
+		{
+			"prefix":"upgrade_mgr.log", 
+			"type":"gz",
+			"patterns":["DA_PANIC", "DA_ASSERT", "ABORT", "Old state", "checkpoint=", "Handling", "Done", "ZOO_", "SyncBufferCache", "SyncBufferCacheAysnc", "Disconnecting", "CONNECTION_DOWN" ,"OS_Sync", "DVX", "do_setup", "switching","Shutting down","RunningVersion"]
+		},
+		{
+			"prefix":"dvx_preinstall_hook.log", 
+			"type":"plain"
+		},
+		{
+			"prefix":"host_preinstall_hook.log", 
+			"type":"plain"
+		},
+		{
+			"prefix":"mountd.log", 
+			"type":"gz",
+			"patterns":["CONNECT_FAILED"]
+		},
+		{
+			"prefix":"shell.log", 
+			"type":"plain"
+		},
+		{
+			"prefix":"lsi_megaraid.log", 
+			"type":"plain",
+			"patterns":["Command timeout","Error"]
+		},
+		{
+			"prefix":"da_disks_location_list.tmp", 
+			"type":"plain"
+		},
+		{
+			"prefix":"rpc_network_health.log",
+			"type":"gz",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"hamgr.log",
+			"type":"plain",
+			"patterns":["ACTIVE","PASSIVE","resync","shutdown","crash","hamgr.py","received","failoverInternal","take over"]
+		},
+		{
+			"prefix":"hamgr_pybridge.log",
+			"type":"gz",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"procmgr.log",
+			"type":"plain",
+			"patterns":["ABORT", "killing", "Shutdown", "procmgr shutdown", "procmgr manager starting","dumping core", "delayed call:"]
+		},
+		{
+			"prefix":"net_monitor_svr.log",
+			"type":"gz",
+			"patterns":["ABORT"]
+		},
+		{
+			"prefix":"net_heartbeat_svr.log",
+			"type":"gz",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"procmgr_cleanup.log",
+			"type":"plain",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"platmgr.log",
+			"type":"gz",
+			"patterns":["Log file closed","Log file opened", "Shutting down","ESXPlatMgr RPC server"]
+		},
+		{
+			"prefix":"health_monitor.log",
+			"type":"plain",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"fe_startup.log",
+			"type":"plain",
+			"patterns":["WHAT"]
+		},
+		{
+			"prefix":"fe.log",
+			"type":"plain",
+			"patterns":["STORAGE_POOL_DOWN"]
+		}
+	]
+}

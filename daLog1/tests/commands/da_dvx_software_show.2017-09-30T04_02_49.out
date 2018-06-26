@@ -1,0 +1,208 @@
+{
+    "lastRefreshTime": 1506738535300167915, 
+    "lastSuccRefreshTime": 1506738535300167915, 
+    "remoteImageMsg": "okay", 
+    "remoteStatus": 0, 
+    "softwareImages": [
+        {
+            "buildTime": "2017-09-29 15:47:06", 
+            "releaseNoteUrl": "invalid_due_to_dev_cmd", 
+            "status": "Running", 
+            "version": "3.1.1.0-27658_d471364"
+        }, 
+        {
+            "buildTime": "2017-09-22 22:09:00", 
+            "releaseNoteUrl": "invalid_due_to_dev_cmd", 
+            "status": "Downloaded", 
+            "version": "3.1.1.0-27641_8b4c932"
+        }, 
+        {
+            "buildTime": "2017-09-08 10:10:00", 
+            "releaseNoteUrl": "https://upgrade-center-01.datrium.com:443/release_note?requested_version=3.1.100.1-28202_a10d2a8", 
+            "status": "Remote", 
+            "version": "3.1.100.1-28202_a10d2a8"
+        }
+    ], 
+    "taskHistory": [
+        {
+            "completionTime": 1506739174646428796, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1506737559055380119", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1506737559055380119, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27658_d471364", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506712879958252480, 
+            "description": "Agent preinstall check failed. See events for details", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1506711660617855738", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1506711660617855738, 
+            "state": "Error", 
+            "taskParam": "3.1.1.0-27657_3ce13e7", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506449487514528203, 
+            "description": "Agent preinstall check failed. See events for details", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1506448448703709948", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1506448448703709948, 
+            "state": "Error", 
+            "taskParam": "3.1.1.0-27642_7298075", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506178983914325476, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1506177421375567276", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1506177421375567276, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27641_8b4c932", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1506019615368976478, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1506017980537564332", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1506017980537564332, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27630_0b46a7b", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1505939254287605425, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1505937706261733049", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1505937706261733049, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27619_21f2fa1", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1505937556436668772, 
+            "description": "Software image downloaded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1505937519182166197", 
+            "keyValues": [], 
+            "kind": "Download", 
+            "progress": 100, 
+            "startTime": 1505937519182166197, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27619_21f2fa1", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1505759915419375600, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1505758343960375771", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1505758343960375771, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27608_85b1c5f", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1505757561746654585, 
+            "description": "Missing agents n1415-b13n2.datrium.com.", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1505754649051000255", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1505754649051000255, 
+            "state": "Error", 
+            "taskParam": "3.1.1.0-27608_85b1c5f", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }, 
+        {
+            "completionTime": 1505518343951858833, 
+            "description": "DVX system upgraded", 
+            "error": {
+                "attributes": [], 
+                "errorCodes": []
+            }, 
+            "id": "UpgradeMgr-1505516819826666271", 
+            "keyValues": [], 
+            "kind": "Upgrade", 
+            "progress": 100, 
+            "startTime": 1505516819826666271, 
+            "state": "Success", 
+            "taskParam": "3.1.1.0-27600_0a8434e", 
+            "taskStateDetailsData": {
+                "keyValues": []
+            }
+        }
+    ]
+}

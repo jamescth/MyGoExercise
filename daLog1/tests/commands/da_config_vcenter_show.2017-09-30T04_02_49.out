@@ -1,0 +1,25 @@
+{
+    "vcenter": [
+        {
+            "name": "dvx64-vcsa.datrium.com", 
+            "serverGuid": "5f223e8b-a151-41e5-8a44-1706f3283243", 
+            "uiPluginVersion": "3.1.1.0027658", 
+            "vCenterOsType": "linux-x64", 
+            "vCenterVersion": "6.0.0.5318203"
+        }, 
+        {
+            "name": "dvx07-vcsa.datrium.com", 
+            "serverGuid": "d0adb538-f5df-41fd-a6ad-c9949244e114", 
+            "uiPluginVersion": "3.1.1.0027658", 
+            "vCenterOsType": "linux-x64", 
+            "vCenterVersion": "6.0.0.5318203"
+        }, 
+        {
+            "name": "vdi-vca.datrium.com", 
+            "serverGuid": "758a7302-2efc-4947-8918-b5028838f406", 
+            "uiPluginVersion": "3.1.1.0027658", 
+            "vCenterOsType": "linux-x64", 
+            "vCenterVersion": "6.0.0.3634794"
+        }
+    ]
+}

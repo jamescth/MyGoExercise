@@ -1,0 +1,12 @@
+{
+    "info": [
+        {
+            "algorithm": "AES-XTS-256", 
+            "currentState": "Unlocked", 
+            "datastore": "Datastore1", 
+            "encryption": "Enabled", 
+            "fipsValidated": "Approved", 
+            "startupMode": "Locked"
+        }
+    ]
+}

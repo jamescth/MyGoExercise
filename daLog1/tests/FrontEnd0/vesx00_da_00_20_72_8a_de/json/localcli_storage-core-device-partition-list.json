@@ -1,0 +1,157 @@
+
+[
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "End Sector": 167772160,
+         "Partition": 0,
+         "Partition Name": "mpx.vmhba1:C0:T1:L0:0",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T1:L0",
+         "Size": 85899345920,
+         "Start Sector": 0,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "End Sector": 15626240,
+         "Partition": 1,
+         "Partition Name": "mpx.vmhba1:C0:T1:L0:1",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T1:L0:1",
+         "Size": 7999586304,
+         "Start Sector": 2048,
+         "Type": 251
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "End Sector": 167770112,
+         "Partition": 3,
+         "Partition Name": "mpx.vmhba1:C0:T1:L0:3",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T1:L0:3",
+         "Size": 77897662464,
+         "Start Sector": 15626240,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 104857600,
+         "Partition": 0,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:0",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0",
+         "Size": 53687091200,
+         "Start Sector": 0,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 8192,
+         "Partition": 1,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:1",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:1",
+         "Size": 4161536,
+         "Start Sector": 64,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 15472640,
+         "Partition": 2,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:2",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:2",
+         "Size": 4293918720,
+         "Start Sector": 7086080,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 31096832,
+         "Partition": 3,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:3",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:3",
+         "Size": 7999586304,
+         "Start Sector": 15472640,
+         "Type": 251
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 79923200,
+         "Partition": 4,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:4",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:4",
+         "Size": 24999100416,
+         "Start Sector": 31096832,
+         "Type": 251
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 520192,
+         "Partition": 5,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:5",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:5",
+         "Size": 262127616,
+         "Start Sector": 8224,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 1032192,
+         "Partition": 6,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:6",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:6",
+         "Size": 262127616,
+         "Start Sector": 520224,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 1257472,
+         "Partition": 7,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:7",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:7",
+         "Size": 115326976,
+         "Start Sector": 1032224,
+         "Type": 252
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 1843200,
+         "Partition": 8,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:8",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:8",
+         "Size": 299876352,
+         "Start Sector": 1257504,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 7086080,
+         "Partition": 9,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:9",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:9",
+         "Size": 2684354560,
+         "Start Sector": 1843200,
+         "Type": 252
+      }, 
+
+      {
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "End Sector": 104855552,
+         "Partition": 10,
+         "Partition Name": "mpx.vmhba1:C0:T0:L0:10",
+         "Path": "\/vmfs\/devices\/disks\/mpx.vmhba1:C0:T0:L0:10",
+         "Size": 12765364224,
+         "Start Sector": 79923200,
+         "Type": 0
+      }
+]

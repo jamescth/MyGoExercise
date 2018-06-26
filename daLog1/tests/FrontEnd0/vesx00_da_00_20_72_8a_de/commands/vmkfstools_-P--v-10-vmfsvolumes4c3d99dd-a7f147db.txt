@@ -1,0 +1,13 @@
+NFS-1.00 (Raw Major Version: 0) file system spanning 1 partitions.
+File system label (if any): tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181525-Datastore1
+Mode: public
+Capacity 763378130944 (186371614 file blocks * 4096), 743620112384 (181547879 blocks) avail, max supported file size 140737488355328
+UUID: 4c3d99dd-a7f147db-0000-000000000000
+Logical device: 127.0.0.1 /10.80.171.241/Datastore1
+Partitions spanned (on "notDCS"):
+	nfs:tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181525-Datastore1
+NAS VAAI Supported: NO
+Is Native Snapshot Capable: NO
+154092:VVOLLIB : VVolLibTracingExit:150: Successfully cleaned up the VVolLib tracing module
+OBJLIB-LIB: ObjLib cleanup done.
+WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0

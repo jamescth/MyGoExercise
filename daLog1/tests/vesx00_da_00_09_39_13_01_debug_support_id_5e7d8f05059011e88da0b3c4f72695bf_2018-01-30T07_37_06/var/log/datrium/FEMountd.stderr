@@ -1,0 +1,5 @@
+------------ [Tue Jan 30 06:21:42 2018] redirected stderr of FEMountd(77700) ------------
+
+--- 2018-01-30T07:15:57.817160+0000 ABORT: PROCESS: FEMountd BUILD: 4.0.1.0-30021_56411f2_g, PID: 77700 ------ Common/Bootstrap/Bootstrap.c:1028 (); in BootstrapSigCoreHandler() Got signal 7  ---
+Backtrace: 0x46a3027010 <- WaitForTerm <- Bootstrap_Main <- main <- 0x46a28ae8cd <- top
+------------ [Tue Jan 30 07:16:03 2018] redirected stderr of FEMountd(111341) ------------

@@ -1,0 +1,256 @@
+{
+    "cookie": "FD7224100FE511E7A17A0050CC7A7A010000000000000000000000000000000000000000000000000000000000000000", 
+    "details": {
+        "members": {
+            "appConsistentVmMemberInfo": [], 
+            "fileMemberInfo": [], 
+            "fileNamePattern": [], 
+            "vmMemberInfo": [], 
+            "vmNamePattern": []
+        }, 
+        "schedule": [], 
+        "summary": {
+            "replicaSites": [], 
+            "status": {
+                "events": [], 
+                "extendedAttributes": []
+            }
+        }
+    }, 
+    "hasMore": false, 
+    "summary": [
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 19, 
+            "fileCount": 189, 
+            "groupId": "24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+            "groupName": "Overlapping_1", 
+            "isLive": false, 
+            "isSnapScheduleActive": false, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d36-1612-1618-9065-a350395f792f", 
+            "originDvxName": "dvx05", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+                    "siteName": "self"
+                }, 
+                {
+                    "dvxId": "34344454-1707-0717-9adb-2a6dcd462069"
+                }
+            ], 
+            "snapCount": 0, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.24f2408e-0fe5-11e7-a166-0050cc7a7a01", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 27
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 41, 
+            "fileCount": 36107, 
+            "groupId": "a6000b06-65d6-11e7-aeb4-0050cc7a7b81", 
+            "groupName": "pg_all", 
+            "isLive": true, 
+            "isSnapScheduleActive": false, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+            "originDvxName": "DVX09", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30315446-1510-2004-9f91-e90dae7249d4", 
+                    "siteName": "dvx29"
+                }
+            ], 
+            "snapCount": 0, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.a6000b06-65d6-11e7-aeb4-0050cc7a7b81", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 5150
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 10, 
+            "fileCount": 32, 
+            "groupId": "aa42f892-35a0-11e7-b3ea-0050cc7a7b81", 
+            "groupName": "vdi-infra", 
+            "isLive": true, 
+            "isSnapScheduleActive": true, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+            "originDvxName": "DVX09", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30315446-1510-2004-9f91-e90dae7249d4", 
+                    "siteName": "dvx29"
+                }
+            ], 
+            "snapCount": 1, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.aa42f892-35a0-11e7-b3ea-0050cc7a7b81", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 3
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 4, 
+            "fileCount": 0, 
+            "groupId": "b6316448-8921-11e7-b62c-0050cc7a7b75", 
+            "groupName": "pg-linked-clone", 
+            "isLive": true, 
+            "isSnapScheduleActive": true, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+            "originDvxName": "DVX09", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [], 
+            "snapCount": 9, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.b6316448-8921-11e7-b62c-0050cc7a7b75", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 0
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 11, 
+            "fileCount": 126, 
+            "groupId": "c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+            "groupName": "Overlapping_4", 
+            "isLive": false, 
+            "isSnapScheduleActive": false, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d36-1612-1618-9065-a350395f792f", 
+            "originDvxName": "dvx05", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+                    "siteName": "self"
+                }, 
+                {
+                    "dvxId": "34344454-1707-0717-9adb-2a6dcd462069"
+                }
+            ], 
+            "snapCount": 0, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.c7aaf71c-0fe5-11e7-a172-0050cc7a7a01", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 18
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 2, 
+            "fileCount": 262, 
+            "groupId": "ce8fd718-3516-11e7-9704-0050cc7a4d55", 
+            "groupName": "repl-to-b9", 
+            "isLive": false, 
+            "isSnapScheduleActive": false, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30315446-1510-2004-9f91-e90dae7249d4", 
+            "originDvxName": "dvx29", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+                    "siteName": "self"
+                }
+            ], 
+            "snapCount": 0, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.ce8fd718-3516-11e7-9704-0050cc7a4d55", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 20
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 7, 
+            "fileCount": 0, 
+            "groupId": "ee8757d8-34dc-11e7-bb1c-0050cc7a7b81", 
+            "groupName": "32-vdi-dt", 
+            "isLive": true, 
+            "isSnapScheduleActive": true, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+            "originDvxName": "DVX09", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30315446-1510-2004-9f91-e90dae7249d4", 
+                    "siteName": "dvx29"
+                }
+            ], 
+            "snapCount": 1, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.ee8757d8-34dc-11e7-bb1c-0050cc7a7b81", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 0
+        }, 
+        {
+            "appConsistentVmCount": 0, 
+            "attrsVersion": 11, 
+            "fileCount": 42, 
+            "groupId": "fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+            "groupName": "Overlapping_8", 
+            "isLive": false, 
+            "isSnapScheduleActive": false, 
+            "nonVmFileCount": 0, 
+            "originDvxId": "30304d36-1612-1618-9065-a350395f792f", 
+            "originDvxName": "dvx05", 
+            "protectionGroupType": "USER_CREATED", 
+            "replicaSites": [
+                {
+                    "dvxId": "30304d35-1612-2200-95a5-95a980fce604", 
+                    "siteName": "self"
+                }
+            ], 
+            "snapCount": 0, 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "PROT_GRP.fd722410-0fe5-11e7-a17a-0050cc7a7a01", 
+                "kind": "PROT_GRP", 
+                "status": 2
+            }, 
+            "vmCount": 6
+        }
+    ]
+}

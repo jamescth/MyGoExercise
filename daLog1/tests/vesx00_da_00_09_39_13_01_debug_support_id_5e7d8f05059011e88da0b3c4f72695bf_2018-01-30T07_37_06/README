@@ -1,0 +1,15 @@
+Command line: /bin/vm-support -s -a Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base
+Bundle name: None
+Captured on: 2018-01-30 07:37:22.768638
+vm-support version: v3.2
+Options: Namespace(actionThreads=4, allowInfiniteActions=False, defaultTimeout=300, dryrun=False, duration=300, errorfile='', excludemanifests='', extract=None, groups='', ignore_timeouts=False, interval=15, legacy=False, listfiles=False, listgroups=False, listmanifests=False, listtags=False, listvms=False, loglevel=30, manifestDir=None, manifests='Custom:DatriumBase Custom:DatriumStorage Userworld:ProcessInformation hostProfiles:hostProfiles FileSystem:base Storage:base', performance=False, quiet=False, reconstruct=None, stream=True, version=False, vm=None, workingdir=None, xmloutput=False, zip=False)
+
+Files/Directories of Interest:
+------------------------------
+
+error.log: log containing errors that ocurred while running vm-support
+action.log: a log of all commands, and/or actions run during vm-support
+commands: a directory containing output files for all commands run
+
+All other directories and files should be mirrors of the the ESXi system
+vm-support was run on.

@@ -1,0 +1,415 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:16.315Z Section for PyVsanMOPropProvider, pid=67539, version=0.1, build=4564106, option=Release
+2016-11-18T01:50:16.315Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:50:16.315Z info -[A52A72DB20] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:50:16.315Z info -[A52A72DB20] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:50:16.315Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:50:16.315Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:50:16.316Z info vsansystem[A536C19700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536C19700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:50:16.316Z info vsansystem[A536C5A700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536C5A700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-18T01:50:16.316Z info vsansystem[A536C9B700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536C9B700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:16.316Z info vsansystem[A536CDC700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536CDC700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:50:16.316Z info vsansystem[A536D1D700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536D1D700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:50:16.316Z info vsansystem[A52A72DB20] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.316Z info vsansystem[A536D9F700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.317Z info vsansystem[A536D9F700] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:50:16.317Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:50:16.317Z info vsansystem[A536D5E700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:50:16.317Z info vsansystem[A52A72DB20] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:50:16.317Z info vsansystem[A536D5E700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:50:16.317Z warning vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] Log facility for library initialization failed!
+2016-11-18T01:50:16.317Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Start
+2016-11-18T01:50:16.331Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=HttpConnectionPool-000000 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2016-11-18T01:50:16.334Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=HttpConnectionPool-000001 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2016-11-18T01:50:16.338Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=SimsHostdStub opId=Init] Logged in using explicit login method
+2016-11-18T01:50:16.338Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=SimsHostdStub opId=Init] SimsHostdStub creation is done
+2016-11-18T01:50:16.338Z info vsansystem[A536C5A700] [Originator@6876 sub=VsanSystem opId=Init] CreateVsanSystemPropertyVmkProvider instantiating vmkernel provider
+2016-11-18T01:50:16.339Z info vsansystem[A536C5A700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiating vmkernel provider.
+2016-11-18T01:50:16.339Z info vsansystem[A536C5A700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiated vmkernel provider.
+2016-11-18T01:50:16.339Z info vsansystem[A536C5A700] [Originator@6876 sub=VsanPlugin opId=Init] VSAN plugin initialized successfully
+2016-11-18T01:50:16.339Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Done
+2016-11-18T01:50:16.339Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Start
+2016-11-18T01:50:16.339Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig is called 0 times
+2016-11-18T01:50:16.339Z info vsansystem[A536C9B700] [Originator@6876 sub=SimsHostdStub opId=Init] Retrieve property from Hostd for vim.host.StorageSystem,storageSystem,storageDeviceInfo.
+2016-11-18T01:50:16.342Z verbose vsansystem[A536C9B700] [Originator@6876 sub=SimsHostdStub opId=Init] Done Hostd property: vim.host.StorageSystem,storageSystem,storageDeviceInfo.Result:Not printed
+2016-11-18T01:50:16.342Z info vsansystem[A536C9B700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetConfigInfo
+2016-11-18T01:50:16.344Z info vsansystem[A536C9B700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:50:16.344Z info vsansystem[A536C9B700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetStorageInfo
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] 67564:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] 67564:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] 67564:VVOLLIB : VVolLibTracingInit:89: Successfully initialized the VVolLib tracing module
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:50:16.346Z info vsansystem[A536C9B700] [Originator@6876 sub=Libs opId=Init] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:50:16.349Z info vsansystem[A536C9B700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:50:16.349Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Done
+2016-11-18T01:50:16.354Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Start
+2016-11-18T01:50:16.354Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo is called 0 times
+2016-11-18T01:50:16.356Z info vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystemPropertyProvider opId=Init] Complete, runtime info: (vim.vsan.host.VsanRuntimeInfo) {
+-->    membershipList = <unset>,
+-->    diskIssues = <unset>,
+-->    accessGenNo = 0
+--> }
+2016-11-18T01:50:16.356Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Done
+2016-11-18T01:50:16.358Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Start
+2016-11-18T01:50:16.358Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics is called 0 times
+2016-11-18T01:50:16.358Z verbose vsansystem[A52A72DB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Done
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:54:03.936Z Section for PyVsanMOPropProvider, pid=67565, version=0.1, build=4564106, option=Release
+2016-11-18T01:54:03.936Z verbose vsansystem[774A383B20] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:54:03.936Z info -[774A383B20] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:54:03.936Z info -[774A383B20] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:54:03.936Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:54:03.937Z info vsansystem[775682F700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[775682F700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 1
+2016-11-18T01:54:03.937Z info vsansystem[77568B1700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[77568B1700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:54:03.937Z info vsansystem[77568F2700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[77568F2700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:54:03.937Z info vsansystem[7756933700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[7756933700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:54:03.937Z info vsansystem[7756870700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[7756870700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:54:03.937Z info vsansystem[77569B5700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[77569B5700] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[7756974700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:54:03.937Z info vsansystem[7756974700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:54:03.937Z info vsansystem[774A383B20] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:54:03.937Z warning vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] Log facility for library initialization failed!
+2016-11-18T01:54:03.937Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Start
+2016-11-18T01:54:03.952Z verbose vsansystem[774A383B20] [Originator@6876 sub=HttpConnectionPool-000000 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2016-11-18T01:54:03.956Z verbose vsansystem[774A383B20] [Originator@6876 sub=HttpConnectionPool-000001 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2016-11-18T01:54:03.960Z verbose vsansystem[774A383B20] [Originator@6876 sub=SimsHostdStub opId=Init] Logged in using explicit login method
+2016-11-18T01:54:03.960Z verbose vsansystem[774A383B20] [Originator@6876 sub=SimsHostdStub opId=Init] SimsHostdStub creation is done
+2016-11-18T01:54:03.960Z info vsansystem[77568F2700] [Originator@6876 sub=VsanSystem opId=Init] CreateVsanSystemPropertyVmkProvider instantiating vmkernel provider
+2016-11-18T01:54:03.960Z info vsansystem[77568F2700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiating vmkernel provider.
+2016-11-18T01:54:03.960Z info vsansystem[77568F2700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiated vmkernel provider.
+2016-11-18T01:54:03.960Z info vsansystem[77568F2700] [Originator@6876 sub=VsanPlugin opId=Init] VSAN plugin initialized successfully
+2016-11-18T01:54:03.960Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Done
+2016-11-18T01:54:03.960Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Start
+2016-11-18T01:54:03.960Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig is called 0 times
+2016-11-18T01:54:03.960Z info vsansystem[7756870700] [Originator@6876 sub=SimsHostdStub opId=Init] Retrieve property from Hostd for vim.host.StorageSystem,storageSystem,storageDeviceInfo.
+2016-11-18T01:54:03.963Z verbose vsansystem[7756870700] [Originator@6876 sub=SimsHostdStub opId=Init] Done Hostd property: vim.host.StorageSystem,storageSystem,storageDeviceInfo.Result:Not printed
+2016-11-18T01:54:03.964Z info vsansystem[7756870700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetConfigInfo
+2016-11-18T01:54:03.965Z info vsansystem[7756870700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:54:03.965Z info vsansystem[7756870700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetStorageInfo
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] 67570:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] 67570:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] 67570:VVOLLIB : VVolLibTracingInit:89: Successfully initialized the VVolLib tracing module
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:54:03.966Z info vsansystem[7756870700] [Originator@6876 sub=Libs opId=Init] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:54:03.970Z info vsansystem[7756870700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:54:03.970Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Done
+2016-11-18T01:54:03.975Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Start
+2016-11-18T01:54:03.975Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo is called 0 times
+2016-11-18T01:54:03.975Z info vsansystem[774A383B20] [Originator@6876 sub=VsanSystemPropertyProvider opId=Init] Complete, runtime info: (vim.vsan.host.VsanRuntimeInfo) {
+-->    membershipList = <unset>,
+-->    diskIssues = <unset>,
+-->    accessGenNo = 0
+--> }
+2016-11-18T01:54:03.975Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Done
+2016-11-18T01:54:03.978Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Start
+2016-11-18T01:54:03.978Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics is called 0 times
+2016-11-18T01:54:03.978Z verbose vsansystem[774A383B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Done
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:59:04.746Z Section for PyVsanMOPropProvider, pid=67533, version=0.1, build=4564106, option=Release
+2016-11-18T01:59:04.746Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:59:04.746Z info -[3BF0F68B20] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:59:04.746Z info -[3BF0F68B20] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-18T01:59:04.746Z info vsansystem[3BFD454700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.746Z info vsansystem[3BFD454700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 1
+2016-11-18T01:59:04.746Z info vsansystem[3BFD495700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.746Z info vsansystem[3BFD495700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:04.746Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2016-11-18T01:59:04.746Z info vsansystem[3BFD4D6700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.746Z info vsansystem[3BFD4D6700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:04.746Z info vsansystem[3BFD517700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.746Z info vsansystem[3BFD517700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-18T01:59:04.747Z info vsansystem[3BFD558700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.747Z info vsansystem[3BFD558700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:04.747Z info vsansystem[3BFD599700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.747Z info vsansystem[3BFD599700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-18T01:59:04.747Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-18T01:59:04.747Z info vsansystem[3BF0F68B20] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.747Z info vsansystem[3BFD5DA700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-18T01:59:04.747Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:59:04.747Z info vsansystem[3BFD5DA700] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-18T01:59:04.747Z info vsansystem[3BF0F68B20] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:59:04.747Z warning vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] Log facility for library initialization failed!
+2016-11-18T01:59:04.747Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Start
+2016-11-18T01:59:04.761Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=HttpConnectionPool-000000 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2016-11-18T01:59:04.764Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=HttpConnectionPool-000001 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2016-11-18T01:59:04.768Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=SimsHostdStub opId=Init] Logged in using explicit login method
+2016-11-18T01:59:04.768Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=SimsHostdStub opId=Init] SimsHostdStub creation is done
+2016-11-18T01:59:04.768Z info vsansystem[3BFD495700] [Originator@6876 sub=VsanSystem opId=Init] CreateVsanSystemPropertyVmkProvider instantiating vmkernel provider
+2016-11-18T01:59:04.768Z info vsansystem[3BFD495700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiating vmkernel provider.
+2016-11-18T01:59:04.768Z info vsansystem[3BFD495700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiated vmkernel provider.
+2016-11-18T01:59:04.768Z info vsansystem[3BFD495700] [Originator@6876 sub=VsanPlugin opId=Init] VSAN plugin initialized successfully
+2016-11-18T01:59:04.768Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Done
+2016-11-18T01:59:04.768Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Start
+2016-11-18T01:59:04.768Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig is called 0 times
+2016-11-18T01:59:04.768Z info vsansystem[3BFD517700] [Originator@6876 sub=SimsHostdStub opId=Init] Retrieve property from Hostd for vim.host.StorageSystem,storageSystem,storageDeviceInfo.
+2016-11-18T01:59:04.771Z verbose vsansystem[3BFD517700] [Originator@6876 sub=SimsHostdStub opId=Init] Done Hostd property: vim.host.StorageSystem,storageSystem,storageDeviceInfo.Result:Not printed
+2016-11-18T01:59:04.772Z info vsansystem[3BFD517700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetConfigInfo
+2016-11-18T01:59:04.773Z info vsansystem[3BFD517700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:59:04.773Z info vsansystem[3BFD517700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetStorageInfo
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] 67559:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] 67559:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] 67559:VVOLLIB : VVolLibTracingInit:89: Successfully initialized the VVolLib tracing module
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-18T01:59:04.775Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-18T01:59:04.776Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-18T01:59:04.776Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2
+2016-11-18T01:59:04.776Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-18T01:59:04.776Z info vsansystem[3BFD517700] [Originator@6876 sub=Libs opId=Init] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-18T01:59:04.779Z info vsansystem[3BFD517700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-18T01:59:04.779Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Done
+2016-11-18T01:59:04.783Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Start
+2016-11-18T01:59:04.783Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo is called 0 times
+2016-11-18T01:59:04.785Z info vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystemPropertyProvider opId=Init] Complete, runtime info: (vim.vsan.host.VsanRuntimeInfo) {
+-->    membershipList = <unset>,
+-->    diskIssues = <unset>,
+-->    accessGenNo = 0
+--> }
+2016-11-18T01:59:04.785Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Done
+2016-11-18T01:59:04.787Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Start
+2016-11-18T01:59:04.787Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics is called 0 times
+2016-11-18T01:59:04.787Z verbose vsansystem[3BF0F68B20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Done
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:31.526Z Section for PyVsanMOPropProvider, pid=67585, version=0.1, build=4564106, option=Release
+2016-11-29T01:15:31.526Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-29T01:15:31.526Z info -[5BCE00FB20] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-29T01:15:31.526Z info -[5BCE00FB20] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] Logging uses fast path: false
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-29T01:15:31.526Z info vsansystem[5BCE00FB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2016-11-29T01:15:31.527Z info vsansystem[5BDA4BB700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.527Z info vsansystem[5BDA4BB700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2016-11-29T01:15:31.527Z info vsansystem[5BDA4FC700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.527Z info vsansystem[5BDA4FC700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:31.527Z info vsansystem[5BDA53D700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.527Z info vsansystem[5BDA53D700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:31.527Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 3
+2016-11-29T01:15:31.528Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2016-11-29T01:15:31.528Z info vsansystem[5BCE00FB20] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.528Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-29T01:15:31.528Z info vsansystem[5BCE00FB20] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-29T01:15:31.528Z warning vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] Log facility for library initialization failed!
+2016-11-29T01:15:31.528Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Start
+2016-11-29T01:15:31.528Z info vsansystem[5BDA57E700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.528Z info vsansystem[5BDA57E700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2016-11-29T01:15:31.528Z info vsansystem[5BDA641700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.528Z info vsansystem[5BDA641700] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2016-11-29T01:15:31.529Z info vsansystem[5BDA5BF700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.529Z info vsansystem[5BDA5BF700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:31.529Z info vsansystem[5BDA600700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2016-11-29T01:15:31.529Z info vsansystem[5BDA600700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2016-11-29T01:15:31.546Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=HttpConnectionPool-000000 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2016-11-29T01:15:31.550Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=HttpConnectionPool-000001 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2016-11-29T01:15:31.555Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=SimsHostdStub opId=Init] Logged in using explicit login method
+2016-11-29T01:15:31.555Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=SimsHostdStub opId=Init] SimsHostdStub creation is done
+2016-11-29T01:15:31.555Z info vsansystem[5BDA57E700] [Originator@6876 sub=VsanSystem opId=Init] CreateVsanSystemPropertyVmkProvider instantiating vmkernel provider
+2016-11-29T01:15:31.555Z info vsansystem[5BDA57E700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiating vmkernel provider.
+2016-11-29T01:15:31.555Z info vsansystem[5BDA57E700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiated vmkernel provider.
+2016-11-29T01:15:31.555Z info vsansystem[5BDA57E700] [Originator@6876 sub=VsanPlugin opId=Init] VSAN plugin initialized successfully
+2016-11-29T01:15:31.556Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Done
+2016-11-29T01:15:31.556Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Start
+2016-11-29T01:15:31.556Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig is called 0 times
+2016-11-29T01:15:31.556Z info vsansystem[5BDA4FC700] [Originator@6876 sub=SimsHostdStub opId=Init] Retrieve property from Hostd for vim.host.StorageSystem,storageSystem,storageDeviceInfo.
+2016-11-29T01:15:31.560Z verbose vsansystem[5BDA4FC700] [Originator@6876 sub=SimsHostdStub opId=Init] Done Hostd property: vim.host.StorageSystem,storageSystem,storageDeviceInfo.Result:Not printed
+2016-11-29T01:15:31.560Z info vsansystem[5BDA4FC700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetConfigInfo
+2016-11-29T01:15:31.562Z info vsansystem[5BDA4FC700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-29T01:15:31.562Z info vsansystem[5BDA4FC700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetStorageInfo
+2016-11-29T01:15:31.562Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] 67591:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2016-11-29T01:15:31.562Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] 67591:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2016-11-29T01:15:31.562Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] 67591:VVOLLIB : VVolLibTracingInit:89: Successfully initialized the VVolLib tracing module
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2016-11-29T01:15:31.563Z info vsansystem[5BDA4FC700] [Originator@6876 sub=Libs opId=Init] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2016-11-29T01:15:31.567Z info vsansystem[5BDA4FC700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2016-11-29T01:15:31.567Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Done
+2016-11-29T01:15:31.574Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Start
+2016-11-29T01:15:31.574Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo is called 0 times
+2016-11-29T01:15:31.574Z info vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystemPropertyProvider opId=Init] Complete, runtime info: (vim.vsan.host.VsanRuntimeInfo) {
+-->    membershipList = <unset>,
+-->    diskIssues = <unset>,
+-->    accessGenNo = 0
+--> }
+2016-11-29T01:15:31.574Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Done
+2016-11-29T01:15:31.577Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Start
+2016-11-29T01:15:31.577Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics is called 0 times
+2016-11-29T01:15:31.577Z verbose vsansystem[5BCE00FB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Done
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:29.136Z Section for PyVsanMOPropProvider, pid=67525, version=0.1, build=4564106, option=Release
+2018-03-03T02:18:29.136Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-03-03T02:18:29.136Z info -[B91F7AB20] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-03-03T02:18:29.136Z info -[B91F7AB20] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] Logging uses fast path: false
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] Initialized channel manager
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Catch work item exceptions disabled.
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOCompletionQueue] Created: WorkQueue.vmacoreDefaultIOCompletionQueue, type = fair, priority = 4 , itemWeight = 1
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultIOQueue] Created: WorkQueue.vmacoreDefaultIOQueue, type = fair, priority = 8 , itemWeight = 1
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=WorkQueue.vmacoreDefaultLongTaskQueue] Created: WorkQueue.vmacoreDefaultLongTaskQueue, type = fair, priority = 16 , itemWeight = 1
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 1, idle: 0
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 2, idle: 0
+2018-03-03T02:18:29.136Z info vsansystem[B9E466700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.136Z info vsansystem[B9E466700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:29.136Z info vsansystem[B9E4A7700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.136Z info vsansystem[B9E4A7700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:29.136Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 3, idle: 0
+2018-03-03T02:18:29.137Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Registered foreign worker - allocated: 4, idle: 2
+2018-03-03T02:18:29.137Z info vsansystem[B9E4E8700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E4E8700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:29.137Z info vsansystem[B9E529700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E529700] [Originator@6876 sub=ThreadPool] Entering worker thread loop
+2018-03-03T02:18:29.137Z info vsansystem[B9E56A700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E56A700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:29.137Z info vsansystem[B9E5AB700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E5AB700] [Originator@6876 sub=ThreadPool] Entering IO thread loop
+2018-03-03T02:18:29.137Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Thread pool fair initial threads spawned. IO: 2, Min workers: 4, Max workers: 13, Reservation ratio: 9
+2018-03-03T02:18:29.137Z info vsansystem[B91F7AB20] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E5EC700] [Originator@6876 sub=ThreadPool] Thread enlisted
+2018-03-03T02:18:29.137Z info vsansystem[B9E5EC700] [Originator@6876 sub=ThreadPool] Entering fair thread loop
+2018-03-03T02:18:29.137Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-03-03T02:18:29.137Z info vsansystem[B91F7AB20] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-03-03T02:18:29.137Z warning vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] Log facility for library initialization failed!
+2018-03-03T02:18:29.137Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Start
+2018-03-03T02:18:29.152Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=HttpConnectionPool-000000 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2018-03-03T02:18:29.155Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=HttpConnectionPool-000001 opId=Init] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2018-03-03T02:18:29.159Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=SimsHostdStub opId=Init] Logged in using explicit login method
+2018-03-03T02:18:29.159Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=SimsHostdStub opId=Init] SimsHostdStub creation is done
+2018-03-03T02:18:29.159Z info vsansystem[B9E529700] [Originator@6876 sub=VsanSystem opId=Init] CreateVsanSystemPropertyVmkProvider instantiating vmkernel provider
+2018-03-03T02:18:29.159Z info vsansystem[B9E529700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiating vmkernel provider.
+2018-03-03T02:18:29.159Z info vsansystem[B9E529700] [Originator@6876 sub=VsanPluginMgr opId=Init] CreateVsanManagerImpl instantiated vmkernel provider.
+2018-03-03T02:18:29.159Z info vsansystem[B9E529700] [Originator@6876 sub=VsanPlugin opId=Init] VSAN plugin initialized successfully
+2018-03-03T02:18:29.159Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyInit_PyVsanPropMOProvider Done
+2018-03-03T02:18:29.159Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Start
+2018-03-03T02:18:29.159Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig is called 0 times
+2018-03-03T02:18:29.159Z info vsansystem[B9E4A7700] [Originator@6876 sub=SimsHostdStub opId=Init] Retrieve property from Hostd for vim.host.StorageSystem,storageSystem,storageDeviceInfo.
+2018-03-03T02:18:29.163Z verbose vsansystem[B9E4A7700] [Originator@6876 sub=SimsHostdStub opId=Init] Done Hostd property: vim.host.StorageSystem,storageSystem,storageDeviceInfo.Result:Not printed
+2018-03-03T02:18:29.163Z info vsansystem[B9E4A7700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetConfigInfo
+2018-03-03T02:18:29.164Z info vsansystem[B9E4A7700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2018-03-03T02:18:29.165Z info vsansystem[B9E4A7700] [Originator@6876 sub=VsanPlugin opId=Init] Calling plugin::GetStorageInfo
+2018-03-03T02:18:29.166Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] 67533:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2018-03-03T02:18:29.166Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] 67533:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2018-03-03T02:18:29.166Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] 67533:VVOLLIB : VVolLibTracingInit:89: Successfully initialized the VVolLib tracing module
+2018-03-03T02:18:29.166Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2018-03-03T02:18:29.166Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] Could not expand environment variable HOME.
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] lib/ssl: OpenSSL using FIPS_drbg for RAND
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2018-03-03T02:18:29.167Z info vsansystem[B9E4A7700] [Originator@6876 sub=Libs opId=Init] lib/ssl: cipher list !aNULL:kECDH+AESGCM:ECDH+AESGCM:RSA+AESGCM:kECDH+AES:ECDH+AES:RSA+AES
+2018-03-03T02:18:29.170Z info vsansystem[B9E4A7700] [Originator@6876 sub=VsanPluginMgr opId=Init] No fault. Operation completed successfully
+2018-03-03T02:18:29.171Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetConfig Done
+2018-03-03T02:18:29.175Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Start
+2018-03-03T02:18:29.175Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo is called 0 times
+2018-03-03T02:18:29.177Z info vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystemPropertyProvider opId=Init] Complete, runtime info: (vim.vsan.host.VsanRuntimeInfo) {
+-->    membershipList = <unset>,
+-->    diskIssues = <unset>,
+-->    accessGenNo = 0
+--> }
+2018-03-03T02:18:29.177Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanRuntimeInfo Done
+2018-03-03T02:18:29.179Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Start
+2018-03-03T02:18:29.179Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics is called 0 times
+2018-03-03T02:18:29.179Z verbose vsansystem[B91F7AB20] [Originator@6876 sub=VsanSystem opId=Init] PyGetVsanNics Done

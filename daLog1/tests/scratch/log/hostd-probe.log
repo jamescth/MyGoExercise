@@ -1,0 +1,345 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:55:01.827Z Section for VMware ESX, pid=67778, version=6.5.0, build=4564106, option=Release
+2016-11-18T01:55:01.827Z verbose hostd-probe[6FE9980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T01:55:01.827Z info -[6FE9980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T01:55:01.827Z info -[6FE9980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T01:55:01.827Z info hostd-probe[6FE9980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T01:55:01.828Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T01:55:01.828Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T01:55:01.828Z info hostd-probe[6FE9980] [Originator@6876 sub=Default] Current process ID: 67778
+2016-11-18T01:55:01.849Z quiet hostd-probe[6FE9980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T02:00:01.811Z Section for VMware ESX, pid=67770, version=6.5.0, build=4564106, option=Release
+2016-11-18T02:00:01.811Z verbose hostd-probe[961C980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2016-11-18T02:00:01.811Z info -[961C980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2016-11-18T02:00:01.811Z info -[961C980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=Default] Logging uses fast path: true
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=Default] Initialized channel manager
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2016-11-18T02:00:01.811Z info hostd-probe[961C980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2016-11-18T02:00:01.812Z info hostd-probe[961C980] [Originator@6876 sub=Default] Syscommand enabled: true
+2016-11-18T02:00:01.812Z info hostd-probe[961C980] [Originator@6876 sub=Default] ReaperManager Initialized
+2016-11-18T02:00:01.812Z info hostd-probe[961C980] [Originator@6876 sub=Default] Current process ID: 67770
+2016-11-18T02:00:01.835Z quiet hostd-probe[961C980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2018-01-30T06:05:55Z mark: storage-path-claim-completed
+2018-01-30T06:10:01.950Z Section for VMware ESX, pid=69364, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:10:01.950Z verbose hostd-probe[A4B5980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:10:01.950Z info -[A4B5980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:10:01.950Z info -[A4B5980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:10:01.950Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:10:01.950Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:10:01.950Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:10:01.950Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:10:01.951Z info hostd-probe[A4B5980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:10:01.951Z info hostd-probe[A4B5980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:10:01.951Z info hostd-probe[A4B5980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:10:01.951Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:10:01.951Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:10:01.952Z info hostd-probe[A4B5980] [Originator@6876 sub=Default] Current process ID: 69364
+2018-01-30T06:10:01.972Z quiet hostd-probe[A4B5980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:15:01.958Z Section for VMware ESX, pid=71669, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:15:01.958Z verbose hostd-probe[65AE980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:15:01.958Z info -[65AE980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:15:01.958Z info -[65AE980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:15:01.958Z info hostd-probe[65AE980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:15:01.959Z info hostd-probe[65AE980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:15:01.959Z info hostd-probe[65AE980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:15:01.959Z info hostd-probe[65AE980] [Originator@6876 sub=Default] Current process ID: 71669
+2018-01-30T06:15:01.978Z quiet hostd-probe[65AE980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:20:01.973Z Section for VMware ESX, pid=74036, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:20:01.973Z verbose hostd-probe[B74F980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:20:01.972Z info -[B74F980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:20:01.972Z info -[B74F980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:20:01.973Z info hostd-probe[B74F980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:20:01.974Z info hostd-probe[B74F980] [Originator@6876 sub=Default] Current process ID: 74036
+2018-01-30T06:20:01.991Z quiet hostd-probe[B74F980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:25:01.994Z Section for VMware ESX, pid=80034, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:25:01.994Z verbose hostd-probe[66F7980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:25:01.994Z info -[66F7980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:25:01.994Z info -[66F7980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:25:01.994Z info hostd-probe[66F7980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:25:01.995Z info hostd-probe[66F7980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:25:01.995Z info hostd-probe[66F7980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:25:01.995Z info hostd-probe[66F7980] [Originator@6876 sub=Default] Current process ID: 80034
+2018-01-30T06:25:02.012Z quiet hostd-probe[66F7980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:30:02.001Z Section for VMware ESX, pid=83087, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:30:02.001Z verbose hostd-probe[7BB1980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:30:02.001Z info -[7BB1980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:30:02.001Z info -[7BB1980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:30:02.001Z info hostd-probe[7BB1980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:30:02.002Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:30:02.002Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:30:02.002Z info hostd-probe[7BB1980] [Originator@6876 sub=Default] Current process ID: 83087
+2018-01-30T06:30:02.020Z quiet hostd-probe[7BB1980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:35:01.998Z Section for VMware ESX, pid=86113, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:35:01.998Z verbose hostd-probe[6619980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:35:01.998Z info -[6619980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:35:01.998Z info -[6619980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:35:01.998Z info hostd-probe[6619980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:35:01.998Z info hostd-probe[6619980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:35:01.998Z info hostd-probe[6619980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:35:01.998Z info hostd-probe[6619980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:35:01.999Z info hostd-probe[6619980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:35:01.999Z info hostd-probe[6619980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:35:01.999Z info hostd-probe[6619980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:35:01.999Z info hostd-probe[6619980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:35:01.999Z info hostd-probe[6619980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:35:02.000Z info hostd-probe[6619980] [Originator@6876 sub=Default] Current process ID: 86113
+2018-01-30T06:35:02.017Z quiet hostd-probe[6619980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:40:02.006Z Section for VMware ESX, pid=89094, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:40:02.006Z verbose hostd-probe[660F980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:40:02.006Z info -[660F980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:40:02.006Z info -[660F980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:40:02.006Z info hostd-probe[660F980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:40:02.007Z info hostd-probe[660F980] [Originator@6876 sub=Default] Current process ID: 89094
+2018-01-30T06:40:02.025Z quiet hostd-probe[660F980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:45:02.031Z Section for VMware ESX, pid=92029, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:45:02.031Z verbose hostd-probe[65A9980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:45:02.031Z info -[65A9980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:45:02.031Z info -[65A9980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:45:02.031Z info hostd-probe[65A9980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:45:02.032Z info hostd-probe[65A9980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:45:02.032Z info hostd-probe[65A9980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:45:02.032Z info hostd-probe[65A9980] [Originator@6876 sub=Default] Current process ID: 92029
+2018-01-30T06:45:02.051Z quiet hostd-probe[65A9980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:50:02.011Z Section for VMware ESX, pid=95040, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:50:02.011Z verbose hostd-probe[B824980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:50:02.011Z info -[B824980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:50:02.011Z info -[B824980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:50:02.011Z info hostd-probe[B824980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:50:02.012Z info hostd-probe[B824980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:50:02.012Z info hostd-probe[B824980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:50:02.012Z info hostd-probe[B824980] [Originator@6876 sub=Default] Current process ID: 95040
+2018-01-30T06:50:02.029Z quiet hostd-probe[B824980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T06:55:02.022Z Section for VMware ESX, pid=98055, version=6.5.0, build=4564106, option=Release
+2018-01-30T06:55:02.022Z verbose hostd-probe[720B980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T06:55:02.022Z info -[720B980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T06:55:02.022Z info -[720B980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T06:55:02.022Z info hostd-probe[720B980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T06:55:02.023Z info hostd-probe[720B980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T06:55:02.023Z info hostd-probe[720B980] [Originator@6876 sub=Default] Current process ID: 98055
+2018-01-30T06:55:02.042Z quiet hostd-probe[720B980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:00:02.063Z Section for VMware ESX, pid=101414, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:00:02.063Z verbose hostd-probe[8402980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:00:02.062Z info -[8402980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:00:02.062Z info -[8402980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:00:02.063Z info hostd-probe[8402980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:00:02.064Z info hostd-probe[8402980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:00:02.064Z info hostd-probe[8402980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:00:02.064Z info hostd-probe[8402980] [Originator@6876 sub=Default] Current process ID: 101414
+2018-01-30T07:00:02.083Z quiet hostd-probe[8402980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:05:02.038Z Section for VMware ESX, pid=104572, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:05:02.039Z verbose hostd-probe[85D7980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:05:02.038Z info -[85D7980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:05:02.038Z info -[85D7980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:05:02.039Z info hostd-probe[85D7980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:05:02.040Z info hostd-probe[85D7980] [Originator@6876 sub=Default] Current process ID: 104572
+2018-01-30T07:05:02.058Z quiet hostd-probe[85D7980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:10:02.045Z Section for VMware ESX, pid=107570, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:10:02.045Z verbose hostd-probe[5833980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:10:02.045Z info -[5833980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:10:02.045Z info -[5833980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:10:02.045Z info hostd-probe[5833980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:10:02.046Z info hostd-probe[5833980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:10:02.046Z info hostd-probe[5833980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:10:02.046Z info hostd-probe[5833980] [Originator@6876 sub=Default] Current process ID: 107570
+2018-01-30T07:10:02.064Z quiet hostd-probe[5833980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:15:02.075Z Section for VMware ESX, pid=110647, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:15:02.075Z verbose hostd-probe[8705980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:15:02.075Z info -[8705980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:15:02.075Z info -[8705980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:15:02.075Z info hostd-probe[8705980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:15:02.076Z info hostd-probe[8705980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:15:02.076Z info hostd-probe[8705980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:15:02.076Z info hostd-probe[8705980] [Originator@6876 sub=Default] Current process ID: 110647
+2018-01-30T07:15:02.093Z quiet hostd-probe[8705980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:20:02.075Z Section for VMware ESX, pid=113806, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:20:02.075Z verbose hostd-probe[A7F6980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:20:02.075Z info -[A7F6980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:20:02.075Z info -[A7F6980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:20:02.075Z info hostd-probe[A7F6980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:20:02.076Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:20:02.076Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:20:02.076Z info hostd-probe[A7F6980] [Originator@6876 sub=Default] Current process ID: 113806
+2018-01-30T07:20:02.094Z quiet hostd-probe[A7F6980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:25:02.086Z Section for VMware ESX, pid=116881, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:25:02.086Z verbose hostd-probe[B3BE980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:25:02.086Z info -[B3BE980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:25:02.086Z info -[B3BE980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:25:02.086Z info hostd-probe[B3BE980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:25:02.087Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:25:02.087Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:25:02.087Z info hostd-probe[B3BE980] [Originator@6876 sub=Default] Current process ID: 116881
+2018-01-30T07:25:02.105Z quiet hostd-probe[B3BE980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:30:02.112Z Section for VMware ESX, pid=119904, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:30:02.112Z verbose hostd-probe[842D980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:30:02.112Z info -[842D980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:30:02.112Z info -[842D980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:30:02.112Z info hostd-probe[842D980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:30:02.113Z info hostd-probe[842D980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:30:02.113Z info hostd-probe[842D980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:30:02.113Z info hostd-probe[842D980] [Originator@6876 sub=Default] Current process ID: 119904
+2018-01-30T07:30:02.132Z quiet hostd-probe[842D980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform
+2018-01-30T07:35:02.081Z Section for VMware ESX, pid=122938, version=6.5.0, build=4564106, option=Release
+2018-01-30T07:35:02.081Z verbose hostd-probe[A4C3980] [Originator@6876 sub=Default] Dumping early logs:
+------ Early init logs start --------
+2018-01-30T07:35:02.081Z info -[A4C3980] [Originator@6876 sub=Default] Glibc malloc guards disabled.
+2018-01-30T07:35:02.081Z info -[A4C3980] [Originator@6876 sub=Default] Initialized SystemFactory
+------ Early init logs end   --------
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] Logging uses fast path: true
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] The bora/lib logs WILL be handled by VmaCore
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] Initialized channel manager
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] Current working directory: /var/log/vmware
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=FairScheduler] Priority level 4 is now active.
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=FairScheduler] Priority level 8 is now active.
+2018-01-30T07:35:02.081Z info hostd-probe[A4C3980] [Originator@6876 sub=FairScheduler] Priority level 16 is now active.
+2018-01-30T07:35:02.082Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] Syscommand enabled: true
+2018-01-30T07:35:02.082Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] ReaperManager Initialized
+2018-01-30T07:35:02.082Z info hostd-probe[A4C3980] [Originator@6876 sub=Default] Current process ID: 122938
+2018-01-30T07:35:02.100Z quiet hostd-probe[A4C3980] [Originator@6876 sub=Default] Successfully acquired hardware: VMware Virtual Platform

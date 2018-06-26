@@ -1,0 +1,66 @@
+
+[
+
+      {
+         "Expiry": 1179,
+         "Mac Address": "02:da:88:fd:b9:c5",
+         "Neighbor": "10.80.171.241",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1043,
+         "Mac Address": "da:00:3b:93:09:41",
+         "Neighbor": "10.80.171.231",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 501,
+         "Mac Address": "da:00:51:c7:88:b8",
+         "Neighbor": "10.80.171.230",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1037,
+         "Mac Address": "da:00:77:24:68:ca",
+         "Neighbor": "10.80.171.235",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1082,
+         "Mac Address": "da:00:60:c9:b9:f6",
+         "Neighbor": "10.80.171.234",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1199,
+         "Mac Address": "88:a2:5e:54:5c:e0",
+         "Neighbor": "10.80.0.1",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1131,
+         "Mac Address": "da:00:1d:75:cc:d8",
+         "Neighbor": "10.80.171.236",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }
+]

@@ -1,0 +1,32 @@
+{
+	"user":"root",
+	"password":"ca$hc0w",
+	"passphrase":"",
+	"hosts":["10.80.13.32","10.80.16.230"],
+	"cmds":[
+		{
+			"desc":"gid=`vsish -e set /sched/groupPathNameToID host vim vimuser datrium procmgr | cut -d' ' -f 1`",
+			"output":"","run":""
+		},
+		{
+			"desc":"vsish -e set /sched/groups/${gid}/memAllocationInMB min=512 max=512",
+			"output":"","run":""
+		},
+		{
+			"desc":"gid=`vsish -e set /sched/groupPathNameToID host vim vimuser datrium utility | cut -d' ' -f 1`",
+			"output":"", "run":""
+		},
+		{
+			"desc":"da_gid=`vsish -e set /sched/groupPathNameToID host vim vimuser datrium | cut -d' ' -f 1`",
+			"output":"", "run":""
+		},
+		{
+			"desc":"gid=`vsish -e set /sched/groups/${da_gid}/groupCreate utility | cut -d' ' -f 1`",
+			"output":"", "run":""
+		},
+		{
+			"desc":"vsish -e set /sched/groups/${gid}/memAllocationInMB minLimit=-1 min=256 max=256",
+			"output":"", "run":""
+		}
+	]
+}

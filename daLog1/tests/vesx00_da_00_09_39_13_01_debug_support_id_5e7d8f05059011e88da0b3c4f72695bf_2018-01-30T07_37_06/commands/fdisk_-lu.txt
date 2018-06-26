@@ -1,0 +1,11 @@
+Found valid GPT with protective MBR; using GPT
+
+Disk /dev/disks/mpx.vmhba1:C0:T1:L0: 167772160 sectors,     0
+Logical sector size: 512
+Disk identifier (GUID): ea427fa5-fc89-4b3c-8973-f53e30ecad72
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 167772126
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048        15626239       7629M   0700  
+   3        15626240       167770111       72.5G   0700  

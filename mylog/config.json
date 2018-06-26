@@ -1,0 +1,11 @@
+{
+	"logFiles":[
+		{"prefix":"upgrade_mgr.log"},
+		{"prefix":"rpc_network_health.log"},
+		{"prefix":"dvaEvents.log"},
+		{"prefix":"hamgr.log"},
+		{"prefix":"hamgr_pybridge.log"},
+		{"prefix":"procmgr.log"},
+		{"prefix":"net_monitor_svr.log"}
+	]
+}

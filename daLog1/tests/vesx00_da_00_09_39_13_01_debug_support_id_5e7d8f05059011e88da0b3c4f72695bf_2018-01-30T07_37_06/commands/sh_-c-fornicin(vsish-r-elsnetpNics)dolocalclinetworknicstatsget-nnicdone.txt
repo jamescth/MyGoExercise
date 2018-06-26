@@ -1,0 +1,26 @@
+
+NIC statistics for vmnic0:
+   Packets received: 497511
+   Packets sent: 47133
+   Bytes received: 388612716
+   Bytes sent: 14227401
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+

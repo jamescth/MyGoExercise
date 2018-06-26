@@ -1,0 +1,13 @@
+
+[
+
+      {
+         "Address Type": "DHCP",
+         "DHCP DNS": true,
+         "Gateway": "10.80.0.1",
+         "IPv4 Address": "10.80.4.83",
+         "IPv4 Broadcast": "10.80.255.255",
+         "IPv4 Netmask": "255.255.0.0",
+         "Name": "vmk0"
+      }
+]

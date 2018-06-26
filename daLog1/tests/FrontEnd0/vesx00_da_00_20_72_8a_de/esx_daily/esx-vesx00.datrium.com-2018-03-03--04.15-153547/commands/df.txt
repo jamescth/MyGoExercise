@@ -1,0 +1,9 @@
+Filesystem        Bytes        Used    Available Use% Mounted on
+NFS        763378130944 19758018560 743620112384   3% /vmfs/volumes/tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181525-Datastore1
+VFFS         7784628224  1088421888   6696206336  14% /vmfs/volumes/datrium-reserved-sys-vesx00_da:00:20:72:8a:de-B5FRJ9
+VFFS        24964497408  9234808832  15729688576  37% /vmfs/volumes/datrium-reserved-core-vesx00_da:00:20:72:8a:de-7CTEAH
+VFFS         7784628224   884998144   6899630080  11% /vmfs/volumes/datrium-reserved-sys-vesx00_da:00:20:72:8a:de-GT5MIJ
+vfat          299712512   215785472     83927040  72% /vmfs/volumes/582e5c2c-ab33b738-8d35-0050569f1d40
+vfat         4293591040    34209792   4259381248   1% /vmfs/volumes/582e5c33-b97a9b7f-ef9b-0050569f1d40
+vfat          261853184   150601728    111251456  58% /vmfs/volumes/045b1f7d-afef8d2a-9d47-ddeb46b56410
+vfat          261853184   150634496    111218688  58% /vmfs/volumes/c07c7477-8047e0d3-e4e1-3c1f078157b1

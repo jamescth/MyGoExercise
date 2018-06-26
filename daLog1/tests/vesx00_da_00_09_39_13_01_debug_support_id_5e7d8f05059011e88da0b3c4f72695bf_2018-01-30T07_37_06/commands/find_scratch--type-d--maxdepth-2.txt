@@ -1,0 +1,11 @@
+/scratch/
+/scratch/var
+/scratch/var/tmp
+/scratch/downloads
+/scratch/log
+/scratch/core
+/scratch/datrium-flashless
+/scratch/datrium-flashless/bundles
+/scratch/datrium-flashless/autosupport
+/scratch/datrium-flashless/log
+/scratch/datrium-flashless/dakv

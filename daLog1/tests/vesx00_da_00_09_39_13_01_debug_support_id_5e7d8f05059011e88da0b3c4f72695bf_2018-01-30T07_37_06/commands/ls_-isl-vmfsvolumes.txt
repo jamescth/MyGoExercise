@@ -1,0 +1,11 @@
+total 4096
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 045b1f7d-afef8d2a-9d47-ddeb46b56410
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 582e5c2c-ab33b738-8d35-0050569f1d40
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 582e5c33-b97a9b7f-ef9b-0050569f1d40
+      4   1024 drwxr-xr-t    1 root     root          1960 Jan 30 06:24 5a700ee4-fd6614ae-8dcf-da0009391301
+      4   1024 drwxr-xr-t    1 root     root          1960 Jan 30 06:24 5a700ee6-68b2761e-b209-da0009391301
+      4   1024 drwxr-xr-t    1 root     root          1540 Jan 30 06:24 5a700ee8-3ae9fbe2-5f30-da0009391301
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 c07c7477-8047e0d3-e4e1-3c1f078157b1
+73680410329408      0 lrwxr-xr-x    1 root     root            35 Jan 30 07:37 datrium-reserved-core-vesx00_da:00:09:39:13:01-BUU6HF -> 5a700ee8-3ae9fbe2-5f30-da0009391301
+73680410267008      0 lrwxr-xr-x    1 root     root            35 Jan 30 07:37 datrium-reserved-sys-vesx00_da:00:09:39:13:01-FP6U4M -> 5a700ee6-68b2761e-b209-da0009391301
+73680409760768      0 lrwxr-xr-x    1 root     root            35 Jan 30 07:37 datrium-reserved-sys-vesx00_da:00:09:39:13:01-L7A1JT -> 5a700ee4-fd6614ae-8dcf-da0009391301

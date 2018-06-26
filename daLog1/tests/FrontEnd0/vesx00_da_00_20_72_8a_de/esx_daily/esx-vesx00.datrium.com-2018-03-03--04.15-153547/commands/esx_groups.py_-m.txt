@@ -1,0 +1,21 @@
+peakUsageKB  minAllocKB  maxAllocKB  recentUsageKB      groupId groupPath                                   
+   15348256           0          -1        8678856           15 host/vim/vimuser                            
+   15097784     2048000          -1        8428388        69252 host/vim/vimuser/datrium                    
+   13362824     7619584    15239168        6686280        85980 host/vim/vimuser/datrium/FE                 
+    1132540     1184768     1184768        1132540        86105 host/vim/vimuser/datrium/DaggerWorker       
+     317080           0          -1              0        86305 host/vim/vimuser/datrium/Shutdown           
+     180056      307200      614400              0        69510 host/vim/vimuser/datrium/utility            
+     154132      614400      614400         135920        85955 host/vim/vimuser/datrium/esx_platmgr        
+      95668       65536      262144              0        86255 host/vim/vimuser/datrium/heartbeatsupport   
+      95500      208896      208896          95500        86055 host/vim/vimuser/datrium/ESXPlatMgr         
+      89268      214016      214016          89268        85930 host/vim/vimuser/datrium/UpgradeMgr         
+      86304      244736      244736          82628        86030 host/vim/vimuser/datrium/FEMountd           
+      82884      286720      286720          41472        69381 host/vim/vimuser/datrium/procmgr            
+      79764       32768      327680          38024        86230 host/vim/vimuser/datrium/health_monitor     
+      79308      104448      104448          79120        86005 host/vim/vimuser/datrium/NetworkHeartbeat   
+      76868       65536      327680              0        86180 host/vim/vimuser/datrium/mountmonitor       
+      63760      262144      262144          47636        86080 host/vim/vimuser/datrium/eventproducer      
+      31968       65536      262144              0        86130 host/vim/vimuser/datrium/logcleaner         
+          0       65536      262144              0        86155 host/vim/vimuser/datrium/dailysupport       
+          0       65536      262144              0        86205 host/vim/vimuser/datrium/verify_binaries    
+          0           0          -1              0        86280 host/vim/vimuser/datrium/KCore              

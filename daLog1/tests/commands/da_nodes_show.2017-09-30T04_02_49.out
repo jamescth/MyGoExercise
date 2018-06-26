@@ -1,0 +1,242 @@
+{
+    "node": {
+        "battery": [], 
+        "chassis": [], 
+        "controller": [], 
+        "drive": [], 
+        "metis": [], 
+        "network": {
+            "dataPort": [], 
+            "mgmtPort": []
+        }, 
+        "nodeInfo": {
+            "health": {
+                "events": [], 
+                "extendedAttributes": []
+            }
+        }, 
+        "pcm": []
+    }, 
+    "summary": [
+        {
+            "activeController": "node3.controller1", 
+            "ambientTemp": 26, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node3", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node3", 
+            "model": "D12X4", 
+            "role": "ADDON", 
+            "serial": "SHG1009007L7DJ2", 
+            "state": "ADDED", 
+            "statetimestamp": 1498264631
+        }, 
+        {
+            "activeController": "node9.controller2", 
+            "ambientTemp": 26, 
+            "beacon": "Off", 
+            "config": "2x25G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node9", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node9", 
+            "model": "D12X4b", 
+            "role": "ADDON", 
+            "serial": "CHX1007425G44DE", 
+            "state": "ADDED", 
+            "statetimestamp": 1504672536
+        }, 
+        {
+            "activeController": "node1.controller2", 
+            "ambientTemp": 26, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node1", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node1", 
+            "model": "D12X4", 
+            "role": "MASTER", 
+            "serial": "CHX0991430G00M5", 
+            "state": "ADDED", 
+            "statetimestamp": 1482366112
+        }, 
+        {
+            "activeController": "node8.controller2", 
+            "ambientTemp": 28, 
+            "beacon": "Off", 
+            "config": "2x25G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node8", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node8", 
+            "model": "D12X4b", 
+            "role": "ADDON", 
+            "serial": "SHG1028153G5VSH", 
+            "state": "ADDED", 
+            "statetimestamp": 1504653285
+        }, 
+        {
+            "activeController": "node7.controller2", 
+            "ambientTemp": 26, 
+            "beacon": "Off", 
+            "config": "2x25G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node7", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node7", 
+            "model": "D12X4b", 
+            "role": "ADDON", 
+            "serial": "SHG1028030G5WNR", 
+            "state": "ADDED", 
+            "statetimestamp": 1504413405
+        }, 
+        {
+            "activeController": "node10.controller1", 
+            "ambientTemp": 27, 
+            "beacon": "Off", 
+            "config": "2x25G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node10", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node10", 
+            "model": "D12X4b", 
+            "role": "ADDON", 
+            "serial": "SHG1028153G5WR8", 
+            "state": "ADDED", 
+            "statetimestamp": 1504831643
+        }, 
+        {
+            "activeController": "node2.controller2", 
+            "ambientTemp": 28, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node2", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node2", 
+            "model": "D12X4", 
+            "role": "ADDON", 
+            "serial": "SHX1003837G4HQ6", 
+            "state": "ADDED", 
+            "statetimestamp": 1497303585
+        }, 
+        {
+            "activeController": "node4.controller1", 
+            "ambientTemp": 24, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node4", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node4", 
+            "model": "D12X4", 
+            "role": "ADDON", 
+            "serial": "SHX1011893G01YA", 
+            "state": "ADDED", 
+            "statetimestamp": 1498351301
+        }, 
+        {
+            "activeController": "node6.controller1", 
+            "ambientTemp": 26, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node6", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node6", 
+            "model": "D12X4", 
+            "role": "ADDON", 
+            "serial": "SHX1009007G01CT", 
+            "state": "ADDED", 
+            "statetimestamp": 1504242216
+        }, 
+        {
+            "activeController": "node5.controller1", 
+            "ambientTemp": 27, 
+            "beacon": "Off", 
+            "config": "2x10G-48TB", 
+            "haState": "Redundant", 
+            "halfCapacity": false, 
+            "health": {
+                "description": "Status OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "NODE.node5", 
+                "kind": "NODE", 
+                "status": 2
+            }, 
+            "identifier": "node5", 
+            "model": "D12X4", 
+            "role": "ADDON", 
+            "serial": "SHX1009007G01D6", 
+            "state": "ADDED", 
+            "statetimestamp": 1504170745
+        }
+    ]
+}

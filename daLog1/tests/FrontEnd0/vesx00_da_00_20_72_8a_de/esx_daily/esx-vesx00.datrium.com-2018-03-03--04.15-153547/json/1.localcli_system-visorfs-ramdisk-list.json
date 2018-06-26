@@ -1,0 +1,147 @@
+
+[
+
+      {
+         "Allocated Inodes": 4960,
+         "Free": 99,
+         "Include in Coredumps": true,
+         "Maximum": 32768,
+         "Maximum Inodes": 17536,
+         "Mount Point": "\/",
+         "Peak Used": 244,
+         "Ramdisk Name": "root",
+         "Reserved": 32768,
+         "Reserved Free": 99,
+         "System": true,
+         "Used": 28,
+         "Used Inodes": 4930
+      }, 
+
+      {
+         "Allocated Inodes": 1024,
+         "Free": 99,
+         "Include in Coredumps": true,
+         "Maximum": 28672,
+         "Maximum Inodes": 4096,
+         "Mount Point": "\/etc",
+         "Peak Used": 236,
+         "Ramdisk Name": "etc",
+         "Reserved": 28672,
+         "Reserved Free": 99,
+         "System": true,
+         "Used": 204,
+         "Used Inodes": 595
+      }, 
+
+      {
+         "Allocated Inodes": 1024,
+         "Free": 99,
+         "Include in Coredumps": true,
+         "Maximum": 32768,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/opt",
+         "Peak Used": 8,
+         "Ramdisk Name": "opt",
+         "Reserved": 0,
+         "Reserved Free": 0,
+         "System": true,
+         "Used": 8,
+         "Used Inodes": 25
+      }, 
+
+      {
+         "Allocated Inodes": 1024,
+         "Free": 92,
+         "Include in Coredumps": true,
+         "Maximum": 49152,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/var",
+         "Peak Used": 3868,
+         "Ramdisk Name": "var",
+         "Reserved": 5120,
+         "Reserved Free": 24,
+         "System": true,
+         "Used": 3868,
+         "Used Inodes": 650
+      }, 
+
+      {
+         "Allocated Inodes": 416,
+         "Free": 99,
+         "Include in Coredumps": false,
+         "Maximum": 262144,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/tmp",
+         "Peak Used": 2296,
+         "Ramdisk Name": "tmp",
+         "Reserved": 2048,
+         "Reserved Free": 83,
+         "System": false,
+         "Used": 328,
+         "Used Inodes": 15
+      }, 
+
+      {
+         "Allocated Inodes": 32,
+         "Free": 100,
+         "Include in Coredumps": false,
+         "Maximum": 32768,
+         "Maximum Inodes": 10240,
+         "Mount Point": "\/var\/run\/iofilters",
+         "Peak Used": 0,
+         "Ramdisk Name": "iofilters",
+         "Reserved": 0,
+         "Reserved Free": 0,
+         "System": false,
+         "Used": 0,
+         "Used Inodes": 1
+      }, 
+
+      {
+         "Allocated Inodes": 32,
+         "Free": 99,
+         "Include in Coredumps": false,
+         "Maximum": 280576,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/var\/lib\/vmware\/hostd\/stats",
+         "Peak Used": 1804,
+         "Ramdisk Name": "hostdstats",
+         "Reserved": 0,
+         "Reserved Free": 0,
+         "System": false,
+         "Used": 1804,
+         "Used Inodes": 4
+      }, 
+
+      {
+         "Allocated Inodes": 4192,
+         "Free": 11,
+         "Include in Coredumps": false,
+         "Maximum": 839680,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/da-sys",
+         "Peak Used": 740148,
+         "Ramdisk Name": "datrium-BSBSBS",
+         "Reserved": 839680,
+         "Reserved Free": 11,
+         "System": false,
+         "Used": 740144,
+         "Used Inodes": 4186
+      }, 
+
+      {
+         "Allocated Inodes": 32,
+         "Free": 99,
+         "Include in Coredumps": false,
+         "Maximum": 1024,
+         "Maximum Inodes": 8192,
+         "Mount Point": "\/dakv",
+         "Peak Used": 4,
+         "Ramdisk Name": "datrium-JQA29D",
+         "Reserved": 1024,
+         "Reserved Free": 99,
+         "System": false,
+         "Used": 4,
+         "Used Inodes": 4
+      }
+]

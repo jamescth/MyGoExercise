@@ -1,0 +1,7 @@
+/vmfs/volumes/55b648ae-0548a47e-aa06-0cc47a7076ee/log # stat -f /
+  File: "/"
+    ID: 100000000 Namelen: 127     Type: visorfs
+Block size: 4096      
+Blocks: Total: 660809     Free: 348658     Available: 348658
+Inodes: Total: 524288     Free: 510454
+

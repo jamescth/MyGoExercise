@@ -1,0 +1,56 @@
+
+==== Thread 1029398423296 ====
+Traceback (most recent call last):
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 774, in __bootstrap
+  self.__bootstrap_inner()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  self.run()
+File "/opt/datrium/PythonRoot/datrium/utils/da_traceback.py", line 74, in run
+  self._trace_threads_stack()
+File "/opt/datrium/PythonRoot/datrium/utils/da_traceback.py", line 93, in _trace_threads_stack
+  for fname, line, func, text in traceback.extract_stack(stack, 20):
+
+==== Thread 1029395801856 ====
+Traceback (most recent call last):
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 774, in __bootstrap
+  self.__bootstrap_inner()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  self.run()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 754, in run
+  self.__target(*self.__args, **self.__kwargs)
+File "/opt/datrium/PythonRoot/datrium/platform/esx/esx_kvstore.py", line 789, in _disk_io_thread_run
+  sync_data.has_data.wait(0.5)
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 614, in wait
+  self.__cond.wait(timeout)
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 359, in wait
+  _sleep(delay)
+
+==== Thread 1029310573952 ====
+Traceback (most recent call last):
+File "/opt/datrium/bin/esx_platmgr.py", line 1479, in <module>
+  main(nfh_mode)
+File "/opt/datrium/bin/esx_platmgr.py", line 1372, in main
+  is_during_upgrade = os.system('/opt/datrium/bin/da_setup '
+File "/opt/datrium/PythonRoot/datrium/utils/da_traceback.py", line 115, in trace_start
+  _stack_trace.start()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 741, in start
+  self.__started.wait()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 615, in wait
+  return self.__flag
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 371, in wait
+  self._acquire_restore(saved_state)
+
+==== Thread 1029389768448 ====
+Traceback (most recent call last):
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 774, in __bootstrap
+  self.__bootstrap_inner()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  self.run()
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 754, in run
+  self.__target(*self.__args, **self.__kwargs)
+File "/opt/datrium/PythonRoot/datrium/platform/esx/esx_kvstore.py", line 789, in _disk_io_thread_run
+  sync_data.has_data.wait(0.5)
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 614, in wait
+  self.__cond.wait(timeout)
+File "/opt/datrium/python2/lib/python2.7/threading.py", line 359, in wait
+  _sleep(delay)

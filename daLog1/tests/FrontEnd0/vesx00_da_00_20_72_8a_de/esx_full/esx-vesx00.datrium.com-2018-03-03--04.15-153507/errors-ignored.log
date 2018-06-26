@@ -1,0 +1,4 @@
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-prolog.sh" returned no information, don't collect file vm-support-incident-key for this cmd.
+No file found matching /tmp/vmware-*/vmware-panic.log
+No file found matching /tmp/vmware-*/vmware-vmx-*.log
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-epilog.sh" returned no information, don't collect file commands/encryption-epilog.sh.txt for this cmd.

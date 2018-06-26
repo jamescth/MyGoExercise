@@ -1,0 +1,44 @@
+{
+    "replica": [
+        {
+            "address": "dvx29-mgmt", 
+            "bandwidthLimitBytesPerSec": 1048576, 
+            "dvxId": "30315446-1510-2004-9f91-e90dae7249d4", 
+            "dvxName": "dvx29", 
+            "enabled": false, 
+            "lastSuccessTimeNs": 0, 
+            "pairingTimeNs": 1506738553644996641, 
+            "replicaSiteName": "dvx29", 
+            "softwareVersion": "3.1.1.0-27608_85b1c5f", 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "REPLICA_SITE.30315446-1510-2004-9f91-e90dae7249d4", 
+                "kind": "REPLICA_SITE", 
+                "status": 2
+            }, 
+            "type": "DST"
+        }, 
+        {
+            "address": "dvx19-mgmt.datrium.com", 
+            "bandwidthLimitBytesPerSec": 0, 
+            "dvxId": "30314350-1702-0407-bab7-bd53c27ab8c9", 
+            "dvxName": "b19", 
+            "enabled": false, 
+            "lastSuccessTimeNs": 0, 
+            "pairingTimeNs": 0, 
+            "replicaSiteName": "dvx19", 
+            "softwareVersion": "3.1.101.0-28648_1a87bc1", 
+            "status": {
+                "description": "OK", 
+                "events": [], 
+                "extendedAttributes": [], 
+                "id": "REPLICA_SITE.30314350-1702-0407-bab7-bd53c27ab8c9", 
+                "kind": "REPLICA_SITE", 
+                "status": 2
+            }, 
+            "type": "DST"
+        }
+    ]
+}

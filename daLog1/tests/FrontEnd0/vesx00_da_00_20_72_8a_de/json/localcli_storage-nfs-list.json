@@ -1,0 +1,14 @@
+
+[
+
+      {
+         "Accessible": true,
+         "Hardware Acceleration": "Not Supported",
+         "Host": "localhost",
+         "Mounted": true,
+         "Read-Only": false,
+         "Share": "\/10.80.171.241\/Datastore1",
+         "Volume Name": "tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181525-Datastore1",
+         "isPE": false
+      }
+]

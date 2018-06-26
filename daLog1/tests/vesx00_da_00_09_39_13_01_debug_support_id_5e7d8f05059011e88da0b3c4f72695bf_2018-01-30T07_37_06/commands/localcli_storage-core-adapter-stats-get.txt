@@ -1,0 +1,52 @@
+
+vmhba0:
+   Successful Commands: 0
+   Blocks Read: 0
+   Blocks Written: 0
+   Read Operations: 0
+   Write Operations: 0
+   Reserve Operations: 0
+   Reservation Conflicts: 0
+   Failed Commands: 0
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+   Total Splits: 0
+   PAE Commands: 0
+
+vmhba1:
+   Successful Commands: 243501
+   Blocks Read: 3244269
+   Blocks Written: 2350432
+   Read Operations: 200472
+   Write Operations: 41417
+   Reserve Operations: 44
+   Reservation Conflicts: 0
+   Failed Commands: 148
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+   Total Splits: 0
+   PAE Commands: 0
+
+vmhba64:
+   Successful Commands: 9
+   Blocks Read: 0
+   Blocks Written: 0
+   Read Operations: 0
+   Write Operations: 0
+   Reserve Operations: 0
+   Reservation Conflicts: 0
+   Failed Commands: 38
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+   Total Splits: 0
+   PAE Commands: 0
+

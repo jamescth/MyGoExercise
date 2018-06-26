@@ -1,0 +1,49 @@
+
+mpx.vmhba1:C0:T1:L0:
+   Device: mpx.vmhba1:C0:T1:L0
+   Successful Commands: 318865
+   Blocks Read: 24874582
+   Blocks Written: 11339220
+   Read Operations: 311464
+   Write Operations: 7108
+   Reserve Operations: 3
+   Reservation Conflicts: 0
+   Failed Commands: 49
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+
+mpx.vmhba64:C0:T0:L0:
+   Device: mpx.vmhba64:C0:T0:L0
+   Successful Commands: 6
+   Blocks Read: 0
+   Blocks Written: 0
+   Read Operations: 0
+   Write Operations: 0
+   Reserve Operations: 0
+   Reservation Conflicts: 0
+   Failed Commands: 23
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+
+mpx.vmhba1:C0:T0:L0:
+   Device: mpx.vmhba1:C0:T0:L0
+   Successful Commands: 1239813
+   Blocks Read: 14965475
+   Blocks Written: 10952412
+   Read Operations: 858557
+   Write Operations: 380235
+   Reserve Operations: 6
+   Reservation Conflicts: 0
+   Failed Commands: 46
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+

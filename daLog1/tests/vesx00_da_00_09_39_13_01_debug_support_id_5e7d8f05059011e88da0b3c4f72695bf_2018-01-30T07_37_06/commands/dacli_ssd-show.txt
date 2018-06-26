@@ -1,0 +1,7 @@
+Drives already added and in use by DVX
+     mpx.vmhba1:C0:T1:L0 / Active
+         VMware Virtual disk                85 GB   vmhba1:C0:T1:L0
+     mpx.vmhba1:C0:T0:L0 / Active (primary) (boot)
+         VMware Virtual disk                53 GB   vmhba1:C0:T0:L0
+
+No drives available to add

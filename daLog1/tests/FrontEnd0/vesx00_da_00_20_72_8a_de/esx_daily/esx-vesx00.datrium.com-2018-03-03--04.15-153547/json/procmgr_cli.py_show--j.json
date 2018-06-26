@@ -1,0 +1,4 @@
+usage: procmgr_cli.py [-h] [-I INSTANCE] [-C CLIENT]
+                      {server,show,start,stop,restart,kill,switchmode,shutdown,changeIP,devmode-set,devmode-show,getpid,runjob,abort,watch,config}
+                      ...
+procmgr_cli.py: error: unrecognized arguments: --formatter=json

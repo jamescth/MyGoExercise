@@ -1,0 +1,13 @@
+Could not retrieve max file size: Inappropriate ioctl for device
+vfat-0.04 (Raw Major Version: 0) file system spanning 1 partitions.
+File system label (if any): 
+Mode: private
+Capacity 261853184 (63929 file blocks * 4096), 111251456 (27161 blocks) avail, max supported file size 0
+UUID: 045b1f7d-afef8d2a-9d47-ddeb46b56410
+Logical device: mpx.vmhba1:C0:T0:L0:5
+Partitions spanned (on "disks"):
+	mpx.vmhba1:C0:T0:L0:5
+Is Native Snapshot Capable: NO
+153968:VVOLLIB : VVolLibTracingExit:150: Successfully cleaned up the VVolLib tracing module
+OBJLIB-LIB: ObjLib cleanup done.
+WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0

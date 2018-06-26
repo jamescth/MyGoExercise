@@ -1,0 +1,13 @@
+VFFS-1.00 (Raw Major Version: 14) file system spanning 1 partitions.
+File system label (if any): datrium-reserved-sys-vesx00_da:00:09:39:13:01-L7A1JT
+Mode: public
+Capacity 7784628224 (7424 file blocks * 1048576), 6899630080 (6580 blocks) avail, max supported file size 69201586814976
+Volume Metadata size: 669351936
+UUID: 5a700ee4-fd6614ae-8dcf-da0009391301
+Logical device: 5a700ee4-eadab0b3-8bc5-da0009391301
+Partitions spanned (on "lvm"):
+	mpx.vmhba1:C0:T1:L0:1
+Is Native Snapshot Capable: NO
+124948:VVOLLIB : VVolLibTracingExit:150: Successfully cleaned up the VVolLib tracing module
+OBJLIB-LIB: ObjLib cleanup done.
+WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0

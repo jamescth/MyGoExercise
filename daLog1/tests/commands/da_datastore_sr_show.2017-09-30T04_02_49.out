@@ -1,0 +1,16 @@
+{
+    "srEvent": [
+        {
+            "datastore": "Datastore1", 
+            "status": "SRRunAbortEvent", 
+            "time": 1506738539084802000
+        }
+    ], 
+    "srStatus": [
+        {
+            "datastore": "Datastore1", 
+            "enabled": true
+        }
+    ], 
+    "srTask": []
+}

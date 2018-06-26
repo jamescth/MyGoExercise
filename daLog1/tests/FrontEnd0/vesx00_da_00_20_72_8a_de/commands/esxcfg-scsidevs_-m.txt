@@ -1,0 +1,3 @@
+mpx.vmhba1:C0:T0:L0:3                                            /vmfs/devices/disks/mpx.vmhba1:C0:T0:L0:3 5a9a09e4-90d278b8-f0b8-da0020728ade  0  datrium-reserved-sys-vesx00_da:00:20:72:8a:de-B5FRJ9
+mpx.vmhba1:C0:T0:L0:4                                            /vmfs/devices/disks/mpx.vmhba1:C0:T0:L0:4 5a9a09e5-23b777aa-3869-da0020728ade  0  datrium-reserved-core-vesx00_da:00:20:72:8a:de-7CTEAH
+mpx.vmhba1:C0:T1:L0:1                                            /vmfs/devices/disks/mpx.vmhba1:C0:T1:L0:1 5a9a0a07-48cf9180-d0b5-da0020728ade  0  datrium-reserved-sys-vesx00_da:00:20:72:8a:de-GT5MIJ

@@ -1,0 +1,29 @@
+PING 10.80.165.38 (10.80.165.38): 56 data bytes
+64 bytes from 10.80.165.38: icmp_seq=0 ttl=64 time=0.630 ms
+
+--- 10.80.165.38 ping statistics ---
+1 packets transmitted, 1 packets received, 0% packet loss
+round-trip min/avg/max = 0.630/0.630/0.630 ms
+2018-01-30T06:20:02 datrium_bundle_bootstrap: pinged 10.80.165.38
+2018-01-30T06:20:02 datrium_bundle_bootstrap: =--- Clearing leftovers
+2018-01-30T06:20:03 datrium_bundle_bootstrap: =--- Making mount point
+2018-01-30T06:20:03 datrium_bundle_bootstrap: created dasys dir
+2018-01-30T06:20:03 datrium_bundle_bootstrap: =--- Getting installed bundle size
+Connecting to 10.80.165.38 (10.80.165.38:80)
+-                    100% |*******************************|     7   0:00:00 ETA
+2018-01-30T06:20:03 datrium_bundle_bootstrap: Got size "736452" KiB from the DataNode
+2018-01-30T06:20:03 datrium_bundle_bootstrap: Will allocate 810 MiB ramdisk
+2018-01-30T06:20:03 datrium_bundle_bootstrap: =--- Getting bundle checksum.
+Connecting to 10.80.165.38 (10.80.165.38:80)
+-                    100% |*******************************|    46   0:00:00 ETA
+2018-01-30T06:20:03 datrium_bundle_bootstrap: Got 32e7d163699cb3a13bf74770b4e5182f Head.Bundle checksum from the DataNode
+2018-01-30T06:20:03 datrium_bundle_bootstrap: =--- Allocating ramdisk
+2018-01-30T06:20:03 datrium_bundle_bootstrap: created dasys RAMFS
+2018-01-30T06:20:03 datrium_bundle_bootstrap: =--- Downloading, verifying, and unpacking bundle
+ERROR: ld.so: object '/lib/libMallocArenaFix.so' from LD_PRELOAD cannot be preloaded: ignored.
+Connecting to 10.80.165.38 (10.80.165.38:80)
+-                     14% |****                           | 26310k  0:00:12 ETA-                    100% |*******************************|   180M  0:00:00 ETA
+Transferred and checksummed 189236410 bytes in 11 seconds
+2018-01-30T06:20:15 datrium_bundle_bootstrap: Done
+2018-01-30T06:20:15 datrium_bundle_bootstrap: moved to the right dir
+2018-01-30T06:20:15 datrium_bundle_bootstrap: created symlink

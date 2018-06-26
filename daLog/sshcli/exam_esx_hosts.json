@@ -1,0 +1,36 @@
+{
+	"user":"root",
+	"password":"sha1c0w",
+	"passphrase":"",
+	"hosts":["10.80.9.63"],
+	"cmds":[
+		{
+			"desc":"verify ESX memory",
+			"output":"","run":"vsish -e get /sched/globalStats/memory/memStats"
+		},
+		{
+			"desc":"verify ESX memory",
+			"output":"","run":"vsish -e get /memory/comprehensive"
+		},
+		{
+			"desc":"show ESX disks",
+			"output":"","run":"localcli storage core path list"
+		},
+		{
+			"desc":"show ESX disks/partitions",
+			"output":"","run":"ls -l /vmfs/devices/disks"
+		},
+		{
+			"desc":"show ESX disks/partitions",
+			"output":"","run":"esxcfg-scsidevs -m"
+		},
+		{
+			"desc":"show ESX filesystem list ",
+			"output":"","run":"esxcli storage filesystem list"
+		},
+		{
+			"desc":"Check ESX ramdisk",
+			"output":"","run":"localcli --formatter json system visorfs ramdisk list"
+		}
+	]
+}

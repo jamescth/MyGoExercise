@@ -1,0 +1,515 @@
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:08Z usbarb[66576]: VTHREAD initialize main thread 3 "usbArb" tid 66576
+2016-11-18T01:50:08Z usbarb[66576]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66576]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66576]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66576]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66576]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66576]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66576]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66576]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66576]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66576]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66576]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66576]: USBArbRuleStore: Error in '/etc/vmware/usbarb.rules' at line 1:0, '[' or '{' expected near end of file.
+2016-11-18T01:50:08Z usbarb[66576]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66576]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66576]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66576]: USBArb: Exiting with error:1
+2016-11-18T01:50:08Z usbarb[66597]: VTHREAD initialize main thread 3 "usbArb" tid 66597
+2016-11-18T01:50:08Z usbarb[66597]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66597]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66597]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66597]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66597]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66597]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66597]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66597]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66597]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66597]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66597]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66597]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:50:08Z usbarb[66597]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66597]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66597]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66597]: USBArb: Exiting with error:1
+2016-11-18T01:50:08Z usbarb[66610]: VTHREAD initialize main thread 3 "usbArb" tid 66610
+2016-11-18T01:50:08Z usbarb[66610]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66610]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66610]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66610]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66610]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66610]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66610]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66610]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66610]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66610]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66610]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66610]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:50:08Z usbarb[66610]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66610]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66610]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66610]: USBArb: Exiting with error:1
+2016-11-18T01:50:08Z usbarb[66618]: VTHREAD initialize main thread 3 "usbArb" tid 66618
+2016-11-18T01:50:08Z usbarb[66618]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66618]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66618]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66618]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66618]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66618]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66618]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66618]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66618]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66618]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66618]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66618]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:50:08Z usbarb[66618]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66618]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66618]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66618]: USBArb: Exiting with error:1
+2016-11-18T01:50:08Z usbarb[66634]: VTHREAD initialize main thread 3 "usbArb" tid 66634
+2016-11-18T01:50:08Z usbarb[66634]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66634]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66634]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66634]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66634]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66634]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66634]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66634]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66634]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66634]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66634]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66634]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:50:08Z usbarb[66634]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66634]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66634]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66634]: USBArb: Exiting with error:1
+2016-11-18T01:50:08Z usbarb[66651]: VTHREAD initialize main thread 3 "usbArb" tid 66651
+2016-11-18T01:50:08Z usbarb[66651]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:50:08Z usbarb[66651]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:50:08Z usbarb[66651]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:50:08Z usbarb[66651]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:50:08Z usbarb[66651]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:50:08Z usbarb[66651]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:50:08Z usbarb[66651]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:50:08Z usbarb[66651]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:50:08Z usbarb[66651]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:50:08Z usbarb[66651]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:50:08Z usbarb[66651]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:50:08Z usbarb[66651]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:50:08Z usbarb[66651]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:50:08Z usbarb[66651]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:50:08Z usbarb[66651]: No USB enumerator!
+2016-11-18T01:50:08Z usbarb[66651]: USBArb: Exiting with error:1
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:54Z usbarb[66577]: VTHREAD initialize main thread 3 "usbArb" tid 66577
+2016-11-18T01:53:54Z usbarb[66577]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66577]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66577]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66577]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66577]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66577]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66577]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66577]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66577]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66577]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66577]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66577]: USBArbRuleStore: Error in '/etc/vmware/usbarb.rules' at line 1:0, '[' or '{' expected near end of file.
+2016-11-18T01:53:54Z usbarb[66577]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66577]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66577]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66577]: USBArb: Exiting with error:1
+2016-11-18T01:53:54Z usbarb[66589]: VTHREAD initialize main thread 3 "usbArb" tid 66589
+2016-11-18T01:53:54Z usbarb[66589]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66589]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66589]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66589]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66589]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66589]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66589]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66589]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66589]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66589]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66589]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66589]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:53:54Z usbarb[66589]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66589]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66589]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66589]: USBArb: Exiting with error:1
+2016-11-18T01:53:54Z usbarb[66602]: VTHREAD initialize main thread 3 "usbArb" tid 66602
+2016-11-18T01:53:54Z usbarb[66602]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66602]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66602]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66602]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66602]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66602]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66602]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66602]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66602]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66602]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66602]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66602]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:53:54Z usbarb[66602]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66602]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66602]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66602]: USBArb: Exiting with error:1
+2016-11-18T01:53:54Z usbarb[66618]: VTHREAD initialize main thread 3 "usbArb" tid 66618
+2016-11-18T01:53:54Z usbarb[66618]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66618]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66618]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66618]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66618]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66618]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66618]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66618]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66618]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66618]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66618]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66618]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:53:54Z usbarb[66618]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66618]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66618]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66618]: USBArb: Exiting with error:1
+2016-11-18T01:53:54Z usbarb[66634]: VTHREAD initialize main thread 3 "usbArb" tid 66634
+2016-11-18T01:53:54Z usbarb[66634]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66634]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66634]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66634]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66634]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66634]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66634]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66634]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66634]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66634]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66634]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66634]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:53:54Z usbarb[66634]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66634]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66634]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66634]: USBArb: Exiting with error:1
+2016-11-18T01:53:54Z usbarb[66644]: VTHREAD initialize main thread 3 "usbArb" tid 66644
+2016-11-18T01:53:54Z usbarb[66644]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:54Z usbarb[66644]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:53:54Z usbarb[66644]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:53:54Z usbarb[66644]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:53:54Z usbarb[66644]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:53:54Z usbarb[66644]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:53:54Z usbarb[66644]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:53:54Z usbarb[66644]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:53:54Z usbarb[66644]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:53:54Z usbarb[66644]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:53:54Z usbarb[66644]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:53:54Z usbarb[66644]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:53:54Z usbarb[66644]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:53:54Z usbarb[66644]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:53:54Z usbarb[66644]: No USB enumerator!
+2016-11-18T01:53:54Z usbarb[66644]: USBArb: Exiting with error:1
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:56Z usbarb[66573]: VTHREAD initialize main thread 3 "usbArb" tid 66573
+2016-11-18T01:58:56Z usbarb[66573]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66573]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66573]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66573]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66573]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66573]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66573]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66573]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66573]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66573]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66573]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66573]: USBArbRuleStore: Error in '/etc/vmware/usbarb.rules' at line 1:0, '[' or '{' expected near end of file.
+2016-11-18T01:58:56Z usbarb[66573]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66573]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66573]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66573]: USBArb: Exiting with error:1
+2016-11-18T01:58:56Z usbarb[66590]: VTHREAD initialize main thread 3 "usbArb" tid 66590
+2016-11-18T01:58:56Z usbarb[66590]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66590]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66590]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66590]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66590]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66590]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66590]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66590]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66590]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66590]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66590]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66590]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:58:56Z usbarb[66590]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66590]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66590]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66590]: USBArb: Exiting with error:1
+2016-11-18T01:58:56Z usbarb[66606]: VTHREAD initialize main thread 3 "usbArb" tid 66606
+2016-11-18T01:58:56Z usbarb[66606]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66606]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66606]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66606]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66606]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66606]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66606]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66606]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66606]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66606]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66606]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66606]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:58:56Z usbarb[66606]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66606]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66606]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66606]: USBArb: Exiting with error:1
+2016-11-18T01:58:56Z usbarb[66614]: VTHREAD initialize main thread 3 "usbArb" tid 66614
+2016-11-18T01:58:56Z usbarb[66614]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66614]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66614]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66614]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66614]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66614]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66614]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66614]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66614]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66614]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66614]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66614]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:58:56Z usbarb[66614]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66614]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66614]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66614]: USBArb: Exiting with error:1
+2016-11-18T01:58:56Z usbarb[66630]: VTHREAD initialize main thread 3 "usbArb" tid 66630
+2016-11-18T01:58:56Z usbarb[66630]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66630]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66630]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66630]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66630]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66630]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66630]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66630]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66630]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66630]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66630]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66630]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:58:56Z usbarb[66630]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66630]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66630]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66630]: USBArb: Exiting with error:1
+2016-11-18T01:58:56Z usbarb[66647]: VTHREAD initialize main thread 3 "usbArb" tid 66647
+2016-11-18T01:58:56Z usbarb[66647]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:56Z usbarb[66647]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-18T01:58:56Z usbarb[66647]: DICT --- NON PERSISTENT (null)
+2016-11-18T01:58:56Z usbarb[66647]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-18T01:58:56Z usbarb[66647]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-18T01:58:56Z usbarb[66647]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-18T01:58:56Z usbarb[66647]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-18T01:58:56Z usbarb[66647]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-18T01:58:56Z usbarb[66647]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-18T01:58:56Z usbarb[66647]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-18T01:58:56Z usbarb[66647]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-18T01:58:56Z usbarb[66647]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-18T01:58:56Z usbarb[66647]: VMware USB Arbitration Service Version 15.1.11
+2016-11-18T01:58:56Z usbarb[66647]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-18T01:58:56Z usbarb[66647]: No USB enumerator!
+2016-11-18T01:58:56Z usbarb[66647]: USBArb: Exiting with error:1
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:20Z usbarb[66575]: VTHREAD initialize main thread 3 "usbArb" tid 66575
+2016-11-29T01:15:20Z usbarb[66575]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:20Z usbarb[66575]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:20Z usbarb[66575]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:20Z usbarb[66575]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:20Z usbarb[66575]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:20Z usbarb[66575]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:20Z usbarb[66575]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:20Z usbarb[66575]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:20Z usbarb[66575]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:20Z usbarb[66575]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:20Z usbarb[66575]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:20Z usbarb[66575]: USBArbRuleStore: Error in '/etc/vmware/usbarb.rules' at line 1:0, '[' or '{' expected near end of file.
+2016-11-29T01:15:20Z usbarb[66575]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:20Z usbarb[66575]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:20Z usbarb[66575]: No USB enumerator!
+2016-11-29T01:15:20Z usbarb[66575]: USBArb: Exiting with error:1
+2016-11-29T01:15:20Z usbarb[66592]: VTHREAD initialize main thread 3 "usbArb" tid 66592
+2016-11-29T01:15:20Z usbarb[66592]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:20Z usbarb[66592]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:20Z usbarb[66592]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:20Z usbarb[66592]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:20Z usbarb[66592]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:20Z usbarb[66592]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:20Z usbarb[66592]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:20Z usbarb[66592]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:20Z usbarb[66592]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:20Z usbarb[66592]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:20Z usbarb[66592]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:20Z usbarb[66592]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-29T01:15:20Z usbarb[66592]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:20Z usbarb[66592]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:20Z usbarb[66592]: No USB enumerator!
+2016-11-29T01:15:20Z usbarb[66592]: USBArb: Exiting with error:1
+2016-11-29T01:15:20Z usbarb[66608]: VTHREAD initialize main thread 3 "usbArb" tid 66608
+2016-11-29T01:15:20Z usbarb[66608]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:20Z usbarb[66608]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:20Z usbarb[66608]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:20Z usbarb[66608]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:20Z usbarb[66608]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:20Z usbarb[66608]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:20Z usbarb[66608]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:20Z usbarb[66608]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:20Z usbarb[66608]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:20Z usbarb[66608]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:20Z usbarb[66608]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:20Z usbarb[66608]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-29T01:15:20Z usbarb[66608]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:20Z usbarb[66608]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:20Z usbarb[66608]: No USB enumerator!
+2016-11-29T01:15:20Z usbarb[66608]: USBArb: Exiting with error:1
+2016-11-29T01:15:21Z usbarb[66623]: VTHREAD initialize main thread 3 "usbArb" tid 66623
+2016-11-29T01:15:21Z usbarb[66623]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:21Z usbarb[66623]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:21Z usbarb[66623]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:21Z usbarb[66623]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:21Z usbarb[66623]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:21Z usbarb[66623]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:21Z usbarb[66623]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:21Z usbarb[66623]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:21Z usbarb[66623]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:21Z usbarb[66623]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:21Z usbarb[66623]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:21Z usbarb[66623]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-29T01:15:21Z usbarb[66623]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:21Z usbarb[66623]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:21Z usbarb[66623]: No USB enumerator!
+2016-11-29T01:15:21Z usbarb[66623]: USBArb: Exiting with error:1
+2016-11-29T01:15:21Z usbarb[66641]: VTHREAD initialize main thread 3 "usbArb" tid 66641
+2016-11-29T01:15:21Z usbarb[66641]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:21Z usbarb[66641]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:21Z usbarb[66641]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:21Z usbarb[66641]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:21Z usbarb[66641]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:21Z usbarb[66641]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:21Z usbarb[66641]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:21Z usbarb[66641]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:21Z usbarb[66641]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:21Z usbarb[66641]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:21Z usbarb[66641]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:21Z usbarb[66641]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-29T01:15:21Z usbarb[66641]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:21Z usbarb[66641]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:21Z usbarb[66641]: No USB enumerator!
+2016-11-29T01:15:21Z usbarb[66641]: USBArb: Exiting with error:1
+2016-11-29T01:15:21Z usbarb[66649]: VTHREAD initialize main thread 3 "usbArb" tid 66649
+2016-11-29T01:15:21Z usbarb[66649]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:15:21Z usbarb[66649]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2016-11-29T01:15:21Z usbarb[66649]: DICT --- NON PERSISTENT (null)
+2016-11-29T01:15:21Z usbarb[66649]: DICT --- HOST DEFAULTS /etc/vmware/config
+2016-11-29T01:15:21Z usbarb[66649]: DICT                    libdir = "/usr/lib/vmware"
+2016-11-29T01:15:21Z usbarb[66649]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2016-11-29T01:15:21Z usbarb[66649]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2016-11-29T01:15:21Z usbarb[66649]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2016-11-29T01:15:21Z usbarb[66649]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2016-11-29T01:15:21Z usbarb[66649]: DICT            authd.fullpath = "/sbin/authd"
+2016-11-29T01:15:21Z usbarb[66649]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2016-11-29T01:15:21Z usbarb[66649]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2016-11-29T01:15:21Z usbarb[66649]: VMware USB Arbitration Service Version 15.1.11
+2016-11-29T01:15:21Z usbarb[66649]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2016-11-29T01:15:21Z usbarb[66649]: No USB enumerator!
+2016-11-29T01:15:21Z usbarb[66649]: USBArb: Exiting with error:1
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:21Z usbarb[66569]: VTHREAD initialize main thread 3 "usbArb" tid 66569
+2018-03-03T02:18:21Z usbarb[66569]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66569]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66569]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66569]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66569]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66569]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66569]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66569]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66569]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66569]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66569]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66569]: USBArbRuleStore: Error in '/etc/vmware/usbarb.rules' at line 1:0, '[' or '{' expected near end of file.
+2018-03-03T02:18:21Z usbarb[66569]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66569]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66569]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66569]: USBArb: Exiting with error:1
+2018-03-03T02:18:21Z usbarb[66577]: VTHREAD initialize main thread 3 "usbArb" tid 66577
+2018-03-03T02:18:21Z usbarb[66577]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66577]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66577]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66577]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66577]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66577]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66577]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66577]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66577]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66577]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66577]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66577]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2018-03-03T02:18:21Z usbarb[66577]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66577]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66577]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66577]: USBArb: Exiting with error:1
+2018-03-03T02:18:21Z usbarb[66588]: VTHREAD initialize main thread 3 "usbArb" tid 66588
+2018-03-03T02:18:21Z usbarb[66588]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66588]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66588]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66588]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66588]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66588]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66588]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66588]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66588]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66588]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66588]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66588]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2018-03-03T02:18:21Z usbarb[66588]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66588]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66588]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66588]: USBArb: Exiting with error:1
+2018-03-03T02:18:21Z usbarb[66605]: VTHREAD initialize main thread 3 "usbArb" tid 66605
+2018-03-03T02:18:21Z usbarb[66605]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66605]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66605]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66605]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66605]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66605]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66605]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66605]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66605]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66605]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66605]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66605]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2018-03-03T02:18:21Z usbarb[66605]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66605]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66605]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66605]: USBArb: Exiting with error:1
+2018-03-03T02:18:21Z usbarb[66618]: VTHREAD initialize main thread 3 "usbArb" tid 66618
+2018-03-03T02:18:21Z usbarb[66618]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66618]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66618]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66618]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66618]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66618]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66618]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66618]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66618]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66618]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66618]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66618]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2018-03-03T02:18:21Z usbarb[66618]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66618]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66618]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66618]: USBArb: Exiting with error:1
+2018-03-03T02:18:21Z usbarb[66637]: VTHREAD initialize main thread 3 "usbArb" tid 66637
+2018-03-03T02:18:21Z usbarb[66637]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-03-03T02:18:21Z usbarb[66637]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2018-03-03T02:18:21Z usbarb[66637]: DICT --- NON PERSISTENT (null)
+2018-03-03T02:18:21Z usbarb[66637]: DICT --- HOST DEFAULTS /etc/vmware/config
+2018-03-03T02:18:21Z usbarb[66637]: DICT                    libdir = "/usr/lib/vmware"
+2018-03-03T02:18:21Z usbarb[66637]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2018-03-03T02:18:21Z usbarb[66637]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2018-03-03T02:18:21Z usbarb[66637]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2018-03-03T02:18:21Z usbarb[66637]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2018-03-03T02:18:21Z usbarb[66637]: DICT            authd.fullpath = "/sbin/authd"
+2018-03-03T02:18:21Z usbarb[66637]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2018-03-03T02:18:21Z usbarb[66637]: USBArbRuleStore: Loading device rules from '/etc/vmware/usbarb.rules'.
+2018-03-03T02:18:21Z usbarb[66637]: VMware USB Arbitration Service Version 15.1.11
+2018-03-03T02:18:21Z usbarb[66637]: USB: Unable to open "/vmfs/devices/char/vmkdriver/usbdevices" (No such file or directory).
+2018-03-03T02:18:21Z usbarb[66637]: No USB enumerator!
+2018-03-03T02:18:21Z usbarb[66637]: USBArb: Exiting with error:1

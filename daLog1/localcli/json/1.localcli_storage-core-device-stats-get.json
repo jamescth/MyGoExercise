@@ -1,0 +1,54 @@
+
+[
+
+      {
+         "Blocks Read": 94832,
+         "Blocks Written": 56819,
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "Failed Blocks Read": 0,
+         "Failed Blocks Written": 0,
+         "Failed Commands": 37,
+         "Failed Read Operations": 0,
+         "Failed Reserve Operations": 0,
+         "Failed Write Operations": 0,
+         "Read Operations": 15264,
+         "Reservation Conflicts": 0,
+         "Reserve Operations": 3,
+         "Successful Commands": 17239,
+         "Write Operations": 1643
+      }, 
+
+      {
+         "Blocks Read": 0,
+         "Blocks Written": 0,
+         "Device": "mpx.vmhba64:C0:T0:L0",
+         "Failed Blocks Read": 0,
+         "Failed Blocks Written": 0,
+         "Failed Commands": 18,
+         "Failed Read Operations": 0,
+         "Failed Reserve Operations": 0,
+         "Failed Write Operations": 0,
+         "Read Operations": 0,
+         "Reservation Conflicts": 0,
+         "Reserve Operations": 0,
+         "Successful Commands": 6,
+         "Write Operations": 0
+      }, 
+
+      {
+         "Blocks Read": 3250460,
+         "Blocks Written": 2297424,
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "Failed Blocks Read": 0,
+         "Failed Blocks Written": 0,
+         "Failed Commands": 33,
+         "Failed Read Operations": 0,
+         "Failed Reserve Operations": 0,
+         "Failed Write Operations": 0,
+         "Read Operations": 202095,
+         "Reservation Conflicts": 0,
+         "Reserve Operations": 41,
+         "Successful Commands": 239363,
+         "Write Operations": 36006
+      }
+]

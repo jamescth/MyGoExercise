@@ -1,0 +1,122 @@
+TSC: 331674812 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.878 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.088 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.088 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:49:46.785Z cpu1:65908)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:49:50.236Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:49:50.236Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:49:50.237Z cpu2:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:49:50.246Z cpu2:65868)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:49:50.414Z cpu2:65868)WARNING: NetPortset: 1796: vSwitch0: already exists
+2016-11-18T01:49:50.414Z cpu2:65868)WARNING: Net: 2242: can't create portset: Already exists
+2016-11-18T01:49:50.422Z cpu0:66050)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:00.332Z cpu1:66344)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:50:07.796Z cpu1:66551)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+Host is rebooting
+TSC: 234646322 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.888 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.087 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.087 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:53:35.177Z cpu3:65909)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:53:38.445Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:53:38.445Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:53:38.446Z cpu3:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:53:38.457Z cpu0:65869)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:53:38.706Z cpu3:66051)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:47.855Z cpu0:66329)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:53:54.332Z cpu2:66545)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+Host is rebooting
+TSC: 231770012 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.873 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.072 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.072 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:58:36.852Z cpu3:65909)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:58:40.417Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:58:40.417Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:58:40.418Z cpu3:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:58:40.430Z cpu2:65869)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:58:40.644Z cpu1:66051)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:49.821Z cpu3:66329)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:58:56.006Z cpu2:66545)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+up 0d0h1m44s, 0 VMs; [[67767 python 12124kB] [65829 vmsyslogd 13128kB] [66778 hostd-worker 30876kB]] [[67767 python 0%max] [65829 vmsyslogd 0%max] [66778 hostd-worker 0%max]]
+TSC: 305478610 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.900 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.164 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.164 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-29T01:14:59.236Z cpu3:65911)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-29T01:15:03.065Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-29T01:15:03.065Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-29T01:15:03.066Z cpu0:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-29T01:15:03.083Z cpu0:65871)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-29T01:15:03.333Z cpu3:66053)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:12.981Z cpu2:66323)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-29T01:15:20.526Z cpu1:66549)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+TSC: 295285242 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.905 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.124 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.124 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.354 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.354 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.354 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.354 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2018-01-30T06:05:40.091Z cpu3:65909)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2018-01-30T06:05:43.448Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2018-01-30T06:05:43.448Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2018-01-30T06:05:43.449Z cpu3:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2018-01-30T06:05:43.461Z cpu1:65853)WARNING: NetDVS: 681: portAlias is NULL
+2018-01-30T06:05:43.665Z cpu1:66049)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2018-01-30T06:05:55Z mark: storage-path-claim-completed
+2018-01-30T06:05:53.081Z cpu3:66329)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2018-01-30T06:05:59.491Z cpu2:66545)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+2018-01-30T06:07:52.420Z cpu0:68014)ALERT: Attempting to install an image profile bypassing signing and acceptance level verification. This may pose a large security risk.
+2018-01-30T06:20:16.500Z cpu3:74272)WARNING: UserParam: 998: sh: unexpected param mincritical
+2018-01-30T06:20:18.875Z cpu2:74346)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T06:20:18.875Z cpu2:74346)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T06:20:18.875Z cpu2:74346)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+2018-01-30T06:20:55.792Z cpu0:76561)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T06:20:55.792Z cpu0:76561)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T06:20:55.792Z cpu0:76561)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+2018-01-30T06:21:26.830Z cpu2:77322)WARNING: LVM: 4006: [mpx.vmhba1:C0:T0:L0:3] Device shrank (actual size 15624192 blocks, stored size 89384927 blocks)
+2018-01-30T06:21:26.837Z cpu2:77322)WARNING: LVM: 4006: [mpx.vmhba1:C0:T0:L0:3] Device shrank (actual size 15624192 blocks, stored size 89384927 blocks)
+2018-01-30T06:21:26.839Z cpu2:77322)WARNING: LVM: 4006: [mpx.vmhba1:C0:T0:L0:3] Device shrank (actual size 15624192 blocks, stored size 89384927 blocks)
+2018-01-30T06:21:36.111Z cpu3:77495)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T06:21:36.111Z cpu3:77495)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T06:21:36.111Z cpu3:77495)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+2018-01-30T06:21:41.214Z cpu3:77578)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T06:21:41.214Z cpu3:77578)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T06:21:41.214Z cpu3:77578)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+up 0d0h54m40s, 0 VMs; [[77578 python 36144kB] [77700 FEMountd 38960kB] [77699 python 39936kB]] [[77578 python 0%max] [77700 FEMountd 0%max] [77699 python 0%max]]
+2018-01-30T07:37:24.584Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T07:37:24.585Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T07:37:24.585Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+2018-01-30T07:37:24.610Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T07:37:24.610Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T07:37:24.610Z cpu3:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!
+2018-01-30T07:37:24.623Z cpu1:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=6, arg=0x4800)!
+2018-01-30T07:37:24.623Z cpu1:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=7, arg=0x4800)!
+2018-01-30T07:37:24.623Z cpu1:124644)WARNING: LinuxFileDesc: 4138: python: Trying to change unsupported flags (fd=9, arg=0x4800)!

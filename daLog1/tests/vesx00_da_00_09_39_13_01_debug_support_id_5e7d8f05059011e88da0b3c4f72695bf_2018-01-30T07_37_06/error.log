@@ -1,0 +1,1 @@
+Cmd "/opt/datrium/bin/procmgr_cli.py --formatter=json show -j" failed with exit code 2

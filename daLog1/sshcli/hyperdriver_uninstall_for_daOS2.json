@@ -1,0 +1,36 @@
+{
+	"user":"root",
+	"password":"ca$hc0w",
+	"passphrase":"",
+	"hosts":["10.80.13.32","10.80.16.230"],
+	"cmds":[
+		{
+			"desc":"Determine if the host had a DVX datastore mounted",
+			"output":"","run":"grep Datastore /etc/vmware/esx.conf"
+		},
+		{
+			"desc":"Unmount DVX, the datastore lable can be gleaned from the above output after /nas/",
+			"output":"","run":"esxcfg-nas -d dvx31-Datastore1"
+		},
+		{
+			"desc":"Unbootstrap the host",
+			"output":"", "run":"localcli datrium stop"
+		},
+		{
+			"desc":"uninstall Hyperdriver BIV",
+			"output":"", "run":"esxcli software vib remove -n datrium-hyperdriver-esx"
+		},
+		{
+			"desc":"Reset Datrium values to default",
+			"output":"", "run":"esxcfg-advcfg -s \"bad value\" /UserVars/DatriumAvailableSSDs"
+		},
+		{
+			"desc":"Reset Datrium values to default",
+			"output":"", "run":"esxcfg-advcfg -s \"bad value\" /UserVars/DatriumSelectedSSDs"
+		},
+		{
+			"desc":"Reset Datrium values to default",
+			"output":"", "run":"esxcfg-advcfg -s \"\" /UserVars/DatriumSelectedPortgroup"
+		}
+	]
+}

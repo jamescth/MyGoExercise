@@ -1,0 +1,1840 @@
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: LoadAliases: hostProfile = false
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: Not commiting alias vmnic0 for busAddress s00000020.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: Not commiting alias vmhba0 for busAddress p0000:00:07.1
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: Not commiting alias vmhba1 for busAddress s00000002.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: skipping matching alias vmhba0 for pci device p0000:00:07.1 with assigned alias vmhba0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: skipping matching alias vmhba1 for pci device s00000002.00 with assigned alias vmhba1
+2016-11-18T01:49:45Z vmkdevmgr[65905]: AddAlias: skipping matching alias vmnic0 for pci device s00000020.00 with assigned alias vmnic0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: LoadAliases: using busAddress ordering
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:49:45Z vmkdevmgr[65905]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.3
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.7
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000001.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.01
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.02
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.03
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.04
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.05
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.06
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.07
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.01
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.02
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.03
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.04
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.05
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.06
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.07
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.01
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.02
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.03
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.04
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.05
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.06
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.07
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.00
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.01
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.02
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.03
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.04
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.05
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.06
+2016-11-18T01:49:45Z vmkdevmgr[65905]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.07
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Loaded aliases for plugin pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Loaded aliases for plugin acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Loaded aliases for plugin logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Cleaned pending delete for plugin acpi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Cleaned pending delete for plugin logical
+2016-11-18T01:49:45Z vmkdevmgr[65905]: NewDriverMap: Cleaned pending delete for plugin pci
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Entering initial tree walk
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Found driver vmkata for device bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Found driver mptspi for device bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Binding to vmklinux for driver mptspi
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Found driver e1000 for device bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Binding to vmklinux for driver e1000
+2016-11-18T01:49:45Z vmkdevmgr[65905]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:45Z vmkdevmgr[65905]: Initial tree walk complete
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Waiting for kernel events
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: scan succeeded for device 0x360d4302fa5a8dac
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Set alias for device 0x2694302fa5aca74
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Failed to set driver for 0x2694302fa5aca74: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:49:45Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Set alias for device 0x70f44302fa5acbe8
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Failed to set driver for 0x70f44302fa5acbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:49:45Z vmkdevmgr[65937]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:49:45Z vmkdevmgr[65937]: scan succeeded for device 0x360d4302fa5a8dac
+2016-11-18T01:49:46Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:49:46Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket received scan 3
+2016-11-18T01:49:46Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket parse = 0, scanCount = 3
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x2694302fa5aca74
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x2694302fa5aca74: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x70f44302fa5acbe8
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x70f44302fa5acbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x2694302fa5aca74
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x2694302fa5aca74: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x70f44302fa5acbe8
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x70f44302fa5acbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x2694302fa5aca74
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x2694302fa5aca74: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Set alias for device 0x70f44302fa5acbe8
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Failed to set driver for 0x70f44302fa5acbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:46Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:49:50Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:49:50Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket received scan 1
+2016-11-18T01:49:50Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket parse = 0, scanCount = 1
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: Set alias for device 0x2694302fa5aca74
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: Set alias for device 0x70f44302fa5acbe8
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:49:50Z vmkdevmgr[65937]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: LoadAliases: hostProfile = false
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmnic0 for busAddress s00000020.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba1 for busAddress s00000002.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba0 for busAddress p0000:00:07.1
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba0 for pci device p0000:00:07.1 with assigned alias vmhba0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba1 for pci device s00000002.00 with assigned alias vmhba1
+2016-11-18T01:53:33Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmnic0 for pci device s00000020.00 with assigned alias vmnic0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: LoadAliases: using busAddress ordering
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:53:33Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.3
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.7
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000001.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.01
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.02
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.03
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.04
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.05
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.06
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.07
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.01
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.02
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.03
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.04
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.05
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.06
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.07
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.01
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.02
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.03
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.04
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.05
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.06
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.07
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.00
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.01
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.02
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.03
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.04
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.05
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.06
+2016-11-18T01:53:33Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.07
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin acpi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin logical
+2016-11-18T01:53:33Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin pci
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Entering initial tree walk
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Found driver vmkata for device bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Found driver mptspi for device bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Binding to vmklinux for driver mptspi
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Found driver e1000 for device bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Binding to vmklinux for driver e1000
+2016-11-18T01:53:33Z vmkdevmgr[65906]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:33Z vmkdevmgr[65906]: Initial tree walk complete
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Waiting for kernel events
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: scan succeeded for device 0x3e8c4302fa5a8da9
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Set alias for device 0x59554302fa5aca12
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Failed to set driver for 0x59554302fa5aca12: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:53:33Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: scan succeeded for device 0x3e8c4302fa5a8da9
+2016-11-18T01:53:33Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Set alias for device 0x2bc54302fa5acc13
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Failed to set driver for 0x2bc54302fa5acc13: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:33Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:53:34Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 3
+2016-11-18T01:53:34Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 3
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x59554302fa5aca12
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x59554302fa5aca12: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x2bc54302fa5acc13
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x2bc54302fa5acc13: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x59554302fa5aca12
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x59554302fa5aca12: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x2bc54302fa5acc13
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x2bc54302fa5acc13: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x59554302fa5aca12
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x59554302fa5aca12: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Set alias for device 0x2bc54302fa5acc13
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Failed to set driver for 0x2bc54302fa5acc13: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:34Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:53:38Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:53:38Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 1
+2016-11-18T01:53:38Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 1
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: Set alias for device 0x59554302fa5aca12
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: Set alias for device 0x2bc54302fa5acc13
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:53:38Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: LoadAliases: hostProfile = false
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba1 for busAddress s00000002.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba0 for busAddress p0000:00:07.1
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmnic0 for busAddress s00000020.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmnic0 for pci device s00000020.00 with assigned alias vmnic0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba1 for pci device s00000002.00 with assigned alias vmhba1
+2016-11-18T01:58:35Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba0 for pci device p0000:00:07.1 with assigned alias vmhba0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: LoadAliases: using busAddress ordering
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-18T01:58:35Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.3
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.7
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000001.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.01
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.02
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.03
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.04
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.05
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.06
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.07
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.01
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.02
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.03
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.04
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.05
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.06
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.07
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.01
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.02
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.03
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.04
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.05
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.06
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.07
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.00
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.01
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.02
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.03
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.04
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.05
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.06
+2016-11-18T01:58:35Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.07
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin acpi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin logical
+2016-11-18T01:58:35Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin pci
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Entering initial tree walk
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Found driver vmkata for device bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Found driver mptspi for device bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Binding to vmklinux for driver mptspi
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Found driver e1000 for device bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Binding to vmklinux for driver e1000
+2016-11-18T01:58:35Z vmkdevmgr[65906]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:35Z vmkdevmgr[65906]: Initial tree walk complete
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Waiting for kernel events
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: scan succeeded for device 0x41424302fa5a8d31
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Set alias for device 0x724b4302fa5acafc
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Failed to set driver for 0x724b4302fa5acafc: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:58:35Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: scan succeeded for device 0x41424302fa5a8d31
+2016-11-18T01:58:35Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Set alias for device 0x328a4302fa5acb03
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Failed to set driver for 0x328a4302fa5acb03: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:35Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:58:36Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 3
+2016-11-18T01:58:36Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 3
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x724b4302fa5acafc
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x724b4302fa5acafc: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x328a4302fa5acb03
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x328a4302fa5acb03: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x724b4302fa5acafc
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x724b4302fa5acafc: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x328a4302fa5acb03
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x328a4302fa5acb03: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x724b4302fa5acafc
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x724b4302fa5acafc: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Set alias for device 0x328a4302fa5acb03
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Failed to set driver for 0x328a4302fa5acb03: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:36Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:58:40Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2016-11-18T01:58:40Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 1
+2016-11-18T01:58:40Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 1
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: Set alias for device 0x724b4302fa5acafc
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: Set alias for device 0x328a4302fa5acb03
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-18T01:58:40Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: LoadAliases: hostProfile = false
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: Not commiting alias vmnic0 for busAddress s00000020.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: Not commiting alias vmhba0 for busAddress p0000:00:07.1
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: Not commiting alias vmhba1 for busAddress s00000002.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: skipping matching alias vmhba0 for pci device p0000:00:07.1 with assigned alias vmhba0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: skipping matching alias vmhba1 for pci device s00000002.00 with assigned alias vmhba1
+2016-11-29T01:14:57Z vmkdevmgr[65908]: AddAlias: skipping matching alias vmnic0 for pci device s00000020.00 with assigned alias vmnic0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: LoadAliases: using busAddress ordering
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registering plugin for bus: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Registered plugin for bus: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: BusPlugin_Register: Registered bus type: acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2016-11-29T01:14:57Z vmkdevmgr[65908]: DriverMap: 87 maps loaded. 1584 entries.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.3
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.7
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000001.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.01
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.02
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.03
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.04
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.05
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.06
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.07
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.01
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.02
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.03
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.04
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.05
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.06
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.07
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.01
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.02
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.03
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.04
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.05
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.06
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.07
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.00
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.01
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.02
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.03
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.04
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.05
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.06
+2016-11-29T01:14:57Z vmkdevmgr[65908]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.07
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Loaded aliases for plugin pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Loaded aliases for plugin acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Loaded aliases for plugin logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Cleaned pending delete for plugin acpi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Cleaned pending delete for plugin logical
+2016-11-29T01:14:57Z vmkdevmgr[65908]: NewDriverMap: Cleaned pending delete for plugin pci
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Entering initial tree walk
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Found driver vmkata for device bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Found driver mptspi for device bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Binding to vmklinux for driver mptspi
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Found driver e1000 for device bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Binding to vmklinux for driver e1000
+2016-11-29T01:14:57Z vmkdevmgr[65908]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:14:57Z vmkdevmgr[65908]: Initial tree walk complete
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Waiting for kernel events
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: scan succeeded for device 0x31d74302fa5a9d53
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Set alias for device 0x2d444302fa5adae7
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Failed to set driver for 0x2d444302fa5adae7: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-29T01:14:57Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Set alias for device 0x77714302fa5adbe8
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Failed to set driver for 0x77714302fa5adbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-29T01:14:57Z vmkdevmgr[65940]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2016-11-29T01:14:57Z vmkdevmgr[65940]: scan succeeded for device 0x31d74302fa5a9d53
+2016-11-29T01:14:59Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket entry
+2016-11-29T01:14:59Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket received scan 3
+2016-11-29T01:14:59Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket parse = 0, scanCount = 3
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x2d444302fa5adae7
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x2d444302fa5adae7: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x77714302fa5adbe8
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x77714302fa5adbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x2d444302fa5adae7
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x2d444302fa5adae7: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x77714302fa5adbe8
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x77714302fa5adbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x2d444302fa5adae7
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x2d444302fa5adae7: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Set alias for device 0x77714302fa5adbe8
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Failed to set driver for 0x77714302fa5adbe8: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:14:59Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket reply: processed
+2016-11-29T01:15:03Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket entry
+2016-11-29T01:15:03Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket received scan 1
+2016-11-29T01:15:03Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket parse = 0, scanCount = 1
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: Set alias for device 0x2d444302fa5adae7
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: Set alias for device 0x77714302fa5adbe8
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2016-11-29T01:15:03Z vmkdevmgr[65940]: VMKDevMgrAcceptSocket reply: processed
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: LoadAliases: hostProfile = false
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba0 for busAddress p0000:00:07.1
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmhba1 for busAddress s00000002.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: Not commiting alias vmnic0 for busAddress s00000020.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmnic0 for pci device s00000020.00 with assigned alias vmnic0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba1 for pci device s00000002.00 with assigned alias vmhba1
+2018-01-30T06:05:38Z vmkdevmgr[65906]: AddAlias: skipping matching alias vmhba0 for pci device p0000:00:07.1 with assigned alias vmhba0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: LoadAliases: using busAddress ordering
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registering plugin for bus: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Registered plugin for bus: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: BusPlugin_Register: Registered bus type: acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2018-01-30T06:05:38Z vmkdevmgr[65906]: DriverMap: 87 maps loaded. 1584 entries.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.3
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.7
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000001.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.01
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.02
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.03
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.04
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.05
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.06
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000007.07
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.01
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.02
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.03
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.04
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.05
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.06
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000008.07
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.01
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.02
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.03
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.04
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.05
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.06
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000009.07
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.00
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.01
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.02
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.03
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.04
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.05
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.06
+2018-01-30T06:05:38Z vmkdevmgr[65906]: InheritVmklinuxAliases: no alias set for pci busAddress: s0000000a.07
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Loaded aliases for plugin logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin acpi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin logical
+2018-01-30T06:05:38Z vmkdevmgr[65906]: NewDriverMap: Cleaned pending delete for plugin pci
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Entering initial tree walk
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Found driver vmkata for device bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Found driver mptspi for device bus=pci addr=s00000002.00 id=1000003015ad1976010000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Binding to vmklinux for driver mptspi
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Found driver e1000 for device bus=pci addr=s00000020.00 id=8086100f15ad0750020000.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Binding to vmklinux for driver e1000
+2018-01-30T06:05:38Z vmkdevmgr[65906]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:38Z vmkdevmgr[65906]: Initial tree walk complete
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Waiting for kernel events
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: scan succeeded for device 0x2f0430306becd45
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Set alias for device 0x7f6c430306bf0a9e
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Failed to set driver for 0x7f6c430306bf0a9e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2018-01-30T06:05:38Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Set alias for device 0x310e430306bf0b6d
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Failed to set driver for 0x310e430306bf0b6d: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2018-01-30T06:05:38Z vmkdevmgr[65938]: scan event for bus=pci addr=p0000:00:07.1 id=8086711115ad197601018a.
+2018-01-30T06:05:38Z vmkdevmgr[65938]: scan succeeded for device 0x2f0430306becd45
+2018-01-30T06:05:39Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2018-01-30T06:05:39Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 3
+2018-01-30T06:05:39Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 3
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x7f6c430306bf0a9e
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x7f6c430306bf0a9e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x310e430306bf0b6d
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x310e430306bf0b6d: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x7f6c430306bf0a9e
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x7f6c430306bf0a9e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x310e430306bf0b6d
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x310e430306bf0b6d: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x7f6c430306bf0a9e
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x7f6c430306bf0a9e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Set alias for device 0x310e430306bf0b6d
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Failed to set driver for 0x310e430306bf0b6d: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:39Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2018-01-30T06:05:43Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket entry
+2018-01-30T06:05:43Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket received scan 1
+2018-01-30T06:05:43Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket parse = 0, scanCount = 1
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:00.0 id=8086719015ad1976060000.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.0 id=8086711015ad1976060100.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#0 id=com.vmware.HBAPort.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: Set alias for device 0x7f6c430306bf0a9e
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:07.1#1 id=com.vmware.HBAPort.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: Set alias for device 0x310e430306bf0b6d
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.3 id=8086711315ad1976068000.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=pci addr=p0000:00:07.7 id=15ad074015ad0740088000.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=pci addr=s00000001.00 id=15ad040515ad0405030000.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: ADD event for bus=acpi addr=\_SB_.ACAD id=h08ACPI0003.
+2018-01-30T06:05:43Z vmkdevmgr[65938]: VMKDevMgrAcceptSocket reply: processed
+2018-01-30T06:05:55Z mark: storage-path-claim-completed

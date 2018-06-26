@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	u, err := user.Lookup("hoj9")
+	u, err := user.Lookup("jho")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -18,4 +18,3 @@ func main() {
 	}
 	fmt.Printf("%s\n", data)
 }
-

@@ -1,0 +1,30 @@
+
+[
+
+      {
+         "ATS Status": "unsupported",
+         "Clone Status": "unsupported",
+         "Delete Status": "unsupported",
+         "Device": "mpx.vmhba1:C0:T1:L0",
+         "VAAI Plugin Name": "",
+         "Zero Status": "unsupported"
+      }, 
+
+      {
+         "ATS Status": "unsupported",
+         "Clone Status": "unsupported",
+         "Delete Status": "unsupported",
+         "Device": "mpx.vmhba64:C0:T0:L0",
+         "VAAI Plugin Name": "",
+         "Zero Status": "unsupported"
+      }, 
+
+      {
+         "ATS Status": "unsupported",
+         "Clone Status": "unsupported",
+         "Delete Status": "unsupported",
+         "Device": "mpx.vmhba1:C0:T0:L0",
+         "VAAI Plugin Name": "",
+         "Zero Status": "unsupported"
+      }
+]

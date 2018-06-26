@@ -1,0 +1,33 @@
+
+[
+
+      {
+         "ATS Compatible": false,
+         "ATS Incompatibility Reason": "Device does not support ATS",
+         "ATS Upgrade Modes": "None",
+         "Locking Mode": "ATS+SCSI",
+         "Type": "Non-VMFS",
+         "UUID": "5a9a09e4-90d278b8-f0b8-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-B5FRJ9"
+      }, 
+
+      {
+         "ATS Compatible": false,
+         "ATS Incompatibility Reason": "Device does not support ATS",
+         "ATS Upgrade Modes": "None",
+         "Locking Mode": "ATS+SCSI",
+         "Type": "Non-VMFS",
+         "UUID": "5a9a09e5-23b777aa-3869-da0020728ade",
+         "Volume Name": "datrium-reserved-core-vesx00_da:00:20:72:8a:de-7CTEAH"
+      }, 
+
+      {
+         "ATS Compatible": false,
+         "ATS Incompatibility Reason": "Device does not support ATS",
+         "ATS Upgrade Modes": "None",
+         "Locking Mode": "ATS+SCSI",
+         "Type": "Non-VMFS",
+         "UUID": "5a9a0a07-48cf9180-d0b5-da0020728ade",
+         "Volume Name": "datrium-reserved-sys-vesx00_da:00:20:72:8a:de-GT5MIJ"
+      }
+]

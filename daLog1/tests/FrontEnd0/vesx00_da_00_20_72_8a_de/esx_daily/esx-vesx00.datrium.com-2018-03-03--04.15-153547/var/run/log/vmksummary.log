@@ -1,0 +1,116 @@
+TSC: 331674812 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.878 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.088 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.088 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.361 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:49:46.785Z cpu1:65908)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:49:50.236Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:49:50.236Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:49:50.237Z cpu2:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:49:50.246Z cpu2:65868)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:49:50.414Z cpu2:65868)WARNING: NetPortset: 1796: vSwitch0: already exists
+2016-11-18T01:49:50.414Z cpu2:65868)WARNING: Net: 2242: can't create portset: Already exists
+2016-11-18T01:49:50.422Z cpu0:66050)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:50:02Z mark: storage-path-claim-completed
+2016-11-18T01:50:00.332Z cpu1:66344)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:50:07.796Z cpu1:66551)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+Host is rebooting
+TSC: 234646322 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.888 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.087 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.087 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.336 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:53:35.177Z cpu3:65909)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:53:38.445Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:53:38.445Z cpu2:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:53:38.446Z cpu3:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:53:38.457Z cpu0:65869)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:53:38.706Z cpu3:66051)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:53:49Z mark: storage-path-claim-completed
+2016-11-18T01:53:47.855Z cpu0:66329)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:53:54.332Z cpu2:66545)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+Host is rebooting
+TSC: 231770012 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.873 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.072 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.072 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.298 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-18T01:58:36.852Z cpu3:65909)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-18T01:58:40.417Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-18T01:58:40.417Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:58:40.418Z cpu3:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-18T01:58:40.430Z cpu2:65869)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-18T01:58:40.644Z cpu1:66051)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-18T01:58:51Z mark: storage-path-claim-completed
+2016-11-18T01:58:49.821Z cpu3:66329)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-18T01:58:56.006Z cpu2:66545)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+up 0d0h1m44s, 0 VMs; [[67767 python 12124kB] [65829 vmsyslogd 13128kB] [66778 hostd-worker 30876kB]] [[67767 python 0%max] [65829 vmsyslogd 0%max] [66778 hostd-worker 0%max]]
+TSC: 305478610 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.900 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.164 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.164 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.554 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2016-11-29T01:14:59.236Z cpu3:65911)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2016-11-29T01:15:03.065Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2016-11-29T01:15:03.065Z cpu0:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-29T01:15:03.066Z cpu0:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2016-11-29T01:15:03.083Z cpu0:65871)WARNING: NetDVS: 681: portAlias is NULL
+2016-11-29T01:15:03.333Z cpu3:66053)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2016-11-29T01:15:15Z mark: storage-path-claim-completed
+2016-11-29T01:15:12.981Z cpu2:66323)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2016-11-29T01:15:20.526Z cpu1:66549)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+TSC: 323798436 cpu0:1)WARNING: HWTimer: 203: Running in a VM, so getting results from backdoor
+0:00:00:00.876 cpu0:1)WARNING: Vmkperf: 926: Detected 4 perf counters but using only 2
+0:00:00:03.101 cpu0:65536)WARNING: VTD: 968: ACPI DMAR table not found
+0:00:00:03.101 cpu0:65536)WARNING: IOV: 88: IOV initialization failed
+0:00:00:03.312 cpu0:65536)WARNING: Serial: 274: logPort initialization failed
+0:00:00:03.312 cpu0:65536)WARNING: Serial: 283: gdbPort initialization failed
+0:00:00:03.312 cpu0:65536)WARNING: Serial: 300: shellPort initialization failed
+0:00:00:03.312 cpu0:65536)WARNING: Serial: 317: consolePort initialization failed
+2018-03-03T02:18:02.836Z cpu3:65907)WARNING: xpt_handle_device_change:2407: Failed to scan and claim device(0, 0) on Invalid: Invalid name
+2018-03-03T02:18:06.055Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 0: No connection
+2018-03-03T02:18:06.055Z cpu1:65585)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2018-03-03T02:18:06.056Z cpu2:65586)WARNING: xpt_scsi_adapter_discover:1224: unable to find target 1: No connection
+2018-03-03T02:18:06.066Z cpu3:65851)WARNING: NetDVS: 681: portAlias is NULL
+2018-03-03T02:18:06.300Z cpu1:66047)WARNING: Tcpip: 1282: failed to unset gateway (error = 0x31)
+2018-03-03T02:18:17Z mark: storage-path-claim-completed
+2018-03-03T02:18:15.384Z cpu3:66327)WARNING: FTCpt: 875: Using IPv6 address to start server listener
+2018-03-03T02:18:21.074Z cpu2:66543)ALERT: Warning: /vmfs/devices/char/vmkdriver/usbpassthrough not found
+Host has booted
+2018-03-03T02:21:16.642Z cpu1:68027)ALERT: Attempting to install an image profile bypassing signing and acceptance level verification. This may pose a large security risk.
+2018-03-03T02:34:56.612Z cpu1:74910)WARNING: UserParam: 998: sh: unexpected param mincritical
+2018-03-03T02:35:16.174Z cpu2:76756)WARNING: LVM: 4006: [mpx.vmhba1:C0:T0:L0:3] Device shrank (actual size 15624192 blocks, stored size 89384927 blocks)
+2018-03-03T02:35:16.175Z cpu2:76756)WARNING: LVM: 4006: [mpx.vmhba1:C0:T0:L0:3] Device shrank (actual size 15624192 blocks, stored size 89384927 blocks)
+up 0d0h42m16s, 0 VMs; [[94859 NfsPerfTool 72568kB] [83270 DaggerWorker 327676kB] [83267 FE 2288264kB]] [[94859 NfsPerfTool 0%max] [83270 DaggerWorker 0%max] [83267 FE 0%max]]
+up 0d1h42m16s, 0 VMs; [[83268 ESXPlatMgr 51344kB] [83270 DaggerWorker 328100kB] [83267 FE 2293004kB]] [[83268 ESXPlatMgr 0%max] [83270 DaggerWorker 0%max] [83267 FE 0%max]]
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:11:06.112Z cpu2:83267)WARNING: UserDump: 1630: FE: Null thread-local exceptionFrame.
+2018-03-03T04:13:21.046Z cpu0:66072)WARNING: NFS: 337: Lost connection to the server localhost mount point /10.80.171.241/Datastore1, mounted as 4c3d99dd-a7f147db-0000-000000000000 ("tu-ctr-c2f-nondisrupt-mounted-4.0.x-645-test_.5494.0.180302181$
+2018-03-03T04:13:30.048Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)
+2018-03-03T04:13:30.049Z cpu0:67457)WARNING: NFS: 2219: Failed to get attributes (No connection)

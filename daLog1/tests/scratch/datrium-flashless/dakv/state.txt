@@ -1,0 +1,2 @@
+-53924581
+["da:00:09:39:13:01", 45, {"ssd.inventory:/vmfs/devices/disks/mpx.vmhba1:C0:T0:L0": ["persist-across-reboot", {"Datrium-system-disk": true, "selected": true}], "esx_vim_cmd_is_dittos": ["persist-across-reboot", true], "boot_disk": ["persist-across-reboot", "mpx.vmhba1:C0:T0:L0"], "dva.conf:Registry.zookeeper": ["persist-across-reboot", ""]}]

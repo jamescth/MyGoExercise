@@ -1,0 +1,201 @@
+# bug 27093, 34244
+~ # vmkfstools -P /scratch/
+NFS-1.00 file system spanning 1 partitions.
+File system label (if any): labshare
+Mode: public
+Capacity 211243687936 (51573166 file blocks * 4096), 105334960128 (25716543 blocks) avail, max file size 2199023251456
+UUID: 9ef18dbd-32f47246-0000-000000000000
+Partitions spanned (on "notDCS"):
+	nfs:labshare
+NAS VAAI Supported: NO
+Is Native Snapshot Capable: NO
+~ # ls -ld /scratch
+lrwxrwxrwx    1 root     root            53 Feb 15 18:23 /scratch -> /vmfs/volumes/9ef18dbd-32f47246/scratch/support_esx01
+~ # ls -ld /scratch/log
+drwxr-xr-x    1 nfsnobod nfsnobod      4096 Feb 27 22:30 /scratch/log
+~ # ls -ld /var/tmp
+lrwxrwxrwx    1 root     root            16 Aug 23  2014 /var/tmp -> /scratch/var/tmp
+~ # cd /vmfs/volumes/9ef18dbd-32f47246/scratch/support_esx01
+/vmfs/volumes/9ef18dbd-32f47246/scratch/support_esx01 # ls
+log
+
+Looks like something deleted everything except the log subdirectory from this host's scratch export on
+
+labshare is /labshare from 10.2.11.58 mounted available
+
+The /scratch location still exists, but what we expect it to contain (var/tmp, core, ...) do not, causing the failure.
+
+The last line in /var/log/vmkernel.log is:
+
+2017-02-28T00:40:42.608Z cpu4:35070)etherswitch: ESVsiGetParamPortCfg:424: : not found
+
+That's quite a while ago.
+
+This is what the NFS scratch directory structure for colo-ucs-esx02 looks like today:
+
+/vmfs/volumes/9ef18dbd-32f47246/scratch/colo-ucs-esx02 # find . -type d
+.
+./log
+./vsantraces
+./core
+./var
+./var/tmp
+./downloads
+
+
+
+http://www.vreference.com/2011/04/29/best-practice-for-persistent-esxi-scratch/
+If you don’t want to move the scratch location if the 4GB FAT partition exists, then try something like this:
+if df -h | grep -q 4.0G
+then echo "Scratch partition already exists, let's use that"
+else
+if cat /etc/vmware/locker.conf | grep -q .locker
+then echo "Persistent scratch location already set to VMFS folder"
+else
+then mkdir -p /vmfs/volumes/datastore1/.locker
+vim-cmd hostsvc/advopt/update ScratchConfig.ConfiguredScratchLocation string /vmfs/volumes/datastore1/.locker
+fi
+fi
+
+
+
+Prod/Platform/ESX/py_modules/esx_utils.py
+    def get_scratch_path(self):
+        '''
+        Determine the path which hosts the scratch location.
+        Returns the path which hosts the scratch location.
+        If no VMFS backed scratch partition is configured on this ESX host, returns None.
+        '''
+        if self._scratch_path is None:
+            try:
+                # Determine the VMFS path of the scratch location.
+                cmd = 'readlink -f /scratch/'
+                self._scratch_path = check_call_output(shlex.split(cmd), 1).strip()
+                logger.info("Scratch location is %s", self._scratch_path)
+
+    def get_scratch_partition(self):
+        '''
+        Determine the disk partition which hosts the scratch location.
+        Returns the disk partition which hosts the scratch location.
+        If no scratch partition is configured on this ESX host, returns None.
+        '''
+        if self._scratch_part is None:
+            scratch_path = self.get_scratch_path()
+            if scratch_path is None:
+                # Error is already logged in get_scratch_path().
+                pass
+            elif 'vmfs' not in scratch_path:
+                logger.info("Scratch location is not backed by persistent storage")
+            else:
+                try:
+                    scratch_disk_info, _, _ = self.vmkfstools(['-P', scratch_path], 1)
+                    # Example output that we are parsing is:
+                    # > vmkfstools -P /vmfs/volumes/d70ca47a-6772b65d-d02b-60c599f42f25
+                    # vfat-0.04 file system spanning 1 partitions.
+                    # File system label (if any):
+                    # Mode: private
+                    # Capacity 261853184 (63929 file blocks * 4096), 94171136 (22991 blocks) avail, max file size 0
+                    # UUID: d70ca47a-6772b65d-d02b-60c599f42f25
+                    # Partitions spanned (on "disks"):
+                    #       mpx.vmhba1:C0:T0:L0:5
+                    # Is Native Snapshot Capable: NO
+                    i = None
+                    for i, val in enumerate(scratch_disk_info.split('\n')):
+                        if 'Partitions spanned' in val:
+                            break
+                    self._scratch_part = (ESX_DISKS_PATH +
+                        scratch_disk_info.split('\n')[i + 1].strip().rpartition(':')[0])
+                except Exception, ex:
+                    logger.exception('Unable to determine the scratch partition: ' + str(ex))
+        return self._scratch_part
+
+    def _scratch_on_ramfs(self):
+        return (os.path.islink('/scratch') and
+                os.readlink('/scratch').startswith('/tmp'))
+
+bug 32409
+~ # esxcli storage filesystem list
+Mount Point                                        Volume Name                                            UUID                                 Mounted  Type            Size          Free
+-------------------------------------------------  -----------------------------------------------------  -----------------------------------  -------  ------  ------------  ------------
+/vmfs/volumes/fb574ced-d6b95c3c                    niharj-dva-HA_dittos-tEOXMM..171020111015-Datastore1   fb574ced-d6b95c3c                       true  NFS     771252854784  770254766080
+
+*********************************************************************************************
+confluence
+http://confluence.datrium.com/pages/viewpage.action?spaceKey=KNOW&title=Locating+ESXi+Scratch
+*********************************************************************************************
+
+Enable SSH on your ESXi host.
+SSH to the host.
+Issue the following command to see where Scratch is configured.
+
+[root@esxihost:~] vim-cmd hostsvc/advopt/view ScratchConfig.ConfiguredScratchLocation
+(vim.option.OptionValue) [
+   (vim.option.OptionValue) {
+      key = "ScratchConfig.ConfiguredScratchLocation",
+      value = "/vmfs/volumes/59f923f7-0af2e200-c2c2-246e965d634a"
+   }
+]
+Issue the following command to see where Scratch is currently located.
+
+[root@n1708:~] vim-cmd hostsvc/advopt/view ScratchConfig.CurrentScratchLocation
+(vim.option.OptionValue) [
+   (vim.option.OptionValue) {
+      key = "ScratchConfig.CurrentScratchLocation",
+      value = "/vmfs/volumes/59f923f7-0af2e200-c2c2-246e965d634a"
+   }
+]
+Check the value line to make sure the current location matches that of the configured location.
+
+
+Step-by-step guide to locate the drive Scratch is using
+
+[root@n1708:/vmfs/volumes] esxcli storage vmfs extent list
+Volume Name                                           VMFS UUID                            Extent Number  Device Name                           Partition
+----------------------------------------------------  -----------------------------------  -------------  ------------------------------------  ---------
+datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-V4E5IR   5a14389c-9a11ebae-abe0-a0369f1fd43a              0  naa.61866da0a2d13300218bdbd62b59b477          3
+datrium-reserved-core-n1708_24:6e:96:5d:63:2a-5AGHO6  5a14389c-e2fd4268-6511-a0369f1fd43a              0  naa.61866da0a2d13300218bdbd62b59b477          4
+datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-CM4CJ8   5a3c3942-3075c22a-f9db-a0369f1fd43a              0  naa.5002538c40788108                          1
+
+[root@n1708:/vmfs/volumes]
+
+Scratch is pointed at none of my VMFS volumes above so where is it pointed?
+
+[root@n1708:/vmfs/volumes] pwd
+/vmfs/volumes
+
+[root@n1708:/vmfs/volumes] ls -laht
+total 4100
+drwxr-xr-x    1 root     root         512 Jan  9 18:59 .
+lrwxr-xr-x    1 root     root          35 Jan  9 18:59 datrium-reserved-core-n1708_24:6e:96:5d:63:2a-5AGHO6 -> 5a14389c-e2fd4268-6511-a0369f1fd43a
+lrwxr-xr-x    1 root     root          35 Jan  9 18:59 datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-CM4CJ8 -> 5a3c3942-3075c22a-f9db-a0369f1fd43a
+lrwxr-xr-x    1 root     root          35 Jan  9 18:59 datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-V4E5IR -> 5a14389c-9a11ebae-abe0-a0369f1fd43a
+lrwxr-xr-x    1 root     root          17 Jan  9 18:59 dvx05-Datastore1 -> 582cca84-80fa4adf
+d---------  628 root     root      314.5K Jan  2 16:33 582cca84-80fa4adf
+drwxr-xr-t    1 root     root        1.9K Dec 21 22:47 5a3c3942-3075c22a-f9db-a0369f1fd43a
+drwxr-xr-x    1 root     root         512 Dec 21 21:37 ..
+drwxr-xr-t    1 root     root        1.5K Nov 21 14:31 5a14389c-e2fd4268-6511-a0369f1fd43a
+drwxr-xr-t    1 root     root        1.9K Nov 21 14:31 5a14389c-9a11ebae-abe0-a0369f1fd43a
+drwxr-xr-x    1 root     root           8 Jan  1  1970 262a3f75-ad9fa838-13ea-8f3f0607885e
+drwxr-xr-x    1 root     root           8 Jan  1  1970 59f923f5-ce9e11d6-7bdd-246e965d634a
+drwxr-xr-x    1 root     root           8 Jan  1  1970 59f923f7-0af2e200-c2c2-246e965d634a
+drwxr-xr-x    1 root     root           8 Jan  1  1970 ad8c077d-9b601d35-4bb6-103c01608ea7
+
+[root@n1708:/vmfs/volumes]
+
+It’s pointed at partition in bold above.  So what is this thing?
+
+[root@n1708:/vmfs/volumes] df -h
+Filesystem   Size   Used Available Use% Mounted on
+NFS         52.8T  34.2T     18.7T  65% /vmfs/volumes/dvx05-Datastore1
+VMFS-L      14.8G   4.5G     10.2G  31% /vmfs/volumes/datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-V4E5IR
+VMFS-L     121.0G  33.5G     87.5G  28% /vmfs/volumes/datrium-reserved-core-n1708_24:6e:96:5d:63:2a-5AGHO6
+VFFS        14.8G 901.0M     13.9G   6% /vmfs/volumes/datrium-reserved-sys-n1708_24:6e:96:5d:63:2a-CM4CJ8
+vfat       285.8M 205.9M     79.9M  72% /vmfs/volumes/59f923f5-ce9e11d6-7bdd-246e965d634a
+vfat         4.0G 195.5M      3.8G   5% /vmfs/volumes/59f923f7-0af2e200-c2c2-246e965d634a 
+vfat       249.7M 156.5M     93.3M  63% /vmfs/volumes/262a3f75-ad9fa838-13ea-8f3f0607885e
+vfat       249.7M 156.5M     93.3M  63% /vmfs/volumes/ad8c077d-9b601d35-4bb6-103c01608ea7
+
+[root@n1708:/vmfs/volumes]
+
+It’s a vfat partition on the boot device.
+

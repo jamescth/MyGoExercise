@@ -1,0 +1,21 @@
+
+[
+
+      {
+         "Expiry": 1198,
+         "Mac Address": "02:da:d8:74:34:0e",
+         "Neighbor": "10.80.165.38",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1199,
+         "Mac Address": "88:a2:5e:54:5c:e0",
+         "Neighbor": "10.80.0.1",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }
+]

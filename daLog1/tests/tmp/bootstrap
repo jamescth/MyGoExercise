@@ -1,0 +1,293 @@
+#!/bin/sh
+
+#**************************************************************
+#* Copyright (c) 2016-2017 Datrium, Inc. All rights reserved. *
+#*                -- Datrium Confidential --                  *
+#**************************************************************
+
+# Bootstrap script stage 1. This is downloaded by the Tiny VIB
+# and invoked with <DataNode IP>.
+#
+# This is a shell to avoid python version problems on different
+# versions of ESX.
+#
+# This sets up a dir to run bootstrap script stage 2.
+#
+# Please don't use esxcli in this script, use localcli instead.
+# Otherwise, during early boot, hostd is not up, the script can fail.
+
+SUCCESS=
+trap cleanup EXIT
+
+# Capture stdout/stderr.
+# The DATE_FILE is produced by datrium_hyperdriver on boot.
+DATE_FILE=/var/log/datrium_hyperdriver.boot
+LOG_FILE=/scratch/log/datrium_bootstrap_stage1.log
+if [ -f ${LOG_FILE} -a ${DATE_FILE} -nt ${LOG_FILE} ]; then
+   mv ${LOG_FILE} ${LOG_FILE}.0
+fi
+exec >${LOG_FILE} 2>&1
+
+DOWNLOAD_BUNDLE_PY=/tmp/da_download_bundle.py
+cat > ${DOWNLOAD_BUNDLE_PY} <<DOWNLOAD_BUNDLE_PY_EOF
+#!/bin/python
+
+import sys
+import time
+import hashlib
+import subprocess
+
+def terminate_process(process_handle):
+    '''
+    Terminate process by sending signals to it. See command.py.
+    '''
+    try:
+       # Popen.kill and Popen.terminate don't work on ESX.
+       os.kill(process_handle.pid, signal.SIGKILL)
+    except:
+       pass
+
+def wait_for_process(process_handle, timeout):
+    '''
+    Check if child process has terminated. Otherwise terminate it
+    after timeout seconds.
+    '''
+    rc = None
+    poll_started = time.time()
+    while rc is None:
+        if time.time() - poll_started > timeout:
+            terminate_process(process_handle)
+            rc = process_handle.poll()
+            break
+
+        time.sleep(0.5)
+        rc = process_handle.poll()
+    return rc
+
+def return_code_to_message(process_desc, return_code):
+    '''
+    Convert the process's return code to message.
+    '''
+    if return_node is None:
+        return "%s has not terminated" % process_desc
+    elif return_code < 0:
+        return "%s terminated by signal %d" % (process_desc, -return_code)
+    else:
+        return "%s terminated with return code %d" % (process_desc, return_code)
+
+def download_upgrade_bundle(url, bundle_checksum):
+    '''
+    Download, checksum, and extract the hyperdriver bundle from the DataNode
+    without any temporary files.  Requires fewer resources and less cleanup
+    when things go wrong.  It may even be faster.
+
+    @param url: location of the hyperdriver bundle on the DataNode.
+    @param bundle_checksum: checksum of the hyperdriver bundle.
+    '''
+    IOSIZE = 64 * 1024
+    staging_dir='/da-sys/stage'
+    checksum = hashlib.md5()
+    extract_bundle = None
+    try:
+        bundle_download = subprocess.Popen(["wget", "-O-", url],
+                                           stdout=subprocess.PIPE, cwd='/',
+                                           bufsize=IOSIZE)
+        extract_bundle = subprocess.Popen(["tar", "zxf", "-", "-C", staging_dir],
+                                          stdin=subprocess.PIPE, cwd='/',
+                                          bufsize=IOSIZE)
+        download_started = time.time()
+        bytes_transferred = 0
+        download_stalled = False
+        while True:
+            bundle_data = bundle_download.stdout.read(IOSIZE)
+            if not bundle_data:
+                break
+
+            # bootstrap has a timeout of 150 seconds
+            if time.time() - download_started > 140:
+                download_stalled = True
+                break
+
+            bytes_transferred += len(bundle_data)
+            checksum.update(bundle_data)
+            extract_bundle.stdin.write(bundle_data)
+
+        return_code = wait_for_process(bundle_download, 5)
+        if download_stalled:
+            raise Exception("download of bundle is too slow")
+
+        if return_code != 0:
+            raise Exception(return_code_to_message("download of bundle", return_code))
+
+        print ("Transferred and checksummed %d bytes in %d seconds" %
+               (bytes_transferred, time.time() - download_started))
+        extract_bundle.stdin.close()
+    except:
+        # make sure the tar process has exited so we can clean up the ramdisk.
+        if extract_bundle is not None:
+            try:
+                extract_bundle.stdin.close()
+            except:
+                pass
+            wait_for_process(extract_bundle, 5)
+        raise
+    return_code = wait_for_process(extract_bundle, 5)
+    if return_code != 0:
+        raise Exception(return_code_to_message("extract of bundle", return_code))
+
+    if bundle_checksum != checksum.hexdigest():
+        raise Exception("expected checksum '%s' does not match"
+                        " calculated checksum '%s'" % (bundle_checksum,
+                        checksum.hexdigest()))
+
+if __name__ == '__main__':
+    try:
+        download_upgrade_bundle(sys.argv[1].strip(), sys.argv[2].strip())
+    except Exception as e:
+        # TODO (yang): pass an error to config agent to change the state file.
+        print (str(e))
+        raise
+DOWNLOAD_BUNDLE_PY_EOF
+chmod a+x ${DOWNLOAD_BUNDLE_PY}
+
+# Size is in MiB. This is the size of a ramdisk holding the datrium bundle.
+DASYS_PATH=/da-sys
+DEFAULT_DASYS_SIZE=900
+BUNDLES_PATH=bundles
+STAGE_PATH=stage
+
+log() {
+   logger -s -t "$(date +'%Y-%m-%dT%H:%M:%S') datrium_bundle_bootstrap" $*
+}
+
+clear_ramdisk() {
+   if localcli system visorfs ramdisk list|grep ^datrium|grep ${DASYS_PATH}
+   then
+      localcli system visorfs ramdisk remove -t ${DASYS_PATH}
+   fi
+}
+
+cleanup() {
+   if [ -z "${SUCCESS}" ]; then
+      clear_ramdisk
+      log "Cleanup done"
+   fi
+}
+
+# Check arg.
+
+if [ -z "$1" ]; then
+   echo "$0 <DataNode IP>"
+   exit 1
+fi
+
+if ps -cC|grep -v grep |grep FEMountd; then
+   echo "Can't bootstrap a running bundle, unbootstrap first"
+   exit 1
+fi
+
+ping -c1 $1 || exit 1
+log "pinged" $1
+
+# Clear any lingering /da-sys ramdisks.
+log "=--- Clearing leftovers"
+if ! clear_ramdisk; then
+   for i in `seq 5`; do
+      if [ ! -e ${DASYS_PATH}-$i ] && mv ${DASYS_PATH} ${DASYS_PATH}-$i; then
+         break
+      fi
+   done
+   if [ $i -eq 5 ]; then
+      log "Too many stale /da-sys ramdisks"
+      exit 1
+   fi
+fi
+
+# Make mount point.
+log "=--- Making mount point"
+if [ ! -d ${DASYS_PATH} ]; then
+   rm -rf ${DASYS_PATH} || exit 1
+   mkdir ${DASYS_PATH} || exit 1
+   touch ${DASYS_PATH}/unmounted || exit 1
+   log "created dasys dir"
+fi
+
+# Get DASYS_SIZE from DataNode
+log "=--- Getting installed bundle size"
+for i in `seq 5`; do
+   bundle_size=`wget -O- http://$1/static/Head.Bundle.size`
+   if [ -n "$bundle_size" ]; then
+      break
+   fi
+done
+
+if [ -z "$bundle_size" ]; then
+   log "Using default ramdisk size"
+   DASYS_SIZE=${DEFAULT_DASYS_SIZE}
+else
+   # Add 100MiB
+   log "Got size \"$bundle_size\" KiB from the DataNode"
+   bundle_size=$(($bundle_size + 102400))
+   # Round down to the nearest 10MiB
+   bundle_size=$(($bundle_size - $bundle_size % 10240))
+   # Convert KiB to MiB
+   DASYS_SIZE=$(($bundle_size / 1024))
+fi
+log "Will allocate ${DASYS_SIZE} MiB ramdisk"
+
+# Get DASYS_CKSUM from DataNode
+log "=--- Getting bundle checksum."
+for i in `seq 5`; do
+   DASYS_CKSUM=`wget -O- http://$1/static/Head.Bundle.cksum`
+   if [ -n "${DASYS_CKSUM}" ]; then
+      break
+   fi
+done
+
+if [ -z "${DASYS_CKSUM}" ]; then
+   log "Unable to get bundle checksum from DataNode."
+   exit 1
+else
+   log "Got "${DASYS_CKSUM}" checksum from the DataNode"
+   DASYS_CKSUM=$(echo ${DASYS_CKSUM} | cut -d' ' -f1)
+fi
+
+# Allocate ramdisk
+log "=--- Allocating ramdisk"
+localcli system visorfs ramdisk add -m ${DASYS_SIZE} -M ${DASYS_SIZE} \
+      -n datrium-BSBSBS -p 0755 -t ${DASYS_PATH} || exit 1
+log "created dasys RAMFS"
+mkdir ${DASYS_PATH}/${STAGE_PATH} || exit 1
+
+# Download, verify, unpackage Head.Bundle.
+log "=--- Downloading, verifying, and unpacking bundle"
+if ! ${DOWNLOAD_BUNDLE_PY} http://$1/static/Head.Bundle ${DASYS_CKSUM}; then
+   ping -c1 $1
+   exit 1
+fi
+log "Done"
+
+[ -n "${TEST_BOOTSTRAP_ERROR}" ] && exit 1
+
+cd ${DASYS_PATH} || exit 1
+if [ ! -d ${BUNDLES_PATH} ]; then
+   rm -rf ${BUNDLES_PATH}
+   mkdir ${BUNDLES_PATH} || exit 1
+fi
+
+# move to the right dir.
+version=`cat ${STAGE_PATH}/opt/datrium_initial_bundle/Version.txt`
+mv ${STAGE_PATH}/opt/datrium_initial_bundle ${BUNDLES_PATH}/${version} || exit 1
+rm -rf ${STAGE_PATH} || exit 1
+log "moved to the right dir"
+
+# make the symlink
+rm -rf /opt/datrium || exit 1
+ln -sf ${DASYS_PATH}/${BUNDLES_PATH}/${version} /opt/datrium || exit 1
+log "created symlink"
+
+# Invoke stage 2 with a clear env. PATH= is needed on ESX, otherwise it throws
+# a "Bad address" error.
+env -i PATH= /opt/datrium/bin/bootstrap.py $1 || exit 1
+
+SUCCESS="liking yourself, liking what you do, and liking how you do it"

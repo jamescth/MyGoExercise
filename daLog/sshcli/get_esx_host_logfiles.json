@@ -1,0 +1,57 @@
+{
+	"user":"root",
+	"password":"sha1c0w",
+	"oldpassword":"datrium#1",
+	"passphrase":"",
+	"hosts":["n1236e"],
+	"cmds":[
+		{
+			"desc":"get back Datrium's dvaEvents.log",
+			"output":"dvaEvents.log","run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/datrium/dvaEvents*"
+		},
+		{
+			"desc":"get back Datrium's esx_platmgr*.log",
+			"output":"log_esx_platmgr.log","run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/esx_platmgr*"
+		},
+		{
+			"desc":"get back Datrium's esx_platmgr*.log","timeout":"120s",
+			"output":"esx_platmgr.log","run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/datrium/esx_platmgr*"
+		},
+		{
+			"desc":"get back Datrium's upgrade_mgr*.log",
+			"output":"upgrade_mgr.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/datrium/upgrade_mgr*"
+		},
+		{
+			"desc":"get back Datrium's procmgr*.log",
+			"output":"procmgr.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/datrium/procmgr*"
+		},
+		{
+			"desc":"get back Datrium's da_setup*.log",
+			"output":"da_setup.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/log/datrium/da_setup*.log"
+		},
+		{
+			"desc":"get back ESX esx.conf*",
+			"output":"esx.conf", "run":"cat /etc/vmware/esx.conf"
+		},
+		{
+			"desc":"get back ESX vmkernel.log*",
+			"output":"vmkernel.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/run/log/vmkernel.log*"
+		},
+		{
+			"desc":"get back ESX vmkwarning.log* ",
+			"output":"vmkwarning.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/run/log/vmkwarning.log*"
+		},
+		{
+			"desc":"get back Datrium's dacli.log*",
+			"output":"dacli.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/run/log/dacli.log*"
+		},
+		{
+			"desc":"get back Datrium's da_head*.log*",
+			"output":"da_head.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/run/log/da_head*.log*"
+		},
+		{
+			"desc":"get back ESX vobd.log*",
+			"output":"vobd.log", "run":"export DLOG_FORMAT=\"{timestamp} [{proc}.{threadName}] [{priority}] {msg}{exceptionInfo} {host} {pid} {proc} {threadName} {codeLocation}\"; /opt/datrium/bin/dlog /var/run/log/vobd.log*"
+		}
+	]
+}
