@@ -1,0 +1,6 @@
+Install protobuf compiler
+	$ sudo apt install protobuf-compiler
+
+compile .proto
+	$ protoc --go_out=. todo.proto 
+

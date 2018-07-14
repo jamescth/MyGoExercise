@@ -1,0 +1,18 @@
+Install gRPC
+	go get -u google.golang.org/grpc
+
+Get Go protocol buffers plugin:
+	go get -u github.com/golang/protobuf/protoc-gen-go
+
+$ cat mydb.pb
+
+
+hello therejames@jbox
+
+$ hexdump -c mydb.pb
+0000000  \n  \v   h   e   l   l   o       t   h   e   r   e
+000000d
+
+$ cat mydb.pb | protoc --decode_raw
+1: "hello there"
+
