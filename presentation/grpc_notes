@@ -16,3 +16,52 @@ $ hexdump -c mydb.pb
 $ cat mydb.pb | protoc --decode_raw
 1: "hello there"
 
+
+1. define proto
+
+	message => struct 
+	service => methods
+
+	protoc -I . todo.proto --go_out=plugins=grpc:.
+
+	message Task {
+		string text = 1;
+		bool done = 2;
+	}
+
+	message TaskList {
+		repeated Task tasks = 1;
+	}
+
+	message Text {
+		string text = 1;
+	}
+
+	message Void {}
+
+	service Tasks {
+		rpc List(Void) returns(TaskList) {}
+		rpc Add(Text) returns(Task) {}
+	}
+
+2. Server
+
+	define TaskServer struct 
+		=> check todo.pb.go for TaskServer interface
+
+	srv := grpc.NewServer()
+	todo.RegisterTasksServer(srv, tasks)
+	l, err := net.Listen("tcp",":8888")
+	log.Fatal(srv.Serve(l))
+
+3. Client
+
+	conn, err := grpc.Dial("", grpc.WithInsecure())
+	client := todo.NewTasksClient(conn)
+
+	switch cmd {
+	case "list":
+		err = list(context.Background(), client)
+	case "add":
+		err = add(context.Background(), client, arg)
+	}
