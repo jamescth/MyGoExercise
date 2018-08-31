@@ -1,0 +1,12 @@
+# gotta use chrome to see the profile
+
+runtime 
+	trace.Start({writer})
+	trace.Stop()
+
+go test
+	go test -trace trace.out pkg
+
+view profile
+	$ go tool trace trace.out 
+
